@@ -1,6 +1,7 @@
 # NFDI4Microbiota-Metadata Task Area 2.1
 > #### Goals: To maximize the quality of data entering the NFDI4Microbiota system by enforcing compliance with existing standards, as well as to identify and promote additional tailored data standards and metadata requirements within the NFDI4Microbiota systems.
-
+> #### MS2.1.1 Definition of data standards for the different types of raw data established
+> #### MS2.1.2 Definition of data standards for the technical metadata established
 <br/><br/>
 
 ## Minimal technical metadata by technology and file type:
@@ -162,7 +163,7 @@
 ## `Metaproteome sequencing`
 ## `Metabolome sequencing`
 
-## `Data transfer & data integrity considerations`
+## `Examples of existing data transfer & data integrity checks`
 |**Repository or tool source** | **Data transfer integrity checks in place** |
 |------------|------------------------|
 | ENA | MD5sum available for "most" downloads. Submission tool generates this, otherwise user needs to upload[^8]ncbi  |
@@ -171,7 +172,7 @@
 | MGnify | "Intermediate checksums" in 2020 paper[^12] |
 | MG RAST | "Data hygiene" (Preprocessing, dereplication, DRISEE, screening)[^13] |
 
-## Data integrity considerations by file type
+## `Data integrity considerations by file type`
 |**File type**| **Integrity check** | **Other considerations for quality and transferability** |
 |------------|-------------------------|------------|
 | FASTQ | Read count, checksum (MD5sum, SEQGUID[^14][^15], etc.) | Determination of +33/+64 format from compressed files |
