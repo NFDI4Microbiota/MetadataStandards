@@ -1,10 +1,11 @@
 # NFDI4Microbiota-Metadata Task Area 2.1
 > #### Goals: To maximize the quality of data entering the NFDI4Microbiota system by enforcing compliance with existing standards, as well as to identify and promote additional tailored data standards and metadata requirements within the NFDI4Microbiota systems.
 
+<br/><br/>
 
-# Minimal technical metadata by technology and file type:
-
-# `Genome sequencing`
+## Minimal technical metadata by technology and file type:
+<br/><br/>
+## `Genome sequencing`
 ## &emsp; Minimal technical metadata for `genomic FASTQ` data
 |**metadata**| **definition/examples** | **source** |
 |------------|-------------------------|------------|
@@ -44,7 +45,7 @@
 
 <br/><br/>
 
-# `Amplicon sequencing`
+## `Amplicon sequencing`
 ## &emsp; Minimal technical metadata for `amplicon FASTQ` data
 |**metadata**| **definition/examples** | **source** |
 |------------|-------------------------|------------|
@@ -66,7 +67,7 @@
 
 <br/><br/>
 
-# `Metagenome sequencing`
+## `Metagenome sequencing`
 ## &emsp; Minimal technical metadata for `metagenomic FASTQ` data
 &emsp; _italics: for potential considerations_
 
@@ -78,7 +79,7 @@
 | lib_source | Genomic, metagenomic | transcriptomic, etc. | Source (ENA/NCBI) |
 | lib_strategy | WGS, Amplicon, etc. | Strategy (ENA/NCBI) |
 | lib_selection | Random, PCR, etc. | Selection (ENA/NCBI) |
-| _insert_length_ | _for inner dist. calc._ (or is this included in lib_source ?) |  |
+| _insert_length_ | _for inner dist. calc._ (or is this information included in lib_layout ?) |  |
 | sequence_count | Number of reads in the library (sequencing depth) | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3] |
 | basepairs_count | Number of base pairs (nucleotides) in the library | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3], JGI IMG |
 | average_length | As basepairs_count divided by sequence_count | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3] |
@@ -111,7 +112,7 @@
 
 <br/><br/>
 
-# `Transcriptome sequencing`
+## `Transcriptome sequencing`
 
 ## &emsp; Minimal technical metadata for `transcriptomic FASTQ` file
 &emsp; _italics: for potential considerations_
@@ -134,6 +135,7 @@
 | _primers/oligos_ | _(e.g. random primer set metadata, oligo(dT), both)_ | |
 | checksum | Hash value (e.g. MD5) for data integrity | |
 
+## `Metatranscriptome sequencing`
 
 ## &emsp; Minimal technical metadata for `metatranscriptomic FASTQ` file
 &emsp; _italics: for potential considerations_
