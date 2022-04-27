@@ -66,6 +66,10 @@
 | pcr_primers | Forward and reverse primer sequences used | MIMARKS_Sv5[^6] |
 | checksum | Hash value (e.g. MD5) for data integrity | |
 
+|Comments/questions: |
+|--------------------|
+|Could target gene & target subfragment be combined? (e.g. "V3 reg. of 16S") -NME 27APR22|
+
 <br/><br/>
 
 ## `Metagenome sequencing`
@@ -88,6 +92,10 @@
 | basepairs_count_qual | Number of base pairs (nucleotides) in the library after quality filtering | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3] |
 | quality_score | Q30, quality above 30 | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3] |
 | checksum | Hash value (e.g. MD5) for data integrity | |
+
+|Comments/questions: |
+|--------------------|
+|Is insert length included in lib_format? If not, it seems this should be a minimal metadata parameter -NME 27APR22|
 
 ## &emsp; Minimal technical metadata for `metagenomic FASTA` file
 
@@ -114,6 +122,10 @@
 | contam_score | Contamination score | MIMAG_v5[^4], SeqCode[^5] |
 | contam_software| Tool(s) used in contamination screening | MIMAG_v5[^4], SeqCode[^5] |
 
+|Comments/questions: |
+|--------------------|
+|Is coverage factored into completeness? If not, it seems we should consider separating genome coverage and sequence depth -NME 27APR22 |
+
 <br/><br/>
 
 ## `Transcriptome sequencing`
@@ -138,6 +150,10 @@
 | &#x1F539; _Rev. transcriptase used_ | _(e.g. MMLV, AMV)_ | |
 | &#x1F539; _primers/oligos_ | _(e.g. random primer set metadata, oligo(dT), both)_ | |
 | checksum | Hash value (e.g. MD5) for data integrity | |
+
+|Comments/questions: |
+|--------------------|
+|Added reverse transcriptase and the primer set as possible technical parameters -NME 27APR22|
 
 ## `Metatranscriptome sequencing`
 
