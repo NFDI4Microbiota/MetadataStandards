@@ -5,7 +5,7 @@
 <br/><br/>
 
 ## Minimal technical metadata by technology and file type:
-<br/><br/>
+
 ## `Genome sequencing`
 ## &emsp; Minimal technical metadata for `genomic FASTQ` data
 |**metadata**| **definition/examples** | **source** |
@@ -70,7 +70,7 @@
 
 ## `Metagenome sequencing`
 ## &emsp; Minimal technical metadata for `metagenomic FASTQ` data
-&emsp; _italics: for potential considerations_
+&emsp; &#x1F539; _italics = potential considerations_
 
 |**metadata**| **definition/examples** | **source** |
 |------------|-------------------------|------------|
@@ -80,7 +80,7 @@
 | lib_source | Genomic, metagenomic, transcriptomic, etc. | Source (ENA/NCBI) |
 | lib_strategy | WGS, Amplicon, etc. | Strategy (ENA/NCBI) |
 | lib_selection | Random, PCR, etc. | Selection (ENA/NCBI) |
-| _insert_length_ | _for inner dist. calc._ (or is this information included in lib_layout ?) |  |
+| &#x1F539; _insert_length_ | _for inner dist. calc._ (or is this information included in lib_layout ?) |  |
 | sequence_count | Number of reads in the library (sequencing depth) | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3] |
 | basepairs_count | Number of base pairs (nucleotides) in the library | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3], JGI IMG |
 | average_length | As basepairs_count divided by sequence_count | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3] |
@@ -91,14 +91,17 @@
 
 ## &emsp; Minimal technical metadata for `metagenomic FASTA` file
 
+&emsp; &#x1F539; _italics = potential considerations_
+
+
 |**metadata**| **definition/examples** | **source** |
 |------------|-------------------------|------------|
 | run_ref | Accessions/identifiers linking to the raw data (FAST Q) | Adapted from ENA |
 | tax_ident | Phylogenetic marker(s) for MAG assignation | MIMAG_v5[^4] |
 | assembly_qual | Assembly quality category (e.g. Medium Quality Draft) | MIGS_BAv5[^1] |
 | assembly_software | Tool(s) used, version and parameters | MIGS_BAv5[^1] |
-| _coverage_ (or "completeness" below) | _The estimated coverage of sequencing coverage_ | |
-| _depth_ | _calculated depth in x_ | |
+| &#x1F539; _coverage_ (or "completeness" below) | _The estimated coverage of sequencing coverage_ | |
+| &#x1F539; _depth_ | _calculated depth in x_ | |
 | number_contig | Total number of contigs | MIGS_BAv5[^1] |
 | LSU_recover | Detection of the 23S rRNA (BA) or 5.8S/28S rRNA (E) | Adapted from MIMAG_v5[^4] |
 | LSU_recover_software | Tools for LSU extraction | |
@@ -116,7 +119,7 @@
 ## `Transcriptome sequencing`
 
 ## &emsp; Minimal technical metadata for `transcriptomic FASTQ` file
-&emsp; _italics: for potential considerations_
+&emsp; &#x1F539; _italics = potential considerations_
 
 |**metadata**| **definition/examples** | **source** |
 |------------|-------------------------|------------|
@@ -132,14 +135,14 @@
 | sequence_count_qual | Number of reads in the library (sequencing depth) after quality filtering | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3], JGI IMG |
 | basepairs_count_qual | Number of base pairs (nucleotides) in the library after quality filtering | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3] |
 | rRNA depletion | (e.g. none, pre-sequencing (molecular), post-sequencing (in-silico)) | Shakya, Migun et al.(2019)[^7] |
-| _Rev. transcriptase used_ | _(e.g. MMLV, AMV)_ | |
-| _primers/oligos_ | _(e.g. random primer set metadata, oligo(dT), both)_ | |
+| &#x1F539; _Rev. transcriptase used_ | _(e.g. MMLV, AMV)_ | |
+| &#x1F539; _primers/oligos_ | _(e.g. random primer set metadata, oligo(dT), both)_ | |
 | checksum | Hash value (e.g. MD5) for data integrity | |
 
 ## `Metatranscriptome sequencing`
 
 ## &emsp; Minimal technical metadata for `metatranscriptomic FASTQ` file
-&emsp; _italics: for potential considerations_
+&emsp; &#x1F539; _italics = potential considerations_
 
 |**metadata**| **definition/examples** | **source** |
 |------------|-------------------------|------------|
@@ -155,13 +158,15 @@
 | sequence_count_qual | Number of reads in the library (sequencing depth) after quality filtering | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3], JGI IMG |
 | basepairs_count_qual | Number of base pairs (nucleotides) in the library after quality filtering | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3] |
 | rRNA depletion | (e.g. none, pre-sequencing (molecular), post-sequencing (in-silico)) |Shakya, Migun et al.(2019)[^7] |
-| _Rev. transcriptase used_ | _(e.g. MMLV, AMV)_ | |
-| _primers/oligos_ | _(e.g. random primer set metadata, oligo(dT), both)_ | |
+| &#x1F539; _Rev. transcriptase used_ | _(e.g. MMLV, AMV)_| |
+| &#x1F539; _primers/oligos_ | _(e.g. random primer set metadata, oligo(dT), both)_ | |
 | checksum | Hash value (e.g. MD5) for data integrity | |
 
 ## `Proteome sequencing`
 ## `Metaproteome sequencing`
 ## `Metabolome sequencing`
+
+<br/><br/>
 
 ## `Examples of existing data transfer & data integrity checks`
 |**Repository or tool source** | **Data transfer integrity checks in place** |
