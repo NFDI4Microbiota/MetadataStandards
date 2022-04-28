@@ -4,6 +4,8 @@
 > #### MS2.1.2 Definition of data standards for the technical metadata established
 <br/><br/>
 
+![FASTQ minimal metadata overview (28APR22)](https://user-images.githubusercontent.com/101716821/165733462-c1545a68-88d7-4003-9880-a8a37111b9e5.jpg)
+
 ## Minimal technical metadata by technology and file type:
 
 ## `Genome sequencing`
