@@ -4,7 +4,11 @@
 > #### MS2.1.2 Definition of data standards for the technical metadata established
 <br/><br/>
 
-![FASTQ minimal metadata overview (28APR22)](https://user-images.githubusercontent.com/101716821/165733462-c1545a68-88d7-4003-9880-a8a37111b9e5.jpg)
+![Overview of FASTQ minimal metadata](https://user-images.githubusercontent.com/101716821/165769918-d2a24330-4983-4f4e-8ede-34fa03df5492.jpg)
+
+![Overview of FASTA minimal metadata](https://user-images.githubusercontent.com/101716821/165769913-1bde7bbe-b439-4d1a-bc45-159e76c5d37f.jpg)
+
+<br/><br/>
 
 ## Minimal technical metadata by technology and file type:
 
