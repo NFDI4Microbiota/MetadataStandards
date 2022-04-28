@@ -76,7 +76,7 @@
 
 <br/><br/>
 
-## 2.2 `Amplicon sequencing`
+## 2.2 Amplicon sequencing
 ## &emsp; Minimal technical metadata for `amplicon FASTQ` data
 |**metadata**| **definition/examples** | **source** |
 |------------|-------------------------|------------|
@@ -102,7 +102,7 @@
 
 <br/><br/>
 
-## 2.3 `Metagenome sequencing`
+## 2.3 Metagenome sequencing
 ## &emsp; Minimal technical metadata for `metagenomic FASTQ` data
 &emsp; &#x1F539; _italics = potential considerations_
 
@@ -158,7 +158,7 @@
 
 <br/><br/>
 
-## 2.4 `Transcriptome sequencing`
+## 2.4 Transcriptome sequencing
 
 ## &emsp; Minimal technical metadata for `transcriptomic FASTQ` file
 &emsp; &#x1F539; _italics = potential considerations_
@@ -200,7 +200,7 @@
 | Seq quality | (e.g. Ambiguous bases should not be more than total 10% length or more than 14n's in a row" | Transcriptome Shotgun Assembly DB[^16] |
 | Protocols | Links to protocol accessions | ArrayExpress DB[^17] |
 
-## 2.5 `Metatranscriptome sequencing`
+## 2.5 Metatranscriptome sequencing
 
 ## &emsp; Minimal technical metadata for `metatranscriptomic FASTQ` file
 &emsp; &#x1F539; _italics = potential considerations_
@@ -236,9 +236,9 @@
 | Seq quality | (e.g. Ambiguous bases should not be more than total 10% length or more than 14n's in a row" | Transcriptome Shotgun Assembly DB[^16] |
 | Protocols | Links to protocol accessions | ArrayExpress DB[^17] |
 
-## 2.6 `Proteome sequencing`
-## 2.7 `Metaproteome sequencing`
-## 2.8 `Metabolome sequencing`
+## 2.6 Proteome sequencing
+## 2.7 Metaproteome sequencing
+## 2.8 Metabolome sequencing
 
 <br/><br/>
 
