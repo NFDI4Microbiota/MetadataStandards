@@ -135,7 +135,7 @@
 
 |**metadata**| **definition/examples** | **source** |
 |------------|-------------------------|------------|
-| sample_name | Identifier of the sample | Adapted from MIGS_BAv5[^1] |
+| sample_name | Identifier of the sample | Adapted from MIGS_BAv5[^1]  |
 | seq_meth | Sequencing method used (e.g. Illumina HiSeq 2000)|MIGS_BAv5[^1] or INSTRUMENT (ENA/NCBI), JGI IMG |
 | lib_layout | Single-end, paired end or others | MIGS_BAv5[^1] |
 | lib_source | Genomic, metagenomic, transcriptomic, etc. | Source (ENA/NCBI) |
@@ -154,6 +154,15 @@
 |Comments/questions: |
 |--------------------|
 |Added reverse transcriptase and the primer set as possible technical parameters -NME 27APR22|
+
+## &emsp; Minimal technical metadata for `transcriptomic FASTA` file
+
+&emsp; &#x1F539; _italics = potential considerations_
+
+
+|**metadata**| **definition/examples** | **source** |
+|------------|-------------------------|------------|
+
 
 ## `Metatranscriptome sequencing`
 
@@ -237,3 +246,5 @@ BMC Bioinformatics 2008, 9:386,  https://help.mg-rast.org/user_manual.html#data-
 [^14]: Bassi, S., Gonzalez, V. New checksum functions for Biopython. Nat Prec (2007). https://doi.org/10.1038/npre.2007.278.1
 
 [^15]: Babnigg, G. and Giometti, C.S. (2006), A database of unique protein sequence identifiers for proteome studies. Proteomics, 6: 4514-4522. https://doi.org/10.1002/pmic.200600032
+
+[^16]: https://www.ncbi.nlm.nih.gov/genbank/tsa/
