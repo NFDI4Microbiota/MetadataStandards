@@ -86,7 +86,7 @@
 | lib_source | Genomic, metagenomic, transcriptomic, etc. | Source (ENA/NCBI) |
 | lib_strategy | WGS, Amplicon, etc. | Strategy (ENA/NCBI) |
 | lib_selection | Random, PCR, etc. | Selection (ENA/NCBI) |
-| &#x1F539; _insert_length_ | _for inner dist. calc._ (or is this information included in lib_layout ?) |  |
+| &#x1F539; _insert_length_ | _for inner dist. calc._ (or incl. in lib_layout?)(Array Express parameter: insert "Nominal Length" | ArrayExpress[^17] |
 | sequence_count | Number of reads in the library (sequencing depth) | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3] |
 | basepairs_count | Number of base pairs (nucleotides) in the library | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3], JGI IMG |
 | average_length | As basepairs_count divided by sequence_count | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3] |
@@ -143,6 +143,8 @@
 | lib_source | Genomic, metagenomic, transcriptomic, etc. | Source (ENA/NCBI) |
 | lib_strategy | WGS, Amplicon, etc. | Strategy (ENA/NCBI) |
 | lib_selection | Random, PCR, etc. | Selection (ENA/NCBI) |
+| Nucleic acid extraction method | Technique | FAIR cookbook[^18] |
+| &#x1F539; _insert_length_ | _for inner dist. calc._ (or incl. in lib_layout?)(Array Express parameter: insert "Nominal Length" | ArrayExpress[^17] |
 | sequence_count | Number of reads in the library (sequencing depth) | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3] |
 | basepairs_count | Number of base pairs (nucleotides) in the library | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3], JGI IMG |
 | average_length | As basepairs_count divided by sequence_count | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3] |
@@ -150,12 +152,12 @@
 | basepairs_count_qual | Number of base pairs (nucleotides) in the library after quality filtering | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3] |
 | rRNA depletion | (e.g. none, pre-sequencing (molecular), post-sequencing (in-silico)) | Shakya, Migun et al.(2019)[^7] |
 | &#x1F539; _Rev. transcriptase used_ | _(e.g. MMLV, AMV)_ | |
-| &#x1F539; _primers/oligos_ | _(e.g. random primer set metadata, oligo(dT), both)_ | |
+| &#x1F539; _primers/oligos_ | _(e.g. random primer set metadata, oligo(dT), both)_ | FAIR cookbook[^18] |
 | checksum | Hash value (e.g. MD5) for data integrity | |
 
 |Comments/questions: |
 |--------------------|
-|Added reverse transcriptase and the primer set as possible technical parameters -NME 27APR22|
+|Added insert length, reverse transcriptase, and the primer set as possible technical parameters. Could go under "Protocol" parameter. -NME 27APR22|
 
 ## &emsp; Minimal technical metadata for `transcriptomic FASTA` file
 
@@ -165,7 +167,6 @@
 | Locus | (e.g. "GAAA01000000 93507 rc mRNA linear TSA 20-JUL-2015" | Transcriptome Shotgun Assembly DB[^16] |
 | Definition |  TSA: Latimeria chalumnae voucher 08118, transcriptome shotgun assembly | Transcriptome Shotgun Assembly DB[^16] |
 | DB Link | BioProject/Biosample/SRA | Transcriptome Shotgun Assembly DB[^16] |
-| Source | Organism | Transcriptome Shotgun Assembly DB[^16] |
 | Reference | Author/Consortium/Title/Journal | Transcriptome Shotgun Assembly DB[^16] |
 | Seq length | (e.g. "Sequences should be greater than 200 bp in length." | Transcriptome Shotgun Assembly DB[^16] |
 | Seq quality | (e.g. Ambiguous bases should not be more than total 10% length or more than 14n's in a row" | Transcriptome Shotgun Assembly DB[^16] |
@@ -257,3 +258,6 @@ BMC Bioinformatics 2008, 9:386,  https://help.mg-rast.org/user_manual.html#data-
 [^16]: https://www.ncbi.nlm.nih.gov/genbank/tsa/
 
 [^17]:  Athar A. et al., 2019. ArrayExpress update - from bulk to single-cell expression data. Nucleic Acids Res, doi: 10.1093/nar/gky964. Pubmed ID 30357387.  https://www.ebi.ac.uk/arrayexpress/
+
+[^18]:The FAIR Cookbook: a deliverable of the FAIRplus project (grant agreement 802750), funded by the IMI programme, a private-public partnership that receives support from the European Union’s Horizon 2020 research and innovation programme and EFPIA Companies.   https://faircookbook.elixir-europe.org/content/recipes/interoperability/transcriptomics-metadata.html
+
