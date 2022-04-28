@@ -159,12 +159,17 @@
 
 ## &emsp; Minimal technical metadata for `transcriptomic FASTA` file
 
-&emsp; &#x1F539; _italics = potential considerations_
-
-
 |**metadata**| **definition/examples** | **source** |
 |------------|-------------------------|------------|
-
+| run_ref | Accessions/identifiers linking to the raw data (FAST Q) | Adapted from ENA and TSA DB[^16] |
+| Locus | (e.g. "GAAA01000000 93507 rc mRNA linear TSA 20-JUL-2015" | Transcriptome Shotgun Assembly DB[^16] |
+| Definition |  TSA: Latimeria chalumnae voucher 08118, transcriptome shotgun assembly | Transcriptome Shotgun Assembly DB[^16] |
+| DB Link | BioProject/Biosample/SRA | Transcriptome Shotgun Assembly DB[^16] |
+| Source | Organism | Transcriptome Shotgun Assembly DB[^16] |
+| Reference | Author/Consortium/Title/Journal | Transcriptome Shotgun Assembly DB[^16] |
+| Seq length | (e.g. "Sequences should be greater than 200 bp in length." | Transcriptome Shotgun Assembly DB[^16] |
+| Seq quality | (e.g. Ambiguous bases should not be more than total 10% length or more than 14n's in a row" | Transcriptome Shotgun Assembly DB[^16] |
+| Protocols | Links to protocol accessions | ArrayExpress DB[^17] |
 
 ## `Metatranscriptome sequencing`
 
@@ -250,3 +255,5 @@ BMC Bioinformatics 2008, 9:386,  https://help.mg-rast.org/user_manual.html#data-
 [^15]: Babnigg, G. and Giometti, C.S. (2006), A database of unique protein sequence identifiers for proteome studies. Proteomics, 6: 4514-4522. https://doi.org/10.1002/pmic.200600032
 
 [^16]: https://www.ncbi.nlm.nih.gov/genbank/tsa/
+
+[^17]:  Athar A. et al., 2019. ArrayExpress update - from bulk to single-cell expression data. Nucleic Acids Res, doi: 10.1093/nar/gky964. Pubmed ID 30357387.  https://www.ebi.ac.uk/arrayexpress/
