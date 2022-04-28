@@ -2,7 +2,6 @@
 > #### Goals: To maximize the quality of data entering the NFDI4Microbiota system by enforcing compliance with existing standards, as well as to identify and promote additional tailored data standards and metadata requirements within the NFDI4Microbiota systems.
 > #### MS2.1.1 Definition of data standards for the different types of raw data established
 > #### MS2.1.2 Definition of data standards for the technical metadata established
-<br/><br/>
 
 ![Overview of FASTQ minimal metadata](https://user-images.githubusercontent.com/101716821/165769918-d2a24330-4983-4f4e-8ede-34fa03df5492.jpg)
 
@@ -196,7 +195,7 @@
 | basepairs_count_qual | Number of base pairs (nucleotides) in the library after quality filtering | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3] |
 | rRNA depletion | (e.g. none, pre-sequencing (molecular), post-sequencing (in-silico)) |Shakya, Migun et al.(2019)[^7] |
 | &#x1F539; _Rev. transcriptase used_ | _(e.g. MMLV, AMV)_| |
-| &#x1F539; _primers/oligos_ | _(e.g. random primer set metadata, oligo(dT), both)_ | |
+| &#x1F539; _primers/oligos_ | _(e.g. random primer set metadata, oligo(dT), both)_ | FAIR cookbook[^18] |
 | checksum | Hash value (e.g. MD5) for data integrity | |
 
 ## `Proteome sequencing`
