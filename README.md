@@ -2,17 +2,42 @@
 > #### Goals: To maximize the quality of data entering the NFDI4Microbiota system by enforcing compliance with existing standards, as well as to identify and promote additional tailored data standards and metadata requirements within the NFDI4Microbiota systems.
 > #### MS2.1.1 Definition of data standards for the different types of raw data established
 > #### MS2.1.2 Definition of data standards for the technical metadata established
+**Sections**:
+1. Overview of minimal FASTQ and FASTA metadata considerations (as of 28APR22)
+2. Minimal technical metadata by technology and file type
+   - 2.1 Genome Sequencing
+     - Genomic FASTQ
+     - Genomic FASTA
+   - 2.2 Amplicon Sequencing
+     - Amplicon FASTQ
+   - 2.3 Metagenome Sequencing
+     - Metagenome FASTQ
+     - Metagenome FASTA
+   - 2.4 Transcriptome Sequencing
+     - Transcriptome FASTQ
+     - Transcriptome FASTA
+   - 2.5 Metatranscriptome Sequencing
+     - Metatranscriptome FASTQ
+     - Metatranscriptome FASTA
+   - 2.6 Proteome sequencing
+   - 2.7 Metaproteome sequencing 
+   - 2.8 Metabolome sequencing
 
+3. Data transfer and data integrity 
+   - Examples of existing data transfer & data integrity checks
+   - Data integrity considerations by file type
+
+# Section 1. Overview of minimal FASTQ and FASTA metadata considerations (as of 28APR22)
 ![Overview of FASTQ minimal metadata](https://user-images.githubusercontent.com/101716821/165769918-d2a24330-4983-4f4e-8ede-34fa03df5492.jpg)
 
 ![Overview of FASTA minimal metadata](https://user-images.githubusercontent.com/101716821/165769913-1bde7bbe-b439-4d1a-bc45-159e76c5d37f.jpg)
 
 <br/><br/>
 
-## Minimal technical metadata by technology and file type:
-
-## `Genome sequencing`
+# Section 2. Minimal technical metadata by technology and file type:
+## 2.1 Genome sequencing
 ## &emsp; Minimal technical metadata for `genomic FASTQ` data
+
 |**metadata**| **definition/examples** | **source** |
 |------------|-------------------------|------------|
 | sample_name | Identifier of the sample | Adapted from MIGS_BAv5[^1] |
@@ -51,7 +76,7 @@
 
 <br/><br/>
 
-## `Amplicon sequencing`
+## 2.2 `Amplicon sequencing`
 ## &emsp; Minimal technical metadata for `amplicon FASTQ` data
 |**metadata**| **definition/examples** | **source** |
 |------------|-------------------------|------------|
@@ -77,7 +102,7 @@
 
 <br/><br/>
 
-## `Metagenome sequencing`
+## 2.3 `Metagenome sequencing`
 ## &emsp; Minimal technical metadata for `metagenomic FASTQ` data
 &emsp; &#x1F539; _italics = potential considerations_
 
@@ -133,7 +158,7 @@
 
 <br/><br/>
 
-## `Transcriptome sequencing`
+## 2.4 `Transcriptome sequencing`
 
 ## &emsp; Minimal technical metadata for `transcriptomic FASTQ` file
 &emsp; &#x1F539; _italics = potential considerations_
@@ -175,7 +200,7 @@
 | Seq quality | (e.g. Ambiguous bases should not be more than total 10% length or more than 14n's in a row" | Transcriptome Shotgun Assembly DB[^16] |
 | Protocols | Links to protocol accessions | ArrayExpress DB[^17] |
 
-## `Metatranscriptome sequencing`
+## 2.5 `Metatranscriptome sequencing`
 
 ## &emsp; Minimal technical metadata for `metatranscriptomic FASTQ` file
 &emsp; &#x1F539; _italics = potential considerations_
@@ -198,12 +223,26 @@
 | &#x1F539; _primers/oligos_ | _(e.g. random primer set metadata, oligo(dT), both)_ | FAIR cookbook[^18] |
 | checksum | Hash value (e.g. MD5) for data integrity | |
 
-## `Proteome sequencing`
-## `Metaproteome sequencing`
-## `Metabolome sequencing`
+## &emsp; Minimal technical metadata for `Metatranscriptomic FASTA` file
+
+|**metadata**| **definition/examples** | **source** |
+|------------|-------------------------|------------|
+| run_ref | Accessions/identifiers linking to the raw data (FAST Q) | Adapted from ENA and TSA DB[^16] |
+| Locus | (e.g. "GAAA01000000 93507 rc mRNA linear TSA 20-JUL-2015" | Transcriptome Shotgun Assembly DB[^16] |
+| Definition |  TSA: Latimeria chalumnae voucher 08118, transcriptome shotgun assembly | Transcriptome Shotgun Assembly DB[^16] |
+| DB Link | BioProject/Biosample/SRA | Transcriptome Shotgun Assembly DB[^16] |
+| Reference | Author/Consortium/Title/Journal | Transcriptome Shotgun Assembly DB[^16] |
+| Seq length | (e.g. "Sequences should be greater than 200 bp in length." | Transcriptome Shotgun Assembly DB[^16] |
+| Seq quality | (e.g. Ambiguous bases should not be more than total 10% length or more than 14n's in a row" | Transcriptome Shotgun Assembly DB[^16] |
+| Protocols | Links to protocol accessions | ArrayExpress DB[^17] |
+
+## 2.6 `Proteome sequencing`
+## 2.7 `Metaproteome sequencing`
+## 2.8 `Metabolome sequencing`
 
 <br/><br/>
 
+# Section 3. Data transfer and data integrity
 ## `Examples of existing data transfer & data integrity checks`
 |**Repository or tool source** | **Data transfer integrity checks in place** |
 |------------|------------------------|
