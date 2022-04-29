@@ -22,6 +22,7 @@
    - 2.6 Proteome sequencing
    - 2.7 Metaproteome sequencing 
    - 2.8 Metabolome sequencing
+   - 2.9 BIOM or tabular files
 
 3. Data transfer and data integrity 
    - Examples of existing data transfer & data integrity checks
@@ -239,7 +240,12 @@
 ## 2.6 Proteome sequencing
 ## 2.7 Metaproteome sequencing
 ## 2.8 Metabolome sequencing
+## 2.9 BIOM or tabular files
 
+|**metadata**| **definition/examples** | **source** |
+|------------|-------------------------|------------|
+| run_ref | Accessions/identifiers linking to the raw data (FASTQ) | Adapted from ENA |
+| sop | Reference(s) to Standard Operating Procedures used in processing the raw sequences (e.g. PMID, DOI, URL) | MIMARKS_Sv5[^6] |
 <br/><br/>
 
 # Section 3. Data transfer and data integrity
