@@ -29,9 +29,9 @@
    - Data integrity considerations by file type
 
 # Section 1. Overview of minimal FASTQ and FASTA metadata considerations (as of 28APR22)
-![FASTQMetadataTablesOverview_working28APR22](https://user-images.githubusercontent.com/101716821/165783955-761d2f61-352e-4b39-a94b-aa4e32059fad.jpg)
+![FASTQMetadataTablesOverview_working28APR22](https://user-images.githubusercontent.com/101716821/165967974-0626a7fa-6c5b-4cd2-af9c-a07c5f322f53.jpg)
 
-![FASTAMetadataTablesOverview_working28APR22](https://user-images.githubusercontent.com/101716821/165783950-2688c331-9443-4655-903b-c5d0797cfe2c.jpg)
+![FASTAMetadataTablesOverview_working28APR22](https://user-images.githubusercontent.com/101716821/165967971-18850bfb-10b9-4aad-a838-7d0654739ea1.jpg)
 
 <br/><br/>
 
