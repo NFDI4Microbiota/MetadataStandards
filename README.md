@@ -28,10 +28,10 @@
    - Examples of existing data transfer & data integrity checks
    - Data integrity considerations by file type
 
-# Section 1. Overview of minimal FASTQ and FASTA metadata considerations (as of 28APR22)
-![FASTQMetadataTablesOverview_working28APR22](https://user-images.githubusercontent.com/101716821/165967974-0626a7fa-6c5b-4cd2-af9c-a07c5f322f53.jpg)
+# Section 1. Overview of minimal FASTQ and FASTA metadata considerations (as of 29APR22)
+![FASTQMetadataTablesOverview_working29APR22](https://user-images.githubusercontent.com/101716821/165967974-0626a7fa-6c5b-4cd2-af9c-a07c5f322f53.jpg)
 
-![FASTAMetadataTablesOverview_working28APR22](https://user-images.githubusercontent.com/101716821/165967971-18850bfb-10b9-4aad-a838-7d0654739ea1.jpg)
+![FASTAMetadataTablesOverview_working29APR22](https://user-images.githubusercontent.com/101716821/165967971-18850bfb-10b9-4aad-a838-7d0654739ea1.jpg)
 
 <br/><br/>
 
