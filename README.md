@@ -5,6 +5,7 @@
 **Sections**:
 1. Overview of minimal FASTQ and FASTA metadata considerations (as of 28APR22)
 2. Minimal technical metadata by technology and file type
+(Any questions or comments are listed below the tables within each subsection)
    - 2.1 Genome Sequencing
      - Genomic FASTQ
      - Genomic FASTA
