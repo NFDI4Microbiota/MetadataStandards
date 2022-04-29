@@ -115,6 +115,7 @@
 | lib_source | Genomic, metagenomic, transcriptomic, etc. | Source (ENA/NCBI) |
 | lib_strategy | WGS, Amplicon, etc. | Strategy (ENA/NCBI) |
 | lib_selection | Random, PCR, etc. | Selection (ENA/NCBI) |
+| &#x1F539; _nucleic acid extraction method_ | _Technique_ | FAIR cookbook[^18] |
 | &#x1F539; _insert_length_ | _for inner dist. calc._ (or incl. in lib_layout?)(Array Express parameter: insert "Nominal Length" | ArrayExpress[^17] |
 | sequence_count | Number of reads in the library (sequencing depth) | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3] |
 | basepairs_count | Number of base pairs (nucleotides) in the library | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3], JGI IMG |
@@ -172,7 +173,7 @@
 | lib_source | Genomic, metagenomic, transcriptomic, etc. | Source (ENA/NCBI) |
 | lib_strategy | WGS, Amplicon, etc. | Strategy (ENA/NCBI) |
 | lib_selection | Random, PCR, etc. | Selection (ENA/NCBI) |
-| Nucleic acid extraction method | Technique | FAIR cookbook[^18] |
+| &#x1F539; _nucleic acid extraction method_ | _Technique_ | FAIR cookbook[^18] |
 | &#x1F539; _insert_length_ | _for inner dist. calc._ (or incl. in lib_layout?)(Array Express parameter: insert "Nominal Length" | ArrayExpress[^17] |
 | sequence_count | Number of reads in the library (sequencing depth) | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3] |
 | basepairs_count | Number of base pairs (nucleotides) in the library | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3], JGI IMG |
@@ -208,19 +209,21 @@
 
 |**metadata**| **definition/examples** | **source** |
 |------------|-------------------------|------------|
-| sample_name | Identifier of the sample | Adapted from MIGS_BAv5[^1] |
-| seq_meth | Sequencing method used (e.g. Illumina HiSeq 2000)|MIGS_BAv5 or INSTRUMENT (ENA/NCBI), JGI IMG |
+| sample_name | Identifier of the sample | Adapted from MIGS_BAv5[^1]  |
+| seq_meth | Sequencing method used (e.g. Illumina HiSeq 2000)|MIGS_BAv5[^1] or INSTRUMENT (ENA/NCBI), JGI IMG |
 | lib_layout | Single-end, paired end or others | MIGS_BAv5[^1] |
 | lib_source | Genomic, metagenomic, transcriptomic, etc. | Source (ENA/NCBI) |
 | lib_strategy | WGS, Amplicon, etc. | Strategy (ENA/NCBI) |
 | lib_selection | Random, PCR, etc. | Selection (ENA/NCBI) |
+| &#x1F539; _nucleic acid extraction method_ | _Technique_ | FAIR cookbook[^18] |
+| &#x1F539; _insert_length_ | _for inner dist. calc._ (or incl. in lib_layout?)(Array Express parameter: insert "Nominal Length" | ArrayExpress[^17] |
 | sequence_count | Number of reads in the library (sequencing depth) | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3] |
 | basepairs_count | Number of base pairs (nucleotides) in the library | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3], JGI IMG |
 | average_length | As basepairs_count divided by sequence_count | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3] |
 | sequence_count_qual | Number of reads in the library (sequencing depth) after quality filtering | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3], JGI IMG |
 | basepairs_count_qual | Number of base pairs (nucleotides) in the library after quality filtering | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3] |
-| rRNA depletion | (e.g. none, pre-sequencing (molecular), post-sequencing (in-silico)) |Shakya, Migun et al.(2019)[^7] |
-| &#x1F539; _Rev. transcriptase used_ | _(e.g. MMLV, AMV)_| |
+| rRNA depletion | (e.g. none, pre-sequencing (molecular), post-sequencing (in-silico)) | Shakya, Migun et al.(2019)[^7] |
+| &#x1F539; _Rev. transcriptase used_ | _(e.g. MMLV, AMV)_ | |
 | &#x1F539; _primers/oligos_ | _(e.g. random primer set metadata, oligo(dT), both)_ | FAIR cookbook[^18] |
 | checksum | Hash value (e.g. MD5) for data integrity | |
 
