@@ -1,11 +1,12 @@
 # NFDI4Microbiota-Metadata Task Area 2.1
+# Minimal technical metadata
 > #### Goals: To maximize the quality of data entering the NFDI4Microbiota system by enforcing compliance with existing standards, as well as to identify and promote additional tailored data standards and metadata requirements within the NFDI4Microbiota systems.
 > #### MS2.1.1 Definition of data standards for the different types of raw data established
 > #### MS2.1.2 Definition of data standards for the technical metadata established
 **Sections**:
-1. Overview of minimal FASTQ and FASTA metadata considerations (as of 28APR22)
-2. Minimal technical metadata by technology and file type
-(Any questions or comments are listed below the tables within each subsection)
+1. Overview of minimal technical FASTQ and FASTA metadata considerations (as of 29APR22)
+2. Minimal technical metadata by technology and file type (Questions/comments are listed below the tables within each subsection)
+
    - 2.1 Genome Sequencing
      - Genomic FASTQ
      - Genomic FASTA
@@ -29,7 +30,7 @@
    - Examples of existing data transfer & data integrity checks
    - Data integrity considerations by file type
 
-# Section 1. Overview of minimal FASTQ and FASTA metadata considerations (as of 29APR22)
+# Section 1. Overview of minimal technical FASTQ and FASTA metadata considerations (as of 29APR22)
 ![FASTQMetadataTablesOverview_working29APR22](https://user-images.githubusercontent.com/101716821/165967974-0626a7fa-6c5b-4cd2-af9c-a07c5f322f53.jpg)
 
 ![FASTAMetadataTablesOverview_working29APR22](https://user-images.githubusercontent.com/101716821/165967971-18850bfb-10b9-4aad-a838-7d0654739ea1.jpg)
