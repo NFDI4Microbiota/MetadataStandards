@@ -32,9 +32,10 @@
 
 # Section 1. Overview of minimal technical FASTQ and FASTA metadata considerations (as of 29APR22)
 ![FASTQMetadataTablesOverview_working29APR22](https://user-images.githubusercontent.com/101716821/165967974-0626a7fa-6c5b-4cd2-af9c-a07c5f322f53.jpg)
-
+#### **Figure 1.** Overview of minimal technical metadata considered for FASTQ files. Parameter applicabilty to data types ((meta)genome, (meta)transcriptome, etc.) is listed on the left y-axis, and time of metadata generation is listed on the right.    
+<br/><br/>
 ![FASTAMetadataTablesOverview_working29APR22](https://user-images.githubusercontent.com/101716821/165967971-18850bfb-10b9-4aad-a838-7d0654739ea1.jpg)
-
+#### **Figure 2.** Overview of minimal technical metadata considered for FASTA files. Parameter applicabilty to data types ((meta)genome, (meta)transcriptome, etc.) is listed on the left y-axis, and time of metadata generation is listed on the right. 
 <br/><br/>
 
 # Section 2. Minimal technical metadata by technology and file type:
@@ -117,7 +118,7 @@
 | lib_source | Genomic, metagenomic, transcriptomic, etc. | Source (ENA/NCBI) |
 | lib_strategy | WGS, Amplicon, etc. | Strategy (ENA/NCBI) |
 | lib_selection | Random, PCR, etc. | Selection (ENA/NCBI) |
-| &#x1F539; _nucleic acid extraction method_ | _Technique_ | FAIR cookbook[^18] |
+| &#x1F539; _nucleic acid extraction method_ | _Technique._ _Treatments as subcategory? (e.g. DNase, RNase)_ | FAIR cookbook[^18] |
 | &#x1F539; _insert_length_ | _for inner dist. calc._ (or incl. in lib_layout?)(Array Express parameter: insert "Nominal Length" | ArrayExpress[^17] |
 | sequence_count | Number of reads in the library (sequencing depth) | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3] |
 | basepairs_count | Number of base pairs (nucleotides) in the library | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3], JGI IMG |
@@ -175,7 +176,7 @@
 | lib_source | Genomic, metagenomic, transcriptomic, etc. | Source (ENA/NCBI) |
 | lib_strategy | WGS, Amplicon, etc. | Strategy (ENA/NCBI) |
 | lib_selection | Random, PCR, etc. | Selection (ENA/NCBI) |
-| &#x1F539; _nucleic acid extraction method_ | _Technique_ | FAIR cookbook[^18] |
+| &#x1F539; _nucleic acid extraction method_ | _Technique._ _Treatments as subcategory? (e.g. DNase, RNase)_ | FAIR cookbook[^18] |
 | &#x1F539; _insert_length_ | _for inner dist. calc._ (or incl. in lib_layout?)(Array Express parameter: insert "Nominal Length" | ArrayExpress[^17] |
 | sequence_count | Number of reads in the library (sequencing depth) | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3] |
 | basepairs_count | Number of base pairs (nucleotides) in the library | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3], JGI IMG |
@@ -217,7 +218,7 @@
 | lib_source | Genomic, metagenomic, transcriptomic, etc. | Source (ENA/NCBI) |
 | lib_strategy | WGS, Amplicon, etc. | Strategy (ENA/NCBI) |
 | lib_selection | Random, PCR, etc. | Selection (ENA/NCBI) |
-| &#x1F539; _nucleic acid extraction method_ | _Technique_ | FAIR cookbook[^18] |
+| &#x1F539; _nucleic acid extraction method_ | _Technique._ _Treatments as subcategory? (e.g. DNase, RNase)_ | FAIR cookbook[^18] |
 | &#x1F539; _insert_length_ | _for inner dist. calc._ (or incl. in lib_layout?)(Array Express parameter: insert "Nominal Length" | ArrayExpress[^17] |
 | sequence_count | Number of reads in the library (sequencing depth) | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3] |
 | basepairs_count | Number of base pairs (nucleotides) in the library | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3], JGI IMG |
