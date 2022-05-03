@@ -1,4 +1,4 @@
-# NFDI4Microbiota-Metadata Task Area 2.1
+# NFDI4Microbiota - Task Area 2.1 - Metadata
 
 ## NFDI4Microbiota introduction:
 ### The National Research Data Infrastructure Germany (NFDI) currently comprises 19 consortia members spanning diverse fields, ranging from physical sciences, human health, and biology to artificial intelligence, cultural and economic science[^19]. In July 2021, NFDI4Microbiota was selected to become a consortium member and holds a mission "_to be the central hub in Germany for supporting the microbiology community with access to data, analysis services, data/metadata standards and training_."[^20] Through building tools, ensuring FAIR principles are followed, and standardizing metadata and data processing, NFDI4Microbiota will contribute to the interdisciplanary NFDI network. 
@@ -28,15 +28,21 @@
 
 ### Additionally, standards are being considered for data integrity and data transfer to ensure quality is maintained throughout various processes of data file exchange. 
 
+<br/><br/>
 
+# Section 1. Overview of minimal technical FASTQ and FASTA metadata considerations (as of 29APR22)
+![FASTQMetadataTablesOverview_working29APR22](https://user-images.githubusercontent.com/101716821/165967974-0626a7fa-6c5b-4cd2-af9c-a07c5f322f53.jpg)
+#### **Figure 1.** Overview of minimal technical metadata considered for FASTQ files. Parameter applicabilty to data types ((meta)genome, (meta)transcriptome, etc.) is listed on the left y-axis, and time of metadata generation is listed on the right.    
 
-# Minimal technical metadata
-> #### Goals: To maximize the quality of data entering the NFDI4Microbiota system by enforcing compliance with existing standards, as well as to identify and promote additional tailored data standards and metadata requirements within the NFDI4Microbiota systems.
-> #### MS2.1.1 Definition of data standards for the different types of raw data established
-> #### MS2.1.2 Definition of data standards for the technical metadata established
-**Sections**:
-1. Overview of minimal technical FASTQ and FASTA metadata considerations (as of 29APR22)
-2. Minimal technical metadata by technology and file type (Questions/comments are listed below the tables within each subsection)
+<br/><br/>
+
+![FASTAMetadataTablesOverview_working29APR22](https://user-images.githubusercontent.com/101716821/165967971-18850bfb-10b9-4aad-a838-7d0654739ea1.jpg)
+#### **Figure 2.** Overview of minimal technical metadata considered for FASTA files. Parameter applicabilty to data types ((meta)genome, (meta)transcriptome, etc.) is listed on the left y-axis, and time of metadata generation is listed on the right. 
+
+<br/><br/>
+
+# Section 2. Minimal technical metadata by technology and file type 
+## (Questions/comments are listed below the tables within each subsection)
 
    - 2.1 [Genome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/Genome-Technical-Metadata/README.md)
      - Genomic FASTQ
@@ -56,18 +62,14 @@
    - 2.6 Proteome sequencing
    - 2.7 Metaproteome sequencing 
    - 2.8 Metabolome sequencing
-   - 2.9 BIOM or tabular files
+   - 2.9 [BIOM or tabular files](https://github.com/mdsufz/NFDI4Microbiota-Metadata/tree/BIOM-and-tabular-files)
 
-3. [Data transfer and data integrity](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/Data-transfer-and-data-integrity/README.md)
+<br/><br/>
+
+# Section 3. [Data transfer and data integrity](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/Data-transfer-and-data-integrity/README.md)
    - Examples of existing data transfer & data integrity checks
    - Data integrity considerations by file type
 
-# Section 1. Overview of minimal technical FASTQ and FASTA metadata considerations (as of 29APR22)
-![FASTQMetadataTablesOverview_working29APR22](https://user-images.githubusercontent.com/101716821/165967974-0626a7fa-6c5b-4cd2-af9c-a07c5f322f53.jpg)
-#### **Figure 1.** Overview of minimal technical metadata considered for FASTQ files. Parameter applicabilty to data types ((meta)genome, (meta)transcriptome, etc.) is listed on the left y-axis, and time of metadata generation is listed on the right.    
-<br/><br/>
-![FASTAMetadataTablesOverview_working29APR22](https://user-images.githubusercontent.com/101716821/165967971-18850bfb-10b9-4aad-a838-7d0654739ea1.jpg)
-#### **Figure 2.** Overview of minimal technical metadata considered for FASTA files. Parameter applicabilty to data types ((meta)genome, (meta)transcriptome, etc.) is listed on the left y-axis, and time of metadata generation is listed on the right. 
 <br/><br/>
 
 # Section 2. Minimal technical metadata by technology and file type:
