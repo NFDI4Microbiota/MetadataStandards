@@ -59,7 +59,9 @@
    - 2.5 [Metatranscriptome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/Metatranscriptome-Technical-Metadata/README.md)
      - Metatranscriptome FASTQ
      - Metatranscriptome FASTA
-   - 2.6 Proteome sequencing
+   - 2.6 [Proteome sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/Proteomics-Technical-Metadata/README.md)
+     - Proteome
+     - Proteome - experimental protocol edition
    - 2.7 Metaproteome sequencing 
    - 2.8 Metabolome sequencing
    - 2.9 [BIOM or tabular files](https://github.com/mdsufz/NFDI4Microbiota-Metadata/tree/BIOM-and-tabular-files)
