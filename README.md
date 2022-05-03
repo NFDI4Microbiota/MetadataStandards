@@ -47,7 +47,7 @@
      - Metagenome FASTQ
      - Metagenome FASTA
      - Metagenome assembled genome FASTA
-   - 2.4 Transcriptome Sequencing
+   - 2.4 [Transcriptome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/Transcriptome-Technical-Metadata/README.md)
      - Transcriptome FASTQ
      - Transcriptome FASTA
    - 2.5 Metatranscriptome Sequencing
