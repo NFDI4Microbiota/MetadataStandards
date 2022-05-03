@@ -1,4 +1,25 @@
 # NFDI4Microbiota-Metadata Task Area 2.1
+
+## NFDI4Microbiota introduction:
+### The National Research Data Infrastructure Germany (NFDI) currently comprises 19 consortia members spanning diverse fields, ranging from physical sciences, human health, and biology to artificial intelligence, cultural and economic science[^19]. In July 2021, NFDI4Microbiota was selected to become a consortium member and holds a mission "_to be the central hub in Germany for supporting the microbiology community with access to data, analysis services, data/metadata standards and training_."[^20] Through building tools, ensuring FAIR principles are followed, and standardizing metadata and data processing, NFDI4Microbiota will contribute to the interdisciplanary NFDI network. 
+
+## NFDI4Microbiota Task Area 2 - Standards and Policies:
+### NFDI4Microbiota aims to address issues of microbial data accessibility and consistency, which have long remained a challenge for the efficient and useful exchange of information in research. Specifically, Measure 2.1 (M2.1) has the goal "_to maximize the quality of data entering the NFDI4Microbiota system by enforcingcompliance with existing standards, as well as to identify and promote additional tailored datastandards and metadata requirements within the NFDI4Microbiota systems._" To address metadata quality standards in microbial science, three metadata categories are being considered; technical, biological, and environmental metadata. 
+
+### This page focuses on minimal ***technical*** metadata standards within M2.1 applicable to the following data types:
+- Genomes
+- Metagenomes
+- Metagenome assembled genomes
+- Transcriptomes
+- Metatranscriptomes
+- Proteomes
+- Metaproteomes
+- Metabolomes
+
+### Additionally, standards are being considered for data integrity and data transfer to ensure quality remains high throughout various processes of data file exchange. 
+
+
+
 # Minimal technical metadata
 > #### Goals: To maximize the quality of data entering the NFDI4Microbiota system by enforcing compliance with existing standards, as well as to identify and promote additional tailored data standards and metadata requirements within the NFDI4Microbiota systems.
 > #### MS2.1.1 Definition of data standards for the different types of raw data established
@@ -15,6 +36,7 @@
    - 2.3 Metagenome Sequencing
      - Metagenome FASTQ
      - Metagenome FASTA
+     - Metagenome assembled genome FASTA
    - 2.4 Transcriptome Sequencing
      - Transcriptome FASTQ
      - Transcriptome FASTA
@@ -160,6 +182,32 @@
 |Comments/questions: |
 |--------------------|
 |Is coverage factored into completeness? If not, it seems we should consider separating genome coverage and sequence depth -NME 27APR22 |
+
+<br/><br/>
+## &emsp; Minimal technical metadata for `metagenome assembled genome FASTA` file
+
+&emsp; &#x1F539; _italics = potential considerations_
+
+
+|**metadata**| **definition/examples** | **source** |
+|------------|-------------------------|------------|
+| run_ref | Accessions/identifiers linking to the raw data (FAST Q) | Adapted from ENA |
+| tax_ident | Phylogenetic marker(s) for MAG assignation | MIMAG_v5[^4] |
+| assembly_qual | Assembly quality category (e.g. Medium Quality Draft) | MIGS_BAv5[^1] |
+| assembly_software | Tool(s) used, version and parameters | MIGS_BAv5[^1] |
+| &#x1F539; _depth_ | _calculated depth in x_ | |
+| number_contig | Total number of contigs | MIGS_BAv5[^1] |
+| LSU_recover | Detection of the 23S rRNA (BA) or 5.8S/28S rRNA (E) | Adapted from MIMAG_v5[^4] |
+| LSU_recover_software | Tools for LSU extraction | |
+| SSU_recover | Detection of the 16S rRNA (BA) or 18S rRNA (E) | Adapted from MIMAG_v5[^4] |
+| SSU_recover_software | Tools for SSU extraction | |
+| trnas | Total number of tRNAs identified | MIMAG_v5[^4], SeqCode[^5] |
+| trna_ext_software | Tools used for tRNA identification | MIMAG_v5[^4], SeqCode[^5] |
+| compl_score | Completeness score | MIMAG_v5[^4], SeqCode[^5] |
+| compl_software | Tools used for completion estimate | MIMAG_v5[^4], SeqCode[^5] |
+| contam_score | Contamination score | MIMAG_v5[^4], SeqCode[^5] |
+| contam_software| Tool(s) used in contamination screening | MIMAG_v5[^4], SeqCode[^5] |
+| source | Metagenome data source for MAG| |
 
 <br/><br/>
 
@@ -315,3 +363,6 @@ BMC Bioinformatics 2008, 9:386,  https://help.mg-rast.org/user_manual.html#data-
 
 [^18]:The FAIR Cookbook: a deliverable of the FAIRplus project (grant agreement 802750), funded by the IMI programme, a private-public partnership that receives support from the European Union’s Horizon 2020 research and innovation programme and EFPIA Companies.   https://faircookbook.elixir-europe.org/content/recipes/interoperability/transcriptomics-metadata.html
 
+[^19]:https://www.nfdi.de/
+
+[^20]:https://nfdi4microbiota.de/
