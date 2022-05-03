@@ -44,26 +44,26 @@
 # Section 2. Minimal technical metadata by technology and file type 
 ## (Questions/comments are listed below the tables within each subsection)
 
-   - 2.1 [Genome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/Genome-Technical-Metadata/README.md)
+   - 2.1 [Genome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/tree/Genome-Technical-Metadata/README.md)
      - Genomic FASTQ
      - Genomic FASTA
-   - 2.2 [Amplicon Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/Amplicon-Technical-Metadata/README.md)
+   - 2.2 [Amplicon Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/tree/Amplicon-Technical-Metadata/README.md)
      - Amplicon FASTQ
-   - 2.3 [Metagenome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/Metagenome-Technical-Metadata/README.md)
+   - 2.3 [Metagenome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/tree/Metagenome-Technical-Metadata/README.md)
      - Metagenome FASTQ
      - Metagenome FASTA
      - Metagenome assembled genome FASTA
-   - 2.4 [Transcriptome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/Transcriptome-Technical-Metadata/README.md)
+   - 2.4 [Transcriptome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/tree/Transcriptome-Technical-Metadata/README.md)
      - Transcriptome FASTQ
      - Transcriptome FASTA
-   - 2.5 [Metatranscriptome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/Metatranscriptome-Technical-Metadata/README.md)
+   - 2.5 [Metatranscriptome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/tree/Metatranscriptome-Technical-Metadata/README.md)
      - Metatranscriptome FASTQ
      - Metatranscriptome FASTA
-   - 2.6 [Proteome sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/Proteomics-Technical-Metadata/README.md)
+   - 2.6 [Proteome sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/tree/Proteomics-Technical-Metadata/README.md)
      - Proteome
      - Proteome - experimental protocol edition
    - 2.7 Metaproteome sequencing 
-   - 2.8 Metabolome sequencing
+   - 2.8 [Metabolome sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/tree/Metabolome-Technical-Metadata)
    - 2.9 [BIOM or tabular files](https://github.com/mdsufz/NFDI4Microbiota-Metadata/tree/BIOM-and-tabular-files)
 
 <br/><br/>
