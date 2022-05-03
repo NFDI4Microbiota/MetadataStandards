@@ -4,9 +4,19 @@
 ### The National Research Data Infrastructure Germany (NFDI) currently comprises 19 consortia members spanning diverse fields, ranging from physical sciences, human health, and biology to artificial intelligence, cultural and economic science[^19]. In July 2021, NFDI4Microbiota was selected to become a consortium member and holds a mission "_to be the central hub in Germany for supporting the microbiology community with access to data, analysis services, data/metadata standards and training_."[^20] Through building tools, ensuring FAIR principles are followed, and standardizing metadata and data processing, NFDI4Microbiota will contribute to the interdisciplanary NFDI network. 
 
 ## NFDI4Microbiota Task Area 2 - Standards and Policies:
-### NFDI4Microbiota aims to address issues of microbial data accessibility and consistency, which have long remained a challenge for the efficient and useful exchange of information in research. Specifically, Measure 2.1 (M2.1) has the goal "_to maximize the quality of data entering the NFDI4Microbiota system by enforcingcompliance with existing standards, as well as to identify and promote additional tailored datastandards and metadata requirements within the NFDI4Microbiota systems._" To address metadata quality standards in microbial science, three metadata categories are being considered; technical, biological, and environmental metadata. 
+### NFDI4Microbiota aims to address issues of microbial data accessibility and consistency. These issues have long presented challenges for the efficient and useful exchange of information among research groups, institutes and data repositories. Specifically, Measure 2.1 (M2.1) has the goal "_to maximize the quality of data entering the NFDI4Microbiota system by enforcingcompliance with existing standards, as well as to identify and promote additional tailored datastandards and metadata requirements within the NFDI4Microbiota systems._" Establishing standard parameters for metadata will ensure that data can be reproducible and comparable, both spatially and temporally. 
 
-### This page focuses on minimal ***technical*** metadata standards within M2.1 applicable to the following data types:
+## Task Area 2.1 Goals and milestones (MS) 2.1.1 and 2.1.2:
+> #### Goals: To maximize the quality of data entering the NFDI4Microbiota system by enforcing compliance with existing standards, as well as to identify and promote additional tailored data standards and metadata requirements within the NFDI4Microbiota systems.
+> #### MS2.1.1 Definition of data standards for the different types of raw data established
+> #### MS2.1.2 Definition of data standards for the technical metadata established
+
+### To address metadata quality standards in microbial science, three metadata categories are being considered; 
+- Technical 
+- Biological
+- Environmental
+
+### This page focuses on minimal **technical** metadata standards within M2.1 applicable to the following data types:
 - Genomes
 - Metagenomes
 - Metagenome assembled genomes
@@ -16,7 +26,7 @@
 - Metaproteomes
 - Metabolomes
 
-### Additionally, standards are being considered for data integrity and data transfer to ensure quality remains high throughout various processes of data file exchange. 
+### Additionally, standards are being considered for data integrity and data transfer to ensure quality is maintained throughout various processes of data file exchange. 
 
 
 
