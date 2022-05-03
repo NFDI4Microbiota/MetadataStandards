@@ -50,7 +50,7 @@
    - 2.4 [Transcriptome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/Transcriptome-Technical-Metadata/README.md)
      - Transcriptome FASTQ
      - Transcriptome FASTA
-   - 2.5 Metatranscriptome Sequencing
+   - 2.5 [Metatranscriptome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/Metatranscriptome-Technical-Metadata/README.md)
      - Metatranscriptome FASTQ
      - Metatranscriptome FASTA
    - 2.6 Proteome sequencing
@@ -58,7 +58,7 @@
    - 2.8 Metabolome sequencing
    - 2.9 BIOM or tabular files
 
-3. Data transfer and data integrity 
+3. [Data transfer and data integrity](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/Data-transfer-and-data-integrity/README.md)
    - Examples of existing data transfer & data integrity checks
    - Data integrity considerations by file type
 
