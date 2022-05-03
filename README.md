@@ -41,9 +41,9 @@
    - 2.1 [Genome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/Genome-Technical-Metadata/README.md)
      - Genomic FASTQ
      - Genomic FASTA
-   - 2.2 Amplicon Sequencing
+   - 2.2 [Amplicon Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/Amplicon-Technical-Metadata/README.md)
      - Amplicon FASTQ
-   - 2.3 Metagenome Sequencing
+   - 2.3 [Metagenome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/Metagenome-Technical-Metadata/README.md)
      - Metagenome FASTQ
      - Metagenome FASTA
      - Metagenome assembled genome FASTA
