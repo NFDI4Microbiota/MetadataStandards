@@ -64,6 +64,8 @@
      - Proteome - experimental protocol edition
    - 2.7 Metaproteome sequencing 
    - 2.8 [Metabolome sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/tree/Metabolome-Technical-Metadata)
+     - Metabolome
+     - Metabolome - experimental protocol edition
    - 2.9 [BIOM or tabular files](https://github.com/mdsufz/NFDI4Microbiota-Metadata/tree/BIOM-and-tabular-files)
 
 <br/><br/>
