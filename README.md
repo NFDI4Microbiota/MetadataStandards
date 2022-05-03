@@ -38,7 +38,7 @@
 1. Overview of minimal technical FASTQ and FASTA metadata considerations (as of 29APR22)
 2. Minimal technical metadata by technology and file type (Questions/comments are listed below the tables within each subsection)
 
-   - 2.1 Genome Sequencing
+   - 2.1 [Genome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/Genome-Technical-Metadata/README.md)
      - Genomic FASTQ
      - Genomic FASTA
    - 2.2 Amplicon Sequencing
