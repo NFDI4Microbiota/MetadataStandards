@@ -11,7 +11,7 @@
 > #### MS2.1.1 Definition of data standards for the different types of raw data established
 > #### MS2.1.2 Definition of data standards for the technical metadata established
 
-### To address metadata quality standards in microbial science, three metadata categories are being considered; 
+### To address metadata quality standards in microbial science, three metadata categories are being considered:
 - Technical 
 - Biological
 - Environmental
