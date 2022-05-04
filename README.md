@@ -120,3 +120,31 @@ BMC Bioinformatics 2008, 9:386,  https://help.mg-rast.org/user_manual.html#data-
 [^20]:https://nfdi4microbiota.de/
 
 [^21]:Hedlund et al. (In review) https://disc-genomics.uibk.ac.at/seqcode//files/Hedlund_et_al.pdf
+
+[^22]:(https://www.ebi.ac.uk/pride/markdownpage/submitdatapage)
+
+[^23]:(http://www.proteomexchange.org/docs/guidelines_px.pdf)
+
+[^24]:(http://www.peptideatlas.org/)
+
+[^25]:(https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp)
+
+[^26]:(https://psidev.info/magetab)
+
+[^27]:(https://www.iprox.cn/page/helpEn.html#pag5)
+
+[^28]:(https://repository.jpostdb.org/help)
+
+[^29]:(https://www.psidev.info/sites/default/files/2018-03/MIAPE_MS_2.98.pdf)
+
+[^30]:(http://gigadb.org/site/guide)
+
+[^31]:(https://www.ebi.ac.uk/metabolights/index)
+
+[^32]:(https://github.com/MSI-Metabolomics-Standards-Initiative/CIMR)
+
+[^33]:(http://metabolonote.kazusa.or.jp/Main_Page)
+
+[^34]:(https://www.metabolomicsworkbench.org/)
+
+[^35]:(http://services.cbib.u-bordeaux.fr/MERYB/home/home.php)
