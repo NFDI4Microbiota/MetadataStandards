@@ -44,7 +44,7 @@
 # Section 2. Minimal technical metadata by technology and file type 
 ## (Questions/comments are listed below the tables within each subsection)
 
-   - 2.1 [Genome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/tree/Genome-Technical-Metadata/README.md)
+   - 2.1 [Genome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Genome_Technical_Metadata.md)
      - Genomic FASTQ
      - Genomic FASTA
    - 2.2 [Amplicon Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/tree/Amplicon-Technical-Metadata/README.md)
