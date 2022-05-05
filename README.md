@@ -47,30 +47,30 @@
    - 2.1 [Genome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Genome_Technical_Metadata.md)
      - Genomic FASTQ
      - Genomic FASTA
-   - 2.2 [Amplicon Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/tree/Amplicon-Technical-Metadata/README.md)
+   - 2.2 [Amplicon Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Amplicon_Technical_Metadata.md)
      - Amplicon FASTQ
-   - 2.3 [Metagenome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/tree/Metagenome-Technical-Metadata/README.md)
+   - 2.3 [Metagenome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Metagenome_Technical_Metadata.md)
      - Metagenome FASTQ
      - Metagenome FASTA
      - Metagenome assembled genome FASTA
-   - 2.4 [Transcriptome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/tree/Transcriptome-Technical-Metadata/README.md)
+   - 2.4 [Transcriptome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Transcriptome_Technical_Metadata.md)
      - Transcriptome FASTQ
      - Transcriptome FASTA
-   - 2.5 [Metatranscriptome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/tree/Metatranscriptome-Technical-Metadata/README.md)
+   - 2.5 [Metatranscriptome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Metatranscriptome_Technical_Metadata.md)
      - Metatranscriptome FASTQ
      - Metatranscriptome FASTA
-   - 2.6 [Proteome sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/tree/Proteomics-Technical-Metadata/README.md)
+   - 2.6 [Proteome sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Proteome_Technical_Metadata.md)
      - Proteome
      - Proteome - experimental protocol edition
    - 2.7 Metaproteome sequencing 
-   - 2.8 [Metabolome sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/tree/Metabolome-Technical-Metadata)
+   - 2.8 [Metabolome sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Metabolome_Technical_Metadata.md)
      - Metabolome
      - Metabolome - experimental protocol edition
-   - 2.9 [BIOM or tabular files](https://github.com/mdsufz/NFDI4Microbiota-Metadata/tree/BIOM-and-tabular-files)
+   - 2.9 [BIOM or tabular files](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/BIOM_or_Tabular_Technical_Metadata.md)
 
 <br/><br/>
 
-# Section 3. [Data transfer and data integrity](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/Data-transfer-and-data-integrity/README.md)
+# Section 3. [Data transfer and data integrity](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Data_Transfer_Data_Integrity.md)
    - Examples of existing data transfer & data integrity checks
    - Data integrity considerations by file type
 
