@@ -1,6 +1,3 @@
-# NFDI4Microbiota-Metadata Task Area 2.1
-# Minimal technical metadata
-
 ## 2.1 Genome sequencing
 ## &emsp; Minimal technical metadata for `genomic FASTQ` data
 
