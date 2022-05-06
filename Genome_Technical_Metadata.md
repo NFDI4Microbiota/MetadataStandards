@@ -4,11 +4,11 @@
 |**metadata**| **definition/examples** | **source** |
 |------------|-------------------------|------------|
 | sample_name | Identifier of the sample | Adapted from MIGS_BAv5[^1] |
-| seq_meth | Sequencing method used (e.g. Illumina HiSeq 2000)|MIGS_BAv5[^1] or INSTRUMENT (ENA/NCBI) |
+| seq_meth | Sequencing method used (e.g. Illumina HiSeq 2000)|MIGS_BAv5[^1] or INSTRUMENT (ENA/NCBI)[^36] |
 | lib_layout | Single-end, paired end or others | MIGS_BAv5[^1] |
-| lib_source | Genomic, metagenomic, transcriptomic, etc. | Source (ENA/NCBI) |
-| lib_strategy | WGS, Amplicon, etc. | Strategy (ENA/NCBI) |
-| lib_selection | Random, PCR, etc. | Selection (ENA/NCBI) |
+| lib_source | Genomic, metagenomic, transcriptomic, etc. | Source (ENA/NCBI)[^36] |
+| lib_strategy | WGS, Amplicon, etc. | Strategy (ENA/NCBI)[^36] |
+| lib_selection | Random, PCR, etc. | Selection (ENA/NCBI)[^36] |
 | sequence_count | Number of reads in the library (sequencing depth) | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3] |
 | basepairs_count | Number of base pairs (nucleotides) in the library | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3] |
 | average_length | As basepairs_count divided by sequence_count | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3] |
@@ -20,7 +20,7 @@
 
 |**metadata**| **definition/examples** | **source** |
 |------------|-------------------------|------------|
-| run_ref | Accessions/identifiers linking to the raw data (FAST Q) | Adapted from ENA |
+| run_ref | Accessions/identifiers linking to the raw data (FAST Q) | Adapted from ENA[^36] |
 | tax_ident | Phylogenetic marker(s) for MAG assignation | MIMAG_v5[^4] |
 | assembly_qual | Assembly quality category (e.g. Medium Quality Draft) | MIGS_BAv5[^1] |
 | assembly_software | Tool(s) used, version and parameters | MIGS_BAv5[^1] |
@@ -81,3 +81,5 @@ BMC Bioinformatics 2008, 9:386,  https://help.mg-rast.org/user_manual.html#data-
 [^18]:The FAIR Cookbook: a deliverable of the FAIRplus project (grant agreement 802750), funded by the IMI programme, a private-public partnership that receives support from the European Union’s Horizon 2020 research and innovation programme and EFPIA Companies.   https://faircookbook.elixir-europe.org/content/recipes/interoperability/transcriptomics-metadata.html
 
 [^21]: Hedlund et al. (In review) https://disc-genomics.uibk.ac.at/seqcode//files/Hedlund_et_al.pdf
+
+[^36]:(https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#metadata-validation)
