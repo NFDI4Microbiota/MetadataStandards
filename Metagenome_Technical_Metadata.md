@@ -5,11 +5,11 @@
 |**metadata**| **definition/examples** | **source** |
 |------------|-------------------------|------------|
 | sample_name | Identifier of the sample | Adapted from MIGS_BAv5[^1] |
-| seq_meth | Sequencing method used (e.g. Illumina HiSeq 2000)|MIGS_BAv5 or INSTRUMENT (ENA/NCBI), JGI IMG |
+| seq_meth | Sequencing method used (e.g. Illumina HiSeq 2000)|MIGS_BAv5 or INSTRUMENT (ENA/NCBI)[^36], JGI IMG |
 | lib_layout | Single-end, paired end or others | MIGS_BAv5[^1] |
-| lib_source | Genomic, metagenomic, transcriptomic, etc. | Source (ENA/NCBI) |
-| lib_strategy | WGS, Amplicon, etc. | Strategy (ENA/NCBI) |
-| lib_selection | Random, PCR, etc. | Selection (ENA/NCBI) |
+| lib_source | Genomic, metagenomic, transcriptomic, etc. | Source (ENA/NCBI)[^36] |
+| lib_strategy | WGS, Amplicon, etc. | Strategy (ENA/NCBI)[^36] |
+| lib_selection | Random, PCR, etc. | Selection (ENA/NCBI)[^36] |
 | &#x1F539; _nucleic acid extraction method_ | _Technique._ _Treatments as subcategory? (e.g. DNase, RNase)_ | FAIR cookbook[^18] |
 | &#x1F539; _insert_length_ | _for inner dist. calc._ (or incl. in lib_layout?)(Array Express parameter: insert "Nominal Length" | ArrayExpress[^17] |
 | sequence_count | Number of reads in the library (sequencing depth) | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3] |
@@ -128,3 +128,5 @@ BMC Bioinformatics 2008, 9:386,  https://help.mg-rast.org/user_manual.html#data-
 [^20]:https://nfdi4microbiota.de/
 
 [^21]:Hedlund et al. (In review) https://disc-genomics.uibk.ac.at/seqcode//files/Hedlund_et_al.pdf
+
+[^36]:(https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#metadata-validation)
