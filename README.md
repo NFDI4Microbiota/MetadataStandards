@@ -149,3 +149,5 @@ BMC Bioinformatics 2008, 9:386,  https://help.mg-rast.org/user_manual.html#data-
 [^34]:(https://www.metabolomicsworkbench.org/)
 
 [^35]:(http://services.cbib.u-bordeaux.fr/MERYB/home/home.php)
+
+[^36]:(https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#metadata-validation)
