@@ -30,13 +30,13 @@
 
 <br/><br/>
 
-# Section 1. Overview of minimal technical FASTQ and FASTA metadata considerations (as of 29APR22)
-![FASTQMetadataTablesOverview_working29APR22](https://user-images.githubusercontent.com/101716821/165967974-0626a7fa-6c5b-4cd2-af9c-a07c5f322f53.jpg)
+# Section 1. Overview of minimal technical FASTQ and FASTA metadata considerations (as of 06MAY22)
+![FASTQMetadataTablesOverview_working06MAY22](https://user-images.githubusercontent.com/101716821/167100001-f0b94371-57b6-4184-8062-8a52843cfdf0.jpg)
 #### **Figure 1.** Overview of minimal technical metadata considered for FASTQ files. Parameter applicabilty to data types ((meta)genome, (meta)transcriptome, etc.) is listed on the left y-axis, and time of metadata generation is listed on the right.    
 
 <br/><br/>
 
-![FASTAMetadataTablesOverview_working29APR22](https://user-images.githubusercontent.com/101716821/165967971-18850bfb-10b9-4aad-a838-7d0654739ea1.jpg)
+![FASTAMetadataTablesOverview_working06MAY22](https://user-images.githubusercontent.com/101716821/167099362-c74a8d36-1722-4291-ade6-b1e12058f7ba.jpg)
 #### **Figure 2.** Overview of minimal technical metadata considered for FASTA files. Parameter applicabilty to data types ((meta)genome, (meta)transcriptome, etc.) is listed on the left y-axis, and time of metadata generation is listed on the right. 
 
 <br/><br/>
