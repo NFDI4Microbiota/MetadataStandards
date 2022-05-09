@@ -15,9 +15,9 @@
 ## `Data integrity considerations by file type`
 |**File type**| **Integrity check** | **Other considerations for quality and transferability** |
 |------------|-------------------------|------------|
-| FASTQ | Read count, checksum (MD5sum, SEQGUID[^14][^15], etc.) | Determination of +33/+64 format from compressed files |
-| FASTA | Read count, checksum (MD5sum, SEQGUID[^14][^15], etc.) | |
-| .faa | SEQGUID[^14][^15] | Annotation pipeline, assembly quality |
+| FASTQ | Read count, checksum (MD5sum, SEGUID[^14][^15], etc.) | Determination of +33/+64 format from compressed files |
+| FASTA | Read count, checksum (MD5sum, SEGUID[^14][^15], etc.) | |
+| .faa | SEGUID[^14][^15] | Annotation pipeline, assembly quality |
 | GFF/GTF | | Annotation pipeline, assembly quality |
 
 |Comments/questions: |
