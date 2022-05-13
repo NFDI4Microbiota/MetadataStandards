@@ -18,8 +18,7 @@
 | average_length | As basepairs_count divided by sequence_count | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3] |
 | sequence_count_qual | Number of reads in the library (sequencing depth) after quality filtering | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3], JGI IMG |
 | basepairs_count_qual | Number of base pairs (nucleotides) in the library after quality filtering | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3] |
-| rRNA removal | Post-sequencing rRNA data removal | Shakya, Migun et al.(2019)[^7] |
-| rRNA depletion | Pre-sequencing molecular rRNA depletion | Shakya, Migun et al.(2019)[^7] |
+| rRNA treatment | Depletion (Pre-seq, molecular), Removal (Post-seq data), None | Shakya, Migun et al.(2019)[^7] |
 | &#x1F539; _Rev. transcriptase used_ | _(e.g. MMLV, AMV)_ | |
 | &#x1F539; _primers/oligos_ | _(e.g. random primer set metadata, oligo(dT), both)_ | FAIR cookbook[^18] |
 | checksum | Hash value (e.g. MD5) for data integrity | |
