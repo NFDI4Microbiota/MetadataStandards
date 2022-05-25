@@ -25,7 +25,7 @@
 - Proteomes
 - Metaproteomes
 - Metabolomes
-### Standard parameter considerations for FASTQ and FASTA formats are displayed in Figures 1 and 2, respectively. Parameter applicability to different data types and the time of data generation (i.e. before sequencing or during data processing) are shown in the left and right y-axes, respectively.
+### Standard parameter considerations for FASTQ and FASTA formats are displayed in Figures 1 and 2, respectively. Parameter applicability to different data types and the time of data generation (i.e. before sequencing or during data processing) are shown in the left and right, respectively.
  
 ### Additionally, standards are being considered for data integrity and data transfer to ensure quality is maintained throughout various processes of data file exchange. 
 
@@ -33,12 +33,12 @@
 
 # Section 1. Overview of minimal technical FASTQ and FASTA metadata considerations (as of 06MAY22)
 ![FASTQMetadataTablesOverview_working09MAY22](https://user-images.githubusercontent.com/101716821/167379997-3f4adc80-4163-496d-9f13-41e31afad397.jpg)
-#### **Figure 1.** Overview of minimal technical metadata considered for FASTQ files. Parameter applicabilty to data types ((meta)genome, (meta)transcriptome, etc.) is listed on the left y-axis, and time of metadata generation is listed on the right.    
+#### **Figure 1.** Overview of minimal technical metadata considered for FASTQ files. Parameter applicabilty to data types ((meta)genome, (meta)transcriptome, etc.) is listed on the left, and time of metadata generation is listed on the right.    
 
 <br/><br/>
 
 ![FASTAMetadataTablesOverview_working06MAY22](https://user-images.githubusercontent.com/101716821/167099362-c74a8d36-1722-4291-ade6-b1e12058f7ba.jpg)
-#### **Figure 2.** Overview of minimal technical metadata considered for FASTA files. Parameter applicabilty to data types ((meta)genome, (meta)transcriptome, etc.) is listed on the left y-axis, and time of metadata generation is listed on the right. 
+#### **Figure 2.** Overview of minimal technical metadata considered for FASTA files. Parameter applicabilty to data types ((meta)genome, (meta)transcriptome, etc.) is listed on the left, and time of metadata generation is listed on the right. 
 
 <br/><br/>
 
