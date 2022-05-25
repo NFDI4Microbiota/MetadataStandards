@@ -13,8 +13,8 @@
 
 ### To address metadata quality standards in microbial science, three metadata categories are being considered:
 - Technical 
-- Biological
-- Environmental
+- Biological <https://github.com/mdsufz/NFDI4Microbiota-BioEnvMetadata>
+- Environmental <https://github.com/mdsufz/NFDI4Microbiota-BioEnvMetadata>
 
 ### This Github page focuses on minimal **technical** metadata standards within M2.1 applicable to the following data types:
 - Genomes
