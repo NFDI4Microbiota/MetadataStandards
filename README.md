@@ -18,6 +18,7 @@
 
 ### This Github page focuses on minimal **technical** metadata standards within M2.1 applicable to the following data types:
 - Genomes
+- Amplicon
 - Metagenomes
 - Metagenome assembled genomes
 - Transcriptomes
