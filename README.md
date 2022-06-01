@@ -42,13 +42,13 @@
 
 <br/><br/>
 
-# Technical metadata section 2. Overview of minimal technical FASTQ and FASTA metadata considerations (as of 06MAY22)
-![FASTQMetadataTablesOverview_working09MAY22](https://user-images.githubusercontent.com/101716821/167379997-3f4adc80-4163-496d-9f13-41e31afad397.jpg)
+# Technical metadata section 2. Overview of minimal technical FASTQ and FASTA metadata considerations.
+![FASTQMetadataTablesOverview_](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/images/MinimalTechnicalTable_FASTQ.JPG)
 #### **Figure 2.** Overview of minimal technical metadata considered for FASTQ files. Parameter applicabilty to data types ((meta)genome, (meta)transcriptome, etc.) is listed on the left, and time of metadata generation is listed on the right.    
 
 <br/><br/>
 
-![FASTAMetadataTablesOverview_working06MAY22](https://user-images.githubusercontent.com/101716821/167099362-c74a8d36-1722-4291-ade6-b1e12058f7ba.jpg)
+![FASTAMetadataTablesOverview](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/images/MinimalTechnicalTable_FASTA.JPG)
 #### **Figure 3.** Overview of minimal technical metadata considered for FASTA files. Parameter applicabilty to data types ((meta)genome, (meta)transcriptome, etc.) is listed on the left, and time of metadata generation is listed on the right. 
 
 <br/><br/>
