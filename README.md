@@ -16,16 +16,18 @@
 > #### MS2.1.1 Definition of data standards for the different types of raw data established
 > #### MS2.1.2 Definition of data standards for the technical metadata established
 
-## To address metadata quality standards in microbial science, two metadata categories are being considered:
+### To address metadata quality standards in microbial science, two metadata categories are being considered:
 - Technical 
 - Biological/Environmental
 
-#### Figure 1 outlines the aspects of both technical and biological/environmental (Bio/Env) that were taken into account when determining metadata parameters that would be applicable across various datasets and microbiomes. 
+Figure 1 outlines the aspects of both technical and biological/environmental (Bio/Env) that were taken into account when determining metadata parameters that would be applicable across various datasets and microbiomes. 
+
 ![Overview](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/images/Overview31May2022.JPG)
 #### Figure 1. Flow chart of Technical and Biological/Environmental metadata standard development. Technical parameter categories were structured based on data types, and bio/env parameter categories were based on biome type. More specific considerations were taken into account for file type, host, etc. 
 
-## Technical Metadata Standards:
+# Technical Metadata Standards:
 
+## Tehcnical metadata section 1. Data types
 ### The following data types were considered when establishing minimal **technical** metadata standards for M2.1:
 - Genomes
 - Amplicon
@@ -36,13 +38,12 @@
 - Proteomes
 - Metaproteomes
 - Metabolomes
-#### Standard parameter considerations for FASTQ and FASTA formats are displayed in Figures 2 and 3, respectively. Parameter applicability to different data types and the time of data generation (i.e. before sequencing or during data processing) are shown in the left and right, respectively.
+Standard parameter considerations for FASTQ and FASTA formats are displayed in Figures 2 and 3, respectively. Parameter applicability to different data types and the time of data generation (i.e. before sequencing or during data processing) are shown in the left and right, respectively.
  
-#### Additionally, standards are being considered for data integrity and data transfer to ensure quality is maintained throughout various processes of data file exchange. 
-
+Additionally, standards are being considered for data integrity and data transfer to ensure quality is maintained throughout various processes of data file exchange. 
 <br/><br/>
 
-# Technical metadata section 2. Overview of minimal technical FASTQ and FASTA metadata considerations.
+## Technical metadata section 2. Overview of minimal technical FASTQ and FASTA metadata considerations.
 ![FASTQMetadataTablesOverview_](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/images/MinimalTechnicalTable_FASTQ.JPG)
 #### **Figure 2.** Overview of minimal technical metadata considered for FASTQ files. Parameter applicabilty to data types ((meta)genome, (meta)transcriptome, etc.) is listed on the left, and time of metadata generation is listed on the right.    
 
@@ -85,11 +86,12 @@
    - Examples of existing data transfer & data integrity checks
    - Data integrity considerations by file type
 
+<br/><br/>
 
 # Biological and Environmental Metadata Standards:
 
-## Bio/Env metadata section 2. Biomes considerations
-### To compile a minimal set of biological and environmental metadata standards, six microbiomes were considered:
+## Bio/Env metadata section 1. Biomes considered
+### To compile a minimal set of biological and environmental metadata standards, six microbiomes were considered. Environmental and biological parameters were identified as minimums as applicable to individual biomes and/or hosts.
 
 ### Minimal **Biological and Environmental** microbiome metadata standards within M2.1 were established to be applicable to the following biomes:
 - [Marine](https://github.com/mdsufz/NFDI4Microbiota-BioEnvMetadata/blob/main/Marine_BioEnv_Metadata.md)
