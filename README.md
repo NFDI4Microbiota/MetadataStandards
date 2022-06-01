@@ -27,7 +27,7 @@ Figure 1 outlines the aspects of both technical and biological/environmental (Bi
 
 # Technical Metadata Standards:
 
-## Tehcnical metadata section 1. Data types
+## Technical metadata section 1. Data types
 ### The following data types were considered when establishing minimal **technical** metadata standards for M2.1:
 - Genomes
 - Amplicon
