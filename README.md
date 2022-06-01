@@ -3,7 +3,7 @@
 ## Reading this Github
 - Begin by reading the [NFDI4Microbiota introduction](https://github.com/mdsufz/NFDI4Microbiota-Metadata/edit/main/README.md#introduction), [Task Area 2 information](https://github.com/mdsufz/NFDI4Microbiota-Metadata/edit/main/README.md#nfdi4microbiota-task-area-2---standards-and-policies), and [Task Area 2.1.1 and 2.1.2 Goals and Milestones](https://github.com/mdsufz/NFDI4Microbiota-Metadata/edit/main/README.md#task-area-21-goals-and-milestones-ms-211-and-212)
 - Next, read the information regarding [**technical** metadata parameter standards](https://github.com/mdsufz/NFDI4Microbiota-Metadata/edit/main/README.md#technical-metadata-standards)
-- Third, read the **biological/environmental** metadata standards section.
+- Third, read the [**biological/environmental** metadata standards section](https://github.com/mdsufz/NFDI4Microbiota-Metadata/edit/main/README.md#biological-and-environmental-metadata-standards)
 
 ## NFDI4Microbiota introduction:
 #### The National Research Data Infrastructure Germany (NFDI) is currently comprised of 19 consortium members spanning diverse fields, including physical sciences, human health, biology, artificial intelligence, cultural and economic science, among others[^19]. In July 2021, NFDI4Microbiota was selected to become a consortium member and holds a mission "_to be the central hub in Germany for supporting the microbiology community with access to data, analysis services, data/metadata standards and training_."[^20] Through building analytical tools, ensuring FAIR principles are followed, and standardizing metadata and data processing, NFDI4Microbiota will contribute to the interdisciplanary NFDI network from the microbiological perspective. 
@@ -53,8 +53,7 @@
 
 <br/><br/>
 
-# Technical metadata section 3. Minimal technical metadata by technology and file type 
-## (Questions/comments are listed below the tables within each subsection)
+## Technical metadata section 3. Minimal technical metadata by technology and file type 
 
    - 2.1 [Genome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Genome_Technical_Metadata.md)
      - Genomic FASTQ
@@ -82,14 +81,14 @@
 
 <br/><br/>
 
-# Technical metadata section 4. [Data transfer and data integrity](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Data_Transfer_Data_Integrity.md)
+## Technical metadata section 4. [Data transfer and data integrity](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Data_Transfer_Data_Integrity.md)
    - Examples of existing data transfer & data integrity checks
    - Data integrity considerations by file type
 
 
-## Biological and Environmental Metadata Standards:
-# Bio/Env metadata section 1. Technologies/data type considerations
-## Nine technologies/data types were considered when establishing minimal technical metadata standards. 
+# Biological and Environmental Metadata Standards:
+## Bio/Env metadata section 1. Technologies/data type considerations
+### Nine technologies/data types were considered when establishing minimal technical metadata standards. 
 - Genomes
 - Amplicon
 - Metagenomes
@@ -99,10 +98,10 @@
 - Proteomes
 - Metaproteomes
 - Metabolomes
-## Existing repositories, standards, and tools were referenced for the necessary minimums needed to apply across all data types. See the [Technical metadata section](https://github.com/mdsufz/NFDI4Microbiota-Metadata/edit/main/README.md#technical-metadata-standards)
+### Existing repositories, standards, and tools were referenced for the necessary minimums needed to apply across all data types. See the [Technical metadata section](https://github.com/mdsufz/NFDI4Microbiota-Metadata/edit/main/README.md#technical-metadata-standards)
 
-# Bio/Env metadata section 2. Biomes considerations
-## To compile a minimal set of biological and environmental metadata standards, six microbiomes were considered:
+## Bio/Env metadata section 2. Biomes considerations
+### To compile a minimal set of biological and environmental metadata standards, six microbiomes were considered:
 
 ### Minimal **Biological and Environmental** microbiome metadata standards within M2.1 were established to be applicable to the following biomes:
 - [Marine](https://github.com/mdsufz/NFDI4Microbiota-BioEnvMetadata/blob/main/Marine_BioEnv_Metadata.md)
