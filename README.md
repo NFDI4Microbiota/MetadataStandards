@@ -1,7 +1,7 @@
 # NFDI4Microbiota - Task Area 2.1 - Metadata Standards
 
 ## Reading this Github
-- Begin by reading the [NFDI4Microbiota introduction](#introduction), [Task Area 2 information](#nfdi4microbiota-task-area-2---standards-and-policies), and [Task Area 2.1.1 and 2.1.2 Goals and Milestones](#task-area-21-goals-and-milestones-ms-211-and-212)
+- Begin by reading the [NFDI4Microbiota introduction](#nfdi4microbiota-introduction), [Task Area 2 information](#nfdi4microbiota-task-area-2---standards-and-policies), and [Task Area 2.1.1 and 2.1.2 Goals and Milestones](#task-area-21-goals-and-milestones-ms-211-and-212)
 - Next, read the information regarding [**technical** metadata parameter standards](#technical-metadata-standards)
 - Third, read the [**biological/environmental** metadata standards section](#biological-and-environmental-metadata-standards)
 
