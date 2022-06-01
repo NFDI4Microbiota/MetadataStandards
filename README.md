@@ -1,9 +1,9 @@
 # NFDI4Microbiota - Task Area 2.1 - Metadata Standards
 
 ## Reading this Github
-- Begin by reading the [NFDI4Microbiota introduction](https://github.com/mdsufz/NFDI4Microbiota-Metadata/edit/main/README.md#introduction), [Task Area 2 information](https://github.com/mdsufz/NFDI4Microbiota-Metadata/edit/main/README.md#nfdi4microbiota-task-area-2---standards-and-policies), and [Task Area 2.1.1 and 2.1.2 Goals and Milestones](https://github.com/mdsufz/NFDI4Microbiota-Metadata/edit/main/README.md#task-area-21-goals-and-milestones-ms-211-and-212)
-- Next, read the information regarding [**technical** metadata parameter standards](https://github.com/mdsufz/NFDI4Microbiota-Metadata/edit/main/README.md#technical-metadata-standards)
-- Third, read the [**biological/environmental** metadata standards section](https://github.com/mdsufz/NFDI4Microbiota-Metadata/edit/main/README.md#biological-and-environmental-metadata-standards)
+- Begin by reading the [NFDI4Microbiota introduction](#introduction), [Task Area 2 information](#nfdi4microbiota-task-area-2---standards-and-policies), and [Task Area 2.1.1 and 2.1.2 Goals and Milestones](#task-area-21-goals-and-milestones-ms-211-and-212)
+- Next, read the information regarding [**technical** metadata parameter standards](#technical-metadata-standards)
+- Third, read the [**biological/environmental** metadata standards section](#biological-and-environmental-metadata-standards)
 
 ## NFDI4Microbiota introduction:
 #### The National Research Data Infrastructure Germany (NFDI) is currently comprised of 19 consortium members spanning diverse fields, including physical sciences, human health, biology, artificial intelligence, cultural and economic science, among others[^19]. In July 2021, NFDI4Microbiota was selected to become a consortium member and holds a mission "_to be the central hub in Germany for supporting the microbiology community with access to data, analysis services, data/metadata standards and training_."[^20] Through building analytical tools, ensuring FAIR principles are followed, and standardizing metadata and data processing, NFDI4Microbiota will contribute to the interdisciplanary NFDI network from the microbiological perspective. 
@@ -55,50 +55,38 @@
 
 ## Technical metadata section 3. Minimal technical metadata by technology and file type 
 
-   - 2.1 [Genome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Genome_Technical_Metadata.md)
+   - 2.1 [Genome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/Genome_Technical_Metadata.md)
      - Genomic FASTQ
      - Genomic FASTA
-   - 2.2 [Amplicon Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Amplicon_Technical_Metadata.md)
+   - 2.2 [Amplicon Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/Amplicon_Technical_Metadata.md)
      - Amplicon FASTQ
-   - 2.3 [Metagenome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Metagenome_Technical_Metadata.md)
+   - 2.3 [Metagenome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/Metagenome_Technical_Metadata.md)
      - Metagenome FASTQ
      - Metagenome FASTA
      - Metagenome assembled genome FASTA
-   - 2.4 [Transcriptome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Transcriptome_Technical_Metadata.md)
+   - 2.4 [Transcriptome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/Transcriptome_Technical_Metadata.md)
      - Transcriptome FASTQ
      - Transcriptome FASTA
-   - 2.5 [Metatranscriptome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Metatranscriptome_Technical_Metadata.md)
+   - 2.5 [Metatranscriptome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/Metatranscriptome_Technical_Metadata.md)
      - Metatranscriptome FASTQ
      - Metatranscriptome FASTA
-   - 2.6 [Proteome sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Proteome_Technical_Metadata.md)
+   - 2.6 [Proteome sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/Proteome_Technical_Metadata.md)
      - Proteome
      - Proteome - experimental protocol edition
    - 2.7 Metaproteome sequencing 
-   - 2.8 [Metabolome sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Metabolome_Technical_Metadata.md)
+   - 2.8 [Metabolome sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/Metabolome_Technical_Metadata.md)
      - Metabolome
      - Metabolome - experimental protocol edition
-   - 2.9 [BIOM or tabular files](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/BIOM_or_Tabular_Technical_Metadata.md)
+   - 2.9 [BIOM or tabular files](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/BIOM_or_Tabular_Technical_Metadata.md)
 
 <br/><br/>
 
-## Technical metadata section 4. [Data transfer and data integrity](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Data_Transfer_Data_Integrity.md)
+## Technical metadata section 4. [Data transfer and data integrity](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/Data_Transfer_Data_Integrity.md)
    - Examples of existing data transfer & data integrity checks
    - Data integrity considerations by file type
 
 
 # Biological and Environmental Metadata Standards:
-## Bio/Env metadata section 1. Technologies/data type considerations
-### Nine technologies/data types were considered when establishing minimal technical metadata standards. 
-- Genomes
-- Amplicon
-- Metagenomes
-- Metagenome assembled genomes
-- Transcriptomes
-- Metatranscriptomes
-- Proteomes
-- Metaproteomes
-- Metabolomes
-### Existing repositories, standards, and tools were referenced for the necessary minimums needed to apply across all data types. See the [Technical metadata section](https://github.com/mdsufz/NFDI4Microbiota-Metadata/edit/main/README.md#technical-metadata-standards)
 
 ## Bio/Env metadata section 2. Biomes considerations
 ### To compile a minimal set of biological and environmental metadata standards, six microbiomes were considered:
