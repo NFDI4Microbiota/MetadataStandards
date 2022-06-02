@@ -31,7 +31,7 @@
 
 |**metadata**| **definition/examples** | **source** |
 |------------|-------------------------|------------|
-| run_ref | Accessions/identifiers linking to the raw data (FAST Q) | Adapted from ENA and TSA DB[^16] |
+| run_ref | Accessions/identifiers linking to the raw data (FASTQ) | Adapted from ENA and TSA DB[^16] |
 | Locus | (e.g. "GAAA01000000 93507 rc mRNA linear TSA 20-JUL-2015" | Transcriptome Shotgun Assembly DB[^16] |
 | Definition |  TSA: Latimeria chalumnae voucher 08118, transcriptome shotgun assembly | Transcriptome Shotgun Assembly DB[^16] |
 | DB Link | BioProject/Biosample/SRA | Transcriptome Shotgun Assembly DB[^16] |

@@ -20,12 +20,13 @@
 
 |**metadata**| **definition/examples** | **source** |
 |------------|-------------------------|------------|
-| run_ref | Accessions/identifiers linking to the raw data (FAST Q) | Adapted from ENA[^36] |
+| run_ref | Accessions/identifiers linking to the raw data (FASTQ) | Adapted from ENA[^36] |
 | tax_ident | Phylogenetic marker(s) for MAG assignation | MIMAG_v5[^4] |
 | assembly_qual | Assembly quality category (e.g. Medium Quality Draft) | MIGS_BAv5[^1] |
 | assembly_software | Tool(s) used, version and parameters | MIGS_BAv5[^1] |
 | coverage | The estimated depth of sequencing coverage (in x) | |
 | number_contig | Total number of contigs | MIGS_BAv5[^1] |
+| N50 | The length of the shortest contig representing half of the assembly length|  |
 | LSU_recover | Detection of the 23S rRNA (BA) or 5.8S/28S rRNA (E) | Adapted from MIMAG_v5[^4] |
 | LSU_recover_software | Tools for LSU extraction | |
 | SSU_recover | Detection of the 16S rRNA (BA) or 18S rRNA (E) | Adapted from MIMAG_v5[^4] |

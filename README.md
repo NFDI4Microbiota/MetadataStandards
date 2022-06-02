@@ -1,34 +1,41 @@
 # NFDI4Microbiota - Task Area 2.1 - Metadata Standards
 
 ## Reading this Github
+
 - Begin by reading the [NFDI4Microbiota introduction](#nfdi4microbiota-introduction), [Task Area 2 information](#nfdi4microbiota-task-area-2---standards-and-policies), and [Task Area 2.1.1 and 2.1.2 Goals and Milestones](#task-area-21-goals-and-milestones-ms-211-and-212)
 - Next, read the information regarding [**technical** metadata parameter standards](#technical-metadata-standards)
 - Third, read the [**biological/environmental** metadata standards section](#biological-and-environmental-metadata-standards)
 
-## NFDI4Microbiota introduction:
-#### The National Research Data Infrastructure Germany (NFDI) is currently comprised of 19 consortium members spanning diverse fields, including physical sciences, human health, biology, artificial intelligence, cultural and economic science, among others[^19]. In July 2021, NFDI4Microbiota was selected to become a consortium member and holds a mission "_to be the central hub in Germany for supporting the microbiology community with access to data, analysis services, data/metadata standards and training_."[^20] Through building analytical tools, ensuring FAIR principles are followed, and standardizing metadata and data processing, NFDI4Microbiota will contribute to the interdisciplanary NFDI network from the microbiological perspective. 
+## NFDI4Microbiota introduction
 
-## NFDI4Microbiota Task Area 2 - Standards and Policies:
-#### NFDI4Microbiota aims to address issues of microbial data accessibility and consistency. These issues have long presented challenges for the efficient  exchange of useable information between research groups, data generators (e.g. sequencing centers), and data repositories. Specifically, Measure 2.1 (M2.1) has the goal "_to maximize the quality of data entering the NFDI4Microbiota system by enforcing compliance with existing standards, as well as to identify and promote additional tailored data standards and metadata requirements within the NFDI4Microbiota systems._" Establishing standard parameters for metadata will ensure that generated data is reproducible and comparable, both spatially and temporally.
+The National Research Data Infrastructure Germany (NFDI) is currently comprised of 19 consortium members spanning diverse fields, including physical sciences, human health, biology, artificial intelligence, cultural and economic science, among others[^19]. In July 2021, NFDI4Microbiota was selected to become a consortium member and holds a mission "_to be the central hub in Germany for supporting the microbiology community with access to data, analysis services, data/metadata standards and training_."[^20] Through building analytical tools, ensuring FAIR principles are followed, and standardizing metadata and data processing, NFDI4Microbiota will contribute to the interdisciplanary NFDI network from the microbiological perspective. 
 
-## Task Area 2.1 Goals and Milestones (MS) 2.1.1 and 2.1.2:
-> #### Goals: To maximize the quality of data entering the NFDI4Microbiota system by enforcing compliance with existing standards, as well as to identify and promote additional tailored data standards and metadata requirements within the NFDI4Microbiota systems.
-> #### MS2.1.1 Definition of data standards for the different types of raw data established
-> #### MS2.1.2 Definition of data standards for the technical metadata established
+## NFDI4Microbiota Task Area 2 - Standards and Policies
 
-### To address metadata quality standards in microbial science, two metadata categories are being considered:
+NFDI4Microbiota aims to address issues of microbial data accessibility and consistency. These issues have long presented challenges for the efficient  exchange of useable information between research groups, data generators (e.g. sequencing centers), and data repositories. Specifically, Measure 2.1 (M2.1) has the goal "_to maximize the quality of data entering the NFDI4Microbiota system by enforcing compliance with existing standards, as well as to identify and promote additional tailored data standards and metadata requirements within the NFDI4Microbiota systems._" Establishing standard parameters for metadata will ensure that generated data is reproducible and comparable, both spatially and temporally.
+
+## Task Area 2.1 Goals and Milestones 2.1.1 and 2.1.2
+
+**Goals**: To maximize the quality of data entering the NFDI4Microbiota system by enforcing compliance with existing standards, as well as to identify and promote additional tailored data standards and metadata requirements within the NFDI4Microbiota systems through the following two milestones (MS):
+- MS2.1.1 Definition of data standards for the different types of raw data established
+- MS2.1.2 Definition of data standards for the technical metadata established
+
+
+To address metadata quality standards in microbial science, two metadata categories are being considered:
+
 - Technical 
 - Biological/Environmental
 
 Figure 1 outlines the aspects of both technical and biological/environmental (Bio/Env) that were taken into account when determining metadata parameters that would be applicable across various datasets and microbiomes. 
 
 ![Overview](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/images/Overview31May2022.JPG)
-#### Figure 1. Flow chart of Technical and Biological/Environmental metadata standard development. Technical parameter categories were structured based on data types, and bio/env parameter categories were based on biome type. More specific considerations were taken into account for file type, host, etc. 
+**Figure 1**. Flow chart of Technical and Biological/Environmental metadata standard development. Technical parameter categories were structured based on data types, and bio/env parameter categories were based on biome type. More specific considerations were taken into account for file type, host, etc. 
 
-# Technical Metadata Standards:
+# Technical Metadata Standards
 
 ## Technical metadata section 1. Data types
-### The following data types were considered when establishing minimal **technical** metadata standards for M2.1:
+
+The following data types were considered when establishing minimal **technical** metadata standards for M2.1:
 - Genomes
 - Amplicon
 - Metagenomes
@@ -41,59 +48,59 @@ Figure 1 outlines the aspects of both technical and biological/environmental (Bi
 Standard parameter considerations for FASTQ and FASTA formats are displayed in Figures 2 and 3, respectively. Parameter applicability to different data types and the time of data generation (i.e. before sequencing or during data processing) are shown in the left and right, respectively.
  
 Additionally, standards are being considered for data integrity and data transfer to ensure quality is maintained throughout various processes of data file exchange. 
-<br/><br/>
 
 ## Technical metadata section 2. Overview of minimal technical FASTQ and FASTA metadata considerations.
-![FASTQMetadataTablesOverview_](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/images/MinimalTechnicalTable_FASTQ.JPG)
-#### **Figure 2.** Overview of minimal technical metadata considered for FASTQ files. Parameter applicabilty to data types ((meta)genome, (meta)transcriptome, etc.) is listed on the left, and time of metadata generation is listed on the right.    
 
-<br/><br/>
+![FASTQMetadataTablesOverview_](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/images/MinimalTechnicalTable_FASTQ.JPG)
+**Figure 2.** Overview of minimal technical metadata considered for FASTQ files. Parameter applicabilty to data types ((meta)genome, (meta)transcriptome, etc.) is listed on the left, and time of metadata generation is listed on the right. 
+
 
 ![FASTAMetadataTablesOverview](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/images/MinimalTechnicalTable_FASTA.JPG)
-#### **Figure 3.** Overview of minimal technical metadata considered for FASTA files. Parameter applicabilty to data types ((meta)genome, (meta)transcriptome, etc.) is listed on the left, and time of metadata generation is listed on the right. 
+**Figure 3.** Overview of minimal technical metadata considered for FASTA files. Parameter applicabilty to data types ((meta)genome, (meta)transcriptome, etc.) is listed on the left, and time of metadata generation is listed on the right.
 
-<br/><br/>
+
 
 ## Technical metadata section 3. Minimal technical metadata by technology and file type 
 
-   - 2.1 [Genome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/Genome_Technical_Metadata.md)
-     - Genomic FASTQ
-     - Genomic FASTA
-   - 2.2 [Amplicon Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/Amplicon_Technical_Metadata.md)
-     - Amplicon FASTQ
-   - 2.3 [Metagenome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/Metagenome_Technical_Metadata.md)
-     - Metagenome FASTQ
-     - Metagenome FASTA
-     - Metagenome assembled genome FASTA
-   - 2.4 [Transcriptome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/Transcriptome_Technical_Metadata.md)
-     - Transcriptome FASTQ
-     - Transcriptome FASTA
-   - 2.5 [Metatranscriptome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/Metatranscriptome_Technical_Metadata.md)
-     - Metatranscriptome FASTQ
-     - Metatranscriptome FASTA
-   - 2.6 [Proteome sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/Proteome_Technical_Metadata.md)
-     - Proteome
-     - Proteome - experimental protocol edition
-   - 2.7 Metaproteome sequencing 
-   - 2.8 [Metabolome sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/Metabolome_Technical_Metadata.md)
-     - Metabolome
-     - Metabolome - experimental protocol edition
-   - 2.9 [BIOM or tabular files](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/BIOM_or_Tabular_Technical_Metadata.md)
+- 2.1 [Genome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/Genome_Technical_Metadata.md)
+  - Genomic FASTQ
+  - Genomic FASTA
+- 2.2 [Amplicon Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/Amplicon_Technical_Metadata.md)
+  - Amplicon FASTQ
+- 2.3 [Metagenome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/Metagenome_Technical_Metadata.md)
+  - Metagenome FASTQ
+  - Metagenome FASTA
+  - Metagenome assembled genome FASTA
+- 2.4 [Transcriptome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/Transcriptome_Technical_Metadata.md)
+  - Transcriptome FASTQ
+  - Transcriptome FASTA
+- 2.5 [Metatranscriptome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/Metatranscriptome_Technical_Metadata.md)
+  - Metatranscriptome FASTQ
+  - Metatranscriptome FASTA
+- 2.6 [Proteome sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/Proteome_Technical_Metadata.md)
+  - Proteome
+  - Proteome - experimental protocol edition
+- 2.7 Metaproteome sequencing 
+- 2.8 [Metabolome sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/Metabolome_Technical_Metadata.md)
+  - Metabolome
+  - Metabolome - experimental protocol edition
+- 2.9 [BIOM or tabular files](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/BIOM_or_Tabular_Technical_Metadata.md)
 
-<br/><br/>
 
-## Technical metadata section 4. [Data transfer and data integrity](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/Data_Transfer_Data_Integrity.md)
-   - Examples of existing data transfer & data integrity checks
-   - Data integrity considerations by file type
+## Technical metadata section 4. Data transfer and data integrity
 
-<br/><br/>
+The work of the [Data transfer and data integrity](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/Data_Transfer_Data_Integrity.md) section focuses on:
+- Examples of existing data transfer & data integrity checks
+- Data integrity considerations by file type
 
-# Biological and Environmental Metadata Standards:
+
+# Biological and Environmental Metadata Standards
 
 ## Bio/Env metadata section 1. Biomes considered
-### To compile a minimal set of biological and environmental metadata standards, six microbiomes were considered. Environmental and biological parameters were identified as minimums as applicable to individual biomes and/or hosts.
 
-### Minimal **Biological and Environmental** microbiome metadata standards within M2.1 were established to be applicable to the following biomes:
+To compile a minimal set of biological and environmental metadata standards, six microbiomes were considered. Environmental and biological parameters were identified as minimums as applicable to individual biomes and/or hosts.
+
+The Minimal **Biological and Environmental** microbiome metadata standards within M2.1 were established to be applicable to the following biomes:
 - [Marine](https://github.com/mdsufz/NFDI4Microbiota-BioEnvMetadata/blob/main/Marine_BioEnv_Metadata.md)
 - [Terrestrial](https://github.com/mdsufz/NFDI4Microbiota-BioEnvMetadata/blob/main/Terrestrial_BioEnv_Metadata.md)
 - [Terrestrial (constructed)](https://github.com/mdsufz/NFDI4Microbiota-BioEnvMetadata/blob/main/Terrestrial(Constructed)_BioEnv_Metadata.md)
@@ -104,8 +111,9 @@ Additionally, standards are being considered for data integrity and data transfe
 Tentative standard minimal biological and environmental parameter considerations are displayed in Figure 5. Parameter applicability to different biomes are shown on the left axis.
 
 ![BioEnvMetadata27May2022](https://user-images.githubusercontent.com/101716821/170669780-d7647d26-6ff5-446d-8c00-174d4de121d1.JPG)
-#### Figure 5. Tentative minimal biological and environmental metadata, divided into two categories; site metadata for specifications and environmental parameters relating to the geographic sampling location and sample material, and host metadata information specific to host-associated systems. Applicability to different microbiomes are shown on the left.
-#### Source legend: 
+**Figure 5**. Tentative minimal biological and environmental metadata, divided into two categories; site metadata for specifications and environmental parameters relating to the geographic sampling location and sample material, and host metadata information specific to host-associated systems. Applicability to different microbiomes are shown on the left.
+
+The references in the figure are from the following sources: 
 - MIMS/MIxS: Human Associated package [^37][^38], Water [^42]
 - IMG: Joint Genome Institue Integrated Microbial Genomes & Microbiomes [^39]
 - ENA MMC: ENA Marine Microalgae Checklist [^40]
