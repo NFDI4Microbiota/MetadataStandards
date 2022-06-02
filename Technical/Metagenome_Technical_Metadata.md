@@ -31,7 +31,7 @@
 
 |**metadata**| **definition/examples** | **source** |
 |------------|-------------------------|------------|
-| run_ref | Accessions/identifiers linking to the raw data (FAST Q) | Adapted from ENA |
+| run_ref | Accessions/identifiers linking to the raw data (FASTQ) | Adapted from ENA |
 | tax_ident | Phylogenetic marker(s) for MAG assignation | MIMAG_v5[^4] |
 | assembly_qual | Assembly quality category (e.g. Medium Quality Draft) | MIGS_BAv5[^1] |
 | assembly_software | Tool(s) used, version and parameters | MIGS_BAv5[^1] |
@@ -61,7 +61,7 @@
 
 |**metadata**| **definition/examples** | **source** |
 |------------|-------------------------|------------|
-| run_ref | Accessions/identifiers linking to the raw data (FAST Q) | Adapted from ENA |
+| run_ref | Accessions/identifiers linking to the raw data (FASTQ) | Adapted from ENA |
 | tax_ident | Phylogenetic marker(s) for MAG assignation | MIMAG_v5[^4] |
 | assembly_qual | Assembly quality category (e.g. Medium Quality Draft) | MIGS_BAv5[^1] |
 | assembly_software | Tool(s) used, version and parameters | MIGS_BAv5[^1] |
