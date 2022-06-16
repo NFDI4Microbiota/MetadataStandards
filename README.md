@@ -16,7 +16,7 @@ NFDI4Microbiota aims to address issues of microbial data accessibility and consi
 
 ## Goals and Milestones
 
-**Goals**: To maximize the quality of data entering the NFDI4Microbiota system by enforcing compliance with existing standards, as well as to identify and promote additional tailored data standards and metadata requirements within the NFDI4Microbiota systems through the following two milestones (MS):
+**Goals**: To maximize the quality of data entering the NFDI4Microbiota system by enforcing compliance with existing standards, as well as to identify and promote additional tailored data standards and metadata requirements within the NFDI4Microbiota systems through the following two milestones:
 - Definition of data standards for the different types of raw data established
 - Definition of data standards for the technical metadata established
 
