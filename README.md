@@ -126,6 +126,19 @@ The references in the figure are from the following sources:
 - HMP: Human Metagenome Project [^48]
 - PAMDB: Plant Associated and Environmental Microbes Database [^49]
 
+## Bio/Env metadata section 2. Data/metadata categorization
+
+In order to determine which metadata standards may be applicable to each dataset, the categorization framework in Figure 6 is being considered. This structure can bridge information about samples which come from marine, terrestrial, or engineered systems. It can also connect samples which were cultivated, either grown from an availble culture source, or isolated from an environmental sample. To support searchabilty, here is also the ability to select multiple environment categories if applicable (e.g. "marine" and "terrestrial" could be selected for a tidal flat site, "engineered" and "terrestrial" for a greenhouse agricultural site, "engineered" and "marine" for a commercially-avaiable culture initially isolated from the ocean).
+
+![CategoryFlowchart](https://user-images.githubusercontent.com/101716821/174804883-a3fe2b7a-3c10-4c3f-a017-1db0c1d526bc.JPG)
+
+**Figure 6**. Tentative categorization framework for establishing biological/environmental metadata requirements. This structure allows for connecting host-associated systems to marine, terrestrial, or engineered environments. It also allows tracking of data which are affiliated with cultivated samples. 
+
+Figure 7 shows an example of relating the categorization structure to minimal biological/environmental metadata applicability:
+
+![CategoryFrameworkSlides](https://user-images.githubusercontent.com/101716821/174804479-4a2db24c-593e-4e0c-9105-189416415cf7.gif)
+**Figure 7** Example of categorizing a human gut-associated and cultivated sample, and the applicable minimal metadata.
+
 # References
 [^1]:Field, D., Garrity, G., Gray, T., Morrison, N., Selengut, J., Sterk, P., Tatusova, T., Thomson, N., Allen, M. J., Angiuoli, S. V., Ashburner, M., Axelrod, N., Baldauf, S., Ballard, S., Boore, J., Cochrane, G., Cole, J., Dawyndt, P., De Vos, P., DePamphilis, C., … Wipat, A. (2008). The minimum information about a genome sequence (MIGS) specification. Nature biotechnology, 26(5), 541–547. https://doi.org/10.1038/nbt1360, https://gensc.org/mixs/,  
 https://gensc.org/publications-2/
