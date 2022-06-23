@@ -110,7 +110,7 @@ The Minimal **Biological and Environmental** microbiome metadata standards withi
 
 Tentative standard minimal biological and environmental parameter considerations are displayed in Figure 5. Parameter applicability to different biomes are shown on the left axis.
 
-![BioEnvMetadata20June2022](https://user-images.githubusercontent.com/101716821/174560003-5e176e17-4fcf-470d-8183-1e99186c2635.JPG)
+![BioEnvMetadata23June2022](https://github.com/mdsufz/NFDI4Microbiota_MetadataStandards/blob/main/images/BioEnvMetadata23June2022.JPG)
 **Figure 5**. Tentative minimal biological and environmental metadata, divided into two categories; site metadata for specifications and environmental parameters relating to the geographic sampling location and sample material, and host metadata information specific to host-associated systems. Applicability to different microbiomes are shown on the left. Conditional metadata standards include pertinent minimal cultivation information. 
 
 The references in the figure are from the following sources: 
