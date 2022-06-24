@@ -28,7 +28,7 @@ To address metadata quality standards in microbial science, two metadata categor
 
 Figure 1 outlines the aspects of both technical and biological/environmental (Bio/Env) that were taken into account when determining metadata parameters that would be applicable across various datasets and microbiomes. 
 
-![Overview](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/images/Overview31May2022.JPG)
+![Overview](https://github.com/mdsufz/NFDI4Microbiota_MetadataStandards/blob/main/images/Overview24June2022.jpg)
 **Figure 1**. Flow chart of Technical and Biological/Environmental metadata standard development. Technical parameter categories were structured based on data types, and bio/env parameter categories were based on biome type. More specific considerations were taken into account for file type, host, etc. 
 
 # Technical Metadata Standards
