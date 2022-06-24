@@ -87,6 +87,7 @@ Additionally, standards are being considered for data integrity and data transfe
   - Metabolome - experimental protocol edition
 - 2.9 [BIOM or tabular files](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/BIOM_or_Tabular_Technical_Metadata.md)
 
+Because file type varies by the instrument used in metabolomic and proteomic analyses, establishing a file-specific metadata standard list presents challenges. Therefore, the metadata standards for these can be found within each technology link. 
 
 ## Technical metadata section 4. Data transfer and data integrity
 
