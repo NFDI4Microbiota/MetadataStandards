@@ -45,6 +45,7 @@ The following data types were considered when establishing minimal **technical**
 - Proteomes
 - Metaproteomes
 - Metabolomes
+
 Standard parameter considerations for FASTQ and FASTA formats are displayed in Figures 2 and 3, respectively. Parameter applicability to different data types and the time of data generation (i.e. before sequencing or during data processing) are shown in the left and right, respectively.
  
 Additionally, standards are being considered for data integrity and data transfer to ensure quality is maintained throughout various processes of data file exchange. 
