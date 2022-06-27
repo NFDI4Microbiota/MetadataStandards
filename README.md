@@ -132,7 +132,7 @@ The references in the figure are from the following sources:
 
 In order to determine which metadata standards may be applicable to each dataset, the categorization framework in Figure 6 is being considered. This structure can bridge information about samples which come from marine, terrestrial, or engineered systems. It can also connect samples which were cultivated - either cultured from a commercially-available source, or isolated from an environmental sample by the user. To support searchabilty for downstream analyses, there is also the ability to select multiple environment categories if applicable (e.g. "marine" and "terrestrial" could be selected for a tidal flat site, "engineered" and "terrestrial" for a greenhouse agricultural site, or "engineered" and "marine" for a commercially-avaiable culture initially isolated from the ocean).
 
-![CategoryFlowchart](https://user-images.githubusercontent.com/101716821/174804883-a3fe2b7a-3c10-4c3f-a017-1db0c1d526bc.JPG)
+![CategoryFlowchart](https://github.com/mdsufz/NFDI4Microbiota_MetadataStandards/blob/main/images/CategoryFlowchart.JPG)
 
 **Figure 6**. Tentative categorization framework for establishing biological/environmental metadata requirements. This structure allows for connecting host-associated systems to marine, terrestrial, or engineered environments. It also allows tracking of data which are affiliated with cultivated samples. 
 
