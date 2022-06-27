@@ -136,10 +136,22 @@ In order to determine which metadata standards may be applicable to each dataset
 
 **Figure 6**. Tentative categorization framework for establishing biological/environmental metadata requirements. This structure allows for connecting host-associated systems to marine, terrestrial, or engineered environments. It also allows tracking of data which are affiliated with cultivated samples. 
 
-Figure 7 shows an example of relating the categorization structure to minimal biological/environmental metadata applicability:
+Figures 7-9 show examples of minimal biological/environmental metadata applicability to different sample categorizations. 
 
-![CategoryFrameworkSlides](https://user-images.githubusercontent.com/101716821/174804479-4a2db24c-593e-4e0c-9105-189416415cf7.gif)
+![HumanGutExample](https://github.com/mdsufz/NFDI4Microbiota_MetadataStandards/blob/main/images/CategoryFrameworkSlides_HumanGutExample.gif)
+
 **Figure 7** Example of categorizing a human gut-associated and cultivated sample, and the applicable minimal metadata.
+
+![TidalFlatExample](https://github.com/mdsufz/NFDI4Microbiota_MetadataStandards/blob/main/images/CategoryFrameworkSlides_TidalFlatExample.gif)
+
+**Figure 8** Example of categorizing a tidal flat uncultivated sample, and the applicable minimal metadata. The proposed framework allows for overlapping environments (i.e. terrestrial and marine for intertidal regions) to enchance downstream searchability.
+
+![LabCultureExample](https://github.com/mdsufz/NFDI4Microbiota_MetadataStandards/blob/main/images/CategoryFrameworkSlides_LabCultureExample.gif)
+
+**Figure 9** Example of categorizing a known lab cultured sample, and the applicable minimal metadata. Bidirectionality of the categorization framework allows linking known, commercially available cultures and their original sample environments. 
+
+
+
 
 # References
 [^1]:Field, D., Garrity, G., Gray, T., Morrison, N., Selengut, J., Sterk, P., Tatusova, T., Thomson, N., Allen, M. J., Angiuoli, S. V., Ashburner, M., Axelrod, N., Baldauf, S., Ballard, S., Boore, J., Cochrane, G., Cole, J., Dawyndt, P., De Vos, P., DePamphilis, C., … Wipat, A. (2008). The minimum information about a genome sequence (MIGS) specification. Nature biotechnology, 26(5), 541–547. https://doi.org/10.1038/nbt1360, https://gensc.org/mixs/,  
