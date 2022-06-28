@@ -109,6 +109,7 @@ The Minimal **Biological and Environmental** microbiome metadata standards withi
 - [Plant-associated](https://github.com/mdsufz/NFDI4Microbiota_MetadataStandards/blob/main/Biological_Environmental/PlantAssoc_BioEnv_Metadata.md)
 - [Animal-associated](https://github.com/mdsufz/NFDI4Microbiota_MetadataStandards/blob/main/Biological_Environmental/AnimalAssoc_BioEnv_Metadata.md)
 - [Human-associated](https://github.com/mdsufz/NFDI4Microbiota_MetadataStandards/blob/main/Biological_Environmental/Human_BioEnv_Metadata.md)
+- Microbe-associated
 
 Tentative standard minimal biological and environmental parameter considerations are displayed in Figure 5. Parameter applicability to different biomes are shown on the left axis.
 
