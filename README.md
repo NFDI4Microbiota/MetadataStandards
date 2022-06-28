@@ -103,12 +103,12 @@ The work of the [Data transfer and data integrity](https://github.com/mdsufz/NFD
 To compile a minimal set of biological and environmental metadata standards, six microbiomes were considered. Environmental and biological parameters were identified as minimums as applicable to individual biomes and/or hosts.
 
 The Minimal **Biological and Environmental** microbiome metadata standards within M2.1 were established to be applicable to the following biomes:
-- [Marine](https://github.com/mdsufz/NFDI4Microbiota-BioEnvMetadata/blob/main/Marine_BioEnv_Metadata.md)
-- [Terrestrial](https://github.com/mdsufz/NFDI4Microbiota-BioEnvMetadata/blob/main/Terrestrial_BioEnv_Metadata.md)
-- [Terrestrial (constructed)](https://github.com/mdsufz/NFDI4Microbiota-BioEnvMetadata/blob/main/Terrestrial(Constructed)_BioEnv_Metadata.md)
-- [Plant-associated](https://github.com/mdsufz/NFDI4Microbiota-BioEnvMetadata/blob/main/PlantAssoc_BioEnv_Metadata.md)
-- [Animal-associated](https://github.com/mdsufz/NFDI4Microbiota-BioEnvMetadata/blob/main/AnimalAssoc_BioEnv_Metadata.md)
-- [Human](https://github.com/mdsufz/NFDI4Microbiota-BioEnvMetadata/blob/main/Human_BioEnv_Metadata.md)
+- [Marine](https://github.com/mdsufz/NFDI4Microbiota_MetadataStandards/blob/main/Biological_Environmental/Marine_BioEnv_Metadata.md)
+- [Terrestrial](https://github.com/mdsufz/NFDI4Microbiota_MetadataStandards/blob/main/Biological_Environmental/Terrestrial_BioEnv_Metadata.md)
+- [Terrestrial (constructed)](https://github.com/mdsufz/NFDI4Microbiota_MetadataStandards/blob/main/Biological_Environmental/Terrestrial(Constructed)_BioEnv_Metadata.md)
+- [Plant-associated](https://github.com/mdsufz/NFDI4Microbiota_MetadataStandards/blob/main/Biological_Environmental/PlantAssoc_BioEnv_Metadata.md)
+- [Animal-associated](https://github.com/mdsufz/NFDI4Microbiota_MetadataStandards/blob/main/Biological_Environmental/AnimalAssoc_BioEnv_Metadata.md)
+- [Human](https://github.com/mdsufz/NFDI4Microbiota_MetadataStandards/blob/main/Biological_Environmental/Human_BioEnv_Metadata.md)
 
 Tentative standard minimal biological and environmental parameter considerations are displayed in Figure 5. Parameter applicability to different biomes are shown on the left axis.
 
