@@ -1,5 +1,8 @@
 ## 2.6 Proteomics 
-## &emsp; Minimal technical metadata for proteomics
+
+A searchable and exportable tab-separated [table](Proteome_Technical_Metadata.tsv) of the following metadata is now available.
+
+## Minimal technical metadata for proteomics
 |**metadata**| **definition/examples** | **source** |
 |------------|-------------------------|------------|
 | Project title | Name of the project | Pride[^22], proteomeX[^23], peptideatlas[^24], massive[^25], gigadb[^30], mage-tab[^26], iprox[^27], jpost[^28] |
