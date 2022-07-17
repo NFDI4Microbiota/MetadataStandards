@@ -1,5 +1,7 @@
 ## 2.5 Metatranscriptome sequencing
 
+A searchable and exportable tab-separated [table](Metatranscriptome_Technical_Metadata.tsv) of the following metadata is now available.
+
 ## &emsp; Minimal technical metadata for `metatranscriptomic FASTQ` file
 &emsp; &#x1F539; _italics = potential considerations_
 

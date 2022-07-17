@@ -1,5 +1,8 @@
 ## 2.2 Amplicon sequencing
-## &emsp; Minimal technical metadata for `amplicon FASTQ` data
+
+A searchable and exportable tab-separated [table](Amplicon_Technical_Metadata.tsv) of the following metadata is now available.
+
+## Minimal technical metadata for `amplicon FASTQ` data
 |**metadata**| **definition/examples** | **source** |
 |------------|-------------------------|------------|
 | sample_name | Identifier of the sample | Adapted from MIGS_BAv5[^1] |

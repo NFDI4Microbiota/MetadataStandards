@@ -1,5 +1,8 @@
 ## 2.3 Metagenome sequencing
-## &emsp; Minimal technical metadata for `metagenomic FASTQ` data
+
+A searchable and exportable tab-separated [table](Metagenome_Technical_Metadata.tsv) of the following metadata is now available.
+
+## Minimal technical metadata for `metagenomic FASTQ` data
 &emsp; &#x1F539; _italics = potential considerations_
 
 |**metadata**| **definition/examples** | **source** |
@@ -23,6 +26,7 @@
 |Comments/questions: |
 |--------------------|
 |Is insert length included in lib_format? If not, it seems this should be a minimal metadata parameter -NME 27APR22|
+|Not sure to understand the difference between metagenomic FASTA and metagenome assembled genome FASTA here. Quality score needs a better definition -CP 17JUL22|
 
 ## &emsp; Minimal technical metadata for `metagenomic FASTA` file
 
@@ -52,6 +56,7 @@
 |Comments/questions: |
 |--------------------|
 |Is coverage factored into completeness? If not, it seems we should consider separating genome coverage and sequence depth -NME 27APR22 |
+|We need a reference for a consensual definitions of these terms to avoid confusion -CP 17JUL22|
 
 <br/><br/>
 ## &emsp; Minimal technical metadata for `metagenome assembled genome FASTA` file
@@ -81,7 +86,7 @@
 
 |Comments/questions: |
 |--------------------|
-| |
+|Not sure to understand what is the source metadata -CP 17JUL22|
 
 # References
 [^1]:Field, D., Garrity, G., Gray, T., Morrison, N., Selengut, J., Sterk, P., Tatusova, T., Thomson, N., Allen, M. J., Angiuoli, S. V., Ashburner, M., Axelrod, N., Baldauf, S., Ballard, S., Boore, J., Cochrane, G., Cole, J., Dawyndt, P., De Vos, P., DePamphilis, C., … Wipat, A. (2008). The minimum information about a genome sequence (MIGS) specification. Nature biotechnology, 26(5), 541–547. https://doi.org/10.1038/nbt1360, https://gensc.org/mixs/,  
