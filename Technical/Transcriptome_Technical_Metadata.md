@@ -1,6 +1,9 @@
 ## 2.4 Transcriptome sequencing
 
-## &emsp; Minimal technical metadata for `transcriptomic FASTQ` file
+A searchable and exportable tab-separated [table](Transcriptome_Technical_Metadata.tsv) of the following metadata is now available.
+
+## Minimal technical metadata for `transcriptomic FASTQ` file
+
 &emsp; &#x1F539; _italics = potential considerations_
 
 |**metadata**| **definition/examples** | **source** |
@@ -27,7 +30,7 @@
 |--------------------|
 |Added insert length, reverse transcriptase, and the primer set as possible technical parameters. Could go under "Protocol" parameter. -NME 27APR22|
 
-## &emsp; Minimal technical metadata for `transcriptomic FASTA` file
+## Minimal technical metadata for `transcriptomic FASTA` file
 
 |**metadata**| **definition/examples** | **source** |
 |------------|-------------------------|------------|
