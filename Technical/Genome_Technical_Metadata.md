@@ -1,5 +1,8 @@
 ## 2.1 Genome sequencing
-## &emsp; Minimal technical metadata for `genomic FASTQ` data
+
+A searchable and exportable tab-separated [table](Genome_Technical_Metadata.tsv) of the following metadata is now available.
+
+## Minimal technical metadata for `genomic FASTQ` data
 
 |**metadata**| **definition/examples** | **source** |
 |------------|-------------------------|------------|
@@ -16,7 +19,7 @@
 | basepairs_count_qual | Number of base pairs (nucleotides) in the library after quality filtering | Human Metagenome DB[^2]/Terrestrial Metagenome DB[^3] |
 | checksum | Hash value (e.g. MD5) for data integrity | |
 
-## &emsp; Minimal technical metadata for `genomic FASTA` data
+## Minimal technical metadata for `genomic FASTA` data
 
 |**metadata**| **definition/examples** | **source** |
 |------------|-------------------------|------------|
@@ -37,8 +40,6 @@
 | compl_software | Tools used for completion estimate | MIMAG_v5[^4], SeqCode[^5][^21] |
 | contam_score | Contamination score | MIMAG_v5[^4], SeqCode[^5][^21] |
 | contam_software| Tool(s) used in contamination screening | MIMAG_v5[^4], SeqCode[^5][^21] |
-
-<br/><br/>
 
 
 # References
