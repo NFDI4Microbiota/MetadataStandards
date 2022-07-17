@@ -1,5 +1,8 @@
 ## 2.8 Metabolomics
-## &emsp; Minimal technical metadata for metabolomics
+
+A searchable and exportable tab-separated [table](Metabolome_Technical_Metadata.tsv) of the following metadata is now available.
+
+## Minimal technical metadata for metabolomics
 |**metadata**| **definition/examples** | **source** |
 |------------|-------------------------|------------|
 | Project title | Name of the project | Metabolights[^31], gigadb[^30], MWB[^34], metabolonote[^33], MSI[^32], meryb[^35] |
