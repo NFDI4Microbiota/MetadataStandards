@@ -8,7 +8,7 @@
 
 ## NFDI4Microbiota introduction
 
-The National Research Data Infrastructure Germany (NFDI) is currently comprised of 19 consortium members spanning diverse fields, including physical sciences, human health, biology, artificial intelligence, cultural and economic science, among others[^19]. In July 2021, NFDI4Microbiota was selected to become a consortium member and holds a mission "_to be the central hub in Germany for supporting the microbiology community with access to data, analysis services, data/metadata standards and training_."[^20] Through building analytical tools, ensuring FAIR principles are followed, and standardizing metadata and data processing, NFDI4Microbiota will contribute to the interdisciplanary NFDI network from the microbiological perspective. 
+The National Research Data Infrastructure Germany (NFDI) is currently comprised of 19 consortium members spanning diverse fields, including physical sciences, human health, biology, artificial intelligence, cultural and economic science, among others[^19]. In July 2021, NFDI4Microbiota was selected to become a consortium member and holds a mission "_to be the central hub in Germany for supporting the microbiology community with access to data, analysis services, data/metadata standards and training_."[^20] Through building analytical tools, ensuring FAIR principles are followed, and standardizing metadata and data processing, NFDI4Microbiota will contribute to the interdisciplinary NFDI network from the microbiological perspective. 
 
 ## NFDI4Microbiota - Standards and Policies
 
