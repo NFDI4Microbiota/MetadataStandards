@@ -28,7 +28,12 @@ To address metadata quality standards in microbial science, two metadata categor
 
 Figure 1 outlines the aspects of both technical and biological/environmental (Bio/Env) that were taken into account when determining metadata parameters that would be applicable across various datasets and microbiomes. 
 
-![Overview](https://github.com/mdsufz/NFDI4Microbiota_MetadataStandards/blob/main/images/Overview24June2022.jpg)
+<!---
+For making the access link for other people not on the collaborator list, it should be better to use the relative address instead of the constant one.
+Thus, I replace the "https://github.com/mdsufz/NFDI4Microbiota_MetadataStandards/blob/main" with "."
+-->
+
+![Overview](./images/Overview24June2022.jpg)
 **Figure 1**. Flow chart of Technical and Biological/Environmental metadata standard development. Technical parameter categories were structured based on data types, and bio/env parameter categories were based on biome type. More specific considerations were taken into account for file type, host, etc. 
 
 # Technical Metadata Standards
@@ -52,7 +57,7 @@ Additionally, standards are being considered for data integrity and data transfe
 
 ## Technical metadata section 2. Overview of minimal technical FASTQ and FASTA metadata considerations.
 
-![FASTQMetadataTablesOverview_](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/images/MinimalTechnicalTable_FASTQ.JPG)
+![FASTQMetadataTablesOverview_](./images/MinimalTechnicalTable_FASTQ.JPG)
 **Figure 2.** Overview of minimal technical metadata considered for FASTQ files. Parameter applicabilty to data types ((meta)genome, (meta)transcriptome, etc.) is listed on the left, and time of metadata generation is listed on the right. 
 
 
@@ -63,35 +68,35 @@ Additionally, standards are being considered for data integrity and data transfe
 
 ## Technical metadata section 3. Minimal technical metadata by technology and file type 
 
-- 2.1 [Genome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/Genome_Technical_Metadata.md)
+- 2.1 [Genome Sequencing](./Technical/Genome_Technical_Metadata.md)
   - Genomic FASTQ
   - Genomic FASTA
-- 2.2 [Amplicon Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/Amplicon_Technical_Metadata.md)
+- 2.2 [Amplicon Sequencing](./Technical/Amplicon_Technical_Metadata.md)
   - Amplicon FASTQ
-- 2.3 [Metagenome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/Metagenome_Technical_Metadata.md)
+- 2.3 [Metagenome Sequencing](./Technical/Metagenome_Technical_Metadata.md)
   - Metagenome FASTQ
   - Metagenome FASTA
   - Metagenome assembled genome FASTA
-- 2.4 [Transcriptome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/Transcriptome_Technical_Metadata.md)
+- 2.4 [Transcriptome Sequencing](./Technical/Transcriptome_Technical_Metadata.md)
   - Transcriptome FASTQ
   - Transcriptome FASTA
-- 2.5 [Metatranscriptome Sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/Metatranscriptome_Technical_Metadata.md)
+- 2.5 [Metatranscriptome Sequencing](./Technical/Metatranscriptome_Technical_Metadata.md)
   - Metatranscriptome FASTQ
   - Metatranscriptome FASTA
-- 2.6 [Proteome sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/Proteome_Technical_Metadata.md)
+- 2.6 [Proteome sequencing](./Technical/Proteome_Technical_Metadata.md)
   - Proteome
   - Proteome - experimental protocol edition
 - 2.7 Metaproteome sequencing 
-- 2.8 [Metabolome sequencing](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/Metabolome_Technical_Metadata.md)
+- 2.8 [Metabolome sequencing](./Technical/Metabolome_Technical_Metadata.md)
   - Metabolome
   - Metabolome - experimental protocol edition
-- 2.9 [BIOM or tabular files](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/BIOM_or_Tabular_Technical_Metadata.md)
+- 2.9 [BIOM or tabular files](./Technical/BIOM_or_Tabular_Technical_Metadata.md)
 
 Because file type varies by the instrument used in metabolomic and proteomic analyses, establishing a file-specific metadata standard list presents challenges. Therefore, the metadata standards for these can be found within each technology link. 
 
 ## Technical metadata section 4. Data transfer and data integrity
 
-The work of the [Data transfer and data integrity](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/Technical/Data_Transfer_Data_Integrity.md) section focuses on:
+The work of the [Data transfer and data integrity](h./Technical/Data_Transfer_Data_Integrity.md) section focuses on:
 - Examples of existing data transfer & data integrity checks
 - Data integrity considerations by file type
 
@@ -103,17 +108,17 @@ The work of the [Data transfer and data integrity](https://github.com/mdsufz/NFD
 To compile a minimal set of biological and environmental metadata standards, six microbiomes were considered. Environmental and biological parameters were identified as minimums as applicable to individual biomes and/or hosts.
 
 The Minimal **Biological and Environmental** microbiome metadata standards within M2.1 were established to be applicable to the following biomes:
-- [Marine](https://github.com/mdsufz/NFDI4Microbiota_MetadataStandards/blob/main/Biological_Environmental/Marine_BioEnv_Metadata.md)
-- [Terrestrial](https://github.com/mdsufz/NFDI4Microbiota_MetadataStandards/blob/main/Biological_Environmental/Terrestrial_BioEnv_Metadata.md)
-- [Terrestrial (constructed)](https://github.com/mdsufz/NFDI4Microbiota_MetadataStandards/blob/main/Biological_Environmental/Terrestrial(Constructed)_BioEnv_Metadata.md)
-- [Plant-associated](https://github.com/mdsufz/NFDI4Microbiota_MetadataStandards/blob/main/Biological_Environmental/PlantAssoc_BioEnv_Metadata.md)
-- [Animal-associated](https://github.com/mdsufz/NFDI4Microbiota_MetadataStandards/blob/main/Biological_Environmental/AnimalAssoc_BioEnv_Metadata.md)
-- [Human-associated](https://github.com/mdsufz/NFDI4Microbiota_MetadataStandards/blob/main/Biological_Environmental/Human_BioEnv_Metadata.md)
+- [Marine](./Biological_Environmental/Marine_BioEnv_Metadata.md)
+- [Terrestrial](./Biological_Environmental/Terrestrial_BioEnv_Metadata.md)
+- [Terrestrial (constructed)](./Biological_Environmental/Terrestrial(Constructed)_BioEnv_Metadata.md)
+- [Plant-associated](./Biological_Environmental/PlantAssoc_BioEnv_Metadata.md)
+- [Animal-associated]./Biological_Environmental/AnimalAssoc_BioEnv_Metadata.md)
+- [Human-associated](./Biological_Environmental/Human_BioEnv_Metadata.md)
 - Microbe-associated
 
 Tentative standard minimal biological and environmental parameter considerations are displayed in Figure 5. Parameter applicability to different biomes are shown on the left axis.
 
-![BioEnvMetadata23June2022](https://github.com/mdsufz/NFDI4Microbiota_MetadataStandards/blob/main/images/BioEnvMetadata23June2022.JPG)
+![BioEnvMetadata23June2022](./images/BioEnvMetadata23June2022.JPG)
 **Figure 5**. Tentative minimal biological and environmental metadata, divided into two categories; site metadata for specifications and environmental parameters relating to the geographic sampling location and sample material, and host metadata information specific to host-associated systems. Applicability to different microbiomes are shown on the left. Conditional metadata standards include pertinent minimal cultivation information. 
 
 The references in the figure are from the following sources: 
@@ -133,21 +138,21 @@ The references in the figure are from the following sources:
 
 In order to determine which metadata standards may be applicable to each dataset, the categorization framework in Figure 6 is being considered. This structure can bridge information about samples which come from marine, terrestrial, or engineered systems. It can also connect samples which were cultivated - either cultured from a commercially-available source, or isolated from an environmental sample by the user. To support searchabilty for downstream analyses, there is also the ability to select multiple environment categories if applicable (e.g. "marine" and "terrestrial" could be selected for a tidal flat site, "engineered" and "terrestrial" for a greenhouse agricultural site, or "engineered" and "marine" for a commercially-avaiable culture initially isolated from the ocean).
 
-![CategoryFlowchart](https://github.com/mdsufz/NFDI4Microbiota_MetadataStandards/blob/main/images/CategoryFlowchart.JPG)
+![CategoryFlowchart](./images/CategoryFlowchart.JPG)
 
 **Figure 6**. Tentative categorization framework for establishing biological/environmental metadata requirements. This structure allows for connecting host-associated systems to marine, terrestrial, or engineered environments. It also allows tracking of data which are affiliated with cultivated samples. 
 
 Figures 7-9 show examples of minimal biological/environmental metadata applicability to different sample categorizations. 
 
-![HumanGutExample](https://github.com/mdsufz/NFDI4Microbiota_MetadataStandards/blob/main/images/CategoryFrameworkSlides_HumanGutExample.gif)
+![HumanGutExample](./images/CategoryFrameworkSlides_HumanGutExample.gif)
 
 **Figure 7** Example of categorizing a human gut-associated and cultivated sample, and the applicable minimal metadata.
 
-![TidalFlatExample](https://github.com/mdsufz/NFDI4Microbiota_MetadataStandards/blob/main/images/CategoryFrameworkSlides_TidalFlatExample.gif)
+![TidalFlatExample](./images/CategoryFrameworkSlides_TidalFlatExample.gif)
 
 **Figure 8** Example of categorizing a tidal flat uncultivated sample, and the applicable minimal metadata. The proposed framework allows for overlapping environments (i.e. terrestrial and marine for intertidal regions) to enchance downstream searchability.
 
-![LabCultureExample](https://github.com/mdsufz/NFDI4Microbiota_MetadataStandards/blob/main/images/CategoryFrameworkSlides_LabCultureExample.gif)
+![LabCultureExample](./images/CategoryFrameworkSlides_LabCultureExample.gif)
 
 **Figure 9** Example of categorizing a known lab cultured sample, and the applicable minimal metadata. Bidirectionality of the categorization framework allows linking known, commercially available cultures and their original sample environments. 
 
