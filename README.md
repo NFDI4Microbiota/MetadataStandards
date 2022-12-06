@@ -112,7 +112,7 @@ The Minimal **Biological and Environmental** microbiome metadata standards withi
 - [Terrestrial](./Biological_Environmental/Terrestrial_BioEnv_Metadata.md)
 - [Terrestrial (constructed)](./Biological_Environmental/Terrestrial(Constructed)_BioEnv_Metadata.md)
 - [Plant-associated](./Biological_Environmental/PlantAssoc_BioEnv_Metadata.md)
-- [Animal-associated]./Biological_Environmental/AnimalAssoc_BioEnv_Metadata.md)
+- [Animal-associated](./Biological_Environmental/AnimalAssoc_BioEnv_Metadata.md)
 - [Human-associated](./Biological_Environmental/Human_BioEnv_Metadata.md)
 - Microbe-associated
 
