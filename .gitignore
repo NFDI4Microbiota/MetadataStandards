@@ -1,0 +1,8 @@
+# ignore all .Rmd file
+*.Rmd
+
+# ignore all .html files
+*.html
+
+# ignore all .Rhistory files
+*.Rhistory
