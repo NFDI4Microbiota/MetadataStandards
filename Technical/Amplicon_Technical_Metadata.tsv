@@ -1,16 +1,16 @@
-"category"	"metadata"	"definition/examples"	"source"	"reference"	"comment"
-"amplicon FASTQ"	"sample_name"	"Identifier of the sample"	"Adapted from MIGS_BAv5"	"https://doi.org/10.1038/nbt1360"	""
-"amplicon FASTQ"	"seq_meth"	"Sequencing method used (e.g. Illumina HiSeq 2000)"	"MIGS_BAv5;INSTRUMENT (ENA/NCBI)"	"https://doi.org/10.1038/nbt1360;https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#metadata-validation"	""
-"amplicon FASTQ"	"lib_layout"	"Single-end, paired- end or others"	"MIGS_BAv5"	"https://doi.org/10.1038/nbt1360"	""
-"amplicon FASTQ"	"lib_source"	"Genomic, metagenomic, transcriptomic, etc."	"Source (ENA/NCBI)"	"https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#metadata-validation"	""
-"amplicon FASTQ"	"lib_strategy"	"WGS, Amplicon, etc."	"Strategy (ENA/NCBI)"	"https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#metadata-validation"	""
-"amplicon FASTQ"	"lib_selection"	"Random, PCR, etc."	"Selection (ENA/NCBI)"	"https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#metadata-validation"	""
-"amplicon FASTQ"	"sequence_count"	"Number of reads in the library (sequencing depth)"	"Human Metagenome DB;Terrestrial Metagenome DB"	"https://doi.org/10.1093/nar/gkaa1031;https://doi.org/10.1093/nar/gkz994"	""
-"amplicon FASTQ"	"basepairs_count"	"Number of base pairs (nucleotides) in the library"	"Human Metagenome DB;Terrestrial Metagenome DB"	"https://doi.org/10.1093/nar/gkaa1031;https://doi.org/10.1093/nar/gkz994"	""
-"amplicon FASTQ"	"average_length"	"As basepairs_count divided by sequence_count"	"Human Metagenome DB;Terrestrial Metagenome DB"	"https://doi.org/10.1093/nar/gkaa1031;https://doi.org/10.1093/nar/gkz994"	""
-"amplicon FASTQ"	"sequence_count_qual"	"Number of reads in the library (sequencing depth) after quality filtering"	"Human Metagenome DB;Terrestrial Metagenome DB"	"https://doi.org/10.1093/nar/gkaa1031;https://doi.org/10.1093/nar/gkz994"	""
-"amplicon FASTQ"	"basepairs_count_qual"	"Number of base pairs (nucleotides) in the library after quality filtering"	"Human Metagenome DB;Terrestrial Metagenome DB"	"https://doi.org/10.1093/nar/gkaa1031;https://doi.org/10.1093/nar/gkz994"	""
-"amplicon FASTQ"	"target_gene"	"Targeted gene name for marker gene studies (e.g. 16S rRNA, ITS)"	"MIMARKS_Sv5"	"https://doi.org/10.1038/nbt.1823"	""
-"amplicon FASTQ"	"target_subfragment"	"Name of the targeted subregion (e.g. V3-V4, ITS1)"	"MIMARKS_Sv5"	"https://doi.org/10.1038/nbt.1823"	""
-"amplicon FASTQ"	"pcr_primers"	"Forward and reverse primer sequences used"	"MIMARKS_Sv5"	"https://doi.org/10.1038/nbt.1823"	""
-"amplicon FASTQ"	"checksum"	"Hash value (e.g. MD5) for data integrity"	""	""	""
+category	metadata	definition/examples	source	reference	comment
+amplicon FASTQ	sample_name	Identifier of the sample	GSC MIxS/MIGS Bacteria (“GSC MIXS: MIGSBacteria”)	https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/; https://doi.org/10.1038/nbt1360	
+amplicon FASTQ	seq_meth	Sequencing method used (e.g. Illumina HiSeq 2000)	GSC MIxS/MIGS Bacteria (“GSC MIXS: MIGSBacteria”) or ENA Metadata Validation: Instrument (“ENA Metadata Validation: Instrument”)	https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/; https://doi.org/10.1038/nbt1360; https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#instrument	
+amplicon FASTQ	lib_layout	Single-end, paired- end or others	GSC MIxS/MIGS Bacteria (“GSC MIXS: MIGSBacteria”)	https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/; https://doi.org/10.1038/nbt1360	
+amplicon FASTQ	lib_source	Genomic, metagenomic, transcriptomic, etc.	ENA Metadata Validation: Source (“ENA Metadata Validation: Source”)	https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#source	
+amplicon FASTQ	lib_strategy	WGS, Amplicon, etc.	ENA Metadata Validation: Strategy (“ENA Metadata Validation: Strategy”)	https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#strategy	
+amplicon FASTQ	lib_selection	Random, PCR, etc.	ENA Metadata Validation: Selection (“ENA Metadata Validation: Selection”)	https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#selection	
+amplicon FASTQ	sequence_count	Number of reads in the library (sequencing depth)	Adapted from NCBI-SRA	https://doi.org/10.1093/nar/gkq1019	
+amplicon FASTQ	basepairs_count	Number of base pairs (nucleotides) in the library	Adapted from NCBI-SRA	https://doi.org/10.1093/nar/gkq1019	
+amplicon FASTQ	average_length	As basepairs_count divided by sequence_count	Calculated as basepairs_count/sequence_count		
+amplicon FASTQ	sequence_count_qual	Number of reads in the library (sequencing depth) after quality filtering	SRA-Tinder	https://github.com/NCBI-Hackathons/SRA_Tinder	
+amplicon FASTQ	basepairs_count_qual	Number of base pairs (nucleotides) in the library after quality filtering	SRA-Tinder	https://github.com/NCBI-Hackathons/SRA_Tinder	
+amplicon FASTQ	target_gene	Targeted gene name for marker gene studies (e.g. 16S rRNA, ITS)	GSC MIXS: MIMARKSSpecimen (“GSC MIXS: MIMARKSSpecimen”)	https://genomicsstandardsconsortium.github.io/mixs/MIMARKSSpecimen/, https://doi.org/10.1038/nbt.1823	
+amplicon FASTQ	target_subfragment	Name of the targeted subregion (e.g. V3-V4, ITS1)	GSC MIXS: MIMARKSSpecimen (“GSC MIXS: MIMARKSSpecimen”)	https://genomicsstandardsconsortium.github.io/mixs/MIMARKSSpecimen/, https://doi.org/10.1038/nbt.1824	
+amplicon FASTQ	pcr_primers	Forward and reverse primer sequences used	GSC MIXS: MIMARKSSpecimen (“GSC MIXS: MIMARKSSpecimen”)	https://genomicsstandardsconsortium.github.io/mixs/MIMARKSSpecimen/, https://doi.org/10.1038/nbt.1825	
+amplicon FASTQ	checksum	Hash value (e.g. MD5) for data integrity			

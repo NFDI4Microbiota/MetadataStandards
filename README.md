@@ -1,262 +1,545 @@
-# NFDI4Microbiota - Metadata Standards
+# <span id="N4Mintroduction">NFDI4Microbiota - Metadata Standards</span> <br><br>
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />
+This work is licensed under a
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative
+Commons Attribution 4.0 International License</a>.
+
+The primary objective of this GitHub page is to serve as **a centralized
+repository for existing (meta)data standards**. The purpose is to
+provide the international microbiological community with a
+**comprehensive and easily accessible compilation of established
+standards**, facilitating efficient navigation and utilization for
+researchers involved in collecting and submitting (meta)data to public
+repositories.
+
+In line with the <a href="https://nfdi4microbiota.de/"
+id="nfdi4microbiotastandardsandpolicies"><strong>NFDI4Microbiota</strong></a>
+(“German National Research Data Infrastructure” ) (“NFDI4Microbiota”)
+project’s objectives, this page aims to address the challenges of
+microbial (meta)data accessibility and consistency. The efficient
+exchange of usable information between research groups, sequencing
+centers, and data repositories has been a long-standing issue. Measure
+2.1 (M2.1) specifically focuses on maximizing data quality within the
+[NFDI4Microbiota](https://nfdi4microbiota.de/) (“NFDI4Microbiota”)
+system by enforcing compliance with existing standards and identifying
+additional tailored data standards and metadata requirements.
+
+<span id="goals">**Goals:**</span> By centralizing standard parameters
+for metadata, the project ensures that generated data is reproducible
+and comparable both spatially and temporally. To achieve this, two
+**milestones** have been set:
+
+-   defining data standards for different types of **raw data**, and
+    ensuring their quality and reliability
+-   defining data standards for **technical metadata**, further
+    enhancing the consistency and usability of the collected metadata.
+    <br><br>
+
+In the context of metadata quality standards in microbial science, two
+main categories are being considered:
+
+-   [**Technical**](#technical-metadata-standards)
+-   [**Biological/Environmental**](#bio-env-metadata-standards) <br><br>
+
+These categories aim to encompass the necessary information that
+researchers collecting and submitting metadata to public repositories
+need to provide. By adhering to these standardized metadata categories,
+researchers can ensure the integrity and interoperability of their data,
+enabling effective collaboration and comparative analysis within the
+international microbiological community.
 
 ## Reading this Github
 
-- Begin by reading the [NFDI4Microbiota introduction](#nfdi4microbiota-introduction), [Standards and Policies](#nfdi4microbiota---standards-and-policies) information, and [Goals and Milestones](#goals-and-milestones)
-- Next, read the information regarding [**technical** metadata parameter standards](#technical-metadata-standards)
-- Third, read the [**biological/environmental** metadata standards section](#biological-and-environmental-metadata-standards)
+-   Begin by reading the **[NFDI4Microbiota
+    introduction](#N4Mintroduction), [Standards and
+    Policies](#nfdi4microbiotastandardsandpolicies)** information, and
+    **[Goals](#goals)**
+-   Next, read the information regarding [**technical metadata standards
+    section**](#technical-metadata-standards)
+-   Third, read the [**biological/environmental metadata standards
+    section**](#biological-and-environmental-metadata-standards)
+    <br><br>
 
-## NFDI4Microbiota introduction
-
-The National Research Data Infrastructure Germany (NFDI) is currently comprised of 19 consortium members spanning diverse fields, including physical sciences, human health, biology, artificial intelligence, cultural and economic science, among others[^19]. In July 2021, NFDI4Microbiota was selected to become a consortium member and holds a mission "_to be the central hub in Germany for supporting the microbiology community with access to data, analysis services, data/metadata standards and training_."[^20] Through building analytical tools, ensuring FAIR principles are followed, and standardizing metadata and data processing, NFDI4Microbiota will contribute to the interdisciplinary NFDI network from the microbiological perspective. 
-
-## NFDI4Microbiota - Standards and Policies
-
-NFDI4Microbiota aims to address issues of microbial data accessibility and consistency. These issues have long presented challenges for the efficient  exchange of useable information between research groups, data generators (e.g. sequencing centers), and data repositories. Specifically, Measure 2.1 (M2.1) has the goal "_to maximize the quality of data entering the NFDI4Microbiota system by enforcing compliance with existing standards, as well as to identify and promote additional tailored data standards and metadata requirements within the NFDI4Microbiota systems._" Establishing standard parameters for metadata will ensure that generated data is reproducible and comparable, both spatially and temporally.
-
-## Goals and Milestones
-
-**Goals**: To maximize the quality of data entering the NFDI4Microbiota system by enforcing compliance with existing standards, as well as to identify and promote additional tailored data standards and metadata requirements within the NFDI4Microbiota systems through the following two milestones:
-- Definition of data standards for the different types of raw data established
-- Definition of data standards for the technical metadata established
-
-
-To address metadata quality standards in microbial science, two metadata categories are being considered:
-
-- Technical 
-- Biological/Environmental
-
-Figure 1 outlines the aspects of both technical and biological/environmental (Bio/Env) that were taken into account when determining metadata parameters that would be applicable across various datasets and microbiomes. 
+[**Figure 1.**](#figure1) Outlines the key aspects considered for
+determining minimal metadata standards that can be universally
+applicable across various datasets and microbiomes. These aspects
+encompass both technical and biological/environmental (Bio/Env)
+considerations. The figure illustrates the comprehensive approach used
+to establish minimal metadata standards for diverse research settings by
+combining already established standards for differing data types and
+biomes. <br><br>
 
 <!---
 For making the access link for other people not on the collaborator list, it should be better to use the relative address instead of the constant one.
 Thus, I replace the "https://github.com/mdsufz/NFDI4Microbiota_MetadataStandards/blob/main" with "."
 -->
 
-![Overview](./images/Overview24June2022.jpg)
-**Figure 1**. Flow chart of Technical and Biological/Environmental metadata standard development. Technical parameter categories were structured based on data types, and bio/env parameter categories were based on biome type. More specific considerations were taken into account for file type, host, etc. 
+<img src="./images/Overview24June2022.jpg" id="figure1"
+alt="Overview" /> **Figure 1. Flow Chart of Technical and
+Biological/Environmental Metadata Standard Development**
 
-# Technical Metadata Standards
+This flow chart illustrates the process of developing metadata standards
+for both Technical and Biological/Environmental aspects. Technical
+parameters are categorized based on data types, while Bio/Env parameters
+are organized according to biome types. Additionally, specific
+considerations, such as file type and host, are taken into account to
+enhance the comprehensiveness of the standards. <br><br>
 
-## Technical metadata section 1. Data types
+# <span id="technical-metadata-standards">Technical Metadata Standards</span> <br><br>
 
-The following data types were considered when establishing minimal **technical** metadata standards for M2.1:
-- Genomes
-- Amplicon
-- Metagenomes
-- Metagenome assembled genomes
-- Transcriptomes
-- Metatranscriptomes
-- Proteomes
-- Metaproteomes
-- Metabolomes
+## Technical metadata section
 
-Standard parameter considerations for FASTQ and FASTA formats are displayed in Figures 2 and 3, respectively. Parameter applicability to different data types and the time of data generation (i.e. before sequencing or during data processing) are shown in the left and right, respectively.
- 
-Additionally, standards are being considered for data integrity and data transfer to ensure quality is maintained throughout various processes of data file exchange. 
+### 1. Data types
 
-## Technical metadata section 2. Overview of minimal technical FASTQ and FASTA metadata considerations.
+The following data types were considered when establishing minimal
+**technical** metadata standards for M2.1:
 
-![FASTQMetadataTablesOverview_](./images/MinimalTechnicalTable_FASTQ.JPG)
-**Figure 2.** Overview of minimal technical metadata considered for FASTQ files. Parameter applicabilty to data types ((meta)genome, (meta)transcriptome, etc.) is listed on the left, and time of metadata generation is listed on the right. 
+-   Genomes
+-   Amplicon
+-   Metagenomes
+-   Metagenome assembled genomes (MAGs)
+-   Transcriptomes
+-   Metatranscriptomes
+-   Proteomes
+-   Metaproteomes
+-   Metabolomes<br><br>
 
+Standard parameter considerations for FASTQ and FASTA formats are
+displayed in [**Figure 2.**](#figure2) and [**Figure 3.**](#figure3),
+respectively. Parameter applicability to different data types and the
+time of data generation (i.e., before sequencing or during data
+processing) are shown on the left and right, respectively.
 
-![FASTAMetadataTablesOverview](https://github.com/mdsufz/NFDI4Microbiota-Metadata/blob/main/images/MinimalTechnicalTable_FASTA.JPG)
-**Figure 3.** Overview of minimal technical metadata considered for FASTA files. Parameter applicabilty to data types ((meta)genome, (meta)transcriptome, etc.) is listed on the left, and time of metadata generation is listed on the right.
+Additionally, standards are being considered for [**data transfer and
+data integrity**](#data-transfer-data-integrity) to ensure quality is
+maintained throughout various processes of data file exchange. <br><br>
 
+### 2. Overview of minimal technical FASTQ and FASTA metadata considerations. <br><br>
 
+<img src="./images/MinimalTechnicalTable_FASTQ.jpg" id="figure2"
+alt="FASTQMetadataTablesOverview" /> **Figure 2. Overview of Minimal
+Technical Metadata for FASTQ Files **
 
-## Technical metadata section 3. Minimal technical metadata by technology and file type 
+This figure provides an overview of the minimal technical metadata
+relevant to FASTQ files. The left side lists the applicability of
+parameters to different data types, such as (meta)genome,
+(meta)transcriptome, etc. On the right side, the time of metadata
+generation is indicated. <br><br>
 
-- 2.1 [Genome Sequencing](./Technical/Genome_Technical_Metadata.md)
-  - Genomic FASTQ
-  - Genomic FASTA
-- 2.2 [Amplicon Sequencing](./Technical/Amplicon_Technical_Metadata.md)
-  - Amplicon FASTQ
-- 2.3 [Metagenome Sequencing](./Technical/Metagenome_Technical_Metadata.md)
-  - Metagenome FASTQ
-  - Metagenome FASTA
-  - Metagenome assembled genome FASTA
-- 2.4 [Transcriptome Sequencing](./Technical/Transcriptome_Technical_Metadata.md)
-  - Transcriptome FASTQ
-  - Transcriptome FASTA
-- 2.5 [Metatranscriptome Sequencing](./Technical/Metatranscriptome_Technical_Metadata.md)
-  - Metatranscriptome FASTQ
-  - Metatranscriptome FASTA
-- 2.6 [Proteome sequencing](./Technical/Proteome_Technical_Metadata.md)
-  - Proteome
-  - Proteome - experimental protocol edition
-- 2.7 Metaproteome sequencing 
-- 2.8 [Metabolome sequencing](./Technical/Metabolome_Technical_Metadata.md)
-  - Metabolome
-  - Metabolome - experimental protocol edition
-- 2.9 [BIOM or tabular files](./Technical/BIOM_or_Tabular_Technical_Metadata.md)
+<img src="./images/MinimalTechnicalTable_FASTA.jpg" id="figure3"
+alt="FASTAMetadataTablesOverview" /> **Figure 3. Overview of Minimal
+Technical Metadata for FASTA Files **
 
-Because file type varies by the instrument used in metabolomic and proteomic analyses, establishing a file-specific metadata standard list presents challenges. Therefore, the metadata standards for these can be found within each technology link. 
+This figure presents an overview of the minimal technical metadata
+relevant to FASTA files. On the left side, the applicability of
+parameters to different data types, including (meta)genome,
+(meta)transcriptome, etc., is listed. The right side provides
+information about the time of metadata generation. <br><br>
 
-## Technical metadata section 4. Data transfer and data integrity
+### 3. Minimal technical metadata by technology and file type
 
-The work of the [Data transfer and data integrity](h./Technical/Data_Transfer_Data_Integrity.md) section focuses on:
-- Examples of existing data transfer & data integrity checks
-- Data integrity considerations by file type
+Establishing a file-specific metadata standard list poses a significant
+challenge due to variations in file types across instruments used in
+metabolomic and proteomic analyses. Thus, researchers can find the
+metadata standards for each specific technology within corresponding
+links. This approach recognizes the complexities of defining
+comprehensive and universally applicable metadata standards that differ
+based on technology.
 
+-   2.1 [Genome Sequencing](./Technical/Genome_Technical_Metadata.md)
+    -   Genomic FASTQ
+    -   Genomic FASTA
+-   2.2 [Amplicon
+    Sequencing](./Technical/Amplicon_Technical_Metadata.md)
+    -   Amplicon FASTQ
+-   2.3 [Metagenome
+    Sequencing](./Technical/Metagenome_Technical_Metadata.md)
+    -   Metagenome FASTQ
+    -   Metagenome FASTA
+    -   Metagenome assembled genome (MAG) FASTA
+-   2.4 [Transcriptome
+    Sequencing](./Technical/Transcriptome_Technical_Metadata.md)
+    -   Transcriptome FASTQ
+    -   Transcriptome FASTA
+-   2.5 [Metatranscriptome
+    Sequencing](./Technical/Metatranscriptome_Technical_Metadata.md)
+    -   Metatranscriptome FASTQ
+    -   Metatranscriptome FASTA
+-   2.6 [Proteome
+    sequencing](./Technical/Proteome_Technical_Metadata.md)
+    -   Proteome
+    -   Proteome - experimental protocol edition
+-   2.7 Metaproteome sequencing
+-   2.8 [Metabolome
+    sequencing](./Technical/Metabolome_Technical_Metadata.md)
+    -   Metabolome
+    -   Metabolome - experimental protocol edition
+-   2.9 [BIOM or tabular
+    files](./Technical/BIOM_or_Tabular_Technical_Metadata.md) <br><br>
 
-# Biological and Environmental Metadata Standards
+### 4. Data transfer and data integrity
 
-## Bio/Env metadata section 1. Biomes considered
+The work of the [Data transfer and data
+integrity](./Technical/Data_Transfer_Data_Integrity.md) section focuses
+on:
 
-To compile a minimal set of biological and environmental metadata standards, six microbiomes were considered. Environmental and biological parameters were identified as minimums as applicable to individual biomes and/or hosts.
+-   Examples of existing data transfer & data integrity checks
+-   Data integrity considerations by file type <br><br>
 
-The Minimal **Biological and Environmental** microbiome metadata standards within M2.1 were established to be applicable to the following biomes:
-- [Marine](./Biological_Environmental/Marine_BioEnv_Metadata.md)
-- [Terrestrial](./Biological_Environmental/Terrestrial_BioEnv_Metadata.md)
-- [Terrestrial (constructed)](./Biological_Environmental/Terrestrial(Constructed)_BioEnv_Metadata.md)
-- [Plant-associated](./Biological_Environmental/PlantAssoc_BioEnv_Metadata.md)
-- [Animal-associated](./Biological_Environmental/AnimalAssoc_BioEnv_Metadata.md)
-- [Human-associated](./Biological_Environmental/Human_BioEnv_Metadata.md)
-- Microbe-associated
+# <span id="bio-env-metadata-standards">Biological and Environmental Metadata Standards</span> <br><br>
 
-Tentative standard minimal biological and environmental parameter considerations are displayed in Figure 5. Parameter applicability to different biomes are shown on the left axis.
+## Bio/Env metadata section
 
-![BioEnvMetadata23June2022](./images/BioEnvMetadata23June2022.JPG)
-**Figure 5**. Tentative minimal biological and environmental metadata, divided into two categories; site metadata for specifications and environmental parameters relating to the geographic sampling location and sample material, and host metadata information specific to host-associated systems. Applicability to different microbiomes are shown on the left. Conditional metadata standards include pertinent minimal cultivation information. 
+### 1. Biomes considered
 
-The references in the figure are from the following sources: 
-- MIMS/MIxS: Human Associated package [^37][^38], Water [^42]
-- IMG: Joint Genome Institue Integrated Microbial Genomes & Microbiomes [^39]
-- ENA MMC: ENA Marine Microalgae Checklist [^40]
-- TMDB: Terrestrial Metagenome Database [^41]
-- MMgP: Marine Metagenomics Portal [^43]
-- PlanetMicrobe [^44]
-- TO: Tara Oceans [^45]
-- MSI: Metabolomics Standards Initiative [^46]
-- HMgDB: Human Metagenome Database [^47]
-- HMP: Human Metagenome Project [^48]
-- PAMDB: Plant Associated and Environmental Microbes Database [^49]
+Six microbiomes were considered to compile a minimal set of biological
+and environmental metadata standards. Environmental and biological
+parameters were identified as minimums applicable to individual biomes
+and/or hosts.
 
-## Bio/Env metadata section 2. Data/metadata categorization
+The Minimal **Biological and Environmental** microbiome metadata
+standards within M2.1 were collected to apply to the following biomes:
 
-In order to determine which metadata standards may be applicable to each dataset, the categorization framework in Figure 6 is being considered. This structure can bridge information about samples which come from marine, terrestrial, or engineered systems. It can also connect samples which were cultivated - either cultured from a commercially-available source, or isolated from an environmental sample by the user. To support searchabilty for downstream analyses, there is also the ability to select multiple environment categories if applicable (e.g. "marine" and "terrestrial" could be selected for a tidal flat site, "engineered" and "terrestrial" for a greenhouse agricultural site, or "engineered" and "marine" for a commercially-avaiable culture initially isolated from the ocean).
+-   [Marine](./Biological_Environmental/Marine_BioEnv_Metadata.md)
+-   [Terrestrial](./Biological_Environmental/Terrestrial_BioEnv_Metadata.md)
+-   [Terrestrial
+    (constructed)](./Biological_Environmental/TerrestrialConstructed_BioEnv_Metadata.md)
+-   [Plant-associated](./Biological_Environmental/PlantAssoc_BioEnv_Metadata.md)
+-   [Animal-associated](./Biological_Environmental/AnimalAssoc_BioEnv_Metadata.md)
+-   [Human-associated](./Biological_Environmental/Human_BioEnv_Metadata.md)
+-   Microbe-associated
 
-![CategoryFlowchart](./images/CategoryFlowchart.JPG)
+Tentative standard minimal biological and environmental parameter
+considerations are displayed in [**Figure 4**](#figure4). Parameter
+applicability to different biomes are shown on the left axis. <br><br>
 
-**Figure 6**. Tentative categorization framework for establishing biological/environmental metadata requirements. This structure allows for connecting host-associated systems to marine, terrestrial, or engineered environments. It also allows tracking of data which are affiliated with cultivated samples. 
+<img src="./images/BioEnvMetadata9Aug2023.jpg" id="figure4"
+alt="BioEnvMetadata23June2022" /> **Figure 4. Tentative Minimal
+Biological and Environmental Metadata**.
 
-Figures 7-9 show examples of minimal biological/environmental metadata applicability to different sample categorizations. 
+This figure presents the division of minimal biological and
+environmental metadata into distinct categories. Site metadata includes
+specifications and environmental parameters related to the geographic
+sampling location, while sample material and host metadata provide
+information specific to host-associated systems. The applicability of
+these standards to different microbiomes is shown on the left.
+Additionally, conditional metadata standards encompass pertinent minimal
+cultivation information.
 
-![HumanGutExample](./images/CategoryFrameworkSlides_HumanGutExample.gif)
+The references in the figure are from the following sources:
 
-**Figure 7** Example of categorizing a human gut-associated and cultivated sample, and the applicable minimal metadata.
+-   **Marine references**:
+    -   GSC MIxS: Water MIMS (“GSC MIxS: WaterMIMS”)
+    -   ENA MMC: ENA Checklist: Marine Microalgae (“ENA Marine
+        Microalgae Checklist; Checklist: ERC000043”)
+    -   ENA Tara Oceans; Checklist: ERC000030 (“ENA Tara Oceans;
+        Checklist: ERC000030”)
+    -   GSC Minimum Information about any (x) Sequence (MIxS); ENA
+        checklist: Water environment (“GSC MIxS Water; ENA Checklist:
+        ERC000024”)
+    -   The environment ontology: contextualising biological and
+        biomedical entities (Buttigieg et al. 2013)
+    -   The minimum information about a genome sequence (MIGS)
+        specification (Field et al. 2008)
+    -   Minimum information about a marker gene sequence (MIMARKS) and
+        minimum information about any (x) sequence (MIxS) specifications
+        (Yilmaz et al. 2011)
+    -   A standard MIGS/MIMS compliant XML Schema: Toward the
+        development of the Genomic Contextual Data Markup Language
+        (GCDML) (Kottmann et al. 2008)
+    -   Standard reporting requirements for biological samples in
+        metabolomics experiments: environmental context (Morrison et al.
+        2007)
+-   **Terrestrial / Terrestrial(constructed)**
+    -   GSC MIxS: Miscellaneous Natural Or Artificial Environment MIMS
+        (“GSC MIxS: MiscellaneousNaturalOrArtificialEnvironmentMIMS”)
+    -   GSC MIxS: Sediment MIMS (“GSC MIxS: SedimentMIMS”)
+    -   GSC MIXS: Soil MIMS (“GSC MIxS: SoilMIMS”)
+    -   GSC MIxS: Wastewater Sludge MIMS (“GSC MIxS:
+        WastewaterSludgeMIMS”)
+    -   GSC MIxS: Built Environment MIMS (“GSC MIxS:
+        BuiltEnvironmentMIMS”)
+    -   The environment ontology: contextualising biological and
+        biomedical entities (Buttigieg et al. 2013)
+    -   The minimum information about a genome sequence (MIGS)
+        specification (Field et al. 2008)
+    -   Minimum information about a marker gene sequence (MIMARKS) and
+        minimum information about any (x) sequence (MIxS) specifications
+        (Yilmaz et al. 2011)
+    -   A standard MIGS/MIMS compliant XML Schema: Toward the
+        development of the Genomic Contextual Data Markup Language
+        (GCDML) (Kottmann et al. 2008)
+    -   Standard reporting requirements for biological samples in
+        metabolomics experiments: environmental context (Morrison et al.
+        2007)
+-   **Plant-associated**
+    -   GSC MIxS: Plant-associated MIMS (“GSC MIxS:
+        Plant-associatedMIMS”)
+    -   GSC MIxS: Agriculture MIMS (“GSC MIxS: AgricultureMIMS”)
+    -   GSC MIxS: Symbiont-associated MIMS (“GSC MIxS:
+        Symbiont-associatedMIMS”)
+    -   ENA MMC: ENA Checklist: Marine Microalgae (“ENA Marine
+        Microalgae Checklist; Checklist: ERC000043”)
+    -   The environment ontology: contextualising biological and
+        biomedical entities (Buttigieg et al. 2013)
+    -   The minimum information about a genome sequence (MIGS)
+        specification (Field et al. 2008)
+    -   Minimum information about a marker gene sequence (MIMARKS) and
+        minimum information about any (x) sequence (MIxS) specifications
+        (Yilmaz et al. 2011)
+    -   A standard MIGS/MIMS compliant XML Schema: Toward the
+        development of the Genomic Contextual Data Markup Language
+        (GCDML) (Kottmann et al. 2008)
+    -   Standard reporting requirements for biological samples in
+        metabolomics experiments: environmental context (Morrison et al.
+        2007)
+-   **Animal-associated**
+    -   GSC MIxS: Host-associated MIMS (“GSC MIxS: Host-associatedMIMS”)
+    -   The environment ontology: contextualising biological and
+        biomedical entities (Buttigieg et al. 2013)
+    -   The minimum information about a genome sequence (MIGS)
+        specification (Field et al. 2008)
+    -   Minimum information about a marker gene sequence (MIMARKS) and
+        minimum information about any (x) sequence (MIxS) specifications
+        (Yilmaz et al. 2011)
+    -   A standard MIGS/MIMS compliant XML Schema: Toward the
+        development of the Genomic Contextual Data Markup Language
+        (GCDML) (Kottmann et al. 2008)
+    -   Standard reporting requirements for biological samples in
+        metabolomics experiments: environmental context (Morrison et al.
+        2007)
+-   **Human-associated**
+    -   MIMS: metagenome/environmental, human-associated; version 6.0
+        Package (“MIMS: Metagenome/Environmental, Human-Associated;
+        Version 6.0 Package”)
+    -   GSC MIxS human associated; ENA Checklist: ERC000014 (“GSC MIxS
+        Human Associated; ENA Checklist: ERC000014”)
+    -   GSC MIxS: Human-associated MIMS (“GSC MIxS:
+        Human-associatedMIMS”)
+    -   GSC MIxS: Human-gut MIMS (“GSC MIxS: Human-gutMIMS”)
+    -   GSC MIxS: Human-oral MIMS (“GSC MIxS: Human-oralMIMS”)
+    -   GSC MIxS: Human-skin MIMS (“GSC MIxS: Human-skinMIMS”)
+    -   GSC MIxS: Human-vaginal MIMS (“GSC MIxS: Human-vaginalMIMS”)
+    -   The environment ontology: contextualising biological and
+        biomedical entities (Buttigieg et al. 2013)
+    -   The minimum information about a genome sequence (MIGS)
+        specification (Field et al. 2008)
+    -   Minimum information about a marker gene sequence (MIMARKS) and
+        minimum information about any (x) sequence (MIxS) specifications
+        (Yilmaz et al. 2011)
+    -   A standard MIGS/MIMS compliant XML Schema: Toward the
+        development of the Genomic Contextual Data Markup Language
+        (GCDML) (Kottmann et al. 2008)
+    -   Standard reporting requirements for biological samples in
+        metabolomics experiments: environmental context (Morrison et al.
+        2007)
+    -   U.S. Office of Management and Budget (OMB): About the Topic of
+        Race (“U.s. Office of Management and Budget (OMB): About the
+        Topic of Race”)
+-   **Microbe-associated**
+    -   GSC MIxS: Miscellaneous Natural Or Artificial Environment MIMS
+        (“GSC MIxS: MiscellaneousNaturalOrArtificialEnvironmentMIMS”)
+    -   GSC MIxS: Sediment MIMS (“GSC MIxS: SedimentMIMS”)
+    -   GSC MIXS: Soil MIMS (“GSC MIxS: SoilMIMS”)
+    -   GSC MIxS: Wastewater Sludge MIMS (“GSC MIxS:
+        WastewaterSludgeMIMS”)
+    -   GSC MIxS: Microbial Mat Biofilm MIMS (“GSC MIXS:
+        MicrobialMatBiofilmMIMS”)
+    -   The environment ontology: contextualising biological and
+        biomedical entities (Buttigieg et al. 2013)
+    -   The minimum information about a genome sequence (MIGS)
+        specification (Field et al. 2008)
+    -   Minimum information about a marker gene sequence (MIMARKS) and
+        minimum information about any (x) sequence (MIxS) specifications
+        (Yilmaz et al. 2011)
+    -   A standard MIGS/MIMS compliant XML Schema: Toward the
+        development of the Genomic Contextual Data Markup Language
+        (GCDML) (Kottmann et al. 2008)
+    -   Standard reporting requirements for biological samples in
+        metabolomics experiments: environmental context (Morrison et al.
+        2007)
+    -   Minimum information about a single amplified genome (MISAG) and
+        a metagenome-assembled genome (MIMAG) of bacteria and archaea
+        (Bowers et al. 2017)
+    -   Roadmap for naming uncultivated Archaea and Bacteria (Murray et
+        al. 2020) <br><br>
 
-![TidalFlatExample](./images/CategoryFrameworkSlides_TidalFlatExample.gif)
+### 2. Data/metadata categorization
 
-**Figure 8** Example of categorizing a tidal flat uncultivated sample, and the applicable minimal metadata. The proposed framework allows for overlapping environments (i.e. terrestrial and marine for intertidal regions) to enchance downstream searchability.
+The categorization framework in [**Figure 5**](#figure5) should be
+considered when determining the applicable metadata standards for each
+dataset. This framework can serve as a valuable tool for connecting
+information about samples from marine, terrestrial, or engineered
+systems. Additionally, it facilitates the inclusion of cultivated
+samples, whether they were cultured from a commercially-available source
+or isolated from an environmental sample by the user.
 
-![LabCultureExample](./images/CategoryFrameworkSlides_LabCultureExample.gif)
+To enhance searchability in downstream analyses, users can select
+multiple environment categories if relevant. For instance, they may
+choose both “marine” and “terrestrial” for a tidal flat site,
+“engineered” and “terrestrial” for a greenhouse agricultural site, or
+“engineered” and “marine” for a commercially-available culture initially
+isolated from the ocean. <br><br>
 
-**Figure 9** Example of categorizing a known lab cultured sample, and the applicable minimal metadata. Bidirectionality of the categorization framework allows linking known, commercially available cultures and their original sample environments. 
+#### **Category Flow Chart**
 
+<img src="./images/CategoryFlowchart.JPG" id="figure5" />
 
+**Figure 5. Tentative Categorization Framework for
+Biological/Environmental Metadata Requirements **
 
+This figure showcases a preliminary categorization framework to
+establish minimal biological/environmental metadata requirements. The
+framework connects host-associated systems to marine, terrestrial, or
+engineered environments while enabling effective tracking of data
+affiliated with cultivated samples. The structure should provide
+valuable insights for organizing and comprehensively accessing diverse
+datasets. <br><br>
+
+**Figures 6 - 8** show examples of minimal biological/environmental
+metadata applicability to different sample categorizations. <br><br>
+
+#### **Human Gut Example**
+
+![](./images/CategoryFrameworkSlides_HumanGutExample_mb.gif) **Figure 6.
+Example of Categorizing a Human Gut-Associated and Cultivated Sample
+with Applicable Minimal Metadata **
+
+This figure provides an illustrative example of the categorization
+process for a human gut-associated and cultivated sample. It showcases
+the minimal metadata that are applicable and relevant for this specific
+sample type. <br><br>
+
+#### **Tidal Flat Example**
+
+![](./images/CategoryFrameworkSlides_TidalFlatExample_mb.gif) **Figure
+7. Example of Categorizing a Tidal Flat and Cultivated Sample with
+Applicable Minimal Metadata **
+
+This figure presents a practical example of categorizing a tidal flat
+cultivated sample, along with the relevant minimal metadata. The
+illustration demonstrates how the proposed framework accommodates
+overlapping environments, such as terrestrial and marine, specifically
+for intertidal regions.<br><br>
+
+#### **Lab Culture Example**
+
+![](./images/CategoryFrameworkSlides_LabCultureExample_mb.gif) **Figure
+8. Example of Categorizing a Known Lab Cultured Sample with Applicable
+Minimal Metadata **
+
+This figure presents an example of categorizing a known lab-cultured
+sample, along with the corresponding minimal metadata. The
+bidirectionality of the categorization framework is highlighted, as it
+enables the linkage between known, commercially available cultures and
+their original sample environments. <br><br>
 
 # References
-[^1]:Field, D., Garrity, G., Gray, T., Morrison, N., Selengut, J., Sterk, P., Tatusova, T., Thomson, N., Allen, M. J., Angiuoli, S. V., Ashburner, M., Axelrod, N., Baldauf, S., Ballard, S., Boore, J., Cochrane, G., Cole, J., Dawyndt, P., De Vos, P., DePamphilis, C., … Wipat, A. (2008). The minimum information about a genome sequence (MIGS) specification. Nature biotechnology, 26(5), 541–547. https://doi.org/10.1038/nbt1360, https://gensc.org/mixs/,  
-https://gensc.org/publications-2/
 
-[^2]:Kasmanas, J. C., Bartholomäus, A., Corrêa, F. B., Tal, T., Jehmlich, N., Herberth, G., von Bergen, M., Stadler, P. F., de Carvalho, A. & da Rocha, U. N. (2021). HumanMetagenomeDB: a public repository of curated and standardized metadata for human metagenomes. Nucleic Acids Research, 49(D1), D743–D750., https://webapp.ufz.de/hmgdb/
+Bowers, R., N. Kyrpides, R. Stepanauskas, et al. 2017. “Minimum
+Information about a Single Amplified Genome (MISAG) and a
+Metagenome-Assembled Genome (MIMAG) of Bacteria and Archaea.” *Nat
+Biotechnol* 35: 725–31. <https://doi.org/10.1038/nbt.3893>.
 
-[^3]:Corrêa, F. B., Saraiva, J. P., Stadler, P. F. & da Rocha, U. N. (2020). TerrestrialMetagenomeDB: a public repository of curated and standardized metadata for terrestrial metagenomes. Nucleic Acids Research, 48(D1), D626-D632., https://webapp.ufz.de/tmdb/
+Buttigieg, P. L., N. Morrison, B. Smith, C. J. Mungall, S. E. Lewis, and
+ENVO Consortium. 2013. “The Environment Ontology: Contextualising
+Biological and Biomedical Entities.” *Journal of Biomedical Semantics* 4
+(1): 43. <https://doi.org/10.1186/2041-1480-4-43>.
 
-[^4]:Bowers, R., Kyrpides, N., Stepanauskas, R. et al. Minimum information about a single amplified genome (MISAG) and a metagenome-assembled genome (MIMAG) of bacteria and archaea. Nat Biotechnol 35, 725–731 (2017). https://doi.org/10.1038/nbt.3893, https://gensc.org/mixs/
+“ENA Marine Microalgae Checklist; Checklist: ERC000043.”
+<https://www.ebi.ac.uk/ena/browser/view/ERC000043>.
 
-[^5]: Murray, A.E., Freudenstein, J., Gribaldo, S. et al. Roadmap for naming uncultivated Archaea and Bacteria. Nat Microbiol 5, 987–994 (2020). https://doi.org/10.1038/s41564-020-0733-x, https://www.isme-microbes.org/seqcode-initiative
+“ENA Tara Oceans; Checklist: ERC000030.”
+<https://www.ebi.ac.uk/ena/browser/view/ERC000030>.
 
-[^6]: Yilmaz, Pelin et al. “Minimum information about a marker gene sequence (MIMARKS) and minimum information about any (x) sequence (MIxS) specifications.” Nature biotechnology vol. 29,5 (2011): 415-20. doi:10.1038/nbt.1823,  https://gensc.org/mixs/
+Field, D., G. Garrity, T. Gray, N. Morrison, J. Selengut, P. Sterk, T.
+Tatusova, et al. 2008. “The Minimum Information about a Genome Sequence
+(MIGS) Specification.” Nature Biotechnology. 2008.
+<https://doi.org/10.1038/nbt1360>.
 
-[^7]: Shakya, Migun et al. “Advances and Challenges in Metatranscriptomic Analysis.” Frontiers in genetics vol. 10 904. 25 Sep. 2019, doi:10.3389/fgene.2019.00904
+“German National Research Data Infrastructure.”
+<https://www.nfdi.de/?lang=en>.
 
-[^8]: https://ena-docs.readthedocs.io/en/latest/faq/runs.html#
+“GSC MIxS Human Associated; ENA Checklist: ERC000014.”
+<https://www.ebi.ac.uk/ena/browser/view/ERC000014>.
 
-[^9]: https://www.ncbi.nlm.nih.gov/geo/info/seq.html
+“GSC MIxS Water; ENA Checklist: ERC000024.”
+<https://www.ebi.ac.uk/ena/browser/view/ERC000024>.
 
-[^10]: https://anonsvn.ncbi.nlm.nih.gov/repos/v1/trunk/sra/doc/SRA_1-1/SRA_Quick_Start_Guide.pdf
+“GSC MIxS: AgricultureMIMS.”
+<https://genomicsstandardsconsortium.github.io/mixs/AgricultureMIMS/>.
 
-[^11]: https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=toolkit_doc&f=vdb-validate
+“GSC MIxS: BuiltEnvironmentMIMS.”
+<https://genomicsstandardsconsortium.github.io/mixs/BuiltEnvironmentMIMS/>.
 
-[^12]: Alex L Mitchell, Alexandre Almeida, Martin Beracochea, Miguel Boland, Josephine Burgin, Guy Cochrane, Michael R Crusoe, Varsha Kale, Simon C Potter, Lorna J Richardson, Ekaterina Sakharova, Maxim Scheremetjew, Anton Korobeynikov, Alex Shlemov, Olga Kunyavskaya, Alla Lapidus, Robert D Finn, MGnify: the microbiome analysis resource in 2020, Nucleic Acids Research, Volume 48, Issue D1, 08 January 2020, Pages D570–D578, https://doi.org/10.1093/nar/gkz1035
+“GSC MIxS: Host-associatedMIMS.”
+<https://genomicsstandardsconsortium.github.io/mixs/Host-associatedMIMS/>.
 
-[^13]: The Metagenomics RAST server — A public resource for the automatic phylogenetic and functional analysis of metagenomes
-F. Meyer, D. Paarmann, M. D’Souza, R. Olson , E. M. Glass, M. Kubal, T. Paczian, A. Rodriguez, R. Stevens, A. Wilke, J. Wilkening, and R. A. Edwards
-BMC Bioinformatics 2008, 9:386,  https://help.mg-rast.org/user_manual.html#data-hygiene
+“GSC MIxS: Human-associatedMIMS.”
+<https://genomicsstandardsconsortium.github.io/mixs/Human-associatedMIMS/>.
 
-[^14]: Bassi, S., Gonzalez, V. New checksum functions for Biopython. Nat Prec (2007). https://doi.org/10.1038/npre.2007.278.1
+“GSC MIxS: Human-gutMIMS.”
+<https://genomicsstandardsconsortium.github.io/mixs/Human-gutMIMS/>.
 
-[^15]: Babnigg, G. and Giometti, C.S. (2006), A database of unique protein sequence identifiers for proteome studies. Proteomics, 6: 4514-4522. https://doi.org/10.1002/pmic.200600032
+“GSC MIxS: Human-oralMIMS.”
+<https://genomicsstandardsconsortium.github.io/mixs/Human-oralMIMS/>.
 
-[^16]: https://www.ncbi.nlm.nih.gov/genbank/tsa/
+“GSC MIxS: Human-skinMIMS.”
+<https://genomicsstandardsconsortium.github.io/mixs/Human-skinMIMS/>.
 
-[^17]:  Athar A. et al., 2019. ArrayExpress update - from bulk to single-cell expression data. Nucleic Acids Res, doi: 10.1093/nar/gky964. Pubmed ID 30357387.  https://www.ebi.ac.uk/arrayexpress/
+“GSC MIxS: Human-vaginalMIMS.”
+<https://genomicsstandardsconsortium.github.io/mixs/Human-vaginalMIMS/>.
 
-[^18]:The FAIR Cookbook: a deliverable of the FAIRplus project (grant agreement 802750), funded by the IMI programme, a private-public partnership that receives support from the European Union’s Horizon 2020 research and innovation programme and EFPIA Companies.   https://faircookbook.elixir-europe.org/content/recipes/interoperability/transcriptomics-metadata.html
+“GSC MIXS: MicrobialMatBiofilmMIMS.”
+<https://genomicsstandardsconsortium.github.io/mixs/MicrobialMatBiofilmMIMS/>.
 
-[^19]:https://www.nfdi.de/
+“GSC MIxS: MiscellaneousNaturalOrArtificialEnvironmentMIMS.”
+<https://genomicsstandardsconsortium.github.io/mixs/MiscellaneousNaturalOrArtificialEnvironmentMIMS/>.
 
-[^20]:https://nfdi4microbiota.de/
+“GSC MIxS: Plant-associatedMIMS.”
+<https://genomicsstandardsconsortium.github.io/mixs/Plant-associatedMIMS/>.
 
-[^21]:Hedlund et al. (In review) https://disc-genomics.uibk.ac.at/seqcode//files/Hedlund_et_al.pdf
+“GSC MIxS: SedimentMIMS.”
+<https://genomicsstandardsconsortium.github.io/mixs/SedimentMIMS/>.
 
-[^22]:(https://www.ebi.ac.uk/pride/markdownpage/submitdatapage)
+“GSC MIxS: SoilMIMS.”
+<https://genomicsstandardsconsortium.github.io/mixs/SoilMIMS/>.
 
-[^23]:(http://www.proteomexchange.org/docs/guidelines_px.pdf)
+“GSC MIxS: Symbiont-associatedMIMS.”
+<https://genomicsstandardsconsortium.github.io/mixs/Symbiont-associatedMIMS/>.
 
-[^24]:(http://www.peptideatlas.org/)
+“GSC MIxS: WastewaterSludgeMIMS.”
+<https://genomicsstandardsconsortium.github.io/mixs/WastewaterSludgeMIMS/>.
 
-[^25]:(https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp)
+“GSC MIxS: WaterMIMS.”
+<https://genomicsstandardsconsortium.github.io/mixs/WaterMIMS/>.
 
-[^26]:(https://psidev.info/magetab)
+Kottmann, R., T. Gray, S. Murphy, L. Kagan, S. Kravitz, T. Lombardot, D.
+Field, F. O. Glöckner, and Genomic Standards Consortium. 2008. “A
+Standard MIGS/MIMS Compliant XML Schema: Toward the Development of the
+Genomic Contextual Data Markup Language (GCDML).” OMICS: A Journal of
+Integrative Biology. 2008. <https://doi.org/10.1089/omi.2008.0A10>.
 
-[^27]:(https://www.iprox.cn/page/helpEn.html#pag5)
+“MIMS: Metagenome/Environmental, Human-Associated; Version 6.0 Package.”
+<https://www.ncbi.nlm.nih.gov/biosample/docs/packages/MIMS.me.human-associated.5.0/>.
 
-[^28]:(https://repository.jpostdb.org/help)
+Morrison, Norman, Daniel Bearden, Jacob G. Bundy, Timothy Collette,
+Fraser Currie, Matthew Davey, Migdalia Dominguez, et al. 2007. “Standard
+Reporting Requirements for Biological Samples in Metabolomics
+Experiments: Environmental Context.” *Metabolomics* 3 (2): 203–10.
+<https://doi.org/10.1007/s11306-007-0067-1>.
 
-[^29]:(https://www.psidev.info/sites/default/files/2018-03/MIAPE_MS_2.98.pdf)
+Murray, A. E., J. Freudenstein, S. Gribaldo, et al. 2020. “Roadmap for
+Naming Uncultivated Archaea and Bacteria.” *Nat Microbiol* 5: 987–94.
+<https://doi.org/10.1038/s41564-020-0733-x>.
 
-[^30]:(http://gigadb.org/site/guide)
+“NFDI4Microbiota.” <https://nfdi4microbiota.de/>.
 
-[^31]:(https://www.ebi.ac.uk/metabolights/index)
+“U.s. Office of Management and Budget (OMB): About the Topic of Race.”
+<https://www.census.gov/topics/population/race/about.html>.
 
-[^32]:(https://github.com/MSI-Metabolomics-Standards-Initiative/CIMR)
-
-[^33]:(http://metabolonote.kazusa.or.jp/Main_Page)
-
-[^34]:(https://www.metabolomicsworkbench.org/)
-
-[^35]:(http://services.cbib.u-bordeaux.fr/MERYB/home/home.php)
-
-[^36]:(https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#metadata-validation)
-
-[^37]:[https://www.ncbi.nlm.nih.gov/biosample/docs/packages/MIMS.me.human-associated.5.0/](https://www.ncbi.nlm.nih.gov/biosample/docs/packages/MIMS.me.human-associated.5.0/)
-
-[^38]:[https://www.ebi.ac.uk/ena/browser/view/ERC000014](https://www.ebi.ac.uk/ena/browser/view/ERC000014)
-
-[^39]:[https://img.jgi.doe.gov/cgi-bin/m/main.cgi?section=FindGenomes&page=genomeSearch](https://img.jgi.doe.gov/cgi-bin/m/main.cgi?section=FindGenomes&page=genomeSearch)
-
-[^40]:[https://www.ebi.ac.uk/ena/browser/view/ERC000043](https://www.ebi.ac.uk/ena/browser/view/ERC000043)
-
-[^41]:[https://webapp.ufz.de/tmdb/](https://webapp.ufz.de/tmdb/)
-
-[^42]:[https://www.ebi.ac.uk/ena/browser/view/ERC000024](https://www.ebi.ac.uk/ena/browser/view/ERC000024)
-
-[^43]:[https://mmp2.sfb.uit.no/marref/](https://mmp2.sfb.uit.no/marref/)
-
-[^44]:[https://www.planetmicrobe.org/#/search](https://www.planetmicrobe.org/#/search)
-
-[^45]:[https://www.ebi.ac.uk/ena/browser/view/ERC000030](https://www.ebi.ac.uk/ena/browser/view/ERC000030)
-
-[^46]:[https://github.com/MSI-Metabolomics-Standards-Initiative/CIMR](https://github.com/MSI-Metabolomics-Standards-Initiative/CIMR)
-
-[^47]:[https://webapp.ufz.de/hmgdb/](https://webapp.ufz.de/hmgdb/)
-
-[^48]:[https://hmpdacc.org/](https://hmpdacc.org/)
-
-[^49]:[pamdb.org](http://genome.ppws.vt.edu/cgi-bin/MLST/home.pl)
+Yilmaz, Pelin et al. 2011. “Minimum Information about a Marker Gene
+Sequence (MIMARKS) and Minimum Information about Any (x) Sequence (MIxS)
+Specifications.” *Nature Biotechnology* 29 (5): 415–20.
+<https://doi.org/10.1038/nbt.1823>.

@@ -1,106 +1,77 @@
 ## 2.8 Metabolomics
 
-A searchable and exportable tab-separated [table](Metabolome_Technical_Metadata.tsv) of the following metadata is now available.
+A searchable and exportable tab-separated
+[table](Metabolome_Technical_Metadata.tsv) of the following metadata is
+now available.
 
 ## Minimal technical metadata for metabolomics
-|**metadata**| **definition/examples** | **source** |
-|------------|-------------------------|------------|
-| Project title | Name of the project | Metabolights[^31], gigadb[^30], MWB[^34], metabolonote[^33], MSI[^32], meryb[^35] |
-| Project description | Overall description of the project | Metabolights[^31], gigadb[^30], MWB[^34], metabolonote[^33], MSI[^32], meryb[^35] |
-| Contact information | Person(s) responsible for contact including their affiliation | Metabolights[^31], gigadb[^30], MWB[^34], metabolonote[^33], MSI[^32], meryb[^35] |
-| Sample species | Species of the sample | Metabolights[^31], gigadb[^30], MWB[^34], metabolonote[^33], MSI[^32], meryb[^35] |
-| Sample type | Whether the sample was experimental/blank/control/qc | Metabolights[^31], gigadb[^30], MWB[^34], metabolonote[^33] |
-| Instrument | Description of instrument used including manufacturer & mode | Metabolights[^31], MWB[^34], metabolonote[^33], MSI[^32], meryb[^35] |
-| File type | Type of file uploaded (e.g. RAW, SEARCH, RESULT, etc.) | Metabolights[^31], gigadb[^30], MWB[^34], metabolonote[^33], MSI[^32], meryb[^35] |
 
-|Comments/questions: |
-|--------------------|
-| |
+| **metadata**        | **definition/examples**                                       | **adapted from source**                                                                                                                            |
+|------------------|------------------------------------|------------------|
+| Project title       | Name of the project                                           | **MetaboLights** (Haug et al. 2020), **Metabolomics Workbench** (Sud et al. 2016), **Metabolonote** (Ara et al. 2015), **MSI** (Fiehn et al. 2007) |
+| Project description | Overall description of the project                            | **MetaboLights** (Haug et al. 2020), **Metabolomics Workbench** (Sud et al. 2016), **Metabolonote** (Ara et al. 2015), **MSI** (Fiehn et al. 2007) |
+| Contact information | Person(s) responsible for contact including their affiliation | **MetaboLights** (Haug et al. 2020), **Metabolomics Workbench** (Sud et al. 2016), **Metabolonote** (Ara et al. 2015), **MSI** (Fiehn et al. 2007) |
+| Sample species      | Species of the sample                                         | **MetaboLights** (Haug et al. 2020), **Metabolomics Workbench** (Sud et al. 2016), **Metabolonote** (Ara et al. 2015), **MSI** (Fiehn et al. 2007) |
+| Sample type         | Whether the sample was experimental/blank/control/qc          | **MetaboLights** (Haug et al. 2020), **Metabolomics Workbench** (Sud et al. 2016), **Metabolonote** (Ara et al. 2015)                              |
+| Instrument          | Description of instrument used including manufacturer & mode  | **MetaboLights** (Haug et al. 2020), **Metabolomics Workbench** (Sud et al. 2016), **Metabolonote** (Ara et al. 2015), **MSI** (Fiehn et al. 2007) |
+| File type           | Type of file uploaded (e.g. RAW, SEARCH, RESULT, etc.)        | **MetaboLights** (Haug et al. 2020), **Metabolomics Workbench** (Sud et al. 2016), **Metabolonote** (Ara et al. 2015), **MSI** (Fiehn et al. 2007) |
 
-## &emsp; Minimal technical metadata for metabolomics - experimental protocol edition
-|**metadata**| **definition/examples** | **source** |
-|------------|-------------------------|------------|
-| Sample collection protocol | Description of sampling procedure, origin of sample, time point of collection, storage, etc. | Metabolights[^31], MWB[^34], metabolonote[^33], MSI[^32], meryb[^35] |
-| Extraction protocol | Protocol of extraction steps before analysis including control samples | Metabolights[^31], MWB[^34], metabolonote[^33], MSI[^32], meryb[^35] |
-| Chromatography protocol | Description of instrument and column, mobile phase and gradient as well a settings used | Metabolights[^31], metabolonote[^33], MSI[^32], meryb[^35] |
-| Mass spectrometry protocol | Description of instrument, ion source, ionisation mode, mz range and settings | Metabolights[^31], metabolonote[^33], MSI[^32], meryb[^35] |
-| Data transformation protocol | Details of pipelines, methods and software used to transform the raw data | Metabolights[^31], metabolonote[^33], MSI[^32] |
-| Metabolite identification protocol | Details of methods, pipelines, reference databases, and software used to identify and annotate | Metabolights[^31], metabolonote[^33], MSI[^32] |
+| Comments/questions: |
+|---------------------|
+|                     |
 
-|Comments/questions: |
-|--------------------|
-| |
+##   Minimal technical metadata for metabolomics - experimental protocol edition
+
+| **metadata**                       | **definition/examples**                                                                        | **adapted from source**                                                                                                                            |
+|------------------|------------------------------------|------------------|
+| Sample collection protocol         | Description of sampling procedure, origin of sample, time point of collection, storage, etc.   | **MetaboLights** (Haug et al. 2020), **Metabolomics Workbench** (Sud et al. 2016), **Metabolonote** (Ara et al. 2015), **MSI** (Fiehn et al. 2007) |
+| Extraction protocol                | Protocol of extraction steps before analysis including control samples                         | **MetaboLights** (Haug et al. 2020), **Metabolomics Workbench** (Sud et al. 2016), **Metabolonote** (Ara et al. 2015), **MSI** (Fiehn et al. 2007) |
+| Chromatography protocol            | Description of instrument and column, mobile phase and gradient as well a settings used        | **MetaboLights** (Haug et al. 2020), **Metabolonote** (Ara et al. 2015), **MSI** (Fiehn et al. 2007)                                               |
+| Mass spectrometry protocol         | Description of instrument, ion source, ionisation mode, mz range and settings                  | **MetaboLights** (Haug et al. 2020), **Metabolonote** (Ara et al. 2015), **MSI** (Fiehn et al. 2007)                                               |
+| Data transformation protocol       | Details of pipelines, methods and software used to transform the raw data                      | **MetaboLights** (Haug et al. 2020), **Metabolonote** (Ara et al. 2015), **MSI** (Fiehn et al. 2007)                                               |
+| Metabolite identification protocol | Details of methods, pipelines, reference databases, and software used to identify and annotate | **MetaboLights** (Haug et al. 2020), **Metabolonote** (Ara et al. 2015), **MSI** (Fiehn et al. 2007)                                               |
+
+| Comments/questions: |
+|---------------------|
+|                     |
+
+We also highly encourage the readers of this GitHub to look for examples
+of submitted metabolomic samples and analyses in **MetabolomeXchange**
+(“MetabolomeXchange”) that holds datasets from **MetagoLights, Metabolic
+Repository Bordeaux, Metabolomics Workbench and Metabolonote**.
+Publications **MetaboLights: a resource evolving in response to the
+needs of its scientific community** (Haug et al. 2020), **Metabolonote:
+a wiki-based database for managing hierarchical metadata of metabolome
+analyses** (Ara et al. 2015), **Metabolomics Workbench: An international
+repository for metabolomics data and metadata, metabolite standards,
+protocols, tutorials and training, and analysis tools** (Sud et al.
+2016) and **The metabolomics standards initiative (MSI)** (Fiehn et al.
+2007) in the ‘adapted from source’ section can be found online.
 
 # References
-[^1]:Field, D., Garrity, G., Gray, T., Morrison, N., Selengut, J., Sterk, P., Tatusova, T., Thomson, N., Allen, M. J., Angiuoli, S. V., Ashburner, M., Axelrod, N., Baldauf, S., Ballard, S., Boore, J., Cochrane, G., Cole, J., Dawyndt, P., De Vos, P., DePamphilis, C., … Wipat, A. (2008). The minimum information about a genome sequence (MIGS) specification. Nature biotechnology, 26(5), 541–547. https://doi.org/10.1038/nbt1360, https://gensc.org/mixs/,  
-https://gensc.org/publications-2/
 
-[^2]:Kasmanas, J. C., Bartholomäus, A., Corrêa, F. B., Tal, T., Jehmlich, N., Herberth, G., von Bergen, M., Stadler, P. F., de Carvalho, A. & da Rocha, U. N. (2021). HumanMetagenomeDB: a public repository of curated and standardized metadata for human metagenomes. Nucleic Acids Research, 49(D1), D743–D750., https://webapp.ufz.de/hmgdb/
+Ara, Takeshi, Mizuki Enomoto, Masanori Arita, Chisato Ikeda, Kenichiro
+Kera, Masanobu Yamada, Toshio Nishioka, et al. 2015. “Metabolonote: A
+Wiki-Based Database for Managing Hierarchical Metadata of Metabolome
+Analyses.” *Front. Bioeng. Biotechnol.* 3: 38.
+<https://doi.org/10.3389/fbioe.2015.00038>.
 
-[^3]:Corrêa, F. B., Saraiva, J. P., Stadler, P. F. & da Rocha, U. N. (2020). TerrestrialMetagenomeDB: a public repository of curated and standardized metadata for terrestrial metagenomes. Nucleic Acids Research, 48(D1), D626-D632., https://webapp.ufz.de/tmdb/
+Fiehn, Oliver, Donald Robertson, Julian Griffin, Mariët J van der Werf,
+Basil Nikolau, Neil Morrison, Lloyd W Sumner, et al. 2007. “The
+Metabolomics Standards Initiative (MSI).” *Metabolomics* 3: 175–78.
+<https://doi.org/10.1007/s11306-007-0070-6>.
 
-[^4]:Bowers, R., Kyrpides, N., Stepanauskas, R. et al. Minimum information about a single amplified genome (MISAG) and a metagenome-assembled genome (MIMAG) of bacteria and archaea. Nat Biotechnol 35, 725–731 (2017). https://doi.org/10.1038/nbt.3893, https://gensc.org/mixs/
+Haug, Kenneth, Keeva Cochrane, Venkata Chandrasekhar Nainala, Mark
+Williams, Jiakang Chang, Kalai Vanii Jayaseelan, and Claire O’Donovan.
+2020. “MetaboLights: A Resource Evolving in Response to the Needs of Its
+Scientific Community.” *Nucleic Acids Research*.
+<https://doi.org/10.1093/nar/gkz1019>.
 
-[^5]: Murray, A.E., Freudenstein, J., Gribaldo, S. et al. Roadmap for naming uncultivated Archaea and Bacteria. Nat Microbiol 5, 987–994 (2020). https://doi.org/10.1038/s41564-020-0733-x, https://www.isme-microbes.org/seqcode-initiative
+“MetabolomeXchange.” <http://www.metabolomexchange.org/site/#/>.
 
-[^6]: Yilmaz, Pelin et al. “Minimum information about a marker gene sequence (MIMARKS) and minimum information about any (x) sequence (MIxS) specifications.” Nature biotechnology vol. 29,5 (2011): 415-20. doi:10.1038/nbt.1823,  https://gensc.org/mixs/
-
-[^7]: Shakya, Migun et al. “Advances and Challenges in Metatranscriptomic Analysis.” Frontiers in genetics vol. 10 904. 25 Sep. 2019, doi:10.3389/fgene.2019.00904
-
-[^8]: https://ena-docs.readthedocs.io/en/latest/faq/runs.html#
-
-[^9]: https://www.ncbi.nlm.nih.gov/geo/info/seq.html
-
-[^10]: https://anonsvn.ncbi.nlm.nih.gov/repos/v1/trunk/sra/doc/SRA_1-1/SRA_Quick_Start_Guide.pdf
-
-[^11]: https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=toolkit_doc&f=vdb-validate
-
-[^12]: Alex L Mitchell, Alexandre Almeida, Martin Beracochea, Miguel Boland, Josephine Burgin, Guy Cochrane, Michael R Crusoe, Varsha Kale, Simon C Potter, Lorna J Richardson, Ekaterina Sakharova, Maxim Scheremetjew, Anton Korobeynikov, Alex Shlemov, Olga Kunyavskaya, Alla Lapidus, Robert D Finn, MGnify: the microbiome analysis resource in 2020, Nucleic Acids Research, Volume 48, Issue D1, 08 January 2020, Pages D570–D578, https://doi.org/10.1093/nar/gkz1035
-
-[^13]: The Metagenomics RAST server — A public resource for the automatic phylogenetic and functional analysis of metagenomes
-F. Meyer, D. Paarmann, M. D’Souza, R. Olson , E. M. Glass, M. Kubal, T. Paczian, A. Rodriguez, R. Stevens, A. Wilke, J. Wilkening, and R. A. Edwards
-BMC Bioinformatics 2008, 9:386,  https://help.mg-rast.org/user_manual.html#data-hygiene
-
-[^14]: Bassi, S., Gonzalez, V. New checksum functions for Biopython. Nat Prec (2007). https://doi.org/10.1038/npre.2007.278.1
-
-[^15]: Babnigg, G. and Giometti, C.S. (2006), A database of unique protein sequence identifiers for proteome studies. Proteomics, 6: 4514-4522. https://doi.org/10.1002/pmic.200600032
-
-[^16]: https://www.ncbi.nlm.nih.gov/genbank/tsa/
-
-[^17]:  Athar A. et al., 2019. ArrayExpress update - from bulk to single-cell expression data. Nucleic Acids Res, doi: 10.1093/nar/gky964. Pubmed ID 30357387.  https://www.ebi.ac.uk/arrayexpress/
-
-[^18]:The FAIR Cookbook: a deliverable of the FAIRplus project (grant agreement 802750), funded by the IMI programme, a private-public partnership that receives support from the European Union’s Horizon 2020 research and innovation programme and EFPIA Companies.   https://faircookbook.elixir-europe.org/content/recipes/interoperability/transcriptomics-metadata.html
-
-[^19]:https://www.nfdi.de/
-
-[^20]:https://nfdi4microbiota.de/
-
-[^21]:Hedlund et al. (In review) https://disc-genomics.uibk.ac.at/seqcode//files/Hedlund_et_al.pdf
-
-[^22]:(https://www.ebi.ac.uk/pride/markdownpage/submitdatapage)
-
-[^23]:(http://www.proteomexchange.org/docs/guidelines_px.pdf)
-
-[^24]:(http://www.peptideatlas.org/)
-
-[^25]:(https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp)
-
-[^26]:(https://psidev.info/magetab)
-
-[^27]:(https://www.iprox.cn/page/helpEn.html#pag5)
-
-[^28]:(https://repository.jpostdb.org/help)
-
-[^29]:(https://www.psidev.info/sites/default/files/2018-03/MIAPE_MS_2.98.pdf)
-
-[^30]:(http://gigadb.org/site/guide)
-
-[^31]:(https://www.ebi.ac.uk/metabolights/index)
-
-[^32]:(https://github.com/MSI-Metabolomics-Standards-Initiative/CIMR)
-
-[^33]:(http://metabolonote.kazusa.or.jp/Main_Page)
-
-[^34]:(https://www.metabolomicsworkbench.org/)
-
-[^35]:(http://services.cbib.u-bordeaux.fr/MERYB/home/home.php)
+Sud, Manish, Eoin Fahy, Dawn Cotter, Kenan Azam, Ilango Vadivelu,
+Charles Burant, Arthur Edison, et al. 2016. “Metabolomics Workbench: An
+International Repository for Metabolomics Data and Metadata, Metabolite
+Standards, Protocols, Tutorials and Training, and Analysis Tools.”
+*Nucleic Acids Res.* 44 (D1): D463–70.
+<https://doi.org/10.1093/nar/gkv1042>.

@@ -1,0 +1,62 @@
+---
+output:
+  md_document:
+    variant: markdown_github
+bibliography: ../bibliography_V2.bib
+---
+
+## 2.4 Transcriptome sequencing
+
+A searchable and exportable tab-separated [table](Transcriptome_Technical_Metadata.tsv) of the following metadata is now available.
+
+## Minimal technical metadata for `Transcriptomic FASTQ` file
+
+&emsp; &#x1F539; _italics = potential considerations_
+
+|**metadata**| **definition/examples** | **source** |
+|------------|-------------------------|------------|
+| sample_name | Identifier of the sample |**GSC MIxS/MIGS Bacteria** [@gsc_migs_bacteria]|
+| seq_meth | Sequencing method used (e.g. Illumina HiSeq 2000)|**GSC MIxS/MIGS Bacteria** [@gsc_migs_bacteria], **ENA Metadata Validation: Instrument** [@ena_metadata_instrument]|
+| lib_layout | Single-end, paired end or others |**GSC MIxS/MIGS Bacteria** [@gsc_migs_bacteria]|
+| lib_source | Genomic, metagenomic, transcriptomic, etc. |**ENA Metadata Validation: Source** [@ena_metadata_source]|
+| lib_strategy | WGS, Amplicon, etc. |**ENA Metadata Validation: Strategy** [@ena_metadata_strategy]|
+| lib_selection | Random, PCR, etc. |**ENA Metadata Validation: Selection** [@ena_metadata_selection]|
+| nucl_acid_ext | Literature reference or SOP describing nucleic extraction i.e. CTAB extraction, Phenol-Cloroform Extraction|**The FAIR Cookbook** [@fair_cookbook]|
+| nucl_acid_ext_treat | Treatment of nucleic acid after extraction i.e. DNase, RNase| **Adapted from The FAIR Cookbook** [@fair_cookbook]|
+| &#x1F539; _insert_length_ | _for inner dist. calc._ (or incl. in lib_layout?)(Array Express parameter: insert "Nominal Length" | |
+| sequence_count | Number of reads in the library (sequencing depth) or 'spots' |**Adapted from NCBI-SRA** [@leinonen2011sequence]|
+| basepairs_count | Number of base pairs (nucleotides) in the library or 'bases' |**Adapted from NCBI-SRA** [@leinonen2011sequence]|
+| average_length | As basepairs_count divided by sequence_count |**Calculated as basepairs_count/sequence_count**|
+| sequence_count_qual | Number of reads in the library (sequencing depth) after quality filtering |**SRA-Tinder** [@sra_tinder]|
+| basepairs_count_qual | Number of base pairs (nucleotides) in the library after quality filtering |**SRA-Tinder** [@sra_tinder]|
+| rRNA treatment | Depletion (Pre-seq, molecular), Removal (Post-seq data), None |**Advances and Challenges in Metatranscriptomic Analysis** [@shakya2019advances]|
+| cDNA_ampl_meth | Technique used to amplify a cDNA library i.e. MMLV, AMV |**The FAIR Cookbook** [@fair_cookbook]|
+| cDNA_oligo | Type of primer used for cDNA synthesis from RNA, i.e. polyA or random |**The FAIR Cookbook** [@fair_cookbook]|
+| checksum | Hash value (e.g. MD5) for data integrity |[Data transfer and data integrity](Data_Transfer_Data_Integrity.md)|
+
+|Comments/questions: |
+|--------------------|
+|Added insert length, reverse transcriptase, and the primer set as possible technical parameters. Could go under "Protocol" parameter. -NME 27APR22|
+|Added cDNA_ampl_meth and cDNA_oligo to the table -MB 11AUG23|
+
+
+## Minimal technical metadata for `Transcriptomic FASTA` file
+
+|**metadata**| **definition/examples** | **source** |
+|------------|-------------------------|------------|
+| run_ref | Accessions/identifiers linking to the raw data (FASTQ) |**ENA Submitting Transcriptome Assemblies** [@ena_transcriptome_assembly]|
+| Locus | (e.g. "GAAA01000000 93507 rc mRNA linear TSA 20-JUL-2015" |**Adapted from ENA Submitting Transcriptome Assemblies** [@ena_transcriptome_assembly]|
+| Definition |  TSA: Latimeria chalumnae voucher 08118, transcriptome shotgun assembly |**Adapted from ENA Submitting Transcriptome Assemblies** [@ena_transcriptome_assembly]|
+| DB Link | BioProject/Biosample/SRA |**Adapted from ENA Submitting Transcriptome Assemblies** [@ena_transcriptome_assembly]|
+| Reference | Author/Consortium/Title/Journal |**Adapted from ENA Submitting Transcriptome Assemblies** [@ena_transcriptome_assembly]|
+| Seq length | (e.g. "Sequences should be greater than 200 bp in length." |**Adapted from ENA Submitting Transcriptome Assemblies** [@ena_transcriptome_assembly]|
+| Seq quality | (e.g. Ambiguous bases should not be more than total 10% length or more than 14n's in a row" |**Adapted from ENA Submitting Transcriptome Assemblies** [@ena_transcriptome_assembly]|
+| Protocols | Links to protocol accessions ||
+
+|Comments/questions: |
+|--------------------|
+|Don't know which protocol accessions were meant here, was it SOP, and protocol for what, so I left it empty for the time being -MB 11AUG23 |
+
+The publications describing the reasons for formation of **The minimum information about a genome sequence (MIGS)** [@field_migs], **Minimum information about a marker gene sequence (MIMARKS) and minimum information about any (x) sequence (MIxS) specifications** [@yilmaz2011] and **Advances and Challenges in Metatranscriptomic Analysis** [@shakya2019advances] can be found online. We also highly encourage the readers of this GitHub to read **The FAIR cookbook** recipes [@fair_cookbook], and look for examples of submitted Transcriptomic samples in **Transcriptome Shotgun Assembly Sequence Database** [@tsa_database].
+
+# References

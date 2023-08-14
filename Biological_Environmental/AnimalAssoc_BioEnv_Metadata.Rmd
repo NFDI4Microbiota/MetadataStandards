@@ -1,0 +1,42 @@
+---
+output:
+  md_document:
+    variant: markdown_github
+bibliography: ../bibliography_V2.bib
+---
+
+## Animal-associated microbiome biological/environmental metadata
+## &emsp; Minimal biological/environmental metadata for animal-associated microbiome
+||**metadata**| **definition/examples** | **source** |
+|-|----------|-------------------------|------------|
+|**Site metadata**|Collection date/time|Restricted text|**MIMS** [@mims_package], **GSC MIxS/MIMS** [@gsc_human_assoc_mims], [@gsc_host_assoc_mims], [@gsc_human_gut_mims], [@gsc_human_oral_mims], [@gsc_human_skin_mims], [@gsc_human_vaginal_mims], **MiXS** [@gsc_mixs_human_associated]|
+||Collected by|Name/institute|**ENA MMC** [@ena_marine_microalgae]|
+||Geographic location|INSDC list location|**MIMS** [@mims_package], **GSC MIxS/MIMS** [@gsc_human_assoc_mims], [@gsc_host_assoc_mims], [@gsc_human_gut_mims], [@gsc_human_oral_mims], [@gsc_human_skin_mims], [@gsc_human_vaginal_mims], **MIxS** [@gsc_mixs_human_associated]|
+||Latitude|Origin latitude in DD|**MIMS** [@mims_package], **GSC MIxS/MIMS** [@gsc_human_assoc_mims], [@gsc_host_assoc_mims], [@gsc_human_gut_mims], [@gsc_human_oral_mims], [@gsc_human_skin_mims], [@gsc_human_vaginal_mims], **MIxS** [@gsc_mixs_human_associated]|
+||Longitude|Origin longitude in DD|**MIMS** [@mims_package], **GSC MIxS/MIMS** [@gsc_human_assoc_mims], [@gsc_host_assoc_mims], [@gsc_human_gut_mims], [@gsc_human_oral_mims], [@gsc_human_skin_mims], [@gsc_human_vaginal_mims], **MIxS** [@gsc_mixs_human_associated]|
+||Elevation|Origin elevation in m|**GSC MIxS/MIMS** [@gsc_human_assoc_mims], [@gsc_host_assoc_mims], [@gsc_human_gut_mims], [@gsc_human_oral_mims], [@gsc_human_skin_mims], [@gsc_human_vaginal_mims]|
+||Altitude/geographic depth|E.g. water/soil/cavern depth, or height|**GSC MIxS/MIMS** [@gsc_human_assoc_mims], [@gsc_host_assoc_mims], [@gsc_human_gut_mims], [@gsc_human_oral_mims], [@gsc_human_skin_mims], [@gsc_human_vaginal_mims], **MIxS** [@gsc_mixs_human_associated]|
+||Sample site/feature|E.g. marine, abdomen|**MIMS** [@mims_package], **MIxS** [@gsc_mixs_human_associated], **GSC MIxS/MIMS** [@gsc_human_assoc_mims], [@gsc_host_assoc_mims], [@gsc_human_gut_mims], [@gsc_human_oral_mims], [@gsc_human_skin_mims], [@gsc_human_vaginal_mims]|
+||Sample sub-site/feature|E.g. sea surface, appendix|**MIMS** [@mims_package], **GSC MIxS/MIMS** [@gsc_human_assoc_mims], [@gsc_host_assoc_mims], [@gsc_human_gut_mims], [@gsc_human_oral_mims], [@gsc_human_skin_mims], [@gsc_human_vaginal_mims]|
+||Sample material|E.g. blood, water, soil, particulate|**MIxS** [@gsc_mixs_human_associated], **GSC MIxS/MIMS** [@gsc_human_assoc_mims], [@gsc_host_assoc_mims], [@gsc_human_gut_mims], [@gsc_human_oral_mims], [@gsc_human_skin_mims], [@gsc_human_vaginal_mims]|
+||Sample size/mass|H x W x L, vol., mass (e.g. 2 L water, 1 kg soil)|**MIMS** [@mims_package], **MiXS** [@gsc_mixs_human_associated], **GSC MIxS/MIMS** [@gsc_human_assoc_mims], [@gsc_host_assoc_mims], [@gsc_human_gut_mims], [@gsc_human_oral_mims], [@gsc_human_skin_mims], [@gsc_human_vaginal_mims]|
+||Site conditions|Environmental temp, RH, salinity, pH|**MSI-ECWSG** [@morrison2007]|
+||Material conditions|Sample material temp, RH, salinity, pH|**MIMS** [@mims_package], **MiXS** [@gsc_mixs_human_associated], **MSI-ECWSG** [@morrison2007], **GSC MIxS/MIMS** [@gsc_human_assoc_mims], [@gsc_host_assoc_mims], [@gsc_human_gut_mims], [@gsc_human_oral_mims], [@gsc_human_skin_mims], [@gsc_human_vaginal_mims]|
+||Microbial ID|Taxonomy and/or culture source, if available|**MIMS** [@mims_package]|
+||Microbial isolate|Microbial isolate cultured?: Y/N||
+||Culture substrate|Microbial culture medium/substrate|**MIMS**[@mims_package], **MSI-ECWSG** [@morrison2007]|
+||Chemical exposure|E.g. medications, pollutants, treatments|**MIMS** [@mims_package], **MiXS** [@gsc_mixs_human_associated], **GSC MIxS/MIMS** [@gsc_human_assoc_mims], [@gsc_host_assoc_mims], [@gsc_human_gut_mims], [@gsc_human_oral_mims], [@gsc_human_skin_mims], [@gsc_human_vaginal_mims]|
+|**Host metadata**|Host name|Scientific name|**MSI-ECWSG** [@morrison2007]|
+||Host dim./weight|E.g. 30 cm diameter tree, 500 g ascidian|**MIMS** [@mims_package], **GSC MIxS/MIMS** [@gsc_human_assoc_mims], [@gsc_host_assoc_mims], [@gsc_human_gut_mims], [@gsc_human_oral_mims], [@gsc_human_skin_mims], [@gsc_human_vaginal_mims]|
+||Host specific sample depth| E.g. Skin tissue 3 mm subsurface|**MIMS** [@mims_package]|
+||Age|Age of subject/host|**MIMS** [@mims_package], **MiXS** [@gsc_mixs_human_associated], **GSC MIxS/MIMS** [@gsc_human_assoc_mims], [@gsc_host_assoc_mims], [@gsc_human_gut_mims], [@gsc_human_oral_mims], [@gsc_human_skin_mims], [@gsc_human_vaginal_mims]|
+||Gender/Sex|Gender and/or sex of subject/host|**MIMS** [@mims_package], **GSC MIxS/MIMS** [@gsc_human_assoc_mims], [@gsc_host_assoc_mims], [@gsc_human_gut_mims], [@gsc_human_oral_mims], [@gsc_human_skin_mims], [@gsc_human_vaginal_mims]|
+||Host diet/substrate|E.g. omnivore/veg/etc., substrate, medium|**MIMS** [@mims_package], **MiXS** [@gsc_mixs_human_associated], **GSC MIxS/MIMS** [@gsc_human_assoc_mims], [@gsc_host_assoc_mims], [@gsc_human_gut_mims], [@gsc_human_oral_mims], [@gsc_human_skin_mims], [@gsc_human_vaginal_mims]|
+|**Additional potential animal-associated bio/env considerations**|*Ecosystem Category*|*Category list*|*JGI GOLD* [@gold_ecosystem_classification]|
+||*Ecosystem Type*|*Type list*|*JGI GOLD* [@gold_ecosystem_classification]|
+||*Ecosystem Subtype*|*Subtype list*|*JGI GOLD* [@gold_ecosystem_classification]|
+||*Specific Ecosystem*|*Specific ecosystem list*|*JGI GOLD* [@gold_ecosystem_classification]|
+||*Habitat*|*Free text*|*JGI GOLD* [@gold_ecosystem_classification]|
+||*Means of capture*|*How was the animal captured/trapped/sampled(e.g. net, stunned, anaesthetized, etc.)*|*MSI-ECWSG* [@morrison2007]|
+
+#References

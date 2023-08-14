@@ -1,49 +1,73 @@
 ## Animal-associated microbiome biological/environmental metadata
-## &emsp; Minimal biological/environmental metadata for animal-associated microbiome
-||**metadata**| **definition/examples** | **source** |
-|-|----------|-------------------------|------------|
-|**Site metadata**|Collection date/time|Restricted text|MIMS[^1], IMG[^3], MIxS[^2][^6], ENA MMC[^4]|
-||Collected by|Name/institute|ENA MMC[^4]|
-||Geographic location|INSDC list location|IMG[^3], MIxS[^2][^6], ENA MMC[^4]|
-||Latitude|Origin latitude in DD|MIMS[^1], IMG[^3], MIxS[^2][^6], ENA MMC[^4]|
-||Longitude|Origin longitude in DD|MIMS[^1], IMG[^3], MIxS[^2][^6], ENA MMC[^4]|
-||Elevation|Origin elevation in m|TMDB[^5]|
-||Altitude/geographic depth|E.g. water/soil/cavern depth, or height|MIMS[^1], IMG[^3], MIxS[^2][^6], ENA MMC[^4]|
-||Sample site/feature|E.g. marine, abdomen|MIxS[^2][^6], MMgP[^7], PlanetMicrobe[^8]|
-||Sample sub-site/feature|E.g. sea surface, appendix|MIxS[^2][^6], MMgP[^7], PlanetMicrobe[^8]|
-||Sample material|E.g. blood, water, soil, particulate|MIxS[^2][^6], MMgP[^7], PlanetMicrobe[^8]|
-||Sample size/mass|H x W x L, vol., mass (e.g. 2 L water, 1 kg soil)||
-||Site conditions|Environmental temp, RH, salinity, pH|MSI[^10]|
-||Material conditions|Sample material temp, RH, salinity, pH|MSI[^10], TO[^9]|
-||Microbial ID|Taxonomy and/or culture source, if available|MSI[^10]|
-||Microbial isolate|Microbial isolate cultured?: Y/N||
-||Culture substrate|Microbial culture medium/substrate|MSI[^10]|
-||Chemical exposure|E.g. medications, pollutants, treatments|HMgDB[^11]|
-|**Host metadata**|Host name|Scientific name|MSI[^10]|
-||Host dim./weight|E.g. 30 cm diameter tree, 500 g ascidian|HMgDB, MSI[^10]|
-||Host specific sample depth| E.g. Skin tissue 3 mm subsurface||
-||Age|Age of subject/host|HMgDB[^11]|
-||Gender/Sex|Gender and/or sex of subject/host|HMP[^12], HMgDB[^11]|
-||Host diet/substrate|E.g. omnivore/veg/etc., substrate, medium|HMgDB[^11], PAMDB[^13]|
-|**Additional potential animal-associated bio/env considerations**|*Ecosystem Category*|*Category list*|*JGI GOLD*[^14]|
-||*Ecosystem Type*|*Type list*|*JGI GOLD*[^14]|
-||*Ecosystem Subtype*|*Subtype list*|*JGI GOLD*[^14]|
-||*Specific Ecosystem*|*Specific ecosystem list*|*JGI GOLD*[^14]|
-||*Habitat*|*Free text*|*JGI GOLD*[^14]|
-||*Means of capture*|*How was the animal captured/trapped/sampled(e.g. net, stunned, anaesthetized, etc.)*|*MSI[^10]*|
 
+##   Minimal biological/environmental metadata for animal-associated microbiome
 
-[^1]:[https://www.ncbi.nlm.nih.gov/biosample/docs/packages/MIMS.me.human-associated.5.0/](https://www.ncbi.nlm.nih.gov/biosample/docs/packages/MIMS.me.human-associated.5.0/)
-[^2]:[https://www.ebi.ac.uk/ena/browser/view/ERC000014](https://www.ebi.ac.uk/ena/browser/view/ERC000014)
-[^3]:[https://img.jgi.doe.gov/cgi-bin/m/main.cgi?section=FindGenomes&page=genomeSearch](https://img.jgi.doe.gov/cgi-bin/m/main.cgi?section=FindGenomes&page=genomeSearch)
-[^4]:[https://www.ebi.ac.uk/ena/browser/view/ERC000043](https://www.ebi.ac.uk/ena/browser/view/ERC000043)
-[^5]:[https://webapp.ufz.de/tmdb/](https://webapp.ufz.de/tmdb/)
-[^6]:[https://www.ebi.ac.uk/ena/browser/view/ERC000024](https://www.ebi.ac.uk/ena/browser/view/ERC000024)
-[^7]:[https://mmp2.sfb.uit.no/marref/](https://mmp2.sfb.uit.no/marref/)
-[^8]:[https://www.planetmicrobe.org/#/search](https://www.planetmicrobe.org/#/search)
-[^9]:[https://www.ebi.ac.uk/ena/browser/view/ERC000030](https://www.ebi.ac.uk/ena/browser/view/ERC000030)
-[^10]:[https://github.com/MSI-Metabolomics-Standards-Initiative/CIMR](https://github.com/MSI-Metabolomics-Standards-Initiative/CIMR)
-[^11]:[https://webapp.ufz.de/hmgdb/](https://webapp.ufz.de/hmgdb/)
-[^12]:[https://hmpdacc.org/](https://hmpdacc.org/)
-[^13]:[pamdb.org](http://genome.ppws.vt.edu/cgi-bin/MLST/home.pl)
-[^14]:[https://gold.jgi.doe.gov/ecosystem_classification](https://gold.jgi.doe.gov/ecosystem_classification)
+|                                                                   | **metadata**               | **definition/examples**                                                               | **source**                                                                                                                                                                                                                                                                                                                                                                                                    |
+|---|---------------|------------------------------------|------------------|
+| **Site metadata**                                                 | Collection date/time       | Restricted text                                                                       | **MIMS** (“MIMS: Metagenome/Environmental, Human-Associated; Version 6.0 Package”), **GSC MIxS/MIMS** (“GSC MIxS: Human-associatedMIMS”), (“GSC MIxS: Host-associatedMIMS”), (“GSC MIxS: Human-gutMIMS”), (“GSC MIxS: Human-oralMIMS”), (“GSC MIxS: Human-skinMIMS”), (“GSC MIxS: Human-vaginalMIMS”), **MiXS** (“GSC MIxS Human Associated; ENA Checklist: ERC000014”)                                       |
+|                                                                   | Collected by               | Name/institute                                                                        | **ENA MMC** (“ENA Marine Microalgae Checklist; Checklist: ERC000043”)                                                                                                                                                                                                                                                                                                                                         |
+|                                                                   | Geographic location        | INSDC list location                                                                   | **MIMS** (“MIMS: Metagenome/Environmental, Human-Associated; Version 6.0 Package”), **GSC MIxS/MIMS** (“GSC MIxS: Human-associatedMIMS”), (“GSC MIxS: Host-associatedMIMS”), (“GSC MIxS: Human-gutMIMS”), (“GSC MIxS: Human-oralMIMS”), (“GSC MIxS: Human-skinMIMS”), (“GSC MIxS: Human-vaginalMIMS”), **MIxS** (“GSC MIxS Human Associated; ENA Checklist: ERC000014”)                                       |
+|                                                                   | Latitude                   | Origin latitude in DD                                                                 | **MIMS** (“MIMS: Metagenome/Environmental, Human-Associated; Version 6.0 Package”), **GSC MIxS/MIMS** (“GSC MIxS: Human-associatedMIMS”), (“GSC MIxS: Host-associatedMIMS”), (“GSC MIxS: Human-gutMIMS”), (“GSC MIxS: Human-oralMIMS”), (“GSC MIxS: Human-skinMIMS”), (“GSC MIxS: Human-vaginalMIMS”), **MIxS** (“GSC MIxS Human Associated; ENA Checklist: ERC000014”)                                       |
+|                                                                   | Longitude                  | Origin longitude in DD                                                                | **MIMS** (“MIMS: Metagenome/Environmental, Human-Associated; Version 6.0 Package”), **GSC MIxS/MIMS** (“GSC MIxS: Human-associatedMIMS”), (“GSC MIxS: Host-associatedMIMS”), (“GSC MIxS: Human-gutMIMS”), (“GSC MIxS: Human-oralMIMS”), (“GSC MIxS: Human-skinMIMS”), (“GSC MIxS: Human-vaginalMIMS”), **MIxS** (“GSC MIxS Human Associated; ENA Checklist: ERC000014”)                                       |
+|                                                                   | Elevation                  | Origin elevation in m                                                                 | **GSC MIxS/MIMS** (“GSC MIxS: Human-associatedMIMS”), (“GSC MIxS: Host-associatedMIMS”), (“GSC MIxS: Human-gutMIMS”), (“GSC MIxS: Human-oralMIMS”), (“GSC MIxS: Human-skinMIMS”), (“GSC MIxS: Human-vaginalMIMS”)                                                                                                                                                                                             |
+|                                                                   | Altitude/geographic depth  | E.g. water/soil/cavern depth, or height                                               | **GSC MIxS/MIMS** (“GSC MIxS: Human-associatedMIMS”), (“GSC MIxS: Host-associatedMIMS”), (“GSC MIxS: Human-gutMIMS”), (“GSC MIxS: Human-oralMIMS”), (“GSC MIxS: Human-skinMIMS”), (“GSC MIxS: Human-vaginalMIMS”), **MIxS** (“GSC MIxS Human Associated; ENA Checklist: ERC000014”)                                                                                                                           |
+|                                                                   | Sample site/feature        | E.g. marine, abdomen                                                                  | **MIMS** (“MIMS: Metagenome/Environmental, Human-Associated; Version 6.0 Package”), **MIxS** (“GSC MIxS Human Associated; ENA Checklist: ERC000014”), **GSC MIxS/MIMS** (“GSC MIxS: Human-associatedMIMS”), (“GSC MIxS: Host-associatedMIMS”), (“GSC MIxS: Human-gutMIMS”), (“GSC MIxS: Human-oralMIMS”), (“GSC MIxS: Human-skinMIMS”), (“GSC MIxS: Human-vaginalMIMS”)                                       |
+|                                                                   | Sample sub-site/feature    | E.g. sea surface, appendix                                                            | **MIMS** (“MIMS: Metagenome/Environmental, Human-Associated; Version 6.0 Package”), **GSC MIxS/MIMS** (“GSC MIxS: Human-associatedMIMS”), (“GSC MIxS: Host-associatedMIMS”), (“GSC MIxS: Human-gutMIMS”), (“GSC MIxS: Human-oralMIMS”), (“GSC MIxS: Human-skinMIMS”), (“GSC MIxS: Human-vaginalMIMS”)                                                                                                         |
+|                                                                   | Sample material            | E.g. blood, water, soil, particulate                                                  | **MIxS** (“GSC MIxS Human Associated; ENA Checklist: ERC000014”), **GSC MIxS/MIMS** (“GSC MIxS: Human-associatedMIMS”), (“GSC MIxS: Host-associatedMIMS”), (“GSC MIxS: Human-gutMIMS”), (“GSC MIxS: Human-oralMIMS”), (“GSC MIxS: Human-skinMIMS”), (“GSC MIxS: Human-vaginalMIMS”)                                                                                                                           |
+|                                                                   | Sample size/mass           | H x W x L, vol., mass (e.g. 2 L water, 1 kg soil)                                     | **MIMS** (“MIMS: Metagenome/Environmental, Human-Associated; Version 6.0 Package”), **MiXS** (“GSC MIxS Human Associated; ENA Checklist: ERC000014”), **GSC MIxS/MIMS** (“GSC MIxS: Human-associatedMIMS”), (“GSC MIxS: Host-associatedMIMS”), (“GSC MIxS: Human-gutMIMS”), (“GSC MIxS: Human-oralMIMS”), (“GSC MIxS: Human-skinMIMS”), (“GSC MIxS: Human-vaginalMIMS”)                                       |
+|                                                                   | Site conditions            | Environmental temp, RH, salinity, pH                                                  | **MSI-ECWSG** (Morrison et al. 2007)                                                                                                                                                                                                                                                                                                                                                                          |
+|                                                                   | Material conditions        | Sample material temp, RH, salinity, pH                                                | **MIMS** (“MIMS: Metagenome/Environmental, Human-Associated; Version 6.0 Package”), **MiXS** (“GSC MIxS Human Associated; ENA Checklist: ERC000014”), **MSI-ECWSG** (Morrison et al. 2007), **GSC MIxS/MIMS** (“GSC MIxS: Human-associatedMIMS”), (“GSC MIxS: Host-associatedMIMS”), (“GSC MIxS: Human-gutMIMS”), (“GSC MIxS: Human-oralMIMS”), (“GSC MIxS: Human-skinMIMS”), (“GSC MIxS: Human-vaginalMIMS”) |
+|                                                                   | Microbial ID               | Taxonomy and/or culture source, if available                                          | **MIMS** (“MIMS: Metagenome/Environmental, Human-Associated; Version 6.0 Package”)                                                                                                                                                                                                                                                                                                                            |
+|                                                                   | Microbial isolate          | Microbial isolate cultured?: Y/N                                                      |                                                                                                                                                                                                                                                                                                                                                                                                               |
+|                                                                   | Culture substrate          | Microbial culture medium/substrate                                                    | **MIMS**(“MIMS: Metagenome/Environmental, Human-Associated; Version 6.0 Package”), **MSI-ECWSG** (Morrison et al. 2007)                                                                                                                                                                                                                                                                                       |
+|                                                                   | Chemical exposure          | E.g. medications, pollutants, treatments                                              | **MIMS** (“MIMS: Metagenome/Environmental, Human-Associated; Version 6.0 Package”), **MiXS** (“GSC MIxS Human Associated; ENA Checklist: ERC000014”), **GSC MIxS/MIMS** (“GSC MIxS: Human-associatedMIMS”), (“GSC MIxS: Host-associatedMIMS”), (“GSC MIxS: Human-gutMIMS”), (“GSC MIxS: Human-oralMIMS”), (“GSC MIxS: Human-skinMIMS”), (“GSC MIxS: Human-vaginalMIMS”)                                       |
+| **Host metadata**                                                 | Host name                  | Scientific name                                                                       | **MSI-ECWSG** (Morrison et al. 2007)                                                                                                                                                                                                                                                                                                                                                                          |
+|                                                                   | Host dim./weight           | E.g. 30 cm diameter tree, 500 g ascidian                                              | **MIMS** (“MIMS: Metagenome/Environmental, Human-Associated; Version 6.0 Package”), **GSC MIxS/MIMS** (“GSC MIxS: Human-associatedMIMS”), (“GSC MIxS: Host-associatedMIMS”), (“GSC MIxS: Human-gutMIMS”), (“GSC MIxS: Human-oralMIMS”), (“GSC MIxS: Human-skinMIMS”), (“GSC MIxS: Human-vaginalMIMS”)                                                                                                         |
+|                                                                   | Host specific sample depth | E.g. Skin tissue 3 mm subsurface                                                      | **MIMS** (“MIMS: Metagenome/Environmental, Human-Associated; Version 6.0 Package”)                                                                                                                                                                                                                                                                                                                            |
+|                                                                   | Age                        | Age of subject/host                                                                   | **MIMS** (“MIMS: Metagenome/Environmental, Human-Associated; Version 6.0 Package”), **MiXS** (“GSC MIxS Human Associated; ENA Checklist: ERC000014”), **GSC MIxS/MIMS** (“GSC MIxS: Human-associatedMIMS”), (“GSC MIxS: Host-associatedMIMS”), (“GSC MIxS: Human-gutMIMS”), (“GSC MIxS: Human-oralMIMS”), (“GSC MIxS: Human-skinMIMS”), (“GSC MIxS: Human-vaginalMIMS”)                                       |
+|                                                                   | Gender/Sex                 | Gender and/or sex of subject/host                                                     | **MIMS** (“MIMS: Metagenome/Environmental, Human-Associated; Version 6.0 Package”), **GSC MIxS/MIMS** (“GSC MIxS: Human-associatedMIMS”), (“GSC MIxS: Host-associatedMIMS”), (“GSC MIxS: Human-gutMIMS”), (“GSC MIxS: Human-oralMIMS”), (“GSC MIxS: Human-skinMIMS”), (“GSC MIxS: Human-vaginalMIMS”)                                                                                                         |
+|                                                                   | Host diet/substrate        | E.g. omnivore/veg/etc., substrate, medium                                             | **MIMS** (“MIMS: Metagenome/Environmental, Human-Associated; Version 6.0 Package”), **MiXS** (“GSC MIxS Human Associated; ENA Checklist: ERC000014”), **GSC MIxS/MIMS** (“GSC MIxS: Human-associatedMIMS”), (“GSC MIxS: Host-associatedMIMS”), (“GSC MIxS: Human-gutMIMS”), (“GSC MIxS: Human-oralMIMS”), (“GSC MIxS: Human-skinMIMS”), (“GSC MIxS: Human-vaginalMIMS”)                                       |
+| **Additional potential animal-associated bio/env considerations** | *Ecosystem Category*       | *Category list*                                                                       | *JGI GOLD* (“GOLD Ecosystem Classification Paths”)                                                                                                                                                                                                                                                                                                                                                            |
+|                                                                   | *Ecosystem Type*           | *Type list*                                                                           | *JGI GOLD* (“GOLD Ecosystem Classification Paths”)                                                                                                                                                                                                                                                                                                                                                            |
+|                                                                   | *Ecosystem Subtype*        | *Subtype list*                                                                        | *JGI GOLD* (“GOLD Ecosystem Classification Paths”)                                                                                                                                                                                                                                                                                                                                                            |
+|                                                                   | *Specific Ecosystem*       | *Specific ecosystem list*                                                             | *JGI GOLD* (“GOLD Ecosystem Classification Paths”)                                                                                                                                                                                                                                                                                                                                                            |
+|                                                                   | *Habitat*                  | *Free text*                                                                           | *JGI GOLD* (“GOLD Ecosystem Classification Paths”)                                                                                                                                                                                                                                                                                                                                                            |
+|                                                                   | *Means of capture*         | *How was the animal captured/trapped/sampled(e.g. net, stunned, anaesthetized, etc.)* | *MSI-ECWSG* (Morrison et al. 2007)                                                                                                                                                                                                                                                                                                                                                                            |
+
+#References
+
+“ENA Marine Microalgae Checklist; Checklist: ERC000043.”
+<https://www.ebi.ac.uk/ena/browser/view/ERC000043>.
+
+“GOLD Ecosystem Classification Paths.”
+<https://gold.jgi.doe.gov/ecosystem_classification>.
+
+“GSC MIxS Human Associated; ENA Checklist: ERC000014.”
+<https://www.ebi.ac.uk/ena/browser/view/ERC000014>.
+
+“GSC MIxS: Host-associatedMIMS.”
+<https://genomicsstandardsconsortium.github.io/mixs/Host-associatedMIMS/>.
+
+“GSC MIxS: Human-associatedMIMS.”
+<https://genomicsstandardsconsortium.github.io/mixs/Human-associatedMIMS/>.
+
+“GSC MIxS: Human-gutMIMS.”
+<https://genomicsstandardsconsortium.github.io/mixs/Human-gutMIMS/>.
+
+“GSC MIxS: Human-oralMIMS.”
+<https://genomicsstandardsconsortium.github.io/mixs/Human-oralMIMS/>.
+
+“GSC MIxS: Human-skinMIMS.”
+<https://genomicsstandardsconsortium.github.io/mixs/Human-skinMIMS/>.
+
+“GSC MIxS: Human-vaginalMIMS.”
+<https://genomicsstandardsconsortium.github.io/mixs/Human-vaginalMIMS/>.
+
+“MIMS: Metagenome/Environmental, Human-Associated; Version 6.0 Package.”
+<https://www.ncbi.nlm.nih.gov/biosample/docs/packages/MIMS.me.human-associated.5.0/>.
+
+Morrison, Norman, Daniel Bearden, Jacob G. Bundy, Timothy Collette,
+Fraser Currie, Matthew Davey, Migdalia Dominguez, et al. 2007. “Standard
+Reporting Requirements for Biological Samples in Metabolomics
+Experiments: Environmental Context.” *Metabolomics* 3 (2): 203–10.
+<https://doi.org/10.1007/s11306-007-0067-1>.
