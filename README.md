@@ -119,7 +119,7 @@ maintained throughout various processes of data file exchange. <br><br>
 
 <img src="./images/MinimalTechnicalTable_FASTQ.jpg" id="figure2"
 alt="FASTQMetadataTablesOverview" /> **Figure 2. Overview of Minimal
-Technical Metadata for FASTQ Files **
+Technical Metadata for FASTQ Files**
 
 This figure provides an overview of the minimal technical metadata
 relevant to FASTQ files. The left side lists the applicability of
@@ -129,7 +129,7 @@ generation is indicated. <br><br>
 
 <img src="./images/MinimalTechnicalTable_FASTA.jpg" id="figure3"
 alt="FASTAMetadataTablesOverview" /> **Figure 3. Overview of Minimal
-Technical Metadata for FASTA Files **
+Technical Metadata for FASTA Files**
 
 This figure presents an overview of the minimal technical metadata
 relevant to FASTA files. On the left side, the applicability of
@@ -387,7 +387,7 @@ isolated from the ocean. <br><br>
 <img src="./images/CategoryFlowchart.JPG" id="figure5" />
 
 **Figure 5. Tentative Categorization Framework for
-Biological/Environmental Metadata Requirements **
+Biological/Environmental Metadata Requirements**
 
 This figure showcases a preliminary categorization framework to
 establish minimal biological/environmental metadata requirements. The
@@ -404,7 +404,7 @@ metadata applicability to different sample categorizations. <br><br>
 
 ![](./images/CategoryFrameworkSlides_HumanGutExample_mb.gif) **Figure 6.
 Example of Categorizing a Human Gut-Associated and Cultivated Sample
-with Applicable Minimal Metadata **
+with Applicable Minimal Metadata**
 
 This figure provides an illustrative example of the categorization
 process for a human gut-associated and cultivated sample. It showcases
@@ -415,7 +415,7 @@ sample type. <br><br>
 
 ![](./images/CategoryFrameworkSlides_TidalFlatExample_mb.gif) **Figure
 7. Example of Categorizing a Tidal Flat and Cultivated Sample with
-Applicable Minimal Metadata **
+Applicable Minimal Metadata**
 
 This figure presents a practical example of categorizing a tidal flat
 cultivated sample, along with the relevant minimal metadata. The
@@ -427,7 +427,7 @@ for intertidal regions.<br><br>
 
 ![](./images/CategoryFrameworkSlides_LabCultureExample_mb.gif) **Figure
 8. Example of Categorizing a Known Lab Cultured Sample with Applicable
-Minimal Metadata **
+Minimal Metadata**
 
 This figure presents an example of categorizing a known lab-cultured
 sample, along with the corresponding minimal metadata. The
