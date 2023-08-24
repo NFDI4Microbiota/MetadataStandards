@@ -6,20 +6,20 @@ available.
 
 ## Minimal technical metadata for `Genomic FASTQ` data
 
-| **metadata**         | **definition/examples**                                                   | **source**                                                                                                                             |
+| **metadata**         | **definition/examples**                                                   | **source**                                                                                                                                                                                                              |
 |------------------|------------------------------------|------------------|
-| sample_name          | Identifier of the sample                                                  | **GSC MIxS/MIGS Bacteria** (“GSC MIXS: MIGSBacteria”)                                                                                  |
-| seq_meth             | Sequencing method used (e.g. Illumina HiSeq 2000)                         | **GSC MIxS/MIGS Bacteria** (“GSC MIXS: MIGSBacteria”), **ENA Metadata Validation: Instrument** (“ENA Metadata Validation: Instrument”) |
-| lib_layout           | Single-end, paired end or others                                          | **GSC MIxS/MIGS Bacteria** (“GSC MIXS: MIGSBacteria”)                                                                                  |
-| lib_source           | Genomic, metagenomic, transcriptomic, etc.                                | **ENA Metadata Validation: Source** (“ENA Metadata Validation: Source”)                                                                |
-| lib_strategy         | WGS, Amplicon, etc.                                                       | **ENA Metadata Validation: Strategy** (“ENA Metadata Validation: Strategy”)                                                            |
-| lib_selection        | Random, PCR, etc.                                                         | **ENA Metadata Validation: Selection** (“ENA Metadata Validation: Selection”)                                                          |
-| sequence_count       | Number of reads in the library (sequencing depth) or ‘spots’              | **Adapted from NCBI-SRA** (Leinonen et al. 2011)                                                                                       |
-| basepairs_count      | Number of base pairs (nucleotides) in the library or ‘bases’              | **Adapted from NCBI-SRA** (Leinonen et al. 2011)                                                                                       |
-| average_length       | As basepairs_count divided by sequence_count                              | **Calculated as basepairs_count/sequence_count**                                                                                       |
-| sequence_count_qual  | Number of reads in the library (sequencing depth) after quality filtering | **SRA-Tinder** (NCBI Hackathons)                                                                                                       |
-| basepairs_count_qual | Number of base pairs (nucleotides) in the library after quality filtering | **SRA-Tinder** (NCBI Hackathons)                                                                                                       |
-| checksum             | Hash value (e.g. MD5) for data integrity                                  | [Data transfer and data integrity](Data_Transfer_Data_Integrity.md)                                                                    |
+| sample_name          | Identifier of the sample                                                  | [“GSC MIXS: MIGSBacteria”](https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/)                                                                                                                            |
+| seq_meth             | Sequencing method used (e.g. Illumina HiSeq 2000)                         | [“GSC MIXS: MIGSBacteria”](https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/), [“ENA Metadata Validation: Instrument”](https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#instrument) |
+| lib_layout           | Single-end, paired end or others                                          | [“GSC MIXS: MIGSBacteria”](https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/)                                                                                                                            |
+| lib_source           | Genomic, metagenomic, transcriptomic, etc.                                | [“ENA Metadata Validation: Source”](https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#source)                                                                                                       |
+| lib_strategy         | WGS, Amplicon, etc.                                                       | [“ENA Metadata Validation: Strategy”](https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#strategy)                                                                                                   |
+| lib_selection        | Random, PCR, etc.                                                         | [“ENA Metadata Validation: Selection”](https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#selection)                                                                                                 |
+| sequence_count       | Number of reads in the library (sequencing depth) or ‘spots’              | **Adapted from NCBI-SRA** ([Leinonen et al. (2011)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3013647/))                                                                                                             |
+| basepairs_count      | Number of base pairs (nucleotides) in the library or ‘bases’              | **Adapted from NCBI-SRA** ([Leinonen et al. (2011)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3013647/))                                                                                                             |
+| average_length       | As basepairs_count divided by sequence_count                              | **Calculated as basepairs_count/sequence_count**                                                                                                                                                                        |
+| sequence_count_qual  | Number of reads in the library (sequencing depth) after quality filtering | **SRA-Tinder** ([NCBI Hackathons](https://github.com/NCBI-Hackathons/SRA_Tinder))                                                                                                                                       |
+| basepairs_count_qual | Number of base pairs (nucleotides) in the library after quality filtering | **SRA-Tinder** ([NCBI Hackathons](https://github.com/NCBI-Hackathons/SRA_Tinder))                                                                                                                                       |
+| checksum             | Hash value (e.g. MD5) for data integrity                                  | [Data transfer and data integrity](Data_Transfer_Data_Integrity.md)                                                                                                                                                     |
 
 | Comments/questions:                                                     |
 |------------------------------------------------------------------------|
@@ -27,41 +27,49 @@ available.
 
 ## Minimal technical metadata for `Genomic FASTA` data
 
-| **metadata**         | **definition/examples**                                                    | **source**                                                                                                                           |
+| **metadata**         | **definition/examples**                                                    | **source**                                                                                                                                                                                                                 |
 |------------------|------------------------------------|------------------|
-| run_ref              | Accessions/identifiers linking to the raw data (FASTQ)                     | **Adapted from ENA** (“ENA How to Submit Other Analyses: Submitting Read Alignments”)                                                |
-| tax_ident            | Phylogenetic marker(s) for MAG assignation                                 | **GSC MIXS: MIMAG** (“GSC MIXS: MIMAG”)                                                                                              |
-| assembly_qual        | Assembly quality category (e.g. Medium Quality Draft)                      | **GSC MIxS/MIGS Bacteria** (“GSC MIXS: MIGSBacteria”)                                                                                |
-| assembly_software    | Tool(s) used, version and parameters                                       | **GSC MIxS/MIGS Bacteria** (“GSC MIXS: MIGSBacteria”)                                                                                |
-| coverage             | The estimated depth of sequencing coverage (in x)                          | **ENA Submitting Metagenome Assemblies** (“ENA Submitting Metagenome Assemblies”)                                                    |
-| number_contig        | Total number of contigs                                                    | **GSC MIxS/MIGS Bacteria** (“GSC MIXS: MIGSBacteria”), **Roadmap for naming uncultivated Archaea and Bacteria** (Murray et al. 2020) |
-| N50                  | The length of the shortest contig representing half of the assembly length | **Roadmap for naming uncultivated Archaea and Bacteria** (Murray et al. 2020)                                                        |
-| LSU_recover          | Detection of the 23S rRNA (BA) or 5.8S/28S rRNA (E)                        | **Adapted from GSC MIXS: MIMAG** (“GSC MIXS: MIMAG”)                                                                                 |
-| LSU_recover_software | Tools for LSU extraction                                                   | **Adapted from GSC MIXS: MIMAG** (“GSC MIXS: MIMAG”)                                                                                 |
-| SSU_recover          | Detection of the 16S rRNA (BA) or 18S rRNA (E)                             | **Adapted from GSC MIXS: MIMAG** (“GSC MIXS: MIMAG”)                                                                                 |
-| SSU_recover_software | Tools for SSU extraction                                                   | **Adapted from GSC MIXS: MIMAG** (“GSC MIXS: MIMAG”)                                                                                 |
-| trnas                | Total number of tRNAs identified                                           | **GSC MIXS: MIMAG** (“GSC MIXS: MIMAG”), **Roadmap for naming uncultivated Archaea and Bacteria** (Murray et al. 2020)               |
-| trna_ext_software    | Tools used for tRNA identification                                         | **GSC MIXS: MIMAG** (“GSC MIXS: MIMAG”)                                                                                              |
-| compl_score          | Completeness score                                                         | **GSC MIXS: MIMAG** (“GSC MIXS: MIMAG”)                                                                                              |
-| compl_software       | Tools used for completion estimate                                         | **GSC MIXS: MIMAG** (“GSC MIXS: MIMAG”)                                                                                              |
-| contam_score         | Contamination score                                                        | **GSC MIXS: MIMAG** (“GSC MIXS: MIMAG”)                                                                                              |
-| contam_software      | Tool(s) used in contamination screening                                    | **GSC MIXS: MIMAG** (“GSC MIXS: MIMAG”)                                                                                              |
+| run_ref              | Accessions/identifiers linking to the raw data (FASTQ)                     | **Adapted from:** [“ENA How to Submit Other Analyses: Submitting Read Alignments”](https://ena-docs.readthedocs.io/en/latest/submit/analyses/read-alignments.html)                                                         |
+| tax_ident            | Phylogenetic marker(s) for MAG assignation                                 | [“GSC MIXS: MIMAG”](https://genomicsstandardsconsortium.github.io/mixs/MIMAG/)                                                                                                                                             |
+| assembly_qual        | Assembly quality category (e.g. Medium Quality Draft)                      | [“GSC MIXS: MIGSBacteria”](https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/)                                                                                                                               |
+| assembly_software    | Tool(s) used, version and parameters                                       | [“GSC MIXS: MIGSBacteria”](https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/)                                                                                                                               |
+| coverage             | The estimated depth of sequencing coverage (in x)                          | [“ENA Submitting Metagenome Assemblies”](https://ena-docs.readthedocs.io/en/latest/submit/assembly/metagenome.html)                                                                                                        |
+| number_contig        | Total number of contigs                                                    | [“GSC MIXS: MIGSBacteria”](https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/), **Roadmap for naming uncultivated Archaea and Bacteria** ([Murray et al. (2020)](https://doi.org/10.1038/s41564-020-0733-x)) |
+| N50                  | The length of the shortest contig representing half of the assembly length | **Roadmap for naming uncultivated Archaea and Bacteria** ([Murray et al. (2020)](https://doi.org/10.1038/s41564-020-0733-x))                                                                                               |
+| LSU_recover          | Detection of the 23S rRNA (BA) or 5.8S/28S rRNA (E)                        | **Adapted from:** [“GSC MIXS: MIMAG”](https://genomicsstandardsconsortium.github.io/mixs/MIMAG/)                                                                                                                           |
+| LSU_recover_software | Tools for LSU extraction                                                   | **Adapted from:** [“GSC MIXS: MIMAG”](https://genomicsstandardsconsortium.github.io/mixs/MIMAG/)                                                                                                                           |
+| SSU_recover          | Detection of the 16S rRNA (BA) or 18S rRNA (E)                             | **Adapted from:** [“GSC MIXS: MIMAG”](https://genomicsstandardsconsortium.github.io/mixs/MIMAG/)                                                                                                                           |
+| SSU_recover_software | Tools for SSU extraction                                                   | **Adapted from:** [“GSC MIXS: MIMAG”](https://genomicsstandardsconsortium.github.io/mixs/MIMAG/)                                                                                                                           |
+| trnas                | Total number of tRNAs identified                                           | [“GSC MIXS: MIMAG”](https://genomicsstandardsconsortium.github.io/mixs/MIMAG/), **Roadmap for naming uncultivated Archaea and Bacteria** ([Murray et al. (2020)](https://doi.org/10.1038/s41564-020-0733-x))               |
+| trna_ext_software    | Tools used for tRNA identification                                         | [“GSC MIXS: MIMAG”](https://genomicsstandardsconsortium.github.io/mixs/MIMAG/)                                                                                                                                             |
+| compl_score          | Completeness score                                                         | [“GSC MIXS: MIMAG”](https://genomicsstandardsconsortium.github.io/mixs/MIMAG/)                                                                                                                                             |
+| compl_software       | Tools used for completion estimate                                         | [“GSC MIXS: MIMAG”](https://genomicsstandardsconsortium.github.io/mixs/MIMAG/)                                                                                                                                             |
+| contam_score         | Contamination score                                                        | [“GSC MIXS: MIMAG”](https://genomicsstandardsconsortium.github.io/mixs/MIMAG/)                                                                                                                                             |
+| contam_software      | Tool(s) used in contamination screening                                    | [“GSC MIXS: MIMAG”](https://genomicsstandardsconsortium.github.io/mixs/MIMAG/)                                                                                                                                             |
 
 The publications describing the reasons for formation of **The minimum
-information about a genome sequence (MIGS)** (Field et al. 2008),
-**Minimum information about a marker gene sequence (MIMARKS) and minimum
-information about any (x) sequence (MIxS) specifications** (Yilmaz et
-al. 2011), **Minimum information about a single amplified genome (MISAG)
-and a metagenome-assembled genome (MIMAG) of bacteria and archaea**
-(Bowers et al. 2017), and **Roadmap for naming uncultivated Archaea and
-Bacteria** (Murray et al. 2020) can be found online.
+information about a genome sequence (MIGS)** ([Field et al.
+(2008)](https://doi.org/10.1038/nbt1360)), **Minimum information about a
+marker gene sequence (MIMARKS) and minimum information about any (x)
+sequence (MIxS) specifications** ([Yilmaz et al.
+(2011)](https://doi.org/10.1038/nbt.1823)), **Minimum information about
+a single amplified genome (MISAG) and a metagenome-assembled genome
+(MIMAG) of bacteria and archaea** ([Bowers et al.
+(2017)](https://doi.org/10.1038/nbt.3893)), and **Roadmap for naming
+uncultivated Archaea and Bacteria** ([Murray et al.
+(2020)](https://doi.org/10.1038/s41564-020-0733-x)) can be found online.
 
-We also encourage our readers to have a look at the **HumanMetagenomeDB:
-a public repository of curated and standardized metadata for human
-metagenomes** (Kasmanas et al. 2021) and **TerrestrialMetagenomeDB: a
-public repository of curated and standardized metadata for terrestrial
-metagenomes** (Corrêa et al. 2020) to better understand some of the
-metadata fields that can be found in the tables above.
+We also encourage our readers to have a look at the
+[**HumanMetagenomeDB: a public repository of curated and standardized
+metadata for human metagenomes**](https://webapp.ufz.de/hmgdb/)
+([Kasmanas et al.
+(2021)](https://academic.oup.com/nar/article/49/D1/D743/5998395)) and
+[**TerrestrialMetagenomeDB: a public repository of curated and
+standardized metadata for terrestrial
+metagenomes**](https://webapp.ufz.de/tmdb/) ([Corrêa et al.
+(2020)](https://academic.oup.com/nar/article/48/D1/D626/5625925)) to
+better understand some of the metadata fields that can be found in the
+tables above.
 
 # References
 

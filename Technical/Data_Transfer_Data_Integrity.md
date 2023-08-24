@@ -2,13 +2,13 @@
 
 ## `Examples of existing data transfer & data integrity checks`
 
-| **Repository or tool source** | **Data transfer integrity checks in place**                                                                                                                                   |
+| **Repository or tool source** | **Data transfer integrity checks in place**                                                                                                                                                                                                                                                                             |
 |-------------------------|------------------------------------------------|
-| ENA                           | MD5sum available for “most” downloads. Submission tool generates this, otherwise user needs to upload (“Common Run Submission Errors”) ncbi                                   |
-| NCBI GEO                      | MD5 “recommended” for submissions (“Submitting High-Throughput Sequence Data to GEO”)                                                                                         |
-| NCBI SRA                      | MD5 is a parameter during submission (as of the 2010 guide (“SRA Submission Quick Start Guide”)) There is a ‘vdb-validate’ tool for checking download integrity (“Sra-Tools”) |
-| MGnify                        | “Intermediate checksums” in 2020 paper (Mitchell et al. 2020)                                                                                                                 |
-| MG RAST                       | “Data hygiene” (Preprocessing, dereplication, DRISEE, screening) (Meyer et al. 2008)                                                                                          |
+| ENA                           | MD5sum available for “most” downloads. Submission tool generates this, otherwise user needs to upload [“Common Run Submission Errors”](https://ena-docs.readthedocs.io/en/latest/faq/runs.html) ncbi                                                                                                                    |
+| NCBI GEO                      | MD5 “recommended” for submissions [“Submitting High-Throughput Sequence Data to GEO”](https://www.ncbi.nlm.nih.gov/geo/info/seq.html)                                                                                                                                                                                   |
+| NCBI SRA                      | MD5 is a parameter during submission (as of the 2010 guide [“SRA Submission Quick Start Guide”](https://anonsvn.ncbi.nlm.nih.gov/repos/v1/trunk/sra/doc/SRA_1-1/SRA_Quick_Start_Guide.pdf)) There is a ‘vdb-validate’ tool for checking download integrity [“SRA-Tools”](https://github.com/ncbi/sra-tools/tree/master) |
+| MGnify                        | “Intermediate checksums” in **MGnify: the microbiome analysis resource in 2020** ([Mitchell et al. (2020)](https://doi.org/10.1093/nar/gkz1035))                                                                                                                                                                        |
+| MG RAST                       | “Data hygiene” (Preprocessing, dereplication, DRISEE, screening) ([Meyer et al. (2008)](https://help.mg-rast.org/user_manual.html#data-hygiene))                                                                                                                                                                        |
 
 | Comments/questions: |
 |---------------------|
@@ -16,12 +16,12 @@
 
 ## `Data integrity considerations by file type`
 
-| **File type** | **Integrity check**                                                                               | **Other considerations for quality and transferability** |
+| **File type** | **Integrity check**                                                                                                                                                                         | **Other considerations for quality and transferability** |
 |------------------|------------------------------------|------------------|
-| FASTQ         | Read count, checksum (MD5sum, SEGUID (Bassi and Gonzalez 2007) (Babnigg and Giometti 2006), etc.) | Determination of +33/+64 format from compressed files    |
-| FASTA         | Read count, checksum (MD5sum, SEGUID (Bassi and Gonzalez 2007) (Babnigg and Giometti 2006), etc.) |                                                          |
-| .faa          | SEGUID (Bassi and Gonzalez 2007) (Babnigg and Giometti 2006)                                      | Annotation pipeline, assembly quality                    |
-| GFF/GTF       |                                                                                                   | Annotation pipeline, assembly quality                    |
+| FASTQ         | Read count, checksum (MD5sum, SEGUID ([Bassi and Gonzalez (2007)](https://doi.org/10.1038/npre.2007.278.1)), ([Babnigg and Giometti (2006)](https://doi.org/10.1002/pmic.200600032)), etc.) | Determination of +33/+64 format from compressed files    |
+| FASTA         | Read count, checksum (MD5sum, SEGUID ([Bassi and Gonzalez (2007)](https://doi.org/10.1038/npre.2007.278.1)), ([Babnigg and Giometti (2006)](https://doi.org/10.1002/pmic.200600032), etc.)  |                                                          |
+| .faa          | SEGUID ([Bassi and Gonzalez (2007)](https://doi.org/10.1038/npre.2007.278.1)), ([Babnigg and Giometti (2006)](https://doi.org/10.1002/pmic.200600032)                                       | Annotation pipeline, assembly quality                    |
+| GFF/GTF       |                                                                                                                                                                                             | Annotation pipeline, assembly quality                    |
 
 | Comments/questions: |
 |---------------------|
@@ -37,7 +37,7 @@ Bassi, S., and V. Gonzalez. 2007. “New Checksum Functions for
 Biopython.” *Nat Prec*. <https://doi.org/10.1038/npre.2007.278.1>.
 
 “Common Run Submission Errors.”
-<https://ena-docs.readthedocs.io/en/latest/faq/runs.html#>.
+<https://ena-docs.readthedocs.io/en/latest/faq/runs.html>.
 
 Meyer, F., D. Paarmann, M. D’Souza, R. Olson, E. M. Glass, M. Kubal, T.
 Paczian, et al. 2008. “The Metagenomics RAST Server — a Public Resource
@@ -53,7 +53,7 @@ The Microbiome Analysis Resource in 2020.” *Nucleic Acids Research* 48
 “SRA Submission Quick Start Guide.”
 <https://anonsvn.ncbi.nlm.nih.gov/repos/v1/trunk/sra/doc/SRA_1-1/SRA_Quick_Start_Guide.pdf>.
 
-“Sra-Tools.” <https://github.com/ncbi/sra-tools/tree/master>.
+“SRA-Tools.” <https://github.com/ncbi/sra-tools/tree/master>.
 
 “Submitting High-Throughput Sequence Data to GEO.”
 <https://www.ncbi.nlm.nih.gov/geo/info/seq.html>.
