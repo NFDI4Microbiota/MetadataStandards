@@ -230,19 +230,14 @@ cultivation information.
 The references in the figure are from the following sources:
 
 -   **Marine references**:
-    -   [GSC MIxS: Water
-        MIMS](https://genomicsstandardsconsortium.github.io/mixs/WaterMIMS/)
-        (“GSC MIxS: WaterMIMS”)
-    -   [ENA MMC: ENA Checklist: Marine
-        Microalgae](https://www.ebi.ac.uk/ena/browser/view/ERC000043)
-        (“ENA Marine Microalgae Checklist; Checklist: ERC000043”)
-    -   [ENA Tara Oceans; Checklist:
-        ERC000030](https://www.ebi.ac.uk/ena/browser/view/ERC000030)
-        (“ENA Tara Oceans; Checklist: ERC000030”)
-    -   [GSC Minimum Information about any (x) Sequence (MIxS); ENA
-        checklist: Water
-        environment](https://www.ebi.ac.uk/ena/browser/view/ERC000024)
-        (“GSC MIxS Water; ENA Checklist: ERC000024”)
+    -   [“GSC MIxS:
+        WaterMIMS”](https://genomicsstandardsconsortium.github.io/mixs/WaterMIMS/)
+    -   [“ENA Marine Microalgae Checklist; Checklist:
+        ERC000043”](https://www.ebi.ac.uk/ena/browser/view/ERC000043)
+    -   [“ENA Tara Oceans; Checklist:
+        ERC000030”](https://www.ebi.ac.uk/ena/browser/view/ERC000030)
+    -   [“GSC MIxS Water; ENA Checklist:
+        ERC000024”](https://www.ebi.ac.uk/ena/browser/view/ERC000024)
     -   [The environment ontology: contextualising biological and
         biomedical entities](https://doi.org/10.1186%2F2041-1480-4-43)
         (Buttigieg et al. 2013)
@@ -262,21 +257,16 @@ The references in the figure are from the following sources:
         context](https://doi.org/10.1007/s11306-007-0067-1) (Morrison et
         al. 2007)
 -   **Terrestrial / Terrestrial(constructed)**
-    -   [GSC MIxS: Miscellaneous Natural Or Artificial Environment
-        MIMS](https://genomicsstandardsconsortium.github.io/mixs/MiscellaneousNaturalOrArtificialEnvironmentMIMS/)
-        (“GSC MIxS: MiscellaneousNaturalOrArtificialEnvironmentMIMS”)
-    -   [GSC MIxS: Sediment
-        MIMS](https://genomicsstandardsconsortium.github.io/mixs/SedimentMIMS/)
-        (“GSC MIxS: SedimentMIMS”)
-    -   [GSC MIXS: Soil
-        MIMS](https://genomicsstandardsconsortium.github.io/mixs/SoilMIMS/)
-        (“GSC MIxS: SoilMIMS”)
-    -   [GSC MIxS: Wastewater Sludge
-        MIMS](https://genomicsstandardsconsortium.github.io/mixs/WastewaterSludgeMIMS/)
-        (“GSC MIxS: WastewaterSludgeMIMS”)
-    -   [GSC MIxS: Built Environment
-        MIMS](https://genomicsstandardsconsortium.github.io/mixs/BuiltEnvironmentMIMS/)
-        (“GSC MIxS: BuiltEnvironmentMIMS”)
+    -   [“GSC MIxS:
+        MiscellaneousNaturalOrArtificialEnvironmentMIMS”](https://genomicsstandardsconsortium.github.io/mixs/MiscellaneousNaturalOrArtificialEnvironmentMIMS/)
+    -   [“GSC MIxS:
+        SedimentMIMS”](https://genomicsstandardsconsortium.github.io/mixs/SedimentMIMS/)
+    -   [“GSC MIxS:
+        SoilMIMS”](https://genomicsstandardsconsortium.github.io/mixs/SoilMIMS/)
+    -   [“GSC MIxS:
+        WastewaterSludgeMIMS”](https://genomicsstandardsconsortium.github.io/mixs/WastewaterSludgeMIMS/)
+    -   [“GSC MIxS:
+        BuiltEnvironmentMIMS”](https://genomicsstandardsconsortium.github.io/mixs/BuiltEnvironmentMIMS/)
     -   [The environment ontology: contextualising biological and
         biomedical entities](https://doi.org/10.1186%2F2041-1480-4-43)
         (Buttigieg et al. 2013)
@@ -296,18 +286,14 @@ The references in the figure are from the following sources:
         context](https://doi.org/10.1007/s11306-007-0067-1) (Morrison et
         al. 2007)
 -   **Plant-associated**
-    -   [GSC MIxS: Plant-associated
-        MIMS](https://genomicsstandardsconsortium.github.io/mixs/Plant-associatedMIMS/)
-        (“GSC MIxS: Plant-associatedMIMS”)
-    -   [GSC MIxS: Agriculture
-        MIMS](https://genomicsstandardsconsortium.github.io/mixs/AgricultureMIMS/)
-        (“GSC MIxS: AgricultureMIMS”)
-    -   [GSC MIxS: Symbiont-associated
-        MIMS](https://genomicsstandardsconsortium.github.io/mixs/Symbiont-associatedMIMS/)
-        (“GSC MIxS: Symbiont-associatedMIMS”)
-    -   [ENA MMC: ENA Checklist: Marine
-        Microalgae](https://www.ebi.ac.uk/ena/browser/view/ERC000043)
-        (“ENA Marine Microalgae Checklist; Checklist: ERC000043”)
+    -   [“GSC MIxS:
+        Plant-associatedMIMS”](https://genomicsstandardsconsortium.github.io/mixs/Plant-associatedMIMS/)
+    -   [“GSC MIxS:
+        AgricultureMIMS”](https://genomicsstandardsconsortium.github.io/mixs/AgricultureMIMS/)
+    -   [“GSC MIxS:
+        Symbiont-associatedMIMS”](https://genomicsstandardsconsortium.github.io/mixs/Symbiont-associatedMIMS/)
+    -   [“ENA Marine Microalgae Checklist; Checklist:
+        ERC000043”](https://www.ebi.ac.uk/ena/browser/view/ERC000043)
     -   [The environment ontology: contextualising biological and
         biomedical entities](https://doi.org/10.1186%2F2041-1480-4-43)
         (Buttigieg et al. 2013)
@@ -327,9 +313,8 @@ The references in the figure are from the following sources:
         context](https://doi.org/10.1007/s11306-007-0067-1) (Morrison et
         al. 2007)
 -   **Animal-associated**
-    -   [GSC MIxS: Host-associated
-        MIMS](https://genomicsstandardsconsortium.github.io/mixs/Host-associatedMIMS/)
-        (“GSC MIxS: Host-associatedMIMS”)
+    -   [“GSC MIxS:
+        Host-associatedMIMS”](https://genomicsstandardsconsortium.github.io/mixs/Host-associatedMIMS/)
     -   [The environment ontology: contextualising biological and
         biomedical entities](https://doi.org/10.1186%2F2041-1480-4-43)
         (Buttigieg et al. 2013)
@@ -349,28 +334,20 @@ The references in the figure are from the following sources:
         context](https://doi.org/10.1007/s11306-007-0067-1) (Morrison et
         al. 2007)
 -   **Human-associated**
-    -   [MIMS: metagenome/environmental, human-associated; version 6.0
-        Package](https://www.ncbi.nlm.nih.gov/biosample/docs/packages/MIMS.me.human-associated.5.0/)
-        (“MIMS: Metagenome/Environmental, Human-Associated; Version 6.0
-        Package”)
-    -   [GSC MIxS human associated; ENA Checklist:
-        ERC000014](https://www.ebi.ac.uk/ena/browser/view/ERC000014)
-        (“GSC MIxS Human Associated; ENA Checklist: ERC000014”)
-    -   [GSC MIxS: Human-associated
-        MIMS](https://genomicsstandardsconsortium.github.io/mixs/Human-associatedMIMS/)
-        (“GSC MIxS: Human-associatedMIMS”)
-    -   [GSC MIxS: Human-gut
-        MIMS](https://genomicsstandardsconsortium.github.io/mixs/Human-gutMIMS/)
-        (“GSC MIxS: Human-gutMIMS”)
-    -   [GSC MIxS: Human-oral
-        MIMS](https://genomicsstandardsconsortium.github.io/mixs/Human-oralMIMS/)
-        (“GSC MIxS: Human-oralMIMS”)
-    -   [GSC MIxS: Human-skin
-        MIMS](https://genomicsstandardsconsortium.github.io/mixs/Human-skinMIMS/)
-        (“GSC MIxS: Human-skinMIMS”)
-    -   [GSC MIxS: Human-vaginal
-        MIMS](https://genomicsstandardsconsortium.github.io/mixs/Human-vaginalMIMS/)
-        (“GSC MIxS: Human-vaginalMIMS”)
+    -   [“MIMS: Metagenome/Environmental, Human-Associated; Version 6.0
+        Package”](https://www.ncbi.nlm.nih.gov/biosample/docs/packages/MIMS.me.human-associated.5.0/)  
+    -   [“GSC MIxS Human Associated; ENA Checklist:
+        ERC000014”](https://www.ebi.ac.uk/ena/browser/view/ERC000014)
+    -   [“GSC MIxS:
+        Human-associatedMIMS”](https://genomicsstandardsconsortium.github.io/mixs/Human-associatedMIMS/)
+    -   [“GSC MIxS:
+        Human-gutMIMS”](https://genomicsstandardsconsortium.github.io/mixs/Human-gutMIMS/)
+    -   [“GSC MIxS:
+        Human-oralMIMS”](https://genomicsstandardsconsortium.github.io/mixs/Human-oralMIMS/)
+    -   [“GSC MIxS:
+        Human-skinMIMS”](https://genomicsstandardsconsortium.github.io/mixs/Human-skinMIMS/)
+    -   [“GSC MIxS:
+        Human-vaginalMIMS”](https://genomicsstandardsconsortium.github.io/mixs/Human-vaginalMIMS/)
     -   [The environment ontology: contextualising biological and
         biomedical entities](https://doi.org/10.1186%2F2041-1480-4-43)
         (Buttigieg et al. 2013)
@@ -389,26 +366,19 @@ The references in the figure are from the following sources:
         metabolomics experiments: environmental
         context](https://doi.org/10.1007/s11306-007-0067-1) (Morrison et
         al. 2007)
-    -   [U.S. Office of Management and Budget (OMB): About the Topic of
-        Race](https://www.census.gov/topics/population/race/about.html)
-        (“U.s. Office of Management and Budget (OMB): About the Topic of
-        Race”)
+    -   [“U.S. Office of Management and Budget (OMB): About the Topic of
+        Race”](https://www.census.gov/topics/population/race/about.html)
 -   **Microbe-associated**
-    -   [GSC MIxS: Miscellaneous Natural Or Artificial Environment
-        MIMS](https://genomicsstandardsconsortium.github.io/mixs/MiscellaneousNaturalOrArtificialEnvironmentMIMS/)
-        (“GSC MIxS: MiscellaneousNaturalOrArtificialEnvironmentMIMS”)
-    -   [GSC MIxS: Sediment
-        MIMS](https://genomicsstandardsconsortium.github.io/mixs/SedimentMIMS/)
-        (“GSC MIxS: SedimentMIMS”)
-    -   [GSC MIXS: Soil
-        MIMS](https://genomicsstandardsconsortium.github.io/mixs/SoilMIMS/)
-        (“GSC MIxS: SoilMIMS”)
-    -   [GSC MIxS: Wastewater Sludge
-        MIMS](https://genomicsstandardsconsortium.github.io/mixs/WastewaterSludgeMIMS/)
-        (“GSC MIxS: WastewaterSludgeMIMS”)
-    -   [GSC MIxS: Microbial Mat Biofilm
-        MIMS](https://genomicsstandardsconsortium.github.io/mixs/MicrobialMatBiofilmMIMS/)
-        (“GSC MIXS: MicrobialMatBiofilmMIMS”)
+    -   [“GSC MIxS:
+        MiscellaneousNaturalOrArtificialEnvironmentMIMS”](https://genomicsstandardsconsortium.github.io/mixs/MiscellaneousNaturalOrArtificialEnvironmentMIMS/)
+    -   [“GSC MIxS:
+        SedimentMIMS”](https://genomicsstandardsconsortium.github.io/mixs/SedimentMIMS/)
+    -   [“GSC MIxS:
+        SoilMIMS”](https://genomicsstandardsconsortium.github.io/mixs/SoilMIMS/)
+    -   [“GSC MIxS:
+        WastewaterSludgeMIMS”](https://genomicsstandardsconsortium.github.io/mixs/WastewaterSludgeMIMS/)
+    -   [“GSC MIXS:
+        MicrobialMatBiofilmMIMS”](https://genomicsstandardsconsortium.github.io/mixs/MicrobialMatBiofilmMIMS/)
     -   [The environment ontology: contextualising biological and
         biomedical entities](https://doi.org/10.1186%2F2041-1480-4-43)
         (Buttigieg et al. 2013)
