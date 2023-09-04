@@ -15,13 +15,13 @@ repositories.
 
 In line with the <a href="https://nfdi4microbiota.de/"
 id="nfdi4microbiotastandardsandpolicies"><strong>NFDI4Microbiota</strong></a>
-(“German National Research Data Infrastructure” ) (“NFDI4Microbiota”)
+(“German National Research Data Infrastructure” ) 
 project’s objectives, this page aims to address the challenges of
 microbial (meta)data accessibility and consistency. The efficient
 exchange of usable information between research groups, sequencing
 centers, and data repositories has been a long-standing issue. Measure
 2.1 (M2.1) specifically focuses on maximizing data quality within the
-[NFDI4Microbiota](https://nfdi4microbiota.de/) (“NFDI4Microbiota”)
+[NFDI4Microbiota](https://nfdi4microbiota.de/) 
 system by enforcing compliance with existing standards and identifying
 additional tailored data standards and metadata requirements.
 
@@ -61,9 +61,9 @@ international microbiological community.
     section**](#biological-and-environmental-metadata-standards)
     <br><br>
 
-[**Figure 1.**](#figure1) Outlines the key aspects considered for
+The key aspects considered for
 determining minimal metadata standards that can be universally
-applicable across various datasets and microbiomes. These aspects
+applicable across various datasets and microbiomes are outlined in [**Figure 1**](#figure1). These aspects
 encompass both technical and biological/environmental (Bio/Env)
 considerations. The figure illustrates the comprehensive approach used
 to establish minimal metadata standards for diverse research settings by
