@@ -111,8 +111,9 @@ respectively. Parameter applicability to different data types and the
 time of data generation (i.e., before sequencing or during data
 processing) are shown on the left and right, respectively.
 
-Additionally, standards are being considered for [**data transfer and
-data integrity**](#data-transfer-data-integrity) to ensure quality is
+Additionally, standards are being considered for [data transfer and data
+integrity](./Technical/Data_Transfer_Data_Integrity.md)
+ to ensure quality is
 maintained throughout various processes of data file exchange. <br><br>
 
 ### 2. Overview of minimal technical FASTQ and FASTA metadata considerations. <br><br>
