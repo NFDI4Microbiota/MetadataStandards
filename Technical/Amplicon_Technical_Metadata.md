@@ -6,34 +6,33 @@ now available.
 
 ## Minimal technical metadata for `Amplicon FASTQ` data
 
-| **metadata**         | **definition/examples**                                                   | **source**                                                                                                                                                                                                              |
-|------------------|------------------------------------|------------------|
-| sample_name          | Identifier of the sample                                                  | [“GSC MIXS: MIGSBacteria”](https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/)                                                                                                                            |
-| seq_meth             | Sequencing method used (e.g. Illumina HiSeq 2000)                         | [“GSC MIXS: MIGSBacteria”](https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/), [“ENA Metadata Validation: Instrument”](https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#instrument) |
-| lib_layout           | Single-end, paired end or others                                          | [“GSC MIXS: MIGSBacteria”](https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/)                                                                                                                            |
-| lib_source           | Genomic, metagenomic, transcriptomic, etc.                                | [“ENA Metadata Validation: Source”](https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#source)                                                                                                       |
-| lib_strategy         | WGS, Amplicon, etc.                                                       | [“ENA Metadata Validation: Strategy”](https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#strategy)                                                                                                   |
-| lib_selection        | Random, PCR, etc.                                                         | [“ENA Metadata Validation: Selection”](https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#selection)                                                                                                 |
-| sequence_count       | Number of reads in the library (sequencing depth) or ‘spots’              | **Adapted from NCBI-SRA** ([Leinonen et al. (2011)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3013647/))                                                                                                             |
-| basepairs_count      | Number of base pairs (nucleotides) in the library or ‘bases’              | **Adapted from NCBI-SRA** ([Leinonen et al. (2011)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3013647/))                                                                                                             |
-| average_length       | As basepairs_count divided by sequence_count                              | **Calculated as basepairs_count/sequence_count**                                                                                                                                                                        |
-| sequence_count_qual  | Number of reads in the library (sequencing depth) after quality filtering | **SRA-Tinder** ([NCBI Hackathons](https://github.com/NCBI-Hackathons/SRA_Tinder))                                                                                                                                       |
-| basepairs_count_qual | Number of base pairs (nucleotides) in the library after quality filtering | **SRA-Tinder** ([NCBI Hackathons](https://github.com/NCBI-Hackathons/SRA_Tinder))                                                                                                                                       |
-| target_gene          | Targeted gene name for marker gene studies (e.g. 16S rRNA, ITS)           | [“GSC MIXS: MIMARKSSpecimen”](https://genomicsstandardsconsortium.github.io/mixs/MIMARKSSpecimen/)                                                                                                                      |
-| target_subfragment   | Name of the targeted subregion (e.g. V3-V4, ITS1)                         | [“GSC MIXS: MIMARKSSpecimen”](https://genomicsstandardsconsortium.github.io/mixs/MIMARKSSpecimen/)                                                                                                                      |
-| pcr_primers          | Forward and reverse primer sequences used                                 | [“GSC MIXS: MIMARKSSpecimen”](https://genomicsstandardsconsortium.github.io/mixs/MIMARKSSpecimen/)                                                                                                                      |
-| checksum             | Hash value (e.g. MD5) for data integrity                                  | [Data transfer and data integrity](Data_Transfer_Data_Integrity.md)                                                                                                                                                     |
+| **metadata**         | **definition**                                                                   | **examples**                                           | **source**                                                                                                                             |
+|------------------|--------------------|------------------|------------------|
+| sample_name          | Identifier of the sample                                                         | e.g. ISDsoil1                                          | **GSC MIxS/MIGS Bacteria** (“GSC MIXS: MIGSBacteria”)                                                                                  |
+| seq_meth             | Sequencing method used                                                           | 454 Genome Sequencer FLX \[OBI:0000702\]               | **GSC MIxS/MIGS Bacteria** (“GSC MIXS: MIGSBacteria”), **ENA Metadata Validation: Instrument** (“ENA Metadata Validation: Instrument”) |
+| lib_layout           | Specify whether to expect single, paired, or other configuration of reads        | e.g. single-end, paired end or others                  | **GSC MIxS/MIGS Bacteria** (“GSC MIXS: MIGSBacteria”)                                                                                  |
+| lib_source           | The lib_source specifies the type of source material that is being sequenced     | e.g. genomic, metagenomic, transcriptomic, etc.        | **ENA Metadata Validation: Source** (“ENA Metadata Validation: Source”)                                                                |
+| lib_strategy         | Sequencing technique intended for this library                                   | e.g. WGS, Amplicon, etc.                               | **ENA Metadata Validation: Strategy** (“ENA Metadata Validation: Strategy”)                                                            |
+| lib_selection        | Whether any method was used to select and/or enrich the material being sequenced | e.g. Random, PCR, etc.                                 | **ENA Metadata Validation: Selection** (“ENA Metadata Validation: Selection”)                                                          |
+| sequence_count       | Number of reads in the library (sequencing depth) or ‘spots’                     | e.g. 32,283,453                                        | **Adapted from NCBI-SRA** (Leinonen et al. 2011)                                                                                       |
+| basepairs_count      | Number of base pairs (nucleotides) in the library or ‘bases’                     | e.g. 6,400,000,000                                     | **Adapted from NCBI-SRA** (Leinonen et al. 2011)                                                                                       |
+| average_length       | As basepairs_count divided by sequence_count                                     | e.g. 198                                               | **Calculated as basepairs_count/sequence_count**                                                                                       |
+| sequence_count_qual  | Number of reads in the library (sequencing depth) after quality filtering        |                                                        | **SRA-Tinder** (NCBI Hackathons)                                                                                                       |
+| basepairs_count_qual | Number of base pairs (nucleotides) in the library after quality filtering        |                                                        | **SRA-Tinder** (NCBI Hackathons)                                                                                                       |
+| target_gene          | Targeted gene name for marker gene studies                                       | e.g. 16S rRNA, ITS                                     | **GSC MIXS: MIMARKSSpecimen** (“GSC MIXS: MIMARKSSpecimen”)                                                                            |
+| target_subfragment   | Name of the targeted subregion                                                   | e.g. V3-V4, ITS1                                       | **GSC MIXS: MIMARKSSpecimen** (“GSC MIXS: MIMARKSSpecimen”)                                                                            |
+| pcr_primers          | Forward and reverse primer sequences used                                        | e.g. FWD:GTGCCAGCMGCCGCGGTAA; REV:GGACTACHVGGGTWTCTAAT | **GSC MIXS: MIMARKSSpecimen** (“GSC MIXS: MIMARKSSpecimen”)                                                                            |
+| checksum             | Hash value for data integrity                                                    | e.g. MD5: cbc41d0e49636872a765b950cb7f410a             | [Data transfer and data integrity](Data_Transfer_Data_Integrity.md)                                                                    |
 
 | Comments/questions:                                                     |
 |------------------------------------------------------------------------|
 | Should we also add nucl_ext_method and nucl_extr_treat here -MB 11AUG23 |
 
 The publications describing the reasons for formation of **The minimum
-information about a genome sequence (MIGS)** ([Field et al.
-(2008)](https://doi.org/10.1038/nbt1360)) and **Minimum information
-about a marker gene sequence (MIMARKS) and minimum information about any
-(x) sequence (MIxS) specifications** ([Yilmaz et al.
-(2011)](https://doi.org/10.1038/nbt.1823)) can be found online.
+information about a genome sequence (MIGS)** (Field et al. 2008) and
+**Minimum information about a marker gene sequence (MIMARKS) and minimum
+information about any (x) sequence (MIxS) specifications** (Yilmaz et
+al. 2011) can be found online.
 
 # References
 
