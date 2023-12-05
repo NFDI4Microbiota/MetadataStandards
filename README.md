@@ -15,13 +15,13 @@ repositories.
 
 In line with the <a href="https://nfdi4microbiota.de/"
 id="nfdi4microbiotastandardsandpolicies"><strong>NFDI4Microbiota</strong></a>
-(“German National Research Data Infrastructure” ) 
+(“German National Research Data Infrastructure” ) (“NFDI4Microbiota”)
 project’s objectives, this page aims to address the challenges of
 microbial (meta)data accessibility and consistency. The efficient
 exchange of usable information between research groups, sequencing
 centers, and data repositories has been a long-standing issue. Measure
 2.1 (M2.1) specifically focuses on maximizing data quality within the
-[NFDI4Microbiota](https://nfdi4microbiota.de/) 
+[NFDI4Microbiota](https://nfdi4microbiota.de/) (“NFDI4Microbiota”)
 system by enforcing compliance with existing standards and identifying
 additional tailored data standards and metadata requirements.
 
@@ -61,9 +61,9 @@ international microbiological community.
     section**](#biological-and-environmental-metadata-standards)
     <br><br>
 
-The key aspects considered for
+[**Figure 1.**](#figure1) Outlines the key aspects considered for
 determining minimal metadata standards that can be universally
-applicable across various datasets and microbiomes are outlined in [**Figure 1**](#figure1). These aspects
+applicable across various datasets and microbiomes. These aspects
 encompass both technical and biological/environmental (Bio/Env)
 considerations. The figure illustrates the comprehensive approach used
 to establish minimal metadata standards for diverse research settings by
@@ -111,16 +111,15 @@ respectively. Parameter applicability to different data types and the
 time of data generation (i.e., before sequencing or during data
 processing) are shown on the left and right, respectively.
 
-Additionally, standards are being considered for [data transfer and data
-integrity](./Technical/Data_Transfer_Data_Integrity.md)
- to ensure quality is
+Additionally, standards are being considered for [**data transfer and
+data integrity**](#data-transfer-data-integrity) to ensure quality is
 maintained throughout various processes of data file exchange. <br><br>
 
 ### 2. Overview of minimal technical FASTQ and FASTA metadata considerations. <br><br>
 
 <img src="./images/MinimalTechnicalTable_FASTQ.jpg" id="figure2"
 alt="FASTQMetadataTablesOverview" /> **Figure 2. Overview of Minimal
-Technical Metadata for FASTQ Files**
+Technical Metadata for FASTQ Files **
 
 This figure provides an overview of the minimal technical metadata
 relevant to FASTQ files. The left side lists the applicability of
@@ -130,7 +129,7 @@ generation is indicated. <br><br>
 
 <img src="./images/MinimalTechnicalTable_FASTA.jpg" id="figure3"
 alt="FASTAMetadataTablesOverview" /> **Figure 3. Overview of Minimal
-Technical Metadata for FASTA Files**
+Technical Metadata for FASTA Files **
 
 This figure presents an overview of the minimal technical metadata
 relevant to FASTA files. On the left side, the applicability of
@@ -176,7 +175,9 @@ based on technology.
     sequencing](./Technical/Metabolome_Technical_Metadata.md)
     -   Metabolome
     -   Metabolome - experimental protocol edition
--   2.9 [BIOM or tabular
+-   2.9 [uVIGs](./Technical/uVIGs_Technical_Metadata.md) -uVIG FASTQ
+    -uVIG FASTA
+-   2.10 [BIOM or tabular
     files](./Technical/BIOM_or_Tabular_Technical_Metadata.md) <br><br>
 
 ### 4. Data transfer and data integrity
@@ -231,178 +232,139 @@ cultivation information.
 The references in the figure are from the following sources:
 
 -   **Marine references**:
-    -   [“GSC MIxS:
-        WaterMIMS”](https://genomicsstandardsconsortium.github.io/mixs/WaterMIMS/)
-    -   [“ENA Marine Microalgae Checklist; Checklist:
-        ERC000043”](https://www.ebi.ac.uk/ena/browser/view/ERC000043)
-    -   [“ENA Tara Oceans; Checklist:
-        ERC000030”](https://www.ebi.ac.uk/ena/browser/view/ERC000030)
-    -   [“GSC MIxS Water; ENA Checklist:
-        ERC000024”](https://www.ebi.ac.uk/ena/browser/view/ERC000024)
-    -   [The environment ontology: contextualising biological and
-        biomedical entities](https://doi.org/10.1186%2F2041-1480-4-43)
-        (Buttigieg et al. 2013)
-    -   [The minimum information about a genome sequence (MIGS)
-        specification](https://doi.org/10.1038/nbt1360) (Field et al.
-        2008)
-    -   [Minimum information about a marker gene sequence (MIMARKS) and
-        minimum information about any (x) sequence (MIxS)
-        specifications](https://doi.org/10.1038/nbt.1823) (Yilmaz et al.
-        2011)
-    -   [A standard MIGS/MIMS compliant XML Schema: Toward the
+    -   GSC MIxS: Water MIMS (“GSC MIxS: WaterMIMS”)
+    -   ENA MMC: ENA Checklist: Marine Microalgae (“ENA Marine
+        Microalgae Checklist; Checklist: ERC000043”)
+    -   ENA Tara Oceans; Checklist: ERC000030 (“ENA Tara Oceans;
+        Checklist: ERC000030”)
+    -   GSC Minimum Information about any (x) Sequence (MIxS); ENA
+        checklist: Water environment (“GSC MIxS Water; ENA Checklist:
+        ERC000024”)
+    -   The environment ontology: contextualising biological and
+        biomedical entities (Buttigieg et al. 2013)
+    -   The minimum information about a genome sequence (MIGS)
+        specification (Field et al. 2008)
+    -   Minimum information about a marker gene sequence (MIMARKS) and
+        minimum information about any (x) sequence (MIxS) specifications
+        (Yilmaz et al. 2011)
+    -   A standard MIGS/MIMS compliant XML Schema: Toward the
         development of the Genomic Contextual Data Markup Language
-        (GCDML)](https://doi.org/10.1089/omi.2008.0A10) (Kottmann et al.
-        2008)
-    -   [Standard reporting requirements for biological samples in
-        metabolomics experiments: environmental
-        context](https://doi.org/10.1007/s11306-007-0067-1) (Morrison et
-        al. 2007)
+        (GCDML) (Kottmann et al. 2008)
+    -   Standard reporting requirements for biological samples in
+        metabolomics experiments: environmental context (Morrison et al.
+        2007)
 -   **Terrestrial / Terrestrial(constructed)**
-    -   [“GSC MIxS:
-        MiscellaneousNaturalOrArtificialEnvironmentMIMS”](https://genomicsstandardsconsortium.github.io/mixs/MiscellaneousNaturalOrArtificialEnvironmentMIMS/)
-    -   [“GSC MIxS:
-        SedimentMIMS”](https://genomicsstandardsconsortium.github.io/mixs/SedimentMIMS/)
-    -   [“GSC MIxS:
-        SoilMIMS”](https://genomicsstandardsconsortium.github.io/mixs/SoilMIMS/)
-    -   [“GSC MIxS:
-        WastewaterSludgeMIMS”](https://genomicsstandardsconsortium.github.io/mixs/WastewaterSludgeMIMS/)
-    -   [“GSC MIxS:
-        BuiltEnvironmentMIMS”](https://genomicsstandardsconsortium.github.io/mixs/BuiltEnvironmentMIMS/)
-    -   [The environment ontology: contextualising biological and
-        biomedical entities](https://doi.org/10.1186%2F2041-1480-4-43)
-        (Buttigieg et al. 2013)
-    -   [The minimum information about a genome sequence (MIGS)
-        specification](https://doi.org/10.1038/nbt1360) (Field et al.
-        2008)
-    -   [Minimum information about a marker gene sequence (MIMARKS) and
-        minimum information about any (x) sequence (MIxS)
-        specifications](https://doi.org/10.1038/nbt.1823) (Yilmaz et al.
-        2011)
-    -   [A standard MIGS/MIMS compliant XML Schema: Toward the
+    -   GSC MIxS: Miscellaneous Natural Or Artificial Environment MIMS
+        (“GSC MIxS: MiscellaneousNaturalOrArtificialEnvironmentMIMS”)
+    -   GSC MIxS: Sediment MIMS (“GSC MIxS: SedimentMIMS”)
+    -   GSC MIXS: Soil MIMS (“GSC MIxS: SoilMIMS”)
+    -   GSC MIxS: Wastewater Sludge MIMS (“GSC MIxS:
+        WastewaterSludgeMIMS”)
+    -   GSC MIxS: Built Environment MIMS (“GSC MIxS:
+        BuiltEnvironmentMIMS”)
+    -   The environment ontology: contextualising biological and
+        biomedical entities (Buttigieg et al. 2013)
+    -   The minimum information about a genome sequence (MIGS)
+        specification (Field et al. 2008)
+    -   Minimum information about a marker gene sequence (MIMARKS) and
+        minimum information about any (x) sequence (MIxS) specifications
+        (Yilmaz et al. 2011)
+    -   A standard MIGS/MIMS compliant XML Schema: Toward the
         development of the Genomic Contextual Data Markup Language
-        (GCDML)](https://doi.org/10.1089/omi.2008.0A10) (Kottmann et al.
-        2008)
-    -   [Standard reporting requirements for biological samples in
-        metabolomics experiments: environmental
-        context](https://doi.org/10.1007/s11306-007-0067-1) (Morrison et
-        al. 2007)
+        (GCDML) (Kottmann et al. 2008)
+    -   Standard reporting requirements for biological samples in
+        metabolomics experiments: environmental context (Morrison et al.
+        2007)
 -   **Plant-associated**
-    -   [“GSC MIxS:
-        Plant-associatedMIMS”](https://genomicsstandardsconsortium.github.io/mixs/Plant-associatedMIMS/)
-    -   [“GSC MIxS:
-        AgricultureMIMS”](https://genomicsstandardsconsortium.github.io/mixs/AgricultureMIMS/)
-    -   [“GSC MIxS:
-        Symbiont-associatedMIMS”](https://genomicsstandardsconsortium.github.io/mixs/Symbiont-associatedMIMS/)
-    -   [“ENA Marine Microalgae Checklist; Checklist:
-        ERC000043”](https://www.ebi.ac.uk/ena/browser/view/ERC000043)
-    -   [The environment ontology: contextualising biological and
-        biomedical entities](https://doi.org/10.1186%2F2041-1480-4-43)
-        (Buttigieg et al. 2013)
-    -   [The minimum information about a genome sequence (MIGS)
-        specification](https://doi.org/10.1038/nbt1360) (Field et al.
-        2008)
-    -   [Minimum information about a marker gene sequence (MIMARKS) and
-        minimum information about any (x) sequence (MIxS)
-        specifications](https://doi.org/10.1038/nbt.1823) (Yilmaz et al.
-        2011)
-    -   [A standard MIGS/MIMS compliant XML Schema: Toward the
+    -   GSC MIxS: Plant-associated MIMS (“GSC MIxS:
+        Plant-associatedMIMS”)
+    -   GSC MIxS: Agriculture MIMS (“GSC MIxS: AgricultureMIMS”)
+    -   GSC MIxS: Symbiont-associated MIMS (“GSC MIxS:
+        Symbiont-associatedMIMS”)
+    -   ENA MMC: ENA Checklist: Marine Microalgae (“ENA Marine
+        Microalgae Checklist; Checklist: ERC000043”)
+    -   The environment ontology: contextualising biological and
+        biomedical entities (Buttigieg et al. 2013)
+    -   The minimum information about a genome sequence (MIGS)
+        specification (Field et al. 2008)
+    -   Minimum information about a marker gene sequence (MIMARKS) and
+        minimum information about any (x) sequence (MIxS) specifications
+        (Yilmaz et al. 2011)
+    -   A standard MIGS/MIMS compliant XML Schema: Toward the
         development of the Genomic Contextual Data Markup Language
-        (GCDML)](https://doi.org/10.1089/omi.2008.0A10) (Kottmann et al.
-        2008)
-    -   [Standard reporting requirements for biological samples in
-        metabolomics experiments: environmental
-        context](https://doi.org/10.1007/s11306-007-0067-1) (Morrison et
-        al. 2007)
+        (GCDML) (Kottmann et al. 2008)
+    -   Standard reporting requirements for biological samples in
+        metabolomics experiments: environmental context (Morrison et al.
+        2007)
 -   **Animal-associated**
-    -   [“GSC MIxS:
-        Host-associatedMIMS”](https://genomicsstandardsconsortium.github.io/mixs/Host-associatedMIMS/)
-    -   [The environment ontology: contextualising biological and
-        biomedical entities](https://doi.org/10.1186%2F2041-1480-4-43)
-        (Buttigieg et al. 2013)
-    -   [The minimum information about a genome sequence (MIGS)
-        specification](https://doi.org/10.1038/nbt1360) (Field et al.
-        2008)
-    -   [Minimum information about a marker gene sequence (MIMARKS) and
-        minimum information about any (x) sequence (MIxS)
-        specifications](https://doi.org/10.1038/nbt.1823) (Yilmaz et al.
-        2011)
-    -   [A standard MIGS/MIMS compliant XML Schema: Toward the
+    -   GSC MIxS: Host-associated MIMS (“GSC MIxS: Host-associatedMIMS”)
+    -   The environment ontology: contextualising biological and
+        biomedical entities (Buttigieg et al. 2013)
+    -   The minimum information about a genome sequence (MIGS)
+        specification (Field et al. 2008)
+    -   Minimum information about a marker gene sequence (MIMARKS) and
+        minimum information about any (x) sequence (MIxS) specifications
+        (Yilmaz et al. 2011)
+    -   A standard MIGS/MIMS compliant XML Schema: Toward the
         development of the Genomic Contextual Data Markup Language
-        (GCDML)](https://doi.org/10.1089/omi.2008.0A10) (Kottmann et al.
-        2008)
-    -   [Standard reporting requirements for biological samples in
-        metabolomics experiments: environmental
-        context](https://doi.org/10.1007/s11306-007-0067-1) (Morrison et
-        al. 2007)
+        (GCDML) (Kottmann et al. 2008)
+    -   Standard reporting requirements for biological samples in
+        metabolomics experiments: environmental context (Morrison et al.
+        2007)
 -   **Human-associated**
-    -   [“MIMS: Metagenome/Environmental, Human-Associated; Version 6.0
-        Package”](https://www.ncbi.nlm.nih.gov/biosample/docs/packages/MIMS.me.human-associated.5.0/)  
-    -   [“GSC MIxS Human Associated; ENA Checklist:
-        ERC000014”](https://www.ebi.ac.uk/ena/browser/view/ERC000014)
-    -   [“GSC MIxS:
-        Human-associatedMIMS”](https://genomicsstandardsconsortium.github.io/mixs/Human-associatedMIMS/)
-    -   [“GSC MIxS:
-        Human-gutMIMS”](https://genomicsstandardsconsortium.github.io/mixs/Human-gutMIMS/)
-    -   [“GSC MIxS:
-        Human-oralMIMS”](https://genomicsstandardsconsortium.github.io/mixs/Human-oralMIMS/)
-    -   [“GSC MIxS:
-        Human-skinMIMS”](https://genomicsstandardsconsortium.github.io/mixs/Human-skinMIMS/)
-    -   [“GSC MIxS:
-        Human-vaginalMIMS”](https://genomicsstandardsconsortium.github.io/mixs/Human-vaginalMIMS/)
-    -   [The environment ontology: contextualising biological and
-        biomedical entities](https://doi.org/10.1186%2F2041-1480-4-43)
-        (Buttigieg et al. 2013)
-    -   [The minimum information about a genome sequence (MIGS)
-        specification](https://doi.org/10.1038/nbt1360) (Field et al.
-        2008)
-    -   [Minimum information about a marker gene sequence (MIMARKS) and
-        minimum information about any (x) sequence (MIxS)
-        specifications](https://doi.org/10.1038/nbt.1823) (Yilmaz et al.
-        2011)
-    -   [A standard MIGS/MIMS compliant XML Schema: Toward the
+    -   MIMS: metagenome/environmental, human-associated; version 6.0
+        Package (“MIMS: Metagenome/Environmental, Human-Associated;
+        Version 6.0 Package”)
+    -   GSC MIxS human associated; ENA Checklist: ERC000014 (“GSC MIxS
+        Human Associated; ENA Checklist: ERC000014”)
+    -   GSC MIxS: Human-associated MIMS (“GSC MIxS:
+        Human-associatedMIMS”)
+    -   GSC MIxS: Human-gut MIMS (“GSC MIxS: Human-gutMIMS”)
+    -   GSC MIxS: Human-oral MIMS (“GSC MIxS: Human-oralMIMS”)
+    -   GSC MIxS: Human-skin MIMS (“GSC MIxS: Human-skinMIMS”)
+    -   GSC MIxS: Human-vaginal MIMS (“GSC MIxS: Human-vaginalMIMS”)
+    -   The environment ontology: contextualising biological and
+        biomedical entities (Buttigieg et al. 2013)
+    -   The minimum information about a genome sequence (MIGS)
+        specification (Field et al. 2008)
+    -   Minimum information about a marker gene sequence (MIMARKS) and
+        minimum information about any (x) sequence (MIxS) specifications
+        (Yilmaz et al. 2011)
+    -   A standard MIGS/MIMS compliant XML Schema: Toward the
         development of the Genomic Contextual Data Markup Language
-        (GCDML)](https://doi.org/10.1089/omi.2008.0A10) (Kottmann et al.
-        2008)
-    -   [Standard reporting requirements for biological samples in
-        metabolomics experiments: environmental
-        context](https://doi.org/10.1007/s11306-007-0067-1) (Morrison et
-        al. 2007)
-    -   [“U.S. Office of Management and Budget (OMB): About the Topic of
-        Race”](https://www.census.gov/topics/population/race/about.html)
+        (GCDML) (Kottmann et al. 2008)
+    -   Standard reporting requirements for biological samples in
+        metabolomics experiments: environmental context (Morrison et al.
+        2007)
+    -   U.S. Office of Management and Budget (OMB): About the Topic of
+        Race (“U.s. Office of Management and Budget (OMB): About the
+        Topic of Race”)
 -   **Microbe-associated**
-    -   [“GSC MIxS:
-        MiscellaneousNaturalOrArtificialEnvironmentMIMS”](https://genomicsstandardsconsortium.github.io/mixs/MiscellaneousNaturalOrArtificialEnvironmentMIMS/)
-    -   [“GSC MIxS:
-        SedimentMIMS”](https://genomicsstandardsconsortium.github.io/mixs/SedimentMIMS/)
-    -   [“GSC MIxS:
-        SoilMIMS”](https://genomicsstandardsconsortium.github.io/mixs/SoilMIMS/)
-    -   [“GSC MIxS:
-        WastewaterSludgeMIMS”](https://genomicsstandardsconsortium.github.io/mixs/WastewaterSludgeMIMS/)
-    -   [“GSC MIXS:
-        MicrobialMatBiofilmMIMS”](https://genomicsstandardsconsortium.github.io/mixs/MicrobialMatBiofilmMIMS/)
-    -   [The environment ontology: contextualising biological and
-        biomedical entities](https://doi.org/10.1186%2F2041-1480-4-43)
-        (Buttigieg et al. 2013)
-    -   [The minimum information about a genome sequence (MIGS)
-        specification](https://doi.org/10.1038/nbt1360) (Field et al.
-        2008)
-    -   [Minimum information about a marker gene sequence (MIMARKS) and
-        minimum information about any (x) sequence (MIxS)
-        specifications](https://doi.org/10.1038/nbt.1823) (Yilmaz et al.
-        2011)
-    -   [A standard MIGS/MIMS compliant XML Schema: Toward the
+    -   GSC MIxS: Miscellaneous Natural Or Artificial Environment MIMS
+        (“GSC MIxS: MiscellaneousNaturalOrArtificialEnvironmentMIMS”)
+    -   GSC MIxS: Sediment MIMS (“GSC MIxS: SedimentMIMS”)
+    -   GSC MIXS: Soil MIMS (“GSC MIxS: SoilMIMS”)
+    -   GSC MIxS: Wastewater Sludge MIMS (“GSC MIxS:
+        WastewaterSludgeMIMS”)
+    -   GSC MIxS: Microbial Mat Biofilm MIMS (“GSC MIXS:
+        MicrobialMatBiofilmMIMS”)
+    -   The environment ontology: contextualising biological and
+        biomedical entities (Buttigieg et al. 2013)
+    -   The minimum information about a genome sequence (MIGS)
+        specification (Field et al. 2008)
+    -   Minimum information about a marker gene sequence (MIMARKS) and
+        minimum information about any (x) sequence (MIxS) specifications
+        (Yilmaz et al. 2011)
+    -   A standard MIGS/MIMS compliant XML Schema: Toward the
         development of the Genomic Contextual Data Markup Language
-        (GCDML)](https://doi.org/10.1089/omi.2008.0A10) (Kottmann et al.
-        2008)
-    -   [Standard reporting requirements for biological samples in
-        metabolomics experiments: environmental
-        context](https://doi.org/10.1007/s11306-007-0067-1) (Morrison et
-        al. 2007)
-    -   [Minimum information about a single amplified genome (MISAG) and
-        a metagenome-assembled genome (MIMAG) of bacteria and
-        archaea](https://doi.org/10.1038/nbt.3893) (Bowers et al. 2017)
-    -   [Roadmap for naming uncultivated Archaea and
-        Bacteria](https://doi.org/10.1038/s41564-020-0733-x) (Murray et
+        (GCDML) (Kottmann et al. 2008)
+    -   Standard reporting requirements for biological samples in
+        metabolomics experiments: environmental context (Morrison et al.
+        2007)
+    -   Minimum information about a single amplified genome (MISAG) and
+        a metagenome-assembled genome (MIMAG) of bacteria and archaea
+        (Bowers et al. 2017)
+    -   Roadmap for naming uncultivated Archaea and Bacteria (Murray et
         al. 2020) <br><br>
 
 ### 2. Data/metadata categorization
@@ -427,7 +389,7 @@ isolated from the ocean. <br><br>
 <img src="./images/CategoryFlowchart.JPG" id="figure5" />
 
 **Figure 5. Tentative Categorization Framework for
-Biological/Environmental Metadata Requirements**
+Biological/Environmental Metadata Requirements **
 
 This figure showcases a preliminary categorization framework to
 establish minimal biological/environmental metadata requirements. The
@@ -444,7 +406,7 @@ metadata applicability to different sample categorizations. <br><br>
 
 ![](./images/CategoryFrameworkSlides_HumanGutExample_mb.gif) **Figure 6.
 Example of Categorizing a Human Gut-Associated and Cultivated Sample
-with Applicable Minimal Metadata**
+with Applicable Minimal Metadata **
 
 This figure provides an illustrative example of the categorization
 process for a human gut-associated and cultivated sample. It showcases
@@ -455,7 +417,7 @@ sample type. <br><br>
 
 ![](./images/CategoryFrameworkSlides_TidalFlatExample_mb.gif) **Figure
 7. Example of Categorizing a Tidal Flat and Cultivated Sample with
-Applicable Minimal Metadata**
+Applicable Minimal Metadata **
 
 This figure presents a practical example of categorizing a tidal flat
 cultivated sample, along with the relevant minimal metadata. The
@@ -467,7 +429,7 @@ for intertidal regions.<br><br>
 
 ![](./images/CategoryFrameworkSlides_LabCultureExample_mb.gif) **Figure
 8. Example of Categorizing a Known Lab Cultured Sample with Applicable
-Minimal Metadata**
+Minimal Metadata **
 
 This figure presents an example of categorizing a known lab-cultured
 sample, along with the corresponding minimal metadata. The
