@@ -175,8 +175,9 @@ based on technology.
     sequencing](./Technical/Metabolome_Technical_Metadata.md)
     -   Metabolome
     -   Metabolome - experimental protocol edition
--   2.9 [uVIGs](./Technical/uVIGs_Technical_Metadata.md) -uVIG FASTQ
-    -uVIG FASTA
+-   2.9 [uVIGs](./Technical/uVIGs_Technical_Metadata.md)
+    -   uVIG FASTQ
+    -   uVIG FASTA
 -   2.10 [BIOM or tabular
     files](./Technical/BIOM_or_Tabular_Technical_Metadata.md) <br><br>
 
