@@ -1,7 +1,7 @@
 # <span id="N4Mintroduction">NFDI4Microbiota - Metadata Standards</span> <br><br>
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />
-This work is licensed under a
+<br><br> This work is licensed under a
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative
 Commons Attribution 4.0 International License</a>.
 
@@ -36,6 +36,15 @@ and comparable both spatially and temporally. To achieve this, two
     enhancing the consistency and usability of the collected metadata.
     <br><br>
 
+After additional consideration and overviews of the current literature,
+the creators of this GitHub repository also agreed that the following
+sections could and should be found here:
+
+-   examples of **commonly used licenses** under which researchers can
+    deposit data
+-   brief description of use of **Ontologies** and how they help you
+    describe your data
+
 In the context of metadata quality standards in microbial science, two
 main categories are being considered:
 
@@ -49,7 +58,7 @@ researchers can ensure the integrity and interoperability of their data,
 enabling effective collaboration and comparative analysis within the
 international microbiological community.
 
-## Reading this Github
+## 1. Reading this Github
 
 -   Begin by reading the **[NFDI4Microbiota
     introduction](#N4Mintroduction), [Standards and
@@ -59,7 +68,9 @@ international microbiological community.
     section**](#technical-metadata-standards)
 -   Third, read the [**biological/environmental metadata standards
     section**](#biological-and-environmental-metadata-standards)
-    <br><br>
+-   Fourth if further explanation about licensing and ontologies is
+    required, read [**Licenses and ontologies
+    section**](#license-ontology) <br><br>
 
 [**Figure 1.**](#figure1) Outlines the key aspects considered for
 determining minimal metadata standards that can be universally
@@ -88,9 +99,9 @@ enhance the comprehensiveness of the standards. <br><br>
 
 # <span id="technical-metadata-standards">Technical Metadata Standards</span> <br><br>
 
-## Technical metadata section
+## 2. Technical metadata section
 
-### 1. Data types
+### 2.1. Data types
 
 The following data types were considered when establishing minimal
 **technical** metadata standards for M2.1:
@@ -115,11 +126,11 @@ Additionally, standards are being considered for [**data transfer and
 data integrity**](#data-transfer-data-integrity) to ensure quality is
 maintained throughout various processes of data file exchange. <br><br>
 
-### 2. Overview of minimal technical FASTQ and FASTA metadata considerations. <br><br>
+### 2.2. Overview of minimal technical FASTQ and FASTA metadata considerations. <br><br>
 
 <img src="./images/MinimalTechnicalTable_FASTQ.jpg" id="figure2"
 alt="FASTQMetadataTablesOverview" /> **Figure 2. Overview of Minimal
-Technical Metadata for FASTQ Files **
+Technical Metadata for FASTQ Files**
 
 This figure provides an overview of the minimal technical metadata
 relevant to FASTQ files. The left side lists the applicability of
@@ -129,7 +140,7 @@ generation is indicated. <br><br>
 
 <img src="./images/MinimalTechnicalTable_FASTA.jpg" id="figure3"
 alt="FASTAMetadataTablesOverview" /> **Figure 3. Overview of Minimal
-Technical Metadata for FASTA Files **
+Technical Metadata for FASTA Files**
 
 This figure presents an overview of the minimal technical metadata
 relevant to FASTA files. On the left side, the applicability of
@@ -137,7 +148,7 @@ parameters to different data types, including (meta)genome,
 (meta)transcriptome, etc., is listed. The right side provides
 information about the time of metadata generation. <br><br>
 
-### 3. Minimal technical metadata by technology and file type
+### 2.3. Minimal technical metadata by technology and file type
 
 Establishing a file-specific metadata standard list poses a significant
 challenge due to variations in file types across instruments used in
@@ -147,41 +158,41 @@ links. This approach recognizes the complexities of defining
 comprehensive and universally applicable metadata standards that differ
 based on technology.
 
--   2.1 [Genome Sequencing](./Technical/Genome_Technical_Metadata.md)
+-   2.3.1. [Genome Sequencing](./Technical/Genome_Technical_Metadata.md)
     -   Genomic FASTQ
     -   Genomic FASTA
--   2.2 [Amplicon
+-   2.3.2. [Amplicon
     Sequencing](./Technical/Amplicon_Technical_Metadata.md)
     -   Amplicon FASTQ
--   2.3 [Metagenome
+-   2.3.3. [Metagenome
     Sequencing](./Technical/Metagenome_Technical_Metadata.md)
     -   Metagenome FASTQ
     -   Metagenome FASTA
     -   Metagenome assembled genome (MAG) FASTA
--   2.4 [Transcriptome
+-   2.3.4. [Transcriptome
     Sequencing](./Technical/Transcriptome_Technical_Metadata.md)
     -   Transcriptome FASTQ
     -   Transcriptome FASTA
--   2.5 [Metatranscriptome
+-   2.3.5. [Metatranscriptome
     Sequencing](./Technical/Metatranscriptome_Technical_Metadata.md)
     -   Metatranscriptome FASTQ
     -   Metatranscriptome FASTA
--   2.6 [Proteome
+-   2.3.6. [Proteome
     sequencing](./Technical/Proteome_Technical_Metadata.md)
     -   Proteome
     -   Proteome - experimental protocol edition
--   2.7 Metaproteome sequencing
--   2.8 [Metabolome
+-   2.3.7. Metaproteome sequencing
+-   2.3.8. [Metabolome
     sequencing](./Technical/Metabolome_Technical_Metadata.md)
     -   Metabolome
     -   Metabolome - experimental protocol edition
--   2.9 [uVIGs](./Technical/uVIGs_Technical_Metadata.md)
+-   2.3.9. [uVIGs](./Technical/uVIGs_Technical_Metadata.md)
     -   uVIG FASTQ
     -   uVIG FASTA
--   2.10 [BIOM or tabular
+-   2.3.10. [BIOM or tabular
     files](./Technical/BIOM_or_Tabular_Technical_Metadata.md) <br><br>
 
-### 4. Data transfer and data integrity
+### 2.4. Data transfer and data integrity
 
 The work of the [Data transfer and data
 integrity](./Technical/Data_Transfer_Data_Integrity.md) section focuses
@@ -192,9 +203,9 @@ on:
 
 # <span id="bio-env-metadata-standards">Biological and Environmental Metadata Standards</span> <br><br>
 
-## Bio/Env metadata section
+## 3. Bio/Env metadata section
 
-### 1. Biomes considered
+### 3.1. Biomes considered
 
 Six microbiomes were considered to compile a minimal set of biological
 and environmental metadata standards. Environmental and biological
@@ -368,7 +379,7 @@ The references in the figure are from the following sources:
     -   Roadmap for naming uncultivated Archaea and Bacteria (Murray et
         al. 2020) <br><br>
 
-### 2. Data/metadata categorization
+### 3.2. Data/metadata categorization
 
 The categorization framework in [**Figure 5**](#figure5) should be
 considered when determining the applicable metadata standards for each
@@ -390,7 +401,7 @@ isolated from the ocean. <br><br>
 <img src="./images/CategoryFlowchart.JPG" id="figure5" />
 
 **Figure 5. Tentative Categorization Framework for
-Biological/Environmental Metadata Requirements **
+Biological/Environmental Metadata Requirements**
 
 This figure showcases a preliminary categorization framework to
 establish minimal biological/environmental metadata requirements. The
@@ -407,7 +418,7 @@ metadata applicability to different sample categorizations. <br><br>
 
 ![](./images/CategoryFrameworkSlides_HumanGutExample_mb.gif) **Figure 6.
 Example of Categorizing a Human Gut-Associated and Cultivated Sample
-with Applicable Minimal Metadata **
+with Applicable Minimal Metadata**
 
 This figure provides an illustrative example of the categorization
 process for a human gut-associated and cultivated sample. It showcases
@@ -418,7 +429,7 @@ sample type. <br><br>
 
 ![](./images/CategoryFrameworkSlides_TidalFlatExample_mb.gif) **Figure
 7. Example of Categorizing a Tidal Flat and Cultivated Sample with
-Applicable Minimal Metadata **
+Applicable Minimal Metadata**
 
 This figure presents a practical example of categorizing a tidal flat
 cultivated sample, along with the relevant minimal metadata. The
@@ -430,13 +441,226 @@ for intertidal regions.<br><br>
 
 ![](./images/CategoryFrameworkSlides_LabCultureExample_mb.gif) **Figure
 8. Example of Categorizing a Known Lab Cultured Sample with Applicable
-Minimal Metadata **
+Minimal Metadata**
 
 This figure presents an example of categorizing a known lab-cultured
 sample, along with the corresponding minimal metadata. The
 bidirectionality of the categorization framework is highlighted, as it
 enables the linkage between known, commercially available cultures and
 their original sample environments. <br><br>
+
+## <span id="license-ontology">Licenses and ontologies section</span>
+
+### 4. Use of licenses for deposited data
+
+When depositing data to public repositories, researchers can use
+established licenses to set certain restrictions on its use **or**
+requiring certain acknowledgments when reusing it **or** publish it to
+the public domain without any limitations. Licensing your data under
+specific licenses enables other researchers to reuse your data (under
+certain conditions), without explicit permission from the data
+submitter. In any case, it is recommended to consider various factors
+before deciding upon a deed (license). Ethical, privacy, and security
+considerations may heavily influence the licensing process. The most
+common licenses under use were established by a US non-profit
+organization called [Creative Commons
+(CC)](https://creativecommons.org/). We encourage the readers of this
+repository to visit their site and familiarize themselves with the
+process, logic, and use of licenses in detail. The CC homepage also
+holds the [Frequently Asked Questions
+(FAQ)](https://creativecommons.org/faq/) section. Here, we will only
+briefly describe some of the [CC
+licenses](https://creativecommons.org/share-your-work/cclicenses/). So,
+in the end, researchers should think about how they want other people to
+use their work and why they want to share their work in the first place
+before deciding upon a deed (license).
+
+Commonly used licenses:
+
+-   [CC-BY](https://creativecommons.org/licenses/by/4.0/): Credit must
+    be given to the creator.
+-   [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/): Credit
+    must be given to the creator. Adaptations must be shared under the
+    same terms.
+-   [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/): Credit
+    must be given to the creator. Only noncommercial uses of the work
+    are permitted.
+-   [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/):
+    Credit must be given to the creator. Only noncommercial uses of the
+    work are permitted. Adaptations must be shared under the same terms.
+-   [CC BY-ND](https://creativecommons.org/licenses/by-nd/4.0/): Credit
+    must be given to the creator. No derivatives or adaptations of the
+    work are permitted.
+-   [CC BY-NC-ND](https://creativecommons.org/licenses/by-nc-nd/4.0/):
+    Credit must be given to the creator. Only noncommercial uses of the
+    work are permitted. No derivatives or adaptations of the work are
+    permitted.
+-   [CC0](https://creativecommons.org/publicdomain/zero/1.0/): Public
+    domain dedication. <br><br>
+
+<table style="width:60%;">
+<tr>
+<th style="text-align: center;">
+Acronym
+</th>
+<th style="text-align: center;">
+Explanation
+</th>
+</tr>
+<tr>
+<td style="text-align: center;">
+BY
+</td>
+<td style="text-align: center;">
+Credit must be given to the creator
+</td>
+</tr>
+<tr>
+<td style="text-align: center;">
+SA
+</td>
+<td style="text-align: center;">
+Adaptations must be shared under the same terms
+</td>
+</tr>
+<tr>
+<td style="text-align: center;">
+NC
+</td>
+<td style="text-align: center;">
+Only noncommercial uses of the work are permitted
+</td>
+</tr>
+<tr>
+<td style="text-align: center;">
+ND
+</td>
+<td style="text-align: center;">
+No derivatives or adaptations of the work are permitted
+</td>
+</tr>
+<tr>
+<td style="text-align: center;">
+0
+</td>
+<td style="text-align: center;">
+Public domain dedication
+</td>
+</tr>
+</table>
+
+<br><br>
+
+[CC-BY](https://creativecommons.org/licenses/by/4.0/): When data is
+deposited under this deed (license), and it becomes free to share and
+free to redistribute, including commercially, in any format or medium.
+It also allows the user to build upon or transform the data/material for
+any purpose, including commercial purposes. The deed (license) requires
+the data reuser to give appropriate credit to the submitter/data
+generator. In addition, the reuser must also provide a link to the deed
+(license) and disclose any changes made when licensing their work when
+derived from work already under deed (license).<br><br>
+
+[CC0](https://creativecommons.org/publicdomain/zero/1.0/): When using
+this deed (license), the data/material becomes a part of the public
+domain. That means that the data deposited can be copied, modified,
+distributed, and used even for commercial purposes, and the
+depositor/generator of the data waives their right to the work. The
+reuser of data does not need to seek the permission of the data/material
+submitter or generator.
+
+### 5. Use of controlled vocabularies (Ontologies)
+
+Before discussing controlled vocabularies (ontologies), we first need to
+talk about what they are and why you should care. In this section, we
+will interchangeably use the terms controlled vocabulary and ontology.
+<br><br>
+
+Let us dial the clock back a few centuries when Latin was the lingua
+franca of academics. It provided a link between knowledge and sciences
+from different backgrounds and languages (not to mention periods), along
+with consistency and clarity. So, no matter what language you spoke in
+your everyday life, Latin was there to help you understand the work of
+an academic who lived halfway across the globe or several centuries
+before. The common ground enabled ideas to spread and be built upon
+existing knowledge without the burden of translation. <br><br>
+
+Much like in the past, nowadays, controlled vocabularies allow for
+almost seamless communication and knowledge transfer between researchers
+and between researchers and computers. Ontologies provide a common
+language by defining and standardizing terms used in a particular field
+of research. That reduces the chance of miscommunication and
+misunderstandings. Ontologies also make data adaptable to new research
+and discoveries and can provide a deeper understanding and uncover
+patterns and insights on the subject being explored. They also make
+navigation through (almost) endless rows of data easier with defined
+search patterns. <br><br>
+
+Furthermore, the best thing about ontologies is that they are still
+evolving. Several research groups are updating and defining new terms,
+classes, and subclasses of ontologies to keep up with new discoveries
+and knowledge. There are, of course, several edge cases where ontologies
+are not yet defined, or even multiple ontologies can apply. But we
+highly encourage the readers of this GitHub not to get disheartened by
+the multitude of websites that provide these controlled vocabularies.
+
+#### 5.1 Examples of Ontologies use
+
+Let us imagine a theoretical experiment where we are taking metagenomic
+samples, and we would like the rest of the world to know (and also
+perhaps our future self) where and how exactly we collected our samples.
+This is something we can consider at the time of planning our
+experiment. We know that we will be collecting metagenomic samples from
+the rhizosphere from a forest in Germany and sequencing them using
+Illumina sequencing technologies. With this, we can begin describing our
+samples. <br><br>
+
+We hop on over to the [EMBL-EBI Ontology Lookup Service
+(OLS)](https://www.ebi.ac.uk/ols4/). As we (in this thought experiment)
+are unfamiliar with the ontologies, we start the search for the broadest
+description we can think of, and that is probably biome
+[\[ENVO_00000428\]](https://www.ebi.ac.uk/ols4/ontologies/envo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_00000428?lang=en),
+so that is what we do, type biome in the search engine and hit enter. We
+are greeted with several [results of the
+search](https://www.ebi.ac.uk/ols4/search?q=biome). We take a closer
+look at biome
+[\[ENVO_00000428\]](https://www.ebi.ac.uk/ols4/ontologies/envo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_00000428?lang=en),
+and find that there are several subclasses of it, that can help us
+describe the sample. As we think about it, we come to the conclusion,
+that the next class that could describe our sample is terrestrial biome
+[\[ENVO:00000446\]](https://www.ebi.ac.uk/ols4/ontologies/envo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_00000446?lang=en),
+but that is to broad of a description, so the search continues. After
+some clicking and searching, we discover, that there is a certain
+subclass called woodland biome
+[\[ENVO:01000175\]](http://purl.obolibrary.org/obo/ENVO_01000175), and
+even a further subclass of it called temperate woodland biome
+[\[ENVO:01000221\]](http://purl.obolibrary.org/obo/ENVO_01000221). This
+should adequately describe the broad sense of what kind of samples we
+have. However, we are not yet happy with our search, as we have yet to
+define where exactly our samples come from in the temperate woodland
+biome. At the same time, we have exhausted the subclasses in our current
+search, so we return to the main page. We type in the term
+[rhizosphere](https://www.ebi.ac.uk/ols4/search?q=rhizosphere+) and hit
+search. Based on the result, we see that the rhizosphere environment
+[\[ENVO:01000999\]](http://purl.obolibrary.org/obo/ENVO_01000999) might
+be something that could describe our sample, but let us take a closer
+look at the description. The description reads Ontology which reads: “An
+environmental system determined by the presence of a plant
+rhizosphere.”. So, we have defined the origin of our sample. <br><br>
+
+A similar logic can be applied and used to let the world know that the
+sampling was done in Germany, in the Naturpark Frankenwald
+[\[GAZ:00632507\]](http://purl.obolibrary.org/obo/GAZ_00632507), that we
+are using Illumina Sequencing
+[\[NCIT:C146817\]](http://purl.obolibrary.org/obo/NCIT_C146817), that we
+used minimal defined medium
+[\[MCO:0000881\]](http://purl.obolibrary.org/obo/MCO_0000881), etc.
+<br><br>
+
+Note here that we highly encourage the readers of this repository to
+read the [EnvO s use
+documentation](https://github.com/EnvironmentOntology/envo/wiki/Using-ENVO-with-MIxS)
+if the examples given here are unclear.
 
 # References
 
