@@ -1,5 +1,8 @@
 # NFDI4Microbiota - Metadata Standards
 
+> [!TIP]
+> Find out about research data management, FAIR principles for microbiology and more on our [Knowledge base](https://knowledgebase.nfdi4microbiota.de)!
+
 The primary objective of this GitHub page is to serve as **a centralized
 repository for existing (meta)data standards**. The purpose is to
 provide the international microbiological community with a
