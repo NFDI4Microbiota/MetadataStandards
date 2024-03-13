@@ -93,9 +93,11 @@ for both Technical and Biological/Environmental aspects. Technical
 parameters are categorized based on data types, while Bio/Env parameters
 are organized according to biome types. Additionally, specific
 considerations, such as file type and host, are taken into account to
-enhance the comprehensiveness of the standards. <br><br>
+enhance the comprehensiveness of the standards.
 
-# <span id="technical-metadata-standards">Technical Metadata Standards</span> <br><br>
+
+
+# <span id="technical-metadata-standards">Technical Metadata Standards</span>
 
 ## 2. Technical metadata section
 
@@ -124,7 +126,7 @@ Additionally, standards are being considered for [**data transfer and
 data integrity**](#data-transfer-data-integrity) to ensure quality is
 maintained throughout various processes of data file exchange. <br><br>
 
-### 2.2. Overview of minimal technical FASTQ and FASTA metadata considerations. <br><br>
+### 2.2. Overview of minimal technical FASTQ and FASTA metadata considerations
 
 <img src="./images/MinimalTechnicalTable_FASTQ.jpg" id="figure2"
 alt="FASTQMetadataTablesOverview" /> **Figure 2. Overview of Minimal
@@ -188,7 +190,9 @@ based on technology.
     -   uVIG FASTQ
     -   uVIG FASTA
 -   2.3.10. [BIOM or tabular
-    files](./Technical/BIOM_or_Tabular_Technical_Metadata.md) <br><br>
+    files](./Technical/BIOM_or_Tabular_Technical_Metadata.md)
+
+
 
 ### 2.4. Data transfer and data integrity
 
@@ -197,9 +201,11 @@ integrity](./Technical/Data_Transfer_Data_Integrity.md) section focuses
 on:
 
 -   Examples of existing data transfer & data integrity checks
--   Data integrity considerations by file type <br><br>
+-   Data integrity considerations by file type 
 
-# <span id="bio-env-metadata-standards">Biological and Environmental Metadata Standards</span> <br><br>
+
+
+# <span id="bio-env-metadata-standards">Biological and Environmental Metadata Standards</span>
 
 ## 3. Bio/Env metadata section
 
@@ -224,7 +230,10 @@ standards within M2.1 were collected to apply to the following biomes:
 
 Tentative standard minimal biological and environmental parameter
 considerations are displayed in [**Figure 4**](#figure4). Parameter
-applicability to different biomes are shown on the left axis. <br><br>
+applicability to different biomes are shown on the left axis.
+
+
+
 
 <img src="./images/BioEnvMetadata9Aug2023.jpg" id="figure4"
 alt="BioEnvMetadata23June2022" /> **Figure 4. Tentative Minimal
@@ -375,7 +384,10 @@ The references in the figure are from the following sources:
         a metagenome-assembled genome (MIMAG) of bacteria and archaea
         (Bowers et al. 2017)
     -   Roadmap for naming uncultivated Archaea and Bacteria (Murray et
-        al. 2020) <br><br>
+        al. 2020)
+
+
+
 
 ### 3.2. Data/metadata categorization
 
@@ -407,10 +419,14 @@ framework connects host-associated systems to marine, terrestrial, or
 engineered environments while enabling effective tracking of data
 affiliated with cultivated samples. The structure should provide
 valuable insights for organizing and comprehensively accessing diverse
-datasets. <br><br>
+datasets.
+
+
 
 **Figures 6 - 8** show examples of minimal biological/environmental
-metadata applicability to different sample categorizations. <br><br>
+metadata applicability to different sample categorizations. 
+
+
 
 #### **Human Gut Example**
 
@@ -421,7 +437,9 @@ with Applicable Minimal Metadata**
 This figure provides an illustrative example of the categorization
 process for a human gut-associated and cultivated sample. It showcases
 the minimal metadata that are applicable and relevant for this specific
-sample type. <br><br>
+sample type.
+
+
 
 #### **Tidal Flat Example**
 
@@ -433,7 +451,9 @@ This figure presents a practical example of categorizing a tidal flat
 cultivated sample, along with the relevant minimal metadata. The
 illustration demonstrates how the proposed framework accommodates
 overlapping environments, such as terrestrial and marine, specifically
-for intertidal regions.<br><br>
+for intertidal regions.
+
+
 
 #### **Lab Culture Example**
 
@@ -445,7 +465,9 @@ This figure presents an example of categorizing a known lab-cultured
 sample, along with the corresponding minimal metadata. The
 bidirectionality of the categorization framework is highlighted, as it
 enables the linkage between known, commercially available cultures and
-their original sample environments. <br><br>
+their original sample environments.
+
+
 
 ## <span id="license-ontology">Licenses and ontologies section</span>
 
@@ -494,7 +516,8 @@ Commonly used licenses:
     work are permitted. No derivatives or adaptations of the work are
     permitted.
 -   [CC0](https://creativecommons.org/publicdomain/zero/1.0/): Public
-    domain dedication. <br><br>
+    domain dedication.
+
 
 <table style="width:60%;">
 <tr>
@@ -547,7 +570,8 @@ Public domain dedication
 </tr>
 </table>
 
-<br><br>
+
+
 
 [CC-BY](https://creativecommons.org/licenses/by/4.0/): When data is
 deposited under this deed (license), and it becomes free to share and
@@ -572,7 +596,8 @@ submitter or generator.
 Before discussing controlled vocabularies (ontologies), we first need to
 talk about what they are and why you should care. In this section, we
 will interchangeably use the terms controlled vocabulary and ontology.
-<br><br>
+
+
 
 Let us dial the clock back a few centuries when Latin was the lingua
 franca of academics. It provided a link between knowledge and sciences
@@ -581,7 +606,9 @@ with consistency and clarity. So, no matter what language you spoke in
 your everyday life, Latin was there to help you understand the work of
 an academic who lived halfway across the globe or several centuries
 before. The common ground enabled ideas to spread and be built upon
-existing knowledge without the burden of translation. <br><br>
+existing knowledge without the burden of translation. 
+
+
 
 Much like in the past, nowadays, controlled vocabularies allow for
 almost seamless communication and knowledge transfer between researchers
@@ -592,7 +619,9 @@ misunderstandings. Ontologies also make data adaptable to new research
 and discoveries and can provide a deeper understanding and uncover
 patterns and insights on the subject being explored. They also make
 navigation through (almost) endless rows of data easier with defined
-search patterns. <br><br>
+search patterns. 
+
+
 
 Furthermore, the best thing about ontologies is that they are still
 evolving. Several research groups are updating and defining new terms,
@@ -611,7 +640,9 @@ This is something we can consider at the time of planning our
 experiment. We know that we will be collecting metagenomic samples from
 the rhizosphere from a forest in Germany and sequencing them using
 Illumina sequencing technologies. With this, we can begin describing our
-samples. <br><br>
+samples.
+
+
 
 We hop on over to the [EMBL-EBI Ontology Lookup Service
 (OLS)](https://www.ebi.ac.uk/ols4/). As we (in this thought experiment)
@@ -644,7 +675,9 @@ search. Based on the result, we see that the rhizosphere environment
 be something that could describe our sample, but let us take a closer
 look at the description. The description reads Ontology which reads: “An
 environmental system determined by the presence of a plant
-rhizosphere.”. So, we have defined the origin of our sample. <br><br>
+rhizosphere.”. So, we have defined the origin of our sample.
+
+
 
 A similar logic can be applied and used to let the world know that the
 sampling was done in Germany, in the Naturpark Frankenwald
@@ -653,7 +686,8 @@ are using Illumina Sequencing
 [\[NCIT:C146817\]](http://purl.obolibrary.org/obo/NCIT_C146817), that we
 used minimal defined medium
 [\[MCO:0000881\]](http://purl.obolibrary.org/obo/MCO_0000881), etc.
-<br><br>
+
+
 
 Note here that we highly encourage the readers of this repository to
 read the [EnvO s use
