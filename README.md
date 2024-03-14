@@ -22,7 +22,7 @@ centers, and data repositories has been a long-standing issue. Measure
 consortium by enforcing compliance with existing standards and identifying
 additional tailored data standards and metadata requirements.
 
-<span id="goals">**Goals:**</span> By centralizing standard parameters
+[**Goals**](#goals): By centralizing standard parameters
 for metadata, the project ensures that generated data is reproducible
 and comparable both spatially and temporally. To achieve this, two
 **milestones** have been set:
@@ -96,7 +96,7 @@ enhance the comprehensiveness of the standards.
 
 
 
-# <span id="technical-metadata-standards">Technical Metadata Standards</span>
+# [Technical Metadata Standards](#technical-metadata-standards)
 
 ## 2. Technical metadata section
 
@@ -204,7 +204,7 @@ on:
 
 
 
-# <span id="bio-env-metadata-standards">Biological and Environmental Metadata Standards</span>
+# [Biological and Environmental Metadata Standards](#bio-env-metadata-standards)
 
 ## 3. Bio/Env metadata section
 
@@ -468,7 +468,7 @@ their original sample environments.
 
 
 
-## <span id="license-ontology">Licenses and ontologies section</span>
+## [Licenses and ontologies section](#license-ontology)
 
 ### 4. Use of licenses for deposited data
 
