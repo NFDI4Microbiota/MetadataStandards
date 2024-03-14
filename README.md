@@ -17,7 +17,7 @@ In line with the consortium’s objectives, this page aims to address the challe
 microbial (meta)data accessibility and consistency. The efficient
 exchange of usable information between research groups, sequencing
 centers, and data repositories has been a long-standing issue. Measure
-2.1 (M2.1) specifically focuses on maximizing data quality within the
+2.1 (M2.1 "Data and Metadata Standards") specifically focuses on maximizing data quality within the
 [NFDI4Microbiota](https://nfdi4microbiota.de/)
 consortium by enforcing compliance with existing standards and identifying
 additional tailored data standards and metadata requirements.
