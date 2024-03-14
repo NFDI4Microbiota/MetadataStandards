@@ -468,9 +468,9 @@ their original sample environments.
 
 
 
-## [Licenses and ontologies section](#license-ontology)
+# [Licenses and ontologies](#license-ontology)
 
-### 4. Use of licenses for deposited data
+## 4. Use of licenses for deposited data
 
 When depositing data to public repositories, researchers can use
 established licenses to set certain restrictions on its use **or**
@@ -590,7 +590,7 @@ depositor/generator of the data waives their right to the work. The
 reuser of data does not need to seek the permission of the data/material
 submitter or generator.
 
-### 5. Use of controlled vocabularies (Ontologies)
+## 5. Use of controlled vocabularies (Ontologies)
 
 Before discussing controlled vocabularies (ontologies), we first need to
 talk about what they are and why you should care. In this section, we
@@ -630,7 +630,7 @@ are not yet defined, or even multiple ontologies can apply. But we
 highly encourage the readers of this GitHub not to get disheartened by
 the multitude of websites that provide these controlled vocabularies.
 
-#### 5.1 Examples of Ontologies use
+### 5.1 Examples of Ontologies use
 
 Let us imagine a theoretical experiment where we are taking metagenomic
 samples, and we would like the rest of the world to know (and also
