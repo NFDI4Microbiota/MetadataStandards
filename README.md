@@ -66,8 +66,7 @@ international microbiological community.
 -   Third, read the [**biological/environmental metadata standards
     section**](#biological-and-environmental-metadata-standards)
 -   Fourth if further explanation about licensing and ontologies is
-    required, read [**Licenses and ontologies
-    section**](#license-ontology) <br><br>
+    required, read [**Licenses and ontologies section**](#license-ontology)
 
 [**Figure 1.**](#figure1) Outlines the key aspects considered for
 determining minimal metadata standards that can be universally
