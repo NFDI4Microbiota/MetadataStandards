@@ -22,7 +22,7 @@
 |------------------------------------------------------------------------|
 | Should we also add nucl_ext_method and nucl_extr_treat here -MB 11AUG23 |
 
-## Minimal technical metadata for `uVIG FASTQ` data
+## Minimal technical metadata for `uVIG FASTA` data
 
 | **metadata**       | **definition**                                                                                                                                                                              | **examples**                                                                                                                                                                                            | **source**                                                                                                         |
 |-----------------|---------------------|------------------|-----------------|
