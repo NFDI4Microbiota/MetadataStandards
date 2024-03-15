@@ -13,7 +13,7 @@ See the [four social rules](https://www.recurse.com/manual#sub-sec-social-rules)
 
 >[!Note]
 >NFDI4Microbiota is a member of NFDI e.V. and therefore we are officially committed to follow the association's goals, values and mission.
->Below is an excerpt from the Code of Conduct of the association.
+>Below is an excerpt from the Code of Conduct of the association (from PDF: "Verhaltenskodex des Vereins Nationale Forschungsdateninfrastruktur (NFDI) e.V. Version 1.0").
 
 ## Code of Conduct of the association Nationale Forschungsdateninfrastruktur (NFD) e.V.
 
