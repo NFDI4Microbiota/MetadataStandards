@@ -29,11 +29,6 @@ is now available.
 | cDNA_oligo           | Type of primer used for cDNA synthesis from RNA                                                    | e.g. polyA or random                                          | **The FAIR Cookbook** (Rocca-Serra et al. 2022)                                                                                        |
 | checksum             | Hash value for data integrity                                                                      | e.g. MD5: cbc41d0e49636872a765b950cb7f410a                    | [Data transfer and data integrity](Data_Transfer_Data_Integrity.md)                                                                    |
 
-| Comments/questions:                                                                                                                                |
-|------------------------------------------------------------------------|
-| Added insert length, reverse transcriptase, and the primer set as possible technical parameters. Could go under “Protocol” parameter. -NME 27APR22 |
-| Added cDNA_ampl_meth and cDNA_oligo to the table -MB 11AUG23                                                                                       |
-
 ## Minimal technical metadata for `Transcriptomic FASTA` file
 
 | **metadata** | **definition**                                                                                   | **examples**                                                                | **source**                                                                                           |
