@@ -27,12 +27,6 @@ now available.
 | quality_score        | Q30, quality above 30                                                                              | e.g. 49                                           | **SRA-Tinder** (NCBI Hackathons)                                                                                                       |
 | checksum             | Hash value for data integrity                                                                      | e.g. MD5: cbc41d0e49636872a765b950cb7f410a        | [Data transfer and data integrity](Data_Transfer_Data_Integrity.md)                                                                    |
 
-| Comments/questions:                                                                                                                                             |
-|------------------------------------------------------------------------|
-| Is insert length included in lib_format? If not, it seems this should be a minimal metadata parameter -NME 27APR22                                              |
-| Not sure to understand the difference between metagenomic FASTA and metagenome assembled genome FASTA here. Quality score needs a better definition -CP 17JUL22 |
-| Created two new rows, nucl_acid_ext and nucl_acid_ext_treat -MB 10AUG23                                                                                         |
-
 ##   Minimal technical metadata for `Metagenomic FASTA` file
 
 | **metadata**         | **definition**                                                               | **examples**                                                                       | **source**                                                                                                                           |
