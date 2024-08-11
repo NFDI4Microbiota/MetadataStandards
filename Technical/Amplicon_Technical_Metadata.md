@@ -24,10 +24,6 @@ now available.
 | pcr_primers          | Forward and reverse primer sequences used                                        | e.g. FWD:GTGCCAGCMGCCGCGGTAA; REV:GGACTACHVGGGTWTCTAAT | **GSC MIXS: MIMARKSSpecimen** (“GSC MIXS: MIMARKSSpecimen”)                                                                            |
 | checksum             | Hash value for data integrity                                                    | e.g. MD5: cbc41d0e49636872a765b950cb7f410a             | [Data transfer and data integrity](Data_Transfer_Data_Integrity.md)                                                                    |
 
-| Comments/questions:                                                     |
-|------------------------------------------------------------------------|
-| Should we also add nucl_ext_method and nucl_extr_treat here -MB 11AUG23 |
-
 The publications describing the reasons for formation of **The minimum
 information about a genome sequence (MIGS)** (Field et al. 2008) and
 **Minimum information about a marker gene sequence (MIMARKS) and minimum
