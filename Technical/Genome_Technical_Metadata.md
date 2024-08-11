@@ -21,9 +21,7 @@ available.
 | basepairs_count_qual | Number of base pairs (nucleotides) in the library after quality filtering        |                                                 | **SRA-Tinder** (NCBI Hackathons)                                                                                                       |
 | checksum             | Hash value for data integrity                                                    | e.g. MD5: cbc41d0e49636872a765b950cb7f410a      | [Data transfer and data integrity](Data_Transfer_Data_Integrity.md)                                                                    |
 
-| Comments/questions:                                                     |
-|------------------------------------------------------------------------|
-| Should we also add nucl_ext_method and nucl_extr_treat here -MB 11AUG23 |
+
 
 ## Minimal technical metadata for `Genomic FASTA` data
 
