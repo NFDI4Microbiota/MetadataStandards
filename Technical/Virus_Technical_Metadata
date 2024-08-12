@@ -1,0 +1,141 @@
+## 2.9 Minimal Information about a Genome Sequence: virus
+
+## Minimal technical metadata for `virus FASTQ and FASTA` data
+
+| **metadata** | **definition** | **examples** | **source** |                                                                                                                                                                    | **examples**                                           | **source**                                                                                                           |
+|-----------------|----------------|-----------------|----------------|
+| samp_name | A local identifier or name that for the material sample used for extracting n... | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| lib_screen | Specific enrichment or screening methods applied before and/or after creating... | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| ref_db | List of database(s) used for ORF annotation, along with version number and re... | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| nucl_acid_amp | A link to a literature reference, electronic resource or a standard operating... | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| lib_size | Total number of clones in the library prepared for the project | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| assembly_name | Name/version of the assembly provided by the submitter that is used in the ge... | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| temp | Temperature of the sample at the time of sampling | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| compl_score | Completeness score is typically based on either the fraction of markers found... | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| nucl_acid_ext | A link to a literature reference, electronic resource or a standard operating... | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| samp_size | The total amount or size (volume (ml), mass (g) or area (m2) ) of sample coll... | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| isol_growth_condt | Publication reference in the form of pubmed ID (pmid), digital object identif...| - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| alt | Heights of objects such as airplanes, space shuttles, rockets, atmospheric ba... | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| source_mat_id | A unique identifier assigned to a material sample (as defined by http://rs | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| estimated_size | The estimated size of the genome prior to sequencing | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| samp_vol_we_dna_ext | Volume (ml) or mass (g) of total collected sample processed for DNA extractio... | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| pathogenicity | To what is the entity pathogenic | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| lib_reads_seqd | Total number of clones sequenced from the library | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| encoded_traits | Should include key traits like antibiotic resistance or xenobiotic degradatio... | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| propagation | The type of reproduction from the parent stock | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| samp_collect_device | The device used to collect an environmental sample | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| number_contig | Total number of contigs in the cleaned/submitted assembly that makes up a giv... | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| biotic_relationship | Description of relationship(s) between the subject organism and other organis... | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| num_replicons | Reports the number of replicons in a nuclear genome of eukaryotes, in the gen... | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| lib_layout | Specify whether to expect single, paired, or other configuration of reads | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| assembly_qual | The assembly quality category is based on sets of criteria outlined for each ... | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| ref_biomaterial | Primary publication if isolated before genome publication; otherwise, primary... | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| project_name | Name of the project within which the sequencing was organized | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| lib_vector | Cloning vector type(s) used in construction of libraries | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| host_spec_range | The range and diversity of host species that an organism is capable of infect... | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| neg_cont_type | The substance or equipment used as a negative control in an investigation | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| virus_enrich_appr | List of approaches used to enrich the sample for viruses, if any | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| adapters | Adapters provide priming sequences for both amplification and sequencing of t... | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| assembly_software | Tool(s) used for assembly, including version number and parameters | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| tax_ident | The phylogenetic marker(s) used to assign an organism name to the SAG or MAG | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| annot | Tool used for annotation, or for cases where annotation was provided by a com... | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| pos_cont_type | The substance, mixture, product, or apparatus used to verify that a process w... | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| subspecf_gen_lin | Information about the genetic distinctness of the sequenced organism below th... | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| feat_pred | Method used to predict UViGs features such as ORFs, integration site, etc | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| env_local_scale | Report the entity or entities which are in the sample or specimen s local vic... | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| compl_software | Tools used for completion estimate, i | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| samp_mat_process | A brief description of any processing applied to the sample during or after r... | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| sim_search_meth | Tool used to compare ORFs with database, along with version and cutoffs used | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| host_disease_stat | List of diseases with which the host has been diagnosed; can include multiple... | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| depth | The vertical distance below local surface | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| samp_collect_method | The method employed for collecting the sample | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| specific_host | Report the host's taxonomic name and/or NCBI taxonomy ID | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| env_medium | Report the environmental material(s) immediately surrounding the sample or sp... | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| samp_taxon_id | NCBI taxon id of the sample | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| geo_loc_name | The geographical origin of the sample as defined by the country or sea name f... | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| collection_date | The time of sampling, either as an instance (single point in time) or interva... | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| seq_meth | Sequencing machine used | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| lat_lon | The geographical origin of the sample as defined by latitude and longitude | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| elev | Elevation of the sampling site is its height above a fixed reference point, m... | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| env_broad_scale | Report the major environmental system the sample or specimen came from | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| tax_class | Method used for taxonomic classification, along with reference database used,... | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| experimental_factor | Variable aspects of an experiment design that can be used to describe an expe... | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| associated_resource | A related resource that is referenced, cited, or otherwise associated to the ... | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+| sop | Standard operating procedures used in assembly and/or annotation of genomes, ... | - | https://genomicsstandardsconsortium.github.io/mixs/0010005/ |
+
+| Comments/questions:                                                     |
+|------------------------------------------------------------------------|
+| should be checked to keep only the technical fields. |
+
+
+The publications describing the reasons for formation of **The minimum
+information about a genome sequence (MIGS)** (Field et al. 2008),
+**Minimum information about a marker gene sequence (MIMARKS) and minimum
+information about any (x) sequence (MIxS) specifications** (Yilmaz et
+al. 2011), **Minimum information about a single amplified genome (MISAG)
+and a metagenome-assembled genome (MIMAG) of bacteria and archaea**
+(Bowers et al. 2017), **Minimum Information about an Uncultivated Virus
+Genome (MIUViG)** (Roux et al. 2019) and **Roadmap for naming
+uncultivated Archaea and Bacteria** (Murray et al. 2020) can be found
+online.
+
+# References
+
+Bowers, R., N. Kyrpides, R. Stepanauskas, et al. 2017. “Minimum
+Information about a Single Amplified Genome (MISAG) and a
+Metagenome-Assembled Genome (MIMAG) of Bacteria and Archaea.” *Nat
+Biotechnol* 35: 725–31. <https://doi.org/10.1038/nbt.3893>.
+
+“ENA How to Submit Other Analyses: Submitting Read Alignments.”
+<https://ena-docs.readthedocs.io/en/latest/submit/analyses/read-alignments.html>.
+
+“ENA Metadata Validation: Instrument.”
+<https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#instrument>.
+
+“ENA Metadata Validation: Selection.”
+<https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#selection>.
+
+“ENA Metadata Validation: Source.”
+<https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#source>.
+
+“ENA Metadata Validation: Strategy.”
+<https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#strategy>.
+
+“ENA Submitting Metagenome Assemblies.”
+<https://ena-docs.readthedocs.io/en/latest/submit/assembly/metagenome.html>.
+
+Field, D., G. Garrity, T. Gray, N. Morrison, J. Selengut, P. Sterk, T.
+Tatusova, et al. 2008. “The Minimum Information about a Genome Sequence
+(MIGS) Specification.” Nature Biotechnology. 2008.
+<https://doi.org/10.1038/nbt1360>.
+
+“GSC MIXS: MIMAG.”
+<https://genomicsstandardsconsortium.github.io/mixs/0010011/>.
+
+"GSC MIXS: MIGSVI."
+<https://genomicsstandardsconsortium.github.io/mixs/0010005/>
+
+Leinonen, R., H. Sugawara, M. Shumway, and International Nucleotide
+Sequence Database Collaboration. 2011. “The Sequence Read Archive.”
+*Nucleic Acids Research* 39 (Database issue): D19–21.
+<https://doi.org/10.1093/nar/gkq1019>.
+
+“GSC MIXS: MIUVIG.”
+<https://genomicsstandardsconsortium.github.io/mixs/0010012/>.
+
+Murray, A. E., J. Freudenstein, S. Gribaldo, et al. 2020. “Roadmap for
+Naming Uncultivated Archaea and Bacteria.” *Nat Microbiol* 5: 987–94.
+<https://doi.org/10.1038/s41564-020-0733-x>.
+
+NCBI Hackathons. “<span class="nocase">SRA-Tinder: A Tool to Discover
+Related Sequence Read Archive (SRA) Experiments</span>.”
+<https://github.com/NCBI-Hackathons/SRA_Tinder>.
+
+Roux, Simon, Evelien Adriaenssens, Bas Dutilh, and et al. 2019. “Minimum
+Information about an Uncultivated Virus Genome (MIUViG).” *Nature
+Biotechnology* 37: 29–37. <https://doi.org/10.1038/nbt.4306>.
+
+Yilmaz, Pelin et al. 2011. “Minimum Information about a Marker Gene
+Sequence (MIMARKS) and Minimum Information about Any (x) Sequence (MIxS)
+Specifications.” *Nature Biotechnology* 29 (5): 415–20.
+<https://doi.org/10.1038/nbt.1823>.
