@@ -1,0 +1,3 @@
+category	metadata	definition	examples	source
+NA	run_ref	Accessions/identifiers linking to the raw data (FASTQ)	e.g. accession =  ERR178314	Adapted from ENA ( https://ena-docs.readthedocs.io/en/latest/submit/analyses/read-alignments.html )
+NA	sop	Reference(s) to Standard Operating Procedures used in processing the raw sequences	e.g. PMID, DOI, URL	https://genomicsstandardsconsortium.github.io/mixs/MIMARKSSpecimen/ ( https://genomicsstandardsconsortium.github.io/mixs/MIMARKSSpecimen/ )
