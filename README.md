@@ -187,7 +187,9 @@ based on technology.
 -   2.3.9. [uVIGs](./Technical/uVIGs_Technical_Metadata.md)
     -   uVIG FASTQ
     -   uVIG FASTA
--   2.3.10. [BIOM or tabular
+    2.3.10. [Virus Genomes](./Technical/Virus_Technical_Metadata.md)
+    -  Virus genome FASTQ/A
+-   2.3.11. [BIOM or tabular
     files](./Technical/BIOM_or_Tabular_Technical_Metadata.md)
 
 
