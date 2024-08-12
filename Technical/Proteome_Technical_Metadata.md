@@ -20,7 +20,6 @@ now available.
 | DOI | Digital Object Identifier of the publication associated with the dataset | | | e.g. DOI: 10.1038/S41590-023-01644-5 | **ProteomeXchange Consortium Guidelines** (“Data Submission Guidelines for the ProteomeXchange Consortium V3.0.1”) |  | 
 | Post source component | Analyzer & activation/dissociation type | | |  | **MIAPE** (Taylor et al. 2007) |  | 
 
-
 | Comments/questions: |
 |---------------------|
 |                     |
