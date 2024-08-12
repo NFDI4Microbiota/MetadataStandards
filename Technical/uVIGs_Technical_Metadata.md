@@ -83,14 +83,14 @@ Tatusova, et al. 2008. “The Minimum Information about a Genome Sequence
 <https://doi.org/10.1038/nbt1360>.
 
 “GSC MIXS: MIMAG.”
-<https://genomicsstandardsconsortium.github.io/mixs/MIMAG/>.
+<https://genomicsstandardsconsortium.github.io/mixs/0010011>.
 
 Leinonen, R., H. Sugawara, M. Shumway, and International Nucleotide
 Sequence Database Collaboration. 2011. “The Sequence Read Archive.”
 *Nucleic Acids Research* 39 (Database issue): D19–21.
 <https://doi.org/10.1093/nar/gkq1019>.
 
-“Miuvig.” <https://genomicsstandardsconsortium.github.io/mixs/Miuvig/>.
+“Miuvig.” <https://genomicsstandardsconsortium.github.io/mixs/0010012>.
 
 Murray, A. E., J. Freudenstein, S. Gribaldo, et al. 2020. “Roadmap for
 Naming Uncultivated Archaea and Bacteria.” *Nat Microbiol* 5: 987–94.
