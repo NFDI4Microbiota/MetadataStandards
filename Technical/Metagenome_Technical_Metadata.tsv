@@ -1,35 +1,52 @@
-category	metadata	definition/examples	source	reference	comment
-metagenomic FASTQ	sample_name	Identifier of the sample	GSC MIxS/MIGS Bacteria	https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/; https://doi.org/10.1038/nbt1360	
-metagenomic FASTQ	seq_meth	Sequencing method used (e.g. Illumina HiSeq 2000)	GSC MIxS/MIGS Bacteria, ENA Metadata Validation: Instrument	https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/; https://doi.org/10.1038/nbt1360;https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html; https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#instrument	
-metagenomic FASTQ	lib_layout	Single-end, paired- end or others	GSC MIxS/MIGS Bacteria	https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/; https://doi.org/10.1038/nbt1360	
-metagenomic FASTQ	lib_source	Genomic, metagenomic, transcriptomic, etc.	ENA Metadata Validation: Source	https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#source	
-metagenomic FASTQ	lib_strategy	WGS, Amplicon, etc.	ENA Metadata Validation: Strategy	https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#strategy	
-metagenomic FASTQ	lib_selection	Random, PCR, etc.	ENA Metadata Validation: Selection	https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#selection	
-metagenomic FASTQ	nucl_acid_ext	Literature reference or SOP describing nucleic extraction i.e. CTAB extraction, Phenol-Cloroform Extraction	The FAIR Cookbook	https://github.com/FAIRplus/the-fair-cookbook/	
-metagenomic FASTQ	nucl_acid_ext_treat	Treatment of nucleic acid after extraction i.e. DNase, RNase    	Adapted from The FAIR Cookbook	https://github.com/FAIRplus/the-fair-cookbook/	
-metagenomic FASTQ	insert_length	for inner dist. calc (or incl. in lib_layout?). Array Express parameter: insert Nominal Length			20220426-NME-suggestion
-metagenomic FASTQ	sequence_count	Number of reads in the library (sequencing depth)	Adapted from NCBI-SRA	https://doi.org/10.1093/nar/gkq1019	
-metagenomic FASTQ	basepairs_count	Number of base pairs (nucleotides) in the library	Adapted from NCBI-SRA	https://doi.org/10.1093/nar/gkq1019	
-metagenomic FASTQ	average_length	As basepairs_count divided by sequence_count	Calculated as basepairs_count/sequence_count		
-metagenomic FASTQ	sequence_count_qual	Number of reads in the library (sequencing depth) after quality filtering	SRA-Tinder	https://github.com/NCBI-Hackathons/SRA_Tinder	
-metagenomic FASTQ	basepairs_count_qual	Number of base pairs (nucleotides) in the library after quality filtering	SRA-Tinder	https://github.com/NCBI-Hackathons/SRA_Tinder	
-metagenomic FASTQ	quality_score	Q30, quality above 30	SRA-Tinder	https://github.com/NCBI-Hackathons/SRA_Tinder	20220717-CP-need-better-definition
-metagenomic FASTQ	checksum	Hash value (e.g. MD5) for data integrity			
-metagenomic FASTA	run_ref	Accessions/identifiers linking to the raw data (FASTQ)	Adapted from ENA	https://ena-docs.readthedocs.io/en/latest/submit/analyses/read-alignments.html; https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#metadata-validation	
-metagenomic FASTA	tax_ident	Phylogenetic marker(s) for MAG assignation	GSC MIXS: MIMAG	https://genomicsstandardsconsortium.github.io/mixs/MIMAG/; https://doi.org/10.1038/nbt.3893	
-metagenomic FASTA	assembly_qual	Assembly quality category (e.g. Medium Quality Draft)	GSC MIxS/MIGS Bacteria	https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/; https://doi.org/10.1038/nbt1360	
-metagenomic FASTA	assembly_software	"Tool(s) used	 version and parameters"	GSC MIxS/MIGS Bacteria	https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/; https://doi.org/10.1038/nbt1360	
-metagenomic FASTA	coverage	The estimated depth of sequencing coverage (in x)	ENA Submitting Metagenome Assemblies	https://ena-docs.readthedocs.io/en/latest/submit/assembly/metagenome.html	20220717-CP-need-better-definition
-metagenomic FASTA	number_contig	Total number of contigs	GSC MIxS/MIGS Bacteria, Roadmap for naming uncultivated Archaea and Bacteria	https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/; https://doi.org/10.1038/nbt1360; https://doi.org/10.1038/s41564-020-0733-x	
-metagenomic FASTA	N50	The length of the shortest contig representing half of the assembly length	Roadmap for naming uncultivated Archaea and Bacteria	https://doi.org/10.1038/s41564-020-0733-x	
-metagenomic FASTA	LSU_recover	Detection of the 23S rRNA (BA) or 5.8S/28S rRNA (E)	Adapted from GSC MIXS: MIMAG	https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/; https://doi.org/10.1038/nbt1360	
-metagenomic FASTA	LSU_recover_software	Tools for LSU extraction	Adapted from GSC MIXS: MIMAG	https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/; https://doi.org/10.1038/nbt1360	
-metagenomic FASTA	SSU_recover	Detection of the 16S rRNA (BA) or 18S rRNA (E)	Adapted from GSC MIXS: MIMAG	https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/; https://doi.org/10.1038/nbt1360	
-metagenomic FASTA	SSU_recover_software	Tools for SSU extraction	Adapted from GSC MIXS: MIMAG	https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/; https://doi.org/10.1038/nbt1360	
-metagenomic FASTA	trnas	Total number of tRNAs identified	GSC MIXS: MIMAG; Roadmap for naming uncultivated Archaea and Bacteria	https://genomicsstandardsconsortium.github.io/mixs/MIMAG/;https://doi.org/10.1038/nbt.3893; https://doi.org/10.1038/s41564-020-0733-x	
-metagenomic FASTA	trna_ext_software	Tools used for tRNA identification	GSC MIXS: MIMAG	https://genomicsstandardsconsortium.github.io/mixs/MIMAG/; https://doi.org/10.1038/nbt.3893	
-metagenomic FASTA	compl_score	Completeness score	GSC MIXS: MIMAG	https://genomicsstandardsconsortium.github.io/mixs/MIMAG/; https://doi.org/10.1038/nbt.3893	
-metagenomic FASTA	compl_software	Tools used for completion estimate	GSC MIXS: MIMAG	https://genomicsstandardsconsortium.github.io/mixs/MIMAG/; https://doi.org/10.1038/nbt.3893	
-metagenomic FASTA	contam_score	Contamination score	GSC MIXS: MIMAG	https://genomicsstandardsconsortium.github.io/mixs/MIMAG/; https://doi.org/10.1038/nbt.3893	
-metagenomic FASTA	contam_software	Tool(s) used in contamination screening	GSC MIXS: MIMAG	https://genomicsstandardsconsortium.github.io/mixs/MIMAG/; https://doi.org/10.1038/nbt.3893	
-metagenomic FASTA	source	Metagenome source for MAG			20220717-CP-need-better-definition
+category	metadata	definition	examples	source
+Metagenomic FASTQ	sample_name	Identifier of the sample	e.g. ISDsoil1	GSC MIxS/MIGS Bacteria ( https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/ )
+Metagenomic FASTQ	seq_meth	Sequencing method used	e.g. 454 Genome Sequencer FLX \[OBI:0000702\]	GSC MIxS/MIGS Bacteria ( https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/ ), ENA Metadata Validation: Instrument ( ENA Metadata Validation: Instrument )
+Metagenomic FASTQ	lib_layout	Specify whether to expect single, paired, or other configuration of reads	e.g. single-end, paired end or others	GSC MIxS/MIGS Bacteria ( https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/ )
+Metagenomic FASTQ	lib_source	The lib_source specifies the type of source material that is being sequenced	e.g. genomic, metagenomic, transcriptomic, etc.	https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#source ( https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#source )
+Metagenomic FASTQ	lib_strategy	Sequencing technique intended for this library	e.g. WGS, Amplicon, etc.	https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#strategy ( https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#strategy )
+Metagenomic FASTQ	lib_selection	Whether any method was used to select and/or enrich the material being sequenced	e.g. Random, PCR, etc.	https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#selection ( https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#selection )
+Metagenomic FASTQ	nucl_acid_ext	Literature reference or SOP describing nucleic extraction	e.g. CTAB extraction, Phenol-Cloroform Extraction	The FAIR Cookbook (https://github.com/FAIRplus/the-fair-cookbook/)
+Metagenomic FASTQ	nucl_acid_ext_treat	Treatment of nucleic acid after extraction	e.g. DNase, RNase	Adapted from The FAIR Cookbook (https://github.com/FAIRplus/the-fair-cookbook/)
+Metagenomic FASTQ	insert_length	for inner dist. calc. (or incl. in lib_layout?)(Array Express parameter: insert  Nominal Length	NA	NA
+Metagenomic FASTQ	sequence_count	Number of reads in the library (sequencing depth) or  spots	e.g. 32,283,453	Adapted from NCBI-SRA (https://doi.org/10.1093/nar/gkq1019)
+Metagenomic FASTQ	basepairs_count	Number of base pairs (nucleotides) in the library or  bases	e.g. 6,400,000,000	Adapted from NCBI-SRA (https://doi.org/10.1093/nar/gkq1019)
+Metagenomic FASTQ	average_length	As basepairs_count divided by sequence_count	e.g. 198	Calculated as basepairs_count/sequence_count
+Metagenomic FASTQ	sequence_count_qual	Number of reads in the library (sequencing depth) after quality filtering	NA	SRA-Tinder (https://github.com/NCBI-Hackathons/SRA_Tinder)
+Metagenomic FASTQ	basepairs_count_qual	Number of base pairs (nucleotides) in the library after quality filtering	NA	SRA-Tinder (https://github.com/NCBI-Hackathons/SRA_Tinder)
+Metagenomic FASTQ	quality_score	Q30, quality above 30	e.g. 49	SRA-Tinder (https://github.com/NCBI-Hackathons/SRA_Tinder)
+Metagenomic FASTQ	checksum	Hash value for data integrity	e.g. MD5: cbc41d0e49636872a765b950cb7f410a	[Data transfer and data integrity](Data_Transfer_Data_Integrity.md)
+Metagenomic FASTA	metadata	definition	examples	source
+Metagenomic FASTA	run_ref	Accessions/identifiers linking to the raw data (FASTQ)	e.g. accession =  ERR178314	Adapted from ENA ( https://ena-docs.readthedocs.io/en/latest/submit/analyses/read-alignments.html )
+Metagenomic FASTA	tax_ident	The phylogenetic marker(s) used to assign an organism name to the SAG or MAG	e.g. 16s rRNA gene, multi-marker approach, other	https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ ( https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ )
+Metagenomic FASTA	assembly_qual	Assembly quality category	e.g. Medium Quality Draft	GSC MIxS/MIGS Bacteria ( https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/ )
+Metagenomic FASTA	assembly_software	Tool(s) used, version and parameters	e.g. metaSPAdes (3.11.0);kmer set 21,33,55,77,99,121, default parameters otherwise	GSC MIxS/MIGS Bacteria ( https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/ )
+Metagenomic FASTA	coverage	The estimated depth of sequencing coverage (in x)	NA	https://ena-docs.readthedocs.io/en/latest/submit/assembly/metagenome.html ( https://ena-docs.readthedocs.io/en/latest/submit/assembly/metagenome.html )
+Metagenomic FASTA	number_contig	Total number of contigs	e.g. 40	GSC MIxS/MIGS Bacteria ( https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/ ), Roadmap for naming uncultivated Archaea and Bacteria (Murray et al. 2020)
+Metagenomic FASTA	LSU_recover	Detection of the 23S rRNA (BA) or 5.8S/28S rRNA (E)	e.g. yes	Adapted from https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ ( https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ )
+Metagenomic FASTA	LSU_recover_software	Tools for LSU extraction	NA	Adapted from https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ ( https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ )
+Metagenomic FASTA	SSU_recover	Detection of the 16S rRNA (BA) or 18S rRNA (E)	e.g. yes	Adapted from https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ ( https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ )
+Metagenomic FASTA	SSU_recover_software	Tools for SSU extraction	e.g. rambl (v2); default parameters	Adapted from https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ ( https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ )
+Metagenomic FASTA	trnas	Total number of tRNAs identified from the MAG	e.g. 18	https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ ( https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ ), Roadmap for naming uncultivated Archaea and Bacteria (Murray et al. 2020)
+Metagenomic FASTA	trna_ext_software	Tools used for tRNA identification	e.g. infernal (v2); default parameters	https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ ( https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ )
+Metagenomic FASTA	compl_score	Completeness score	e.g. med; 60%	https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ ( https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ )
+Metagenomic FASTA	compl_software	Tools used for completion estimate	e.g. checkm (v1.1.6)	https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ ( https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ )
+Metagenomic FASTA	contam_score	Contamination score	e.g. 0.01	https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ ( https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ )
+Metagenomic FASTA	contam_software	Tool(s) used in contamination screening	e.g. checkm (v1.1.6)	https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ ( https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ )
+Metagenomic FASTA	metadata	definition	examples	source
+Metagenomic FASTA	run_ref	Accessions/identifiers linking to the raw data (FASTQ)	e.g. accession =  ERR178314	Adapted from ENA ( https://ena-docs.readthedocs.io/en/latest/submit/analyses/read-alignments.html )
+Metagenomic FASTA	tax_ident	The phylogenetic marker(s) used to assign an organism name to the SAG or MAG	e.g. 16s rRNA gene, multi-marker approach, other	https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ ( https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ )
+Metagenomic FASTA	assembly_qual	Assembly quality category	e.g. Medium Quality Draft	GSC MIxS/MIGS Bacteria ( https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/ )
+Metagenomic FASTA	assembly_software	Tool(s) used, version and parameters	e.g. metaSPAdes (3.11.0);kmer set 21,33,55,77,99,121, default parameters otherwise	GSC MIxS/MIGS Bacteria ( https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/ )
+Metagenomic FASTA	coverage	The estimated depth of sequencing coverage (in x)	NA	https://ena-docs.readthedocs.io/en/latest/submit/assembly/metagenome.html ( https://ena-docs.readthedocs.io/en/latest/submit/assembly/metagenome.html )
+Metagenomic FASTA	number_contig	Total number of contigs	e.g. 40	GSC MIxS/MIGS Bacteria ( https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/ ), Roadmap for naming uncultivated Archaea and Bacteria (Murray et al. 2020)
+Metagenomic FASTA	N50	The length of the shortest contig representing half of the assembly length	NA	Roadmap for naming uncultivated Archaea and Bacteria (https://doi.org/10.1038/s41564-020-0733-x)
+Metagenomic FASTA	LSU_recover	Detection of the 23S rRNA (BA) or 5.8S/28S rRNA (E)	e.g. yes	Adapted from https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ ( https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ )
+Metagenomic FASTA	LSU_recover_software	Tools for LSU extraction	NA	Adapted from https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ ( https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ )
+Metagenomic FASTA	SSU_recover	Detection of the 16S rRNA (BA) or 18S rRNA (E)	e.g. yes	Adapted from https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ ( https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ )
+Metagenomic FASTA	SSU_recover_software	Tools for SSU extraction	e.g. rambl (v2); default parameters	Adapted from https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ ( https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ )
+Metagenomic FASTA	trnas	Total number of tRNAs identified from the MAG	e.g. 18	https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ ( https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ ), Roadmap for naming uncultivated Archaea and Bacteria (Murray et al. 2020)
+Metagenomic FASTA	trna_ext_software	Tools used for tRNA identification	e.g. infernal (v2); default parameters	https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ ( https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ )
+Metagenomic FASTA	compl_score	Completeness score	e.g. med; 60%	https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ ( https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ )
+Metagenomic FASTA	compl_software	Tools used for completion estimate	e.g. checkm (v1.1.6)	https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ ( https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ )
+Metagenomic FASTA	contam_score	Contamination score	e.g. 0.01	https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ ( https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ )
+Metagenomic FASTA	contam_software	Tool(s) used in contamination screening	e.g. checkm (v1.1.6)	https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ ( https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ )

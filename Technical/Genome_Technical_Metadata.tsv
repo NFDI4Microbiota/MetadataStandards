@@ -1,30 +1,31 @@
-category	metadata	definition/examples	source	reference	comment
-genomic FASTQ	sample_name	Identifier of the sample	GSC MIxS/MIGS Bacteria	https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/; https://doi.org/10.1038/nbt1360	
-genomic FASTQ	seq_meth	Sequencing method used (e.g. Illumina HiSeq 2000)	GSC MIxS/MIGS Bacteria;ENA Metadata Validation: Instrument (ENA/NCBI)	https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/; https://doi.org/10.1038/nbt1360;https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html; https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#instrument	
-genomic FASTQ	lib_layout	Single-end, paired- end or others	GSC MIxS/MIGS Bacteria	https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/; https://doi.org/10.1038/nbt1360	
-genomic FASTQ	lib_source	Genomic, metagenomic, transcriptomic, etc.	ENA Metadata Validation: Source	https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#source	
-genomic FASTQ	lib_strategy	WGS, Amplicon, etc.	ENA Metadata Validation: Strategy	https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#strategy	
-genomic FASTQ	lib_selection	Random, PCR, etc.	ENA Metadata Validation: Selection	https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#selection	
-genomic FASTQ	sequence_count	Number of reads in the library (sequencing depth)	Adapted from NCBI-SRA	https://doi.org/10.1093/nar/gkq1019	
-genomic FASTQ	basepairs_count	Number of base pairs (nucleotides) in the library	Adapted from NCBI-SRA	https://doi.org/10.1093/nar/gkq1019	
-genomic FASTQ	average_length	As basepairs_count divided by sequence_count	Calculated as basepairs_count/sequence_count		
-genomic FASTQ	sequence_count_qual	Number of reads in the library (sequencing depth) after quality filtering	SRA-Tinder	https://github.com/NCBI-Hackathons/SRA_Tinder	
-genomic FASTQ	basepairs_count_qual	Number of base pairs (nucleotides) in the library after quality filtering	SRA-Tinder	https://github.com/NCBI-Hackathons/SRA_Tinder	
-genomic FASTQ	checksum	Hash value (e.g. MD5) for data integrity			
-genomic FASTA	run_ref	Accessions/identifiers linking to the raw data (FASTQ)	Adapted from ENA	https://ena-docs.readthedocs.io/en/latest/submit/analyses/read-alignments.html; https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#metadata-validation	
-genomic FASTA	tax_ident	Phylogenetic marker(s) for MAG assignation	GSC MIXS: MIMAG	https://genomicsstandardsconsortium.github.io/mixs/0010012; https://doi.org/10.1038/nbt.3893	
-genomic FASTA	assembly_qual	Assembly quality category (e.g. Medium Quality Draft)	GSC MIxS/MIGS Bacteria	https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/; https://doi.org/10.1038/nbt1360	
-genomic FASTA	assembly_software	"Tool(s) used	 version and parameters"	GSC MIxS/MIGS Bacteria	https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/; https://doi.org/10.1038/nbt1360	
-genomic FASTA	coverage	The estimated depth of sequencing coverage (in x)	ENA Submitting Metagenome Assemblies	https://ena-docs.readthedocs.io/en/latest/submit/assembly/metagenome.html	
-genomic FASTA	number_contig	Total number of contigs	GSC MIxS/MIGS Bacteria; Roadmap for naming uncultivated Archaea and Bacteria	https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/; https://doi.org/10.1038/nbt1360; https://doi.org/10.1038/s41564-020-0733-x	
-genomic FASTA	N50	The length of the shortest contig representing half of the assembly length	Roadmap for naming uncultivated Archaea and Bacteria	https://doi.org/10.1038/s41564-020-0733-x	
-genomic FASTA	LSU_recover	Detection of the 23S rRNA (BA) or 5.8S/28S rRNA (E)	Adapted from GSC MIXS: MIMAG	https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/; https://doi.org/10.1038/nbt1360	
-genomic FASTA	LSU_recover_software	Tools for LSU extraction	Adapted from GSC MIXS: MIMAG	https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/; https://doi.org/10.1038/nbt1360	
-genomic FASTA	SSU_recover	Detection of the 16S rRNA (BA) or 18S rRNA (E)	Adapted from GSC MIXS: MIMAG	https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/; https://doi.org/10.1038/nbt1360	
-genomic FASTA	SSU_recover_software	Tools for SSU extraction	Adapted from GSC MIXS: MIMAG	https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/; https://doi.org/10.1038/nbt1360	
-genomic FASTA	trnas	Total number of tRNAs identified	GSC MIXS: MIMAG; Roadmap for naming uncultivated Archaea and Bacteria	https://genomicsstandardsconsortium.github.io/mixs/0010012;https://doi.org/10.1038/nbt.3893; https://doi.org/10.1038/s41564-020-0733-x	
-genomic FASTA	trna_ext_software	Tools used for tRNA identification	GSC MIXS: MIMAG	https://genomicsstandardsconsortium.github.io/mixs/0010012; https://doi.org/10.1038/nbt.3893	
-genomic FASTA	compl_score	Completeness score	GSC MIXS: MIMAG	https://genomicsstandardsconsortium.github.io/mixs/0010012; https://doi.org/10.1038/nbt.3893	
-genomic FASTA	compl_software	Tools used for completion estimate	GSC MIXS: MIMAG	https://genomicsstandardsconsortium.github.io/mixs/0010012; https://doi.org/10.1038/nbt.3893	
-genomic FASTA	contam_score	Contamination score	GSC MIXS: MIMAG	https://genomicsstandardsconsortium.github.io/mixs/0010012; https://doi.org/10.1038/nbt.3893	
-genomic FASTA	contam_software	Tool(s) used in contamination screening	GSC MIXS: MIMAG	https://genomicsstandardsconsortium.github.io/mixs/0010012; https://doi.org/10.1038/nbt.3893	
+category	metadata	definition	examples	source
+Genomic FASTQ	sample_name	Identifier of the sample	e.g. ISDsoil1	GSC MIxS/MIGS Bacteria ( https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/ )
+Genomic FASTQ	seq_meth	Sequencing method used	e.g. 454 Genome Sequencer FLX \[OBI:0000702\]	GSC MIxS/MIGS Bacteria ( https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/ ), ENA Metadata Validation: Instrument ( ENA Metadata Validation: Instrument )
+Genomic FASTQ	lib_layout	Specify whether to expect single, paired, or other configuration of reads	e.g. single-end, paired end or others	GSC MIxS/MIGS Bacteria ( https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/ )
+Genomic FASTQ	lib_source	The lib_source specifies the type of source material that is being sequenced	e.g. genomic, metagenomic, transcriptomic, etc.	https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#source ( https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#source )
+Genomic FASTQ	lib_strategy	Sequencing technique intended for this library	e.g. WGS, Amplicon, etc.	https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#strategy ( https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#strategy )
+Genomic FASTQ	lib_selection	Whether any method was used to select and/or enrich the material being sequenced	e.g. Random, PCR, etc.	https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#selection ( https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#selection )
+Genomic FASTQ	sequence_count	Number of reads in the library (sequencing depth) or  spots	e.g. 32,283,453	Adapted from NCBI-SRA (https://doi.org/10.1093/nar/gkq1019)
+Genomic FASTQ	basepairs_count	Number of base pairs (nucleotides) in the library or  bases	e.g. 6,400,000,000	Adapted from NCBI-SRA (https://doi.org/10.1093/nar/gkq1019)
+Genomic FASTQ	average_length	As basepairs_count divided by sequence_count	e.g. 198	Calculated as basepairs_count/sequence_count
+Genomic FASTQ	sequence_count_qual	Number of reads in the library (sequencing depth) after quality filtering	NA	SRA-Tinder (https://github.com/NCBI-Hackathons/SRA_Tinder)
+Genomic FASTQ	basepairs_count_qual	Number of base pairs (nucleotides) in the library after quality filtering	NA	SRA-Tinder (https://github.com/NCBI-Hackathons/SRA_Tinder)
+Genomic FASTQ	checksum	Hash value for data integrity	e.g. MD5: cbc41d0e49636872a765b950cb7f410a	[Data transfer and data integrity](Data_Transfer_Data_Integrity.md)
+Genomic FASTA	metadata	definition	examples	source
+Genomic FASTA	run_ref	Accessions/identifiers linking to the raw data (FASTQ)	e.g. accession =  ERR178314	Adapted from ENA ( https://ena-docs.readthedocs.io/en/latest/submit/analyses/read-alignments.html )
+Genomic FASTA	tax_ident	The phylogenetic marker(s) used to assign an organism name to the SAG or MAG	e.g. 16s rRNA gene, multi-marker approach, other	https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ ( https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ )
+Genomic FASTA	assembly_qual	Assembly quality category	e.g. Medium Quality Draft	GSC MIxS/MIGS Bacteria ( https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/ )
+Genomic FASTA	assembly_software	Tool(s) used, version and parameters	e.g. metaSPAdes (3.11.0);kmer set 21,33,55,77,99,121, default parameters otherwise	GSC MIxS/MIGS Bacteria ( https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/ )
+Genomic FASTA	coverage	The estimated depth of sequencing coverage (in x)	NA	https://ena-docs.readthedocs.io/en/latest/submit/assembly/metagenome.html ( https://ena-docs.readthedocs.io/en/latest/submit/assembly/metagenome.html )
+Genomic FASTA	number_contig	Total number of contigs	e.g. 40	GSC MIxS/MIGS Bacteria ( https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/ ), Roadmap for naming uncultivated Archaea and Bacteria (Murray et al. 2020)
+Genomic FASTA	N50	The length of the shortest contig representing half of the assembly length	NA	Roadmap for naming uncultivated Archaea and Bacteria (https://doi.org/10.1038/s41564-020-0733-x)
+Genomic FASTA	LSU_recover	Detection of the 23S rRNA (BA) or 5.8S/28S rRNA (E)	e.g. yes	Adapted from https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ ( https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ )
+Genomic FASTA	LSU_recover_software	Tools for LSU extraction	NA	Adapted from https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ ( https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ )
+Genomic FASTA	SSU_recover	Detection of the 16S rRNA (BA) or 18S rRNA (E)	e.g. yes	Adapted from https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ ( https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ )
+Genomic FASTA	SSU_recover_software	Tools for SSU extraction	e.g. rambl (v2); default parameters	Adapted from https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ ( https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ )
+Genomic FASTA	trnas	Total number of tRNAs identified from the MAG	e.g. 18	https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ ( https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ ), Roadmap for naming uncultivated Archaea and Bacteria (Murray et al. 2020)
+Genomic FASTA	trna_ext_software	Tools used for tRNA identification	e.g. infernal (v2); default parameters	https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ ( https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ )
+Genomic FASTA	compl_score	Completeness score	e.g. med; 60%	https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ ( https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ )
+Genomic FASTA	compl_software	Tools used for completion estimate	e.g. checkm (v1.1.6)	https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ ( https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ )
+Genomic FASTA	contam_score	Contamination score	e.g. 0.01	https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ ( https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ )
+Genomic FASTA	contam_software	Tool(s) used in contamination screening	e.g. checkm (v1.1.6)	https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ ( https://genomicsstandardsconsortium.github.io/mixs/MIMAG/ )

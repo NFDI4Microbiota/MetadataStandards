@@ -1,27 +1,28 @@
-category	metadata	definition/examples	source	reference	comment
-metatranscriptomic FASTQ	sample_name	Identifier of the sample	GSC MIxS/MIGS Bacteria	https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/; https://doi.org/10.1038/nbt1360	
-metatranscriptomic FASTQ	seq_meth	Sequencing method used (e.g. Illumina HiSeq 2000)	GSC MIxS/MIGS Bacteria, ENA Metadata Validation: Instrument	https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/; https://doi.org/10.1038/nbt1360;https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html; https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#instrument	
-metatranscriptomic FASTQ	lib_layout	Single-end, paired- end or others	GSC MIxS/MIGS Bacteria	https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/; https://doi.org/10.1038/nbt1360	
-metatranscriptomic FASTQ	lib_source	Genomic, metagenomic, transcriptomic, etc.	ENA Metadata Validation: Source	https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#source	
-metatranscriptomic FASTQ	lib_strategy	WGS, Amplicon, etc.	ENA Metadata Validation: Strategy	https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#strategy	
-metatranscriptomic FASTQ	lib_selection	Random, PCR, etc.	ENA Metadata Validation: Selection	https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#selection	
-metatranscriptomic FASTQ	nucl_acid_ext	Literature reference or SOP describing nucleic extraction i.e. CTAB extraction, Phenol-Cloroform Extraction	The FAIR Cookbook	https://github.com/FAIRplus/the-fair-cookbook/	20220426-NME-suggestion
-metatranscriptomic FASTQ	nucl_acid_ext_treat	Treatment of nucleic acid after extraction i.e. DNase, RNase    	Adapted from The FAIR Cookbook	https://github.com/FAIRplus/the-fair-cookbook/	
-metatranscriptomic FASTQ	insert_length	for inner dist. calc (or incl. in lib_layout?). Array Express parameter: insert Nominal Length			20220426-NME-suggestion
-metatranscriptomic FASTQ	sequence_count	Number of reads in the library (sequencing depth)	Adapted from NCBI-SRA	https://doi.org/10.1093/nar/gkq1019	
-metatranscriptomic FASTQ	basepairs_count	Number of base pairs (nucleotides) in the library	Adapted from NCBI-SRA	https://doi.org/10.1093/nar/gkq1019	
-metatranscriptomic FASTQ	average_length	As basepairs_count divided by sequence_count	Calculated as basepairs_count/sequence_count		
-metatranscriptomic FASTQ	sequence_count_qual	Number of reads in the library (sequencing depth) after quality filtering	SRA-Tinder	https://github.com/NCBI-Hackathons/SRA_Tinder	
-metatranscriptomic FASTQ	basepairs_count_qual	Number of base pairs (nucleotides) in the library after quality filtering	SRA-Tinder	https://github.com/NCBI-Hackathons/SRA_Tinder	
-metatranscriptomic FASTQ	rRNA treatment	Depletion (Pre-seq, molecular), Removal (Post-seq data), None	Advances and Challenges in Metatranscriptomic Analysis (Shakya, Migun et al. (2019))	https://doi.org/10.3389/fgene.2019.00904	
-metatranscriptomic FASTQ	cDNA_ampl_meth	Technique used to amplify a cDNA library i.e. MMLV, AMV 	The FAIR Cookbook	https://github.com/FAIRplus/the-fair-cookbook/	20220426-NME-suggestion
-metatranscriptomic FASTQ	cDNA_oligo 	Type of primer used for cDNA synthesis from RNA, i.e. polyA or random	The FAIR Cookbook	https://github.com/FAIRplus/the-fair-cookbook/	20220426-NME-suggestion
-metatranscriptomic FASTQ	checksum	Hash value (e.g. MD5) for data integrity			
-metatranscriptomic FASTA	run_ref	Accessions/identifiers linking to the raw data (FASTQ)	ENA Submitting Transcriptome Assemblies	https://ena-docs.readthedocs.io/en/latest/submit/assembly/transcriptome.html	
-metatranscriptomic FASTA	Locus	e.g. GAAA01000000 93507 rc mRNA linear TSA 20-JUL-2015	Adapted from ENA Submitting Transcriptome Assemblies	https://ena-docs.readthedocs.io/en/latest/submit/assembly/transcriptome.html	
-metatranscriptomic FASTA	Definition	TSA: Latimeria chalumnae voucher 08118, transcriptome shotgun assembly	Adapted from ENA Submitting Transcriptome Assemblies	https://ena-docs.readthedocs.io/en/latest/submit/assembly/transcriptome.html	
-metatranscriptomic FASTA	DB Link	BioProject/Biosample/SRA	Adapted from ENA Submitting Transcriptome Assemblies	https://ena-docs.readthedocs.io/en/latest/submit/assembly/transcriptome.html	
-metatranscriptomic FASTA	Reference	Author/Consortium/Title/Journal	Adapted from ENA Submitting Transcriptome Assemblies	https://ena-docs.readthedocs.io/en/latest/submit/assembly/transcriptome.html	
-metatranscriptomic FASTA	Seq length	e.g. Sequences should be greater than 200 bp in length	Adapted from ENA Submitting Transcriptome Assemblies	https://ena-docs.readthedocs.io/en/latest/submit/assembly/transcriptome.html	
-metatranscriptomic FASTA	Seq quality	e.g. Ambiguous bases should not be more than total 10% length or more than 14n's in a row	Adapted from ENA Submitting Transcriptome Assemblies	https://ena-docs.readthedocs.io/en/latest/submit/assembly/transcriptome.html	
-metatranscriptomic FASTA	Protocols	Links to protocol accessions			
+category	metadata	definition	examples	source
+Metatranscriptomic FASTQ	sample_name	Identifier of the sample	e.g. ISDsoil1	GSC MIxS/MIGS Bacteria ( https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/ )
+Metatranscriptomic FASTQ	seq_meth	Sequencing method used	e.g. 454 Genome Sequencer FLX \[OBI:0000702\]	GSC MIxS/MIGS Bacteria ( https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/ ), ENA Metadata Validation: Instrument ( ENA Metadata Validation: Instrument )
+Metatranscriptomic FASTQ	lib_layout	Specify whether to expect single, paired, or other configuration of reads	e.g. single-end, paired end or others	GSC MIxS/MIGS Bacteria ( https://genomicsstandardsconsortium.github.io/mixs/MIGSBacteria/ )
+Metatranscriptomic FASTQ	lib_source	The lib_source specifies the type of source material that is being sequenced	e.g. genomic, metagenomic, transcriptomic, etc.	https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#source ( https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#source )
+Metatranscriptomic FASTQ	lib_strategy	Sequencing technique intended for this library	e.g. WGS, Amplicon, etc.	https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#strategy ( https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#strategy )
+Metatranscriptomic FASTQ	lib_selection	Whether any method was used to select and/or enrich the material being sequenced	e.g. Random, PCR, etc.	https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#selection ( https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#selection )
+Metatranscriptomic FASTQ	nucl_acid_ext	Literature reference or SOP describing nucleic extraction	e.g. CTAB extraction, Phenol-Cloroform Extraction	The FAIR Cookbook (https://github.com/FAIRplus/the-fair-cookbook/)
+Metatranscriptomic FASTQ	nucl_acid_ext_treat	Treatment of nucleic acid after extraction	e.g. DNase, RNase	Adapted from The FAIR Cookbook (https://github.com/FAIRplus/the-fair-cookbook/)
+Metatranscriptomic FASTQ	insert_length	for inner dist. calc. (or incl. in lib_layout?)(Array Express parameter: insert  Nominal Length	NA	NA
+Metatranscriptomic FASTQ	sequence_count	Number of reads in the library (sequencing depth) or  spots	e.g. 32,283,453	Adapted from NCBI-SRA (https://doi.org/10.1093/nar/gkq1019)
+Metatranscriptomic FASTQ	basepairs_count	Number of base pairs (nucleotides) in the library or  bases	e.g. 6,400,000,000	Adapted from NCBI-SRA (https://doi.org/10.1093/nar/gkq1019)
+Metatranscriptomic FASTQ	average_length	As basepairs_count divided by sequence_count	e.g. 198	Calculated as basepairs_count/sequence_count
+Metatranscriptomic FASTQ	sequence_count_qual	Number of reads in the library (sequencing depth) after quality filtering	NA	SRA-Tinder (https://github.com/NCBI-Hackathons/SRA_Tinder)
+Metatranscriptomic FASTQ	basepairs_count_qual	Number of base pairs (nucleotides) in the library after quality filtering	NA	SRA-Tinder (https://github.com/NCBI-Hackathons/SRA_Tinder)
+Metatranscriptomic FASTQ	rRNA treatment	NA	Depletion (Pre-seq, molecular), Removal (Post-seq data), None	Advances and Challenges in Metatranscriptomic Analysis (https://doi.org/10.3389/fgene.2019.00904)
+Metatranscriptomic FASTQ	cDNA_ampl_meth	Technique used to amplify a cDNA library	e.g. MMLV, AMV	The FAIR Cookbook (https://github.com/FAIRplus/the-fair-cookbook/)
+Metatranscriptomic FASTQ	cDNA_oligo	Type of primer used for cDNA synthesis from RNA	e.g. polyA or random	The FAIR Cookbook (https://github.com/FAIRplus/the-fair-cookbook/)
+Metatranscriptomic FASTQ	checksum	Hash value for data integrity	e.g. MD5: cbc41d0e49636872a765b950cb7f410a	[Data transfer and data integrity](Data_Transfer_Data_Integrity.md)
+Metatranscriptomic FASTA	metadata	definition	examples	source
+Metatranscriptomic FASTA	run_ref	Accessions/identifiers linking to the raw data (FASTQ)	e.g. accession =  ERR178314	https://ena-docs.readthedocs.io/en/latest/submit/assembly/transcriptome.html ( https://ena-docs.readthedocs.io/en/latest/submit/assembly/transcriptome.html )
+Metatranscriptomic FASTA	Locus	Physical location of a gene on a chromosome	e.g.  GAAA01000000 93507 rc mRNA ,  11q1.4-q2.1	Adapted from https://ena-docs.readthedocs.io/en/latest/submit/assembly/transcriptome.html ( https://ena-docs.readthedocs.io/en/latest/submit/assembly/transcriptome.html )
+Metatranscriptomic FASTA	Description	Sample description	e.g. TSA: Latimeria chalumnae voucher 08118, transcriptome shotgun assembly	Adapted from https://ena-docs.readthedocs.io/en/latest/submit/assembly/transcriptome.html ( https://ena-docs.readthedocs.io/en/latest/submit/assembly/transcriptome.html )
+Metatranscriptomic FASTA	DB Link	BioProject/Biosample/SRA	e.g. PRJNA1035062	Adapted from https://ena-docs.readthedocs.io/en/latest/submit/assembly/transcriptome.html ( https://ena-docs.readthedocs.io/en/latest/submit/assembly/transcriptome.html )
+Metatranscriptomic FASTA	Reference	Author/Consortium/Title/Journal	NA	Adapted from https://ena-docs.readthedocs.io/en/latest/submit/assembly/transcriptome.html ( https://ena-docs.readthedocs.io/en/latest/submit/assembly/transcriptome.html )
+Metatranscriptomic FASTA	Seq length	Number of nucleotides in a transcript. Sequences should be greater than 200 bp in length.	NA	Adapted from https://ena-docs.readthedocs.io/en/latest/submit/assembly/transcriptome.html ( https://ena-docs.readthedocs.io/en/latest/submit/assembly/transcriptome.html )
+Metatranscriptomic FASTA	Seq quality	The accuracy and reliability of the nucleotide sequence information obtained from RNA sequencing	NA	Adapted from https://ena-docs.readthedocs.io/en/latest/submit/assembly/transcriptome.html ( https://ena-docs.readthedocs.io/en/latest/submit/assembly/transcriptome.html )
+Metatranscriptomic FASTA	Protocols	Links to protocol accessions	NA	NA

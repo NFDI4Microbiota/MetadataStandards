@@ -1,0 +1,5 @@
+category	File type	Integrity check	Other considerations for quality and transferability
+Data integrity considerations by file type	FASTQ	Read count, checksum (MD5sum, SEGUID ([Bassi and Gonzalez (2007)](https://doi.org/10.1038/npre.2007.278.1)), ([Babnigg and Giometti (2006)](https://doi.org/10.1002/pmic.200600032)), etc.)	Determination of +33/+64 format from compressed files
+Data integrity considerations by file type	FASTA	Read count, checksum (MD5sum, SEGUID ([Bassi and Gonzalez (2007)](https://doi.org/10.1038/npre.2007.278.1)), ([Babnigg and Giometti (2006)](https://doi.org/10.1002/pmic.200600032), etc.)	NA
+Data integrity considerations by file type	.faa	SEGUID ([Bassi and Gonzalez (2007)](https://doi.org/10.1038/npre.2007.278.1)), ([Babnigg and Giometti (2006)](https://doi.org/10.1002/pmic.200600032)	Annotation pipeline, assembly quality
+Data integrity considerations by file type	GFF/GTF	NA	Annotation pipeline, assembly quality
