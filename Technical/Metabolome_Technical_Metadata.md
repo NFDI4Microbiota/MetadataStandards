@@ -53,6 +53,8 @@ standards initiative (MSI)** ([Fiehn et al.
 (2007)](https://doi.org/10.1007/s11306-007-0070-6)) in the ‘adapted from
 source’ section can be found online.
 
+The MetaboLights submission portal offers [light-weight and quick-start information](https://www.ebi.ac.uk/metabolights/editor/guides/Quick_start_Guide/Quick_start_overview) on how to submit a study and what type of metadata to provide. A detailed overview of metadata fields is offered when you create your own study and start including detailed information on the types of assays used. 
+
 # References
 
 Ara, Takeshi, Mizuki Enomoto, Masanori Arita, Chisato Ikeda, Kenichiro
