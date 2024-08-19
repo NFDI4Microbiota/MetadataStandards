@@ -42,7 +42,7 @@ For readers of this repository, confused by the use of EnvO s
 ontologies, we recommend they read the EnvO s use documentation here:
 <https://github.com/EnvironmentOntology/envo/wiki/Using-ENVO-with-MIxS>.
 
-{% raw %}{% cite gsc_built_env_mims %}{% endraw %}
+{% raw %}{% gsc_built_env_mims %}{% endraw %}
 
 
 # References
