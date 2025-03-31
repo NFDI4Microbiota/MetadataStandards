@@ -6,3 +6,6 @@
 
 # ignore all .Rhistory files
 *.Rhistory
+
+# Ignore python scripts
+*.py
