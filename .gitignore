@@ -7,5 +7,11 @@
 # ignore all .Rhistory files
 *.Rhistory
 
+# ignore output files and files for wizard
+2024-11-11_animal_output.csv
+2024-11-11_terrestrial_output.csv
+20241111_proposed_terrestrial_metadata_fields.csv
+
 # Ignore python scripts
 *.py
+
