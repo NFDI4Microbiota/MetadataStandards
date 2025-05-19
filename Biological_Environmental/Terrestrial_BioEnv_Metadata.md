@@ -77,6 +77,15 @@
 |  | [\[MIXS:0001161\]](https://w3id.org/mixs/0001161) | rel_location | Relative sampling position | Location of sampled soil relative to other parts of the farm e.g. under crop plant, near irrigation ditch, from the dirt road | 1 m from asphalt edge, 20 m from agricultural field |  |
 |  | [\[MIXS:0001163\]](https://w3id.org/mixs/0001163) | soil_temp | Soil temperature | Temperature of soil at the time of sampling | 15 °C |  |
 
+#### **Terrestrial and Terrestrial-Constructed - Ontology recommendations**
+[NCBI organismal classification - NCBITAXON](https://www.ncbi.nlm.nih.gov/taxonomy) - An ontology representation of the NCBI organismal taxonomy.
+
+[The Environment Ontology - ENVO](http://environmentontology.org/) - ENVO is an ontology which represents knowledge about environments,environmental processes, ecosystems, habitats, and related entities.
+
+[An ontology of core ecological entities - ECOCORE](https://www.ebi.ac.uk/ols4/ontologies/ecocore) - An ontology of core ecological entities.
+
+[Chemical Entities of Biological Interest - ChEBI](https://www.ebi.ac.uk/chebi/beta/) - An open-access database and ontology of chemical entities. The chemical entities in ChEBI are either naturally occurring molecules or synthetic compounds used to intervene in the processes of living organisms. ChEBI uses the nomenclature, symbolism and terminology endorsed by the International Union of Pure and Applied Chemistry (IUPAC) and the Nomenclature Committee of the International Union of Biochemistry and Molecular Biology (NC-IUBMB). ChEBI also incorporates an ontological classification, whereby the relationships between chemical entities or classes of entities and their parents and/or children are defined; this enables queries based for example on chemical class and role.
+
 # References
 
 “ENA Host Associated Checklist; Checklist: ERC000013.”
