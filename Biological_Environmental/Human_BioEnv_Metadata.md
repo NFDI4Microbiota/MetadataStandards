@@ -82,7 +82,7 @@
 |  | [\[MIXS:0000895\]](https://w3id.org/mixs/0000895) | ethnicity | ethnicity | A category of people who identify with each other, usually on the basis of presumed similarities such as a common language, ancestry, history, society, culture, nation or social treatment within their residing area. | German | [“MIMS: Metagenome/Environmental, Human-Associated; Version 6.0 Package”](https://www.ncbi.nlm.nih.gov/biosample/docs/packages/MIMS.me.human-associated.5.0/), [“GSC MIxS Human Associated; ENA Checklist: ERC000014”](https://www.ebi.ac.uk/ena/browser/view/ERC000014), [“U.s. Office of Management and Budget (OMB): About the Topic of Race”](https://www.census.gov/topics/population/race/about.html), [“GSC MIxS: MimsHumanAssociated”](https://genomicsstandardsconsortium.github.io/mixs/0010007_0016003/), [“GSC MIxS: MimsHumanGut”]( https://genomicsstandardsconsortium.github.io/mixs/0010007_0016004/), [“GSC MIxS: MimsHumanOral”]( https://genomicsstandardsconsortium.github.io/mixs/0010007_0016005/), [“GSC MIxS: MimsHumanSkin”]( https://genomicsstandardsconsortium.github.io/mixs/0010007_0016006/), [“GSC MIxS: MimsHumanVaginal”]( https://genomicsstandardsconsortium.github.io/mixs/0010007_0016007/) |
 |  | [\[MIXS:0000896\]](https://w3id.org/mixs/0000896) | host_occupation | Occupation of the sampled host | Most frequent job performed by subject | Nursery nurse [\[SNOMED:224578004\]](http://snomed.info/id/224578004) |  |
 |  | [\[MIXS:0000905\]](https://w3id.org/mixs/0000905) | special_diet | special diet of the sampled host | Specification of special diet; can include multiple special diets | Ketogenic diet [\[SNOMED:765060000\]](http://snomed.info/id/765060000) |  |
->>>>>>> Stashed changes
+
 
 # References
 
