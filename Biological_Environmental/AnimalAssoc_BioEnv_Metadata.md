@@ -57,6 +57,30 @@
 |  | [\[MIXS:0001308\]](https://w3id.org/mixs/0001308) | host_specificity | Specificity of symbiont of the sampled host | Level of specificity of symbiont-host interaction: e.g. generalist (symbiont able to establish associations with distantly related hosts) or species-specific | generalist |  |
 |  | [\[MIXS:0001313\]](https://w3id.org/mixs/0001313) | host_cellular_loc | Cellular location of symbiont within the sampled host | The localization of the symbiotic host organism within the host from which it was sampled: e.g. intracellular if the symbiotic host organism is localized within the cells or extracellular if the symbiotic host organism is localized outside of cells | lumen of intestine [\[UBERON:0018543\]](http://purl.obolibrary.org/obo/UBERON_0018543) |  |
 
+#### **Animal-associated - Ontology recommendations**
+[NCBI organismal classification - NCBITAXON](https://www.ncbi.nlm.nih.gov/taxonomy) - An ontology representation of the NCBI organismal taxonomy.
+
+[Biological Spatial Ontology - BSPO](https://obofoundry.org/ontology/bspo) - An ontology for respresenting spatial concepts, anatomical axes, gradients, regions, planes, sides and surfaces. These concepts can be used at multiple biological scales and in a diversity of taxa, including plants, animals and fungi. The BSPO is used to provide a source of anatomical location descriptors for logically defining anatomical entity classes in anatomy ontologies.
+
+[Uber-anatomy ontology - UBERON](https://obophenotype.github.io/uberon/) - Uberon is an integrated cross-species anatomy ontology representing a variety of entities classified according to traditional anatomical criteria such as structure, function and developmental lineage. The ontology includes comprehensive relationships to taxon-specific anatomical ontologies, allowing integration of functional, phenotype and expression data.
+
+[Cell Ontology - CL](https://obofoundry.org/ontology/cl.html) - The Cell Ontology is a structured controlled vocabulary for cell types in animals.
+
+[Neuro Behavior Ontology - NBO](https://www.ebi.ac.uk/ols4/ontologies/nbo) - An ontology of human and animal behaviours and behavioural phenotypes.
+
+[The BRENDA Tissue Ontology - BTO](https://www.ebi.ac.uk/ols4/ontologies/bto) - A structured controlled vocabulary for the source of an enzyme comprising tissues, cell lines, cell types and cell cultures.
+
+[Gene Ontology - GO](http://geneontology.org/) - The Gene Ontology (GO) provides a framework and set of concepts for describing the functions of gene products from all organisms.
+
+[Chemical Entities of Biological Interest - ChEBI](https://www.ebi.ac.uk/chebi/beta/) - An open-access database and ontology of chemical entities. The chemical entities in ChEBI are either naturally occurring molecules or synthetic compounds used to intervene in the processes of living organisms. ChEBI uses the nomenclature, symbolism and terminology endorsed by the International Union of Pure and Applied Chemistry (IUPAC) and the Nomenclature Committee of the International Union of Biochemistry and Molecular Biology (NC-IUBMB). ChEBI also incorporates an ontological classification, whereby the relationships between chemical entities or classes of entities and their parents and/or children are defined; this enables queries based for example on chemical class and role.
+
+[The Environment Ontology - ENVO](http://environmentontology.org/) - ENVO is an ontology which represents knowledge about environments,environmental processes, ecosystems, habitats, and related entities.
+
+[An ontology of core ecological entities - ECOCORE](https://www.ebi.ac.uk/ols4/ontologies/ecocore) - An ontology of core ecological entities.
+
+[Foundational Model of Anatomy Ontology - FMA](http://si.washington.edu/projects/fma/) - The FMA is a domain ontology that represents a coherent body of explicit declarative knowledge about human anatomy. Its ontological framework can be applied and extended to all other species. The Foundational Model of Anatomy (FMA) ontology is one of the information resources integrated in the distributed framework of the Anatomy Information System developed and maintained by the Structural Informatics Group at the University of Washington.
+
+
 For readers of this repository, confused by the use of EnvO s
 ontologies, we recommend they read the EnvO s use documentation here:
 <https://github.com/EnvironmentOntology/envo/wiki/Using-ENVO-with-MIxS>.
