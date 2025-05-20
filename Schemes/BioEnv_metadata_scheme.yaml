@@ -1,0 +1,2981 @@
+- Category: Sample metadata
+  MIXS_ID: '“ENA Marine Microalgae Checklist; Checklist: ERC000043”'
+  Metadata_field: collected_by
+  Brief_description: Who collected the sample
+  Definition: Name of person or institute that collected the sample
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Animal-Associated:
+      Example of Usage: Freie Universität Berlin
+    Terrestrial-Associated:
+      Example of Usage: TU Braunschweig
+    Plant-Associated:
+      Example of Usage: Iowa State University
+    WasteWater-Associated:
+      Example of Usage: Freie Universität Berlin
+    Marine-Associated:
+      Example of Usage: University of Hawaiʻi at Mānoa
+    BuiltEnvironment-Associated:
+      Example of Usage: Freie Universität Berlin
+    Human-Associated:
+      Example of Usage: Charité – Universitätsmedizin Berlin
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000001
+  Metadata_field: samp_size
+  Brief_description: Amount or size of the collected sample
+  Definition: The total amount or size (volume (ml), mass (g) or area (m2) ) of sample
+    collected
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Animal-Associated:
+      Example of Usage: 3 g feces
+    Terrestrial-Associated:
+      Example of Usage: 500 g
+    Plant-Associated:
+      Example of Usage: 1 g
+    WasteWater-Associated:
+      Example of Usage: 50 g
+    Marine-Associated:
+      Example of Usage: 1 mL
+    BuiltEnvironment-Associated:
+      Example of Usage: 1 g
+    Human-Associated:
+      Example of Usage: 2 g
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000011
+  Metadata_field: collection_date
+  Brief_description: Date at which the sample was collected
+  Definition: The time of sampling, either as an instance (single point in time) or
+    interval. In case no exact time is available, the date/time can be right truncated.
+    [ISO8601](https://www.iso.org/iso-8601-date-and-time-format.html) compliant
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Animal-Associated:
+      Example of Usage: '2008-01-23T19:23:10+00:00'
+    Terrestrial-Associated:
+      Example of Usage: '2013-03-25'
+    Plant-Associated:
+      Example of Usage: '2013-03-25'
+    Marine-Associated:
+      Example of Usage: '2013-03-25'
+    Human-Associated:
+      Example of Usage: '2008-01-23T19:23:10+00:00'
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000026
+  Metadata_field: source_mat_id
+  Brief_description: 'identifier(s) of source material '
+  Definition: A unique identifier assigned to a [material sample](http://rs.tdwg.org/dwc/terms/materialSampleID)
+    used for extracting nucleic acids, and subsequent sequencing. The identifier can
+    refer either to the original material collected or to any derived sub-samples.
+    The INSDC qualifiers /specimen_voucher, /bio_material, or /culture_collection
+    may or may not share the same value as the source_mat_id field. For instance,
+    the /specimen_voucher qualifier and source_mat_id may both contain 'UAM:Herps:14'
+    , referring to both the specimen voucher and sampled tissue with the same identifier.
+    However, the /culture_collection qualifier may refer to a value from an initial
+    culture (e.g. ATCC:11775) while source_mat_id would refer to an identifier from
+    some derived culture from which the nucleic acids were extracted (e.g. xatc123
+    or ark:/2154/R2)
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Animal-Associated:
+      Example of Usage: DOG_FECAL_0001
+    Terrestrial-Associated:
+      Example of Usage: A2_OILSPILL_0001
+    Plant-Associated:
+      Example of Usage: SOY_NOD_0001
+    WasteWater-Associated:
+      Example of Usage: WWTP1_20230515_01
+    Marine-Associated:
+      Example of Usage: SQUID_VF_LIGHTORG_0001
+    BuiltEnvironment-Associated:
+      Example of Usage: NY_LR_5B_20231015_01
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000092
+  Metadata_field: project_name
+  Brief_description: project name under which sampling and sequencing was done
+  Definition: Name of the project within which the sequencing was organized
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Animal-Associated:
+      Example of Usage: Canine Gut Microbiome Sequencing Project
+    Terrestrial-Associated:
+      Example of Usage: Roadside Oil Spill Soil Microbiome Study
+    Plant-Associated:
+      Example of Usage: Soybean–Rhizobium Symbiosis Sequencing Campaign
+    WasteWater-Associated:
+      Example of Usage: Municipal WWTP Sludge Microbiome Pilot
+    Marine-Associated:
+      Example of Usage: Squid- *Vibrio fischeri* Symbiosis Metagenomics
+    BuiltEnvironment-Associated:
+      Example of Usage: Indoor Microbiome NYC-Apartment Study
+    Human-Associated:
+      Example of Usage: Canine–Human Household Gut Microbiome Study
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000110
+  Metadata_field: samp_store_temp
+  Brief_description: Temperature at which the sample was stored
+  Definition: Temperature at which sample was stored, e.g. -80 ˚C
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Animal-Associated:
+      Example of Usage: -80 ˚C
+    Terrestrial-Associated:
+      Example of Usage: -20˚C
+    Plant-Associated:
+      Example of Usage: -80˚C
+    WasteWater-Associated:
+      Example of Usage: -80˚C
+    Marine-Associated:
+      Example of Usage: -80 °C
+    BuiltEnvironment-Associated:
+      Example of Usage: -80˚C
+    Human-Associated:
+      Example of Usage: -80˚C
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000113
+  Metadata_field: temp
+  Brief_description: temperature
+  Definition: Temperature of the sample at the time of sampling
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Animal-Associated:
+      Example of Usage: 37 ˚C
+    Terrestrial-Associated:
+      Example of Usage: 15˚C
+    Plant-Associated:
+      Example of Usage: 25 degree Celsius
+    WasteWater-Associated:
+      Example of Usage: 37˚C
+    Marine-Associated:
+      Example of Usage: 25 °C
+    BuiltEnvironment-Associated:
+      Example of Usage: 37˚C
+    Human-Associated:
+      Example of Usage: 37˚C
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000183
+  Metadata_field: salinity
+  Brief_description: salinity
+  Definition: The total concentration of all dissolved salts in a liquid or solid
+    sample. While salinity can be measured by a complete chemical analysis, this method
+    is difficult and time consuming. More often, it is instead derived from the conductivity
+    measurement. This is known as practical salinity. These derivations compare the
+    specific conductance of the sample to a salinity standard such as seawater
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Animal-Associated:
+      Example of Usage: 0 practical salinity unit (PSU)
+    Terrestrial-Associated:
+      Example of Usage: 0.3 practical salinity unit (PSU)
+    Plant-Associated:
+      Example of Usage: 0.2 practical salinity unit (PSU)
+    Marine-Associated:
+      Example of Usage: 34 PSU
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000249
+  Metadata_field: samp_dis_stage
+  Brief_description: Disease stage of sampled host
+  Definition: Stage of the disease at the time of sample collection, e.g. inoculation,
+    penetration, infection, growth and reproduction, dissemination of pathogen
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Animal-Associated:
+      Example of Usage: infection
+    Plant-Associated:
+      Example of Usage: healthy
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000752
+  Metadata_field: misc_param
+  Brief_description: miscellaneous parameter
+  Definition: Any other measurement performed or parameter collected, that is not
+    listed here
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Animal-Associated:
+      Example of Usage: household pet; kibble diet
+    Terrestrial-Associated:
+      Example of Usage: traffic density ~ 5 000 vehicles day⁻¹
+    Plant-Associated:
+      Example of Usage: loam soil| rain-fed| no-till management
+    WasteWater-Associated:
+      Example of Usage: digester mixing 30 rpm
+    Marine-Associated:
+      Example of Usage: light–dark cycle 12 h:12 h; squid reared in flow-through seawater
+    Human-Associated:
+      Example of Usage: 'probiotic use: yes (Bifidobacterium longum, 10⁹ CFU/day)'
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000753
+  Metadata_field: oxy_stat_samp
+  Brief_description: oxygenation status of sample
+  Definition: Oxygenation status of sample
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Animal-Associated:
+      Example of Usage: anaerobic
+    Terrestrial-Associated:
+      Example of Usage: aerobic
+    Plant-Associated:
+      Example of Usage: microaerobic
+    WasteWater-Associated:
+      Example of Usage: Anaerobic [MICRO:0000495](http://purl.obolibrary.org/obo/MICRO_0000495)
+    Marine-Associated:
+      Example of Usage: aerobic
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000754
+  Metadata_field: perturbation
+  Brief_description: perturbation
+  Definition: Type of perturbation, e.g. chemical administration, physical disturbance,
+    etc., coupled with perturbation regimen including how many times the perturbation
+    was repeated, how long each perturbation lasted, and the start and end time of
+    the entire perturbation period; can include multiple perturbation types
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Animal-Associated:
+      Example of Usage: praziquantel 5 mg kg⁻¹ PO, 24 h pre-sampling
+    Terrestrial-Associated:
+      Example of Usage: oil spill [ENVO:00002061](http://purl.obolibrary.org/obo/ENVO_00002061)
+    Plant-Associated:
+      Example of Usage: none
+    WasteWater-Associated:
+      Example of Usage: heat shock 70 °C; 1 h (once); start 2023-10-15, end 2023-10-15
+    Marine-Associated:
+      Example of Usage: none
+    Human-Associated:
+      Example of Usage: Amoxicillin [CHEBI:2676](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:2676);
+        500 mg orally, 3× day for 7 days
+- Category: Sample metadata
+  MIXS_ID: MIXS:0001107
+  Metadata_field: samp_name
+  Brief_description: sample name
+  Definition: A local identifier or name that for the material sample used for extracting
+    nucleic acids, and subsequent sequencing. It can refer either to the original
+    material collected or to any derived sub-samples. It can have any format, but
+    we suggest that you make it concise, unique and consistent within your lab, and
+    as informative as possible. INSDC requires every sample name from a single Submitter
+    to be unique. Use of a globally unique identifier for the field source_mat_id
+    is recommended in addition to sample_name
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Animal-Associated:
+      Example of Usage: Dog_001_Feces_2008-01-23
+    Terrestrial-Associated:
+      Example of Usage: OilSpillSoil_A2_1
+    Plant-Associated:
+      Example of Usage: SoyNod_Plant001_2013-03-25
+    WasteWater-Associated:
+      Example of Usage: WWTP1_Sludge_2023-11-15
+    Marine-Associated:
+      Example of Usage: Squid01_LightOrgan_2013-03-25
+    BuiltEnvironment-Associated:
+      Example of Usage: NY_LR_Dust_2023-10-15
+    Human-Associated:
+      Example of Usage: P001_stool_20250203
+- Category: Sample metadata
+  MIXS_ID: MIXS:0001216
+  Metadata_field: microb_cult_med
+  Brief_description: Microbiological culture medium (applicable only if microorganism
+    can be cultivated)
+  Definition: Composition of processed material providing the needed nourishment for
+    microorganisms or cells to grow in vitro. This field accepts terms listed under
+    culture medium [OBI:0000079](https://www.ebi.ac.uk/ols4/ontologies/mco/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FOBI_0000079?lang=en).
+    If the proper descriptor is not listed please use text to describe the culture
+    medium
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Animal-Associated:
+      Example of Usage: minimal defined medium [MCO:0000881](http://purl.obolibrary.org/obo/MCO_0000881)
+    Terrestrial-Associated:
+      Example of Usage: minimal defined medium [MCO:0000881](https://www.ebi.ac.uk/ols4/ontologies/mco/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMCO_0000881?lang=en)|diesel-enriched
+        Bushnell–Haas agar
+    Plant-Associated:
+      Example of Usage: yeast extract 5 g/L [MCO:0000341](http://purl.oCHEBI:29864bohttp://purl.obolibrary.org/obo/CHEBI_29864library.org/obo/MCO_0000341)|mannitol
+        [CHEBI:29864](http://purl.obolibrary.org/obo/CHEBI_29864)
+    Marine-Associated:
+      Example of Usage: DSMZ Medium 1009 [MICRO:0001696](httphttps://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium1009.pdf://purl.obolibrary.org/obo/MICRO_0001696)
+    Human-Associated:
+      Example of Usage: brain heart infusion medium [MICRO:0000569](http://purl.obolibrary.org/obo/MICRO_0000569)
+- Category: Sample metadata
+  MIXS_ID: MIXS:0001317
+  Metadata_field: samp_store_sol
+  Brief_description: Solution in which the sample was stored
+  Definition: Solution within which sample was stored, if any
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Animal-Associated:
+      Example of Usage: RNALater [NCIT:C63348](http://purl.obolibrary.org/obo/NCIT_C63348)
+    Terrestrial-Associated:
+      Example of Usage: RNALater [NCIT:C63348](http://purl.obolibrary.org/obo/NCIT_C63348)
+    Plant-Associated:
+      Example of Usage: RNAlater [NCIT:C63348](http://purl.obolibrary.org/obo/NCIT_C63348)
+    WasteWater-Associated:
+      Example of Usage: RNALater [NCIT:C63348](http://purl.obolibrary.org/obo/NCIT_C63348)
+    Marine-Associated:
+      Example of Usage: RNAlater [NCIT:C63348](http://purl.obolibrary.org/obo/NCIT_C63348)
+    BuiltEnvironment-Associated:
+      Example of Usage: RNALater [NCIT:C63348](http://purl.obolibrary.org/obo/NCIT_C63348)
+    Human-Associated:
+      Example of Usage: RNALater [NCIT:C63348](http://purl.obolibrary.org/obo/NCIT_C63348)
+- Category: Sample metadata
+  MIXS_ID: MIXS:0001320
+  Metadata_field: samp_taxon_id
+  Brief_description: Taxonomical identifier of sample
+  Definition: 'NCBI taxon id of the sample. Maybe be a single taxon or mixed taxa
+    sample. Use ‘synthetic metagenome for mock community/positive controls, or ’blank
+    sample’ for negative controls. Expected_value: [NCBI taxonomy ID](https://www.ncbi.nlm.nih.gov/taxonomy)'
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Animal-Associated:
+      Example of Usage: Gut Metagenome [NCBITaxon:749906](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=749906)
+    Terrestrial-Associated:
+      Example of Usage: soil metagenome [NCBI:txid410658](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?name=soil+metagenome)
+    Plant-Associated:
+      Example of Usage: root nodule metagenome [NCBI:txid2890062](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=2890062&lvl=3&p=has_linkout&p=blast_url&p=genome_blast&lin=f&keep=1&srchmode=1&unlock)
+    WasteWater-Associated:
+      Example of Usage: waste water metagenome [NCBI:txid527639](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=527639&lvl=3&p=has_linkout&p=blast_url&p=genome_blast&lin=f&keep=1&srchmode=1&unlock)
+    Marine-Associated:
+      Example of Usage: internal organ metagenome [NCBI:txid1983761](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=1983761&lvl=3&lin=f&keep=1&srchmode=1&unlock)
+    BuiltEnvironment-Associated:
+      Example of Usage: urban metagenome [NCBI:txid1591089](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=1591089&lvl=3&p=has_linkout&p=blast_url&p=genome_blast&lin=f&keep=1&srchmode=1&unlock)
+    Human-Associated:
+      Example of Usage: Gut Metagenome [NCBITaxon:749906](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=749906)
+- Category: Site metadata
+  MIXS_ID: MIXS:0000009
+  Metadata_field: lat_lon
+  Brief_description: geographic location (latitude and longitude)
+  Definition: The geographical origin of the sample as defined by latitude and longitude.
+    The values should be reported in decimal degrees, limited to 8 decimal points,
+    and in WGS84 system
+  regex_pattern: ^(-?((?:[0-8]?[0-9](?:\.\d{0,8})?)|90)) -?[0-9]+(?:\.[0-9]{0,8})?$|^-?(1[0-7]{1,2})$
+  structured_pattern: ^{lat} {lon}$
+  biomes:
+    Animal-Associated:
+      Example of Usage: 52.454456 13.293950
+    Terrestrial-Associated:
+      Example of Usage: 52.2929 10.5416
+    Plant-Associated:
+      Example of Usage: 42.0497 -93.7696
+    WasteWater-Associated:
+      Example of Usage: 52.454456 13.293950
+    Marine-Associated:
+      Example of Usage: 21.2969 -157.8193
+    BuiltEnvironment-Associated:
+      Example of Usage: 52.454456 13.293950
+    Human-Associated:
+      Example of Usage: 52.526396, 13.376270
+- Category: Site metadata
+  MIXS_ID: MIXS:0000010
+  Metadata_field: geo_loc_name
+  Brief_description: geographic location (country and/or sea,region)
+  Definition: Geographic location (country and/or sea,region). The geographical origin
+    of the sample as defined by the country or sea name followed by specific region
+    name. Country or sea names should be chosen from the [INSDC country list](https://www.insdc.org/submitting-standards/country-qualifier-vocabulary/),
+    or the [GAZ ontology](http://purl.bioontology.org/ontology/GAZ)
+  regex_pattern: '^([^\s-]{1,2}|[^\s-]+.+[^\s-]+): ([^\s-]{1,2}|[^\s-]+.+[^\s-]+),
+    ([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$'
+  structured_pattern: '^{text}: {text}, {text}$'
+  biomes:
+    Animal-Associated:
+      Example of Usage: 'Germany: Berlin [GAZ:00003510](http://purl.obolibrary.org/obo/GAZ_00003510)'
+    Terrestrial-Associated:
+      Example of Usage: 'Germany: Lower Saxony, Braunschweig district [GAZ:00008259](http://purl.obolibrary.org/obo/GAZ_00008259)'
+    Plant-Associated:
+      Example of Usage: 'USA: Iowa, Story County [GAZ:00007943](http://purl.obolibrary.org/obo/GAZ_00007943)'
+    WasteWater-Associated:
+      Example of Usage: 'Germany: Berlin'
+    Marine-Associated:
+      Example of Usage: 'USA: Hawaii, Oahu [GAZ:00003187](http://purl.obolibrary.org/obo/GAZ_00003187),
+        Kāneʻohe Bay'
+    BuiltEnvironment-Associated:
+      Example of Usage: New York City [GAZ:00003147](http://purl.obolibrary.org/obo/GAZ_00003147)
+    Human-Associated:
+      Example of Usage: 'Germany: Berlin [GAZ:00003510](http://purl.obolibrary.org/obo/GAZ_00003510)'
+- Category: Site metadata
+  MIXS_ID: MIXS:0000012
+  Metadata_field: env_broad_scale
+  Brief_description: Broad-scale environmental context
+  Definition: 'Report the major environmental system the sample or specimen came from.
+    Systems(s) identifiers should provide a coarse, general environmental context
+    of where the sampling was done. Recommended use of EnvO s biome class: [ENVO_00000428](https://www.ebi.ac.uk/ols4/ontologies/envo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_00000428?lang=en).
+    If more than one term applies to the field, | should be used to separate
+    them.'
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Animal-Associated:
+      Example of Usage: urban biome [ENVO:01000249](http://purl.obolibrary.org/obo/ENVO_01000249)
+    Terrestrial-Associated:
+      Example of Usage: temperate grassland biome [ENVO:01000193](http://puENVO:00000064rlhttp://purl.obolibrary.org/obo/ENVO_00000064.obolibrary.org/obo/ENVO_01000193)|road
+        []()
+    Plant-Associated:
+      Example of Usage: cropland biome [ENVO:01000245](http://purl.obolibrary.org/obo/ENVO_01000245)
+    Marine-Associated:
+      Example of Usage: marine biome [ENVO:00000447](http://purl.obolibrary.org/obo/ENVO_00000447)
+    Human-Associated:
+      Example of Usage: urban biome [ENVO:01000249](http://purl.obolibrary.org/obo/ENVO_01000249)
+- Category: Site metadata
+  MIXS_ID: MIXS:0000013
+  Metadata_field: env_local_scale
+  Brief_description: Local-scale environmental context
+  Definition: Report the entity or entities which are in the sample or specimen’s
+    local vicinity and which you believe have significant causal influences on your
+    sample or specimen. Entry should be of a smaller environmental context than env_broad_scale.
+    Terms, such as anatomical sites, from other [OBO Library](https://obofoundry.org/)
+    ontologies which interoperate with EnvO (e.g. [UBERON](https://www.ebi.ac.uk/ols4/ontologies/uberon))
+    are accepted in this field. If more than one term applies to the field, |
+    should be used to separate them.
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Animal-Associated:
+      Example of Usage: household environment [ENVO:03501339](http://purl.obolibrary.org/obo/ENVO_03501339)
+    Terrestrial-Associated:
+      Example of Usage: Roadside [ENVO:01000447](http://purl.obolibrary.org/obo/ENVO_01000447)
+    Plant-Associated:
+      Example of Usage: rhizosphere environment [ENVO:01000999](http://purl.obolibrary.org/obo/ENVO_01000999)
+    Marine-Associated:
+      Example of Usage: sea coast [ENVO:00000303](http://purl.obolibrary.org/obo/ENVO_00000303)
+    Human-Associated:
+      Example of Usage: household environment [ENVO:03501339](http://purl.obolibrary.org/obo/ENVO_03501339)\|digestive
+        tract []()
+- Category: Site metadata
+  MIXS_ID: MIXS:0000014
+  Metadata_field: env_medium
+  Brief_description: Environmental medium
+  Definition: Report the environmental material(s) immediately surrounding the sample
+    or specimen at the time of sampling. Recommended use of EnvO’s subclasses of environmental
+    material [ENVO:00010483](http://purl.obolibrary.org/obo/ENVO_00010483). Terms
+    from other [OBO ontologies](https://obofoundry.org/) are permissible as long as
+    they reference mass/volume nouns (e.g. air, water, blood) and not discrete, countable
+    entities (e.g. a tree, a leaf, a table top). If more than one term applies to
+    the field, | should be used to separate them.
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Animal-Associated:
+      Example of Usage: fecal material [ENVO:00002003](http://purl.obolibrary.org/obo/ENVO_00002003)
+    Terrestrial-Associated:
+      Example of Usage: contaminated soil [ENVO:00002116](http://purl.obolibrary.org/obo/ENVO_00002116)|roadside
+        soil [ENVO:00005743](http://purl.obolibrary.org/obo/ENVO_00005743)
+    Plant-Associated:
+      Example of Usage: root nodule [ENVO:01000164](http://purl.obolibrary.org/obo/ENVO_01000164)
+    Marine-Associated:
+      Example of Usage: coastal sea water [ENVO:00002150](http://purl.obolibrary.org/obo/ENVO_00002150)
+    Human-Associated:
+      Example of Usage: fecal material [ENVO:00002003](http://purl.obolibrary.org/obo/ENVO_00002003)
+- Category: Site metadata
+  MIXS_ID: MIXS:0000018
+  Metadata_field: depth
+  Brief_description: depth
+  Definition: The vertical distance below local surface. For sediment or soil samples
+    depth is measured from sediment or soil surface, respectively. Depth can be reported
+    as an interval for subsurface samples
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Animal-Associated:
+      Example of Usage: 0 m
+    Terrestrial-Associated:
+      Example of Usage: 0-10 cm
+    Plant-Associated:
+      Example of Usage: 0–10 cm
+    Marine-Associated:
+      Example of Usage: 2 m
+- Category: Site metadata
+  MIXS_ID: MIXS:0000093
+  Metadata_field: elev
+  Brief_description: elevation
+  Definition: Elevation of the sampling site is its height above a fixed reference
+    point, most commonly the mean sea level. Elevation is mainly used when referring
+    to points on the earth's surface, while altitude is used for points above the
+    surface, such as an aircraft in flight or a spacecraft in orbit. Origin elevation
+    in m
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Animal-Associated:
+      Example of Usage: 34 m
+    Terrestrial-Associated:
+      Example of Usage: 78 m
+    Plant-Associated:
+      Example of Usage: 310 m
+    WasteWater-Associated:
+      Example of Usage: 150 m
+    Marine-Associated:
+      Example of Usage: 0 m
+    BuiltEnvironment-Associated:
+      Example of Usage: 30 m
+    Human-Associated:
+      Example of Usage: 34 m
+- Category: Site metadata
+  MIXS_ID: MIXS:0000094
+  Metadata_field: alt
+  Brief_description: altitude
+  Definition: Heights of objects such as airplanes, space shuttles, rockets, atmospheric
+    balloons and heights of places such as atmospheric layers and clouds. It is used
+    to measure the height of an object which is above the earth's surface. In this
+    context, the altitude measurement is the vertical distance between the earth's
+    surface above sea level and the sampled position in the air
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Animal-Associated:
+      Example of Usage: not applicable
+    Human-Associated:
+      Example of Usage: Not applicable
+- Category: Site/host metadata
+  MIXS_ID: MIXS:0000751
+  Metadata_field: chem_administration
+  Brief_description: List of chemical administered to sampled host or site
+  Definition: List of chemical compounds administered to host or on site where sampling
+    occurred. Can include multiple compounds separated by |. For compounds consult
+    [chemical entities of biological interest ontology (chebi) (v 163)](http://purl.bioontology.org/ontology/chebi)
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Animal-Associated:
+      Example of Usage: praziquantel[CHEBI:45267](http://purl.obolibrary.org/obo/CHEBI_45267)
+    Terrestrial-Associated:
+      Example of Usage: e.g. fertilizer [CHEBI:33287](http://purl.obolibrary.org/obo/CHEBI_33287)
+    Plant-Associated:
+      Example of Usage: Fertilizer [CHEBI:33287](http://purl.obolibrary.org/obo/CHEBI_33287)
+    WasteWater-Associated:
+      Example of Usage: 'Ferric chloride [SNOMED:420810003](http 25 mg Fe L⁻¹; continuous;
+        start 2023-05-01T00:00Z; end 2023-05-31T23:59Z://snomed.info/id/420810003); '
+    Marine-Associated:
+      Example of Usage: none
+    Human-Associated:
+      Example of Usage: amoxicillin [CHEBI:2676](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:2676),
+        500 mg
+- Category: Host metadata
+  MIXS_ID: MIXS:0000031
+  Metadata_field: host_disease_stat
+  Brief_description: Disease status of the sampled host
+  Definition: List of diseases with which the host has been diagnosed; can include
+    multiple diagnoses. The value of the field depends on host,  non-human host diseases
+    are free text.
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Animal-Associated:
+      Example of Usage: cestode infection (Dipylidium caninum) OR healthy
+    Plant-Associated:
+      Example of Usage: healthy|nodulation [GO:0009877](http://purl.obolibrary.org/obo/GO_0009877)
+    Marine-Associated:
+      Example of Usage: None observed
+    Human-Associated:
+      Example of Usage: lung abscess [\[DOID:0060317\]](http://purl.obolibrary.org/obo/DOID_0060317)|tonsillitis
+        [\[DOID:10456\]](http://purl.obolibrary.org/obo/DOID_10456)|hypochromic
+        anemia [\[DOID:11759\]](http://purl.obolibrary.org/obo/DOID_11759)
+- Category: Host metadata
+  MIXS_ID: MIXS:0000248
+  Metadata_field: host_common_name
+  Brief_description: Common name of the sampled host
+  Definition: Common name of the host
+  regex_pattern: https://w3id.org/mixs/0000248
+  structured_pattern: null
+  biomes:
+    Animal-Associated:
+      Example of Usage: dog
+    Plant-Associated:
+      Example of Usage: soybean
+    Marine-Associated:
+      Example of Usage: Hawaiian bobtail squid
+    Human-Associated:
+      Example of Usage: human
+- Category: Host metadata
+  MIXS_ID: MIXS:0000250
+  Metadata_field: host_taxid
+  Brief_description: 'Taxonomy identifier of sampled host '
+  Definition: NCBI taxon id of the host [NCBI taxonomy ID](https://www.ncbi.nlm.nih.gov/taxonomy)
+  regex_pattern: https://w3id.org/mixs/0000250
+  structured_pattern: null
+  biomes:
+    Animal-Associated:
+      Example of Usage: '*Canis lupus familiaris* [NCBI:txid9615](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9615)'
+    Plant-Associated:
+      Example of Usage: '*Glycine max* [NCBITaxon:3847](http://purl.obolibrary.org/obo/NCBITaxon_3847)'
+    Marine-Associated:
+      Example of Usage: '*Euprymna scolopes* [\[NCBI:txid6613\]](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=6613&lvl=3&p=has_linkout&p=blast_url&p=genome_blast&lin=f&keep=1&srchmode=1&unlock)'
+    Human-Associated:
+      Example of Usage: '*Homo sapiens* [\[NCBI:txid9606\]](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9606&lvl=3&lin=f&keep=1&srchmode=1&unlock)'
+- Category: Host metadata
+  MIXS_ID: MIXS:0000251
+  Metadata_field: host_life_stage
+  Brief_description: Life stage of the sampled host
+  Definition: Description of life stage of host
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Animal-Associated:
+      Example of Usage: adult stage [HsapDv:0000258](http://purl.obolibrary.org/obo/HsapDv_0000258)
+    Plant-Associated:
+      Example of Usage: vegetative stage [BTO:0005744](http://purl.obolibrary.org/obo/BTO_0005744)
+    Marine-Associated:
+      Example of Usage: Juvenile [PATO:0001190](http://purl.obolibrary.org/obo/PATO_0001190)
+    Human-Associated:
+      Example of Usage: adult stage [HsapDv:0000258](http://purl.obolibrary.org/obo/HsapDv_0000258)
+- Category: Host metadata
+  MIXS_ID: MIXS:0000255
+  Metadata_field: host_age
+  Brief_description: Age of sampled host
+  Definition: Age of host at the time of sampling; relevant scale depends on species
+    and study, e.g. Could be seconds for amoebae or centuries for trees
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Animal-Associated:
+      Example of Usage: 5 y
+    Plant-Associated:
+      Example of Usage: 45 d
+    Marine-Associated:
+      Example of Usage: 30 d
+    Human-Associated:
+      Example of Usage: 28 y
+- Category: Host metadata
+  MIXS_ID: MIXS:0000256
+  Metadata_field: host_length
+  Brief_description: Length of sampled host
+  Definition: The length of host
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Animal-Associated:
+      Example of Usage: 45 cm
+    Plant-Associated:
+      Example of Usage: 35 cm
+    Marine-Associated:
+      Example of Usage: 25 mm
+- Category: Host metadata
+  MIXS_ID: MIXS:0000260
+  Metadata_field: host_color
+  Brief_description: Color of sampled host
+  Definition: The color of host
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Animal-Associated:
+      Example of Usage: brown
+    Plant-Associated:
+      Example of Usage: Green [PATO:0000320](http://purl.obolibrary.org/obo/PATO_0000320)
+    Marine-Associated:
+      Example of Usage: translucent|brown
+- Category: Host metadata
+  MIXS_ID: MIXS:0000261
+  Metadata_field: host_shape
+  Brief_description: Morphological shape of sampled host
+  Definition: Morphological shape of host
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Animal-Associated:
+      Example of Usage: Slender [PATO:0002212](http://purl.obolibrary.org/obo/PATO_0002212)
+    Plant-Associated:
+      Example of Usage: erect herb
+    Marine-Associated:
+      Example of Usage: Fusiform [PATO:0002400](http://purl.obolibrary.org/obo/PATO_0002400)
+- Category: Host metadata
+  MIXS_ID: MIXS:0000263
+  Metadata_field: host_tot_mass
+  Brief_description: Total mass of the sampled host
+  Definition: Total mass of the host at collection, the unit depends on host
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Animal-Associated:
+      Example of Usage: 22 kg
+    Plant-Associated:
+      Example of Usage: 200 g
+    Marine-Associated:
+      Example of Usage: 2 g
+    Human-Associated:
+      Example of Usage: 78 kg
+- Category: Host metadata
+  MIXS_ID: MIXS:0000264
+  Metadata_field: host_height
+  Brief_description: Height of sampled host
+  Definition: The height of subject
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Animal-Associated:
+      Example of Usage: 55 cm
+    Plant-Associated:
+      Example of Usage: 50 cm
+    Marine-Associated:
+      Example of Usage: 15 mm
+    Human-Associated:
+      Example of Usage: 180 cm
+- Category: Host metadata
+  MIXS_ID: MIXS:0000274
+  Metadata_field: host_body_temp
+  Brief_description: Body temperature of sampled host
+  Definition: Core body temperature of the host when sample was collected
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Animal-Associated:
+      Example of Usage: 38.5˚C
+    Marine-Associated:
+      Example of Usage: 25 °C
+    Human-Associated:
+      Example of Usage: 36.8˚C
+- Category: Host metadata
+  MIXS_ID: MIXS:0000365
+  Metadata_field: host_genotype
+  Brief_description: Observed genotype of sampled host
+  Definition: Observed genotype
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Animal-Associated:
+      Example of Usage: domestic dog reference genome CanFam3.1
+    Plant-Associated:
+      Example of Usage: 'cv. Williams 82 genome Wm82.a2.v1, WGS: ACUP01000000'
+    Marine-Associated:
+      Example of Usage: '*E. scolopes* GCA_024364805.1'
+    Human-Associated:
+      Example of Usage: Not determined
+- Category: Host metadata
+  MIXS_ID: MIXS:0000859
+  Metadata_field: genetic_mod
+  Brief_description: genetic modification
+  Definition: Genetic modifications of the genome of an organism, which may occur
+    naturally by spontaneous mutation, or be introduced by some experimental means,
+    e.g. specification of a transgene or the gene knocked-out or details of transient
+    transfection
+  regex_pattern: null
+  structured_pattern: ^{PMID}|{DOI}|{URL}$
+  biomes:
+    Animal-Associated:
+      Example of Usage: none
+    Plant-Associated:
+      Example of Usage: none
+- Category: Host metadata
+  MIXS_ID: MIXS:0000861
+  Metadata_field: host_subject_id
+  Brief_description: Identifier assigned to sampled host
+  Definition: A unique identifier by which each subject can be referred to, de-identified
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Animal-Associated:
+      Example of Usage: Dog_001
+    Plant-Associated:
+      Example of Usage: Plant_001
+    Marine-Associated:
+      Example of Usage: Squid_01
+    Human-Associated:
+      Example of Usage: su9sa8
+- Category: Host metadata
+  MIXS_ID: MIXS:0000862
+  Metadata_field: urobiom_sex
+  Brief_description: Physical sex of the sampled host
+  Definition: Physical sex of the host
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Animal-Associated:
+      Example of Usage: Male [PATO:0000384](http://purl.obolibrary.org/obo/PATO_0000384)
+    Marine-Associated:
+      Example of Usage: Female [PATO:0000383](http://purl.obolibrary.org/obo/PATO_0000383)
+    Human-Associated:
+      Example of Usage: Assigned Female at Birth [NCIT:C205474](http://purl.obolibrary.org/obo/NCIT_C205474)
+- Category: Host metadata
+  MIXS_ID: MIXS:0000866
+  Metadata_field: host_body_habitat
+  Brief_description: host body habitat
+  Definition: Original body habitat where the sample was obtained from
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Animal-Associated:
+      Example of Usage: digestive tract [UBERON:0001555](http://purl.obolibrary.org/obo/UBERON_0001555)
+    Marine-Associated:
+      Example of Usage: Photophore [UBERON:4300194](http://purl.obolibrary.org/obo/UBERON_4300194)
+    Human-Associated:
+      Example of Usage: Digestive tract [UBERON:0001555](http://purl.obolibrary.org/obo/UBERON_0001555)
+- Category: Host metadata
+  MIXS_ID: MIXS:0000867
+  Metadata_field: host_body_site
+  Brief_description: 'Sampled body site of the host '
+  Definition: Name of body site where the sample was obtained from, such as a specific
+    organ or tissue (tongue, lung etc…). Recomended use of [FMA](https://www.ebi.ac.uk/ols4/ontologies/fma)
+    or [UBERON](https://www.ebi.ac.uk/ols4/ontologies/uberon) ontologies
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Animal-Associated:
+      Example of Usage: colon [UBERON:0001155](http://purl.obolibrary.org/obo/UBERON_0001155)
+    Marine-Associated:
+      Example of Usage: Photophore [UBERON:4300194](http://purl.obolibrary.org/obo/UBERON_4300194)
+    Human-Associated:
+      Example of Usage: Colon [UBERON:0001155](http://purl.obolibrary.org/obo/UBERON_0001155)
+- Category: Host metadata
+  MIXS_ID: MIXS:0000869
+  Metadata_field: host_diet
+  Brief_description: Diet of sampled host
+  Definition: Type of diet depending on the host, for animals omnivore, herbivore
+    etc., for humans high-fat, meditteranean etc.; can include multiple
+    diet types
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Animal-Associated:
+      Example of Usage: omnivore [ecocore:00000082](http://purl.obolibrary.org/obo/ecocore_00000082)
+    Marine-Associated:
+      Example of Usage: Microcarnivore [ECOCORE:00000170](http://purl.obolibrary.org/obo/ECOCORE_00000170),
+        post-larval diet of mysid shrimp
+    Human-Associated:
+      Example of Usage: omnivore [\[ecocore:00000082\]](http://purl.obolibrary.org/obo/ecocore_00000082)
+- Category: Host metadata
+  MIXS_ID: MIXS:0000871
+  Metadata_field: host_growth_cond
+  Brief_description: Growth conditions of sampled host
+  Definition: Literature reference giving growth conditions of the host
+  regex_pattern: ^^PMID:\d+$|^doi:10.\d{2,9}/.*$|^https?:\/\/(?:www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b(?:[-a-zA-Z0-9()@:%_\+.~#?&\/=]*)$|([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{PMID}|{DOI}|{URL}|{text}$
+  biomes:
+    Animal-Associated:
+      Example of Usage: individual housing [XCO:0000034](http://purl.obolibrary.org/obo/XCO_0000034)
+    Plant-Associated:
+      Example of Usage: https://doi.org/10.1016/j.eja.2021.126415
+    Marine-Associated:
+      Example of Usage: lab-reared under natural seawater
+- Category: Host metadata
+  MIXS_ID: MIXS:0000874
+  Metadata_field: host_phenotype
+  Brief_description: Identified phenotype of sampled host
+  Definition: Phenotype of human or other host. Use terms from the phenotypic quality
+    ontology (pato) or the Human Phenotype Ontology (HP)
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Animal-Associated:
+      Example of Usage: Body condition score 5/9
+    Plant-Associated:
+      Example of Usage: Nodular [PATO:0002125](http://purl.obolibrary.org/obo/PATO_0002125)
+    Marine-Associated:
+      Example of Usage: bioluminescence 3 × 10⁶ photons s⁻¹ squid⁻¹
+    Human-Associated:
+      Example of Usage: BCL2 expression [HP:0430092](http://purl.obolibrary.org/obo/HP_0430092)
+- Category: Host metadata
+  MIXS_ID: MIXS:0000875
+  Metadata_field: gravidity
+  Brief_description: Gravidity of sampled host
+  Definition: Whether or not subject is gravid, and if yes date due or date post-conception,
+    specifying which is used
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Animal-Associated:
+      Example of Usage: Non-gravid
+    Marine-Associated:
+      Example of Usage: Non-gravid
+- Category: Host metadata
+  MIXS_ID: MIXS:0000888
+  Metadata_field: host_body_product
+  Brief_description: Body product that was examined and sampled from host
+  Definition: Substance produced by the body, e.g. Stool, mucus, where the sample
+    was obtained from. Use terms from the foundational model of anatomy ontology [FMA](https://www.ebi.ac.uk/ols4/ontologies/fma)
+    or Uber-anatomy ontology [UBERON](https://www.ebi.ac.uk/ols4/ontologies/uberon).
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Animal-Associated:
+      Example of Usage: feces [UBERON:0001988](http://purl.obolibrary.org/obo/UBERON_0001988)
+    Marine-Associated:
+      Example of Usage: light-organ mucus, mucus secretion [GO:0070254](http://purl.obolibrary.org/obo/GO_0070254)
+    Human-Associated:
+      Example of Usage: Feces [UBERON:0001988](http://purl.obolibrary.org/obo/UBERON_0001988)
+- Category: Host metadata
+  MIXS_ID: MIXS:0001298
+  Metadata_field: host_symbiont
+  Brief_description: observed symbionts of sampled host
+  Definition: The taxonomic name of the organism(s) found living in mutualistic, commensalistic,
+    or parasitic symbiosis with the specific host. The sampled symbiont can have its
+    own symbionts. For example, parasites may have hyperparasites (=parasites of the
+    parasite)
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Animal-Associated:
+      Example of Usage: '*Bacteroides vulgatus* [NCBI:txid821]'
+    Plant-Associated:
+      Example of Usage: '*Bradyrhizobium japonicum* USDA 122 [NCBI:txid1038861](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=1038861&lvl=3&lin=f&keep=1&srchmode=1&unlock)'
+    Marine-Associated:
+      Example of Usage: '*Vibrio fischeri* ES114 [NCBI:txid312309](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=312309&lvl=3&p=has_linkout&p=blast_url&p=genome_blast&lin=f&keep=1&srchmode=1&unlock)'
+- Category: Host metadata
+  MIXS_ID: MIXS:0001307
+  Metadata_field: type_of_symbiosis
+  Brief_description: type of symbiosis with sampled host
+  Definition: Type of biological interaction established between the symbiotic host
+    organism being sampled and its respective host
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Animal-Associated:
+      Example of Usage: Commensalism [ECOCORE:00000025](http://purl.obolibrary.org/obo/ECOCORE_00000025)
+    Plant-Associated:
+      Example of Usage: Mutualism [GO:0085030](http://purl.obolibrary.org/obo/GO_0085030)
+    Marine-Associated:
+      Example of Usage: mutualism
+- Category: Host metadata
+  MIXS_ID: MIXS:0001308
+  Metadata_field: host_specificity
+  Brief_description: Specificity of symbiont of the sampled host
+  Definition: 'Level of specificity of symbiont-host interaction: e.g. generalist
+    (symbiont able to establish associations with distantly related hosts) or species-specific'
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Animal-Associated:
+      Example of Usage: generalist
+    Plant-Associated:
+      Example of Usage: Species-specific
+    Marine-Associated:
+      Example of Usage: Species-specific
+- Category: Host metadata
+  MIXS_ID: MIXS:0001313
+  Metadata_field: host_cellular_loc
+  Brief_description: Cellular location of symbiont within the sampled host
+  Definition: 'The localization of the symbiotic host organism within the host from
+    which it was sampled: e.g. intracellular if the symbiotic host organism is localized
+    within the cells or extracellular if the symbiotic host organism is localized
+    outside of cells'
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Animal-Associated:
+      Example of Usage: lumen of intestine [UBERON:0018543](http://purl.obolibrary.org/obo/UBERON_0018543)
+    Plant-Associated:
+      Example of Usage: root nodule [PO:0003023](http://purl.obolibrary.org/obo/PO_0003023)
+    Marine-Associated:
+      Example of Usage: Photophore [UBERON:4300194](http://purl.obolibrary.org/obo/UBERON_4300194)
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000016
+  Metadata_field: samp_mat_process
+  Brief_description: Processing prior to analysis
+  Definition: A brief description of any processing applied to the sample during or
+    after retrieving the sample from environment, or a link to the relevant protocol(s)
+    performed
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: sieved < 2 mm, homogenized
+    WasteWater-Associated:
+      Example of Usage: freeze-dried | ground < 0.5 mm
+    BuiltEnvironment-Associated:
+      Example of Usage: dust collected via sterile nylon-filter vacuum; sieved < 300
+        µm; stored −80 °C
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000103
+  Metadata_field: organism_count
+  Brief_description: Organism count per unit
+  Definition: Total cell count of any organism (or group of organisms) per gram, volume
+    or area of sample; include organism name, count and enumeration method (e.g. qPCR)
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: total prokaryotes; 4.2e8 cells g⁻¹; Real Time PCR [NCIT:C51962](http://purl.obolibrary.org/obo/NCIT_C51962)
+    WasteWater-Associated:
+      Example of Usage: total prokaryotes; 4.2 × 10⁸ cells g⁻¹; flow-cytometry [NCIT:C16585](http://purl.obolibrary.org/obo/NCIT_C16585)
+    Marine-Associated:
+      Example of Usage: '*Vibrio fischeri* ES114 [NCBI:txid312309](https://www.ncbi.nlm.nih.gov/Taxonomy/BNCIT:C51962rohttp://purl.obolibrary.org/obo/NCIT_C51962wser/wwwtax.cgi?mode=Info&id=312309&lvl=3&p=has_linkout&p=blast_url&p=genome_blast&lin=f&keep=1&srchmode=1&unlock);
+        1 × 10⁷ cells mL⁻¹; Real Time PCR [NCIT:C51962](http://purl.obolibrary.org/obo/NCIT_C51962)'
+    BuiltEnvironment-Associated:
+      Example of Usage: total bacteria; 2.1 × 10⁶ cells cm⁻²; Real Time PCR [NCIT:C51962](http://purl.obolibrary.org/obo/NCIT_C51962)
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000116
+  Metadata_field: samp_store_dur
+  Brief_description: sample storage duration
+  Definition: Duration for which the sample was stored. Indicate the duration for
+    which the sample was stored written in ISO 8601 format
+  regex_pattern: ^P(?:(?:\d+D|\d+M(?:\d+D)?|\d+Y(?:\d+M(?:\d+D)?)?)(?:T(?:\d+H(?:\d+M(?:\d+S)?)?|\d+M(?:\d+S)?|\d+S))?|T(?:\d+H(?:\d+M(?:\d+S)?)?|\d+M(?:\d+S)?|\d+S)|\d+W)$
+  structured_pattern: ^{duration}$
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: 48 h
+    WasteWater-Associated:
+      Example of Usage: PT72H
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000185
+  Metadata_field: water_content
+  Brief_description: water content
+  Definition: Water content measurement
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: 15 % (w/w)
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000204
+  Metadata_field: org_matter
+  Brief_description: organic matter
+  Definition: Concentration of organic matter
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: 4.00%
+    Marine-Associated:
+      Example of Usage: 3 mg L⁻¹ TOC
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000205
+  Metadata_field: org_nitro
+  Brief_description: organic nitrogen
+  Definition: Concentration of organic nitrogen
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: 0.20%
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000322
+  Metadata_field: sieving
+  Brief_description: Sieve size / design
+  Definition: Collection design of pooled samples and/or sieve size and amount of
+    sample sieved
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: 2 mm mesh
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000325
+  Metadata_field: pool_dna_extracts
+  Brief_description: Were DNA extracts pooled?
+  Definition: Indicate whether multiple DNA extractions were mixed. If the answer
+    yes, the number of extracts that were pooled should be given
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: 'no'
+    WasteWater-Associated:
+      Example of Usage: 'no'
+    BuiltEnvironment-Associated:
+      Example of Usage: 'no'
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000327
+  Metadata_field: store_cond
+  Brief_description: Pre-extraction storage
+  Definition: Explain how and for how long the soil sample was stored before DNA extraction
+    (fresh/frozen/other)
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: on ice during transport
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000525
+  Metadata_field: tot_carb
+  Brief_description: Total carbon
+  Definition: Total carbon content
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: 2.00%
+    Plant-Associated:
+      Example of Usage: 2 % w/w organic carbon
+    WasteWater-Associated:
+      Example of Usage: 35 % dry wt
+    Marine-Associated:
+      Example of Usage: 2 mM
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000530
+  Metadata_field: tot_nitro_content
+  Brief_description: Total nitrogen
+  Definition: Total nitrogen content of the sample
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: 0.20%
+    Plant-Associated:
+      Example of Usage: 0.25 % w/w total nitrogen
+    WasteWater-Associated:
+      Example of Usage: 5 % dry wt
+    Marine-Associated:
+      Example of Usage: 10 µM
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000533
+  Metadata_field: tot_org_carb
+  Brief_description: Total organic carbon
+  Definition: Total organic carbon content
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: 2.50%
+    WasteWater-Associated:
+      Example of Usage: 32 % dry wt
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000555
+  Metadata_field: chem_mutagen
+  Brief_description: Mutagen treatment details
+  Definition: Treatment involving use of mutagens; should include the name of mutagen,
+    amount administered, treatment regimen including how many times the treatment
+    was repeated, how long each treatment lasted, and the start and end time of the
+    entire treatment; can include multiple mutagen regimens
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: none
+    Plant-Associated:
+      Example of Usage: none
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000556
+  Metadata_field: fertilizer_regm
+  Brief_description: Fertilizer treatment details
+  Definition: Information about treatment involving the use of fertilizers; should
+    include the name of fertilizer, amount administered, treatment regimen including
+    how many times the treatment was repeated, how long each treatment lasted, and
+    the start and end time of the entire treatment; can include multiple fertilizer
+    regimens
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: none
+    Plant-Associated:
+      Example of Usage: 'Urea Ammonium Nitrate Solution (UAN); 30 kg N ha⁻¹; applied
+        once (1×); 1 h application; start 2013-02-10; end 2013-02-10 '
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000557
+  Metadata_field: fungicide_regm
+  Brief_description: Fungicide treatment details
+  Definition: Information about treatment involving use of fungicides; should include
+    the name of fungicide, amount administered, treatment regimen including how many
+    times the treatment was repeated, how long each treatment lasted, and the start
+    and end time of the entire treatment; can include multiple fungicide regimens
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: none
+    Plant-Associated:
+      Example of Usage: none
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000561
+  Metadata_field: herbicide_regm
+  Brief_description: Herbicide treatment details
+  Definition: Information about treatment involving use of herbicides; should include
+    the name of herbicide, amount administered, treatment regimen including how many
+    times the treatment was repeated, how long each treatment lasted, and the start
+    and end time of the entire treatment; can include multiple regimens
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: none
+    Plant-Associated:
+      Example of Usage: glyphosate [CHEBI:27744]; 1.2 kg a.i. ha⁻¹; applied once (1×);
+        2 h boom-spray; start 2013-02-10; end 2013-02-10
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000568
+  Metadata_field: humidity_regm
+  Brief_description: Humidity treatment details
+  Definition: Information about treatment involving an exposure to varying degree
+    of humidity; should include amount of humidity administered, treatment regimen
+    including how many times the treatment was repeated, how long each treatment lasted,
+    and the start and end time of the entire treatment; can include multiple regimens
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: none
+    Plant-Associated:
+      Example of Usage: none
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000569
+  Metadata_field: light_regm
+  Brief_description: Light exposure details
+  Definition: Information about treatment(s) involving exposure to light, including
+    both light intensity and quality
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: natural daylight
+    Plant-Associated:
+      Example of Usage: natural sunlight
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000570
+  Metadata_field: mineral_nutr_regm
+  Brief_description: Mineral nutrient treatments
+  Definition: Information about treatment involving the use of mineral supplements;
+    should include the name of mineral nutrient, amount administered, treatment regimen
+    including how many times the treatment was repeated, how long each treatment lasted,
+    and the start and end time of the entire treatment; can include multiple mineral
+    nutrient regimens
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: none
+    Plant-Associated:
+      Example of Usage: none
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000571
+  Metadata_field: non_min_nutr_regm
+  Brief_description: Non-mineral nutrient treatments
+  Definition: Information about treatment involving exposure of plant to non-mineral
+    nutrients such as oxygen, hydrogen or carbon; should include the name of non-mineral
+    nutrient, amount administered, treatment regimen including how many times the
+    treatment was repeated, how long each treatment lasted, and the start and end
+    time of the entire treatment; can include multiple regimens
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: none
+    Plant-Associated:
+      Example of Usage: none
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000573
+  Metadata_field: pesticide_regm
+  Brief_description: Pesticide treatment details
+  Definition: Information about treatment involving use of insecticides; should include
+    the name of pesticide, amount administered, treatment regimen including how many
+    times the treatment was repeated, how long each treatment lasted, and the start
+    and end time of the entire treatment; can include multiple pesticide regimens
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: none
+    Plant-Associated:
+      Example of Usage: none
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000575
+  Metadata_field: radiation_regm
+  Brief_description: Radiation exposure details
+  Definition: Information about treatment involving exposure of plant or a plant part
+    to a particular radiation regimen; should include the radiation type, amount or
+    intensity administered, treatment regimen including how many times the treatment
+    was repeated, how long each treatment lasted, and the start and end time of the
+    entire treatment; can include multiple radiation regimens
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: ambient
+    Plant-Associated:
+      Example of Usage: none
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000576
+  Metadata_field: rainfall_regm
+  Brief_description: Rainfall treatment details
+  Definition: Information about treatment involving an exposure to a given amount
+    of rainfall; should include treatment regimen details such as how many times the
+    treatment was repeated, how long each treatment lasted, and the start and end
+    time of the entire treatment; can include multiple regimens
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: natural rainfall
+    Plant-Associated:
+      Example of Usage: Simulated storm rainfall; 50 mm per event (25 mm h⁻¹ intensity);
+        applied twice (2×) at 48 h intervals; 2 h per event; start 2013-01-10; end
+        2013-01-14 | Low-intensity drizzle; 10 mm per event (5 mm h⁻¹); applied daily
+        (14×); 30 min per event; start 2024-02-01; end 2024-02-15
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000582
+  Metadata_field: salt_regm
+  Brief_description: Salt treatment details
+  Definition: Information about treatment involving use of salts as supplement to
+    liquid and soil growth media; should include the name of salt, amount administered,
+    treatment regimen including how many times the treatment was repeated, how long
+    each treatment lasted, and the start and end time of the entire treatment; can
+    include multiple salt regimens
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: none
+    Plant-Associated:
+      Example of Usage: not applicable
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000639
+  Metadata_field: agrochem_addition
+  Brief_description: Agrochemical input history
+  Definition: Addition of fertilizers, pesticides, etc. – amount and time of applications
+  regex_pattern: null
+  structured_pattern: ^{agrochemical_name};{amount} {unit};{date_time_stamp}$
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: none
+    Plant-Associated:
+      Example of Usage: none
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000650
+  Metadata_field: microbial_biomass
+  Brief_description: Living microbial biomass
+  Definition: The part of the organic matter in the soil that constitutes living microorganisms
+    smaller than 5–10 µm. If you keep this, you would need to have correction factors
+    used for conversion to the final units
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: 0.05 mg kg⁻¹
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000652
+  Metadata_field: heavy_metals
+  Brief_description: Heavy metals present
+  Definition: Heavy metals present in the sequenced sample and their concentrations.
+    For multiple heavy metals and concentrations, add multiple copies of this field
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: Pb [CHEBI:27889](http://purl.obolibrary.org/obo/CHEBI_27889)
+        50 mg kg⁻¹| Zn [CHEBI:36560](http://purl.obolibrary.org/obo/CHEBI_36560) 150
+        mg kg⁻¹
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000689
+  Metadata_field: tot_phosphate
+  Brief_description: Total phosphate
+  Definition: Total amount or concentration of phosphate
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: 25 mg kg⁻¹
+    Plant-Associated:
+      Example of Usage: 25 mg P kg⁻¹ soil
+    WasteWater-Associated:
+      Example of Usage: 25 mg P L⁻¹
+- Category: Sample metadata
+  MIXS_ID: MIXS:0001001
+  Metadata_field: ph
+  Brief_description: Sample pH
+  Definition: Ph measurement of the sample, or liquid portion of sample, or aqueous
+    phase of the fluid
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: '6.8'
+    WasteWater-Associated:
+      Example of Usage: '7.3'
+    Marine-Associated:
+      Example of Usage: '8.05'
+- Category: Sample metadata
+  MIXS_ID: MIXS:0001038
+  Metadata_field: biotic_regm
+  Brief_description: Biotic factor treatments
+  Definition: Information about treatment(s) involving use of biotic factors, such
+    as bacteria, viruses or fungi
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: none
+    Plant-Associated:
+      Example of Usage: none
+- Category: Site metadata
+  MIXS_ID: MIXS:0000100
+  Metadata_field: humidity
+  Brief_description: Air humidity at sampling
+  Definition: Amount of water vapour in the air, at the time of sampling
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: 55% RH
+    Plant-Associated:
+      Example of Usage: 60 % RH
+    BuiltEnvironment-Associated:
+      Example of Usage: 48 % RH
+- Category: Site metadata
+  MIXS_ID: MIXS:0000112
+  Metadata_field: solar_irradiance
+  Brief_description: Incoming solar irradiance
+  Definition: The amount of solar energy that arrives at a specific area of a surface
+    during a specific time interval
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: 450 W m⁻²
+- Category: Site metadata
+  MIXS_ID: MIXS:0000312
+  Metadata_field: cur_vegetation
+  Brief_description: Current vegetation type
+  Definition: Vegetation classification from one or more standard classification systems,
+    or agricultural crop
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: mixed grassland [ENVO:01000448](http://purl.obolibrary.org/obo/ENVO_01000448)
+    Plant-Associated:
+      Example of Usage: '*Glycine max* [NCBITaxon:3847](http://purl.obolibrary.org/obo/NCBITaxon_3847)|Monoculture
+        [AGRO:00000481](http://purl.obolibrary.org/obo/AGRO_00000481)'
+- Category: Site metadata
+  MIXS_ID: MIXS:0000315
+  Metadata_field: previous_land_use
+  Brief_description: Previous land use
+  Definition: Previous land use and dates
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: mixed grassland [ENVO:01000448](http://purl.obolibrary.org/obo/ENVO_01000448)
+    Plant-Associated:
+      Example of Usage: maize field [ENVO:01000348](http://purl.obolibrary.org/obo/ENVO_01000348)
+- Category: Site metadata
+  MIXS_ID: MIXS:0000319
+  Metadata_field: flooding
+  Brief_description: Evidence of flooding
+  Definition: Historical and/or physical evidence of flooding
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: none
+    Plant-Associated:
+      Example of Usage: none
+- Category: Site metadata
+  MIXS_ID: MIXS:0000320
+  Metadata_field: extreme_event
+  Brief_description: Extreme physical events
+  Definition: Unusual physical events that may have affected microbial populations
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: oil spill [ENVO:00002061](http://purl.obolibrary.org/obo/ENVO_00002061)
+    Plant-Associated:
+      Example of Usage: none
+- Category: Site metadata
+  MIXS_ID: MIXS:0000332
+  Metadata_field: soil_type
+  Brief_description: Soil type classification
+  Definition: Description of the soil type or classification. This field accepts terms
+    under [soil [\ENVO_00001998\]](http://purl.obolibrary.org/obo/ENVO_00001998).
+    Multiple terms can be separated by pipes
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: grassland soil [ENVO:00005750](http://purl.obolibrary.org/obo/ENVO_00005750)
+    Plant-Associated:
+      Example of Usage: Loam [ENVO:00002258](http://purl.obolibrary.org/obo/ENVO_00002258)
+- Category: Site metadata
+  MIXS_ID: MIXS:0000335
+  Metadata_field: soil_texture
+  Brief_description: '% sand / silt / clay'
+  Definition: The relative proportion of different grain sizes of mineral particles
+    in a soil, as described using a standard system; express as % sand (50 µm–2 mm),
+    silt (2 µm–50 µm), and clay (< 2 µm) with textural name optional
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: Silt [ENVO:01000016](http://purl.obolibrary.org/obo/ENVO_01000016)
+- Category: Site metadata
+  MIXS_ID: MIXS:0000819
+  Metadata_field: pres_animal_insect
+  Brief_description: Animals / insects present
+  Definition: The type and number of animals or insects present in the sampling space
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: none
+    Plant-Associated:
+      Example of Usage: Cerotoma trifurcata [NCBI:txid27441](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=27441&lvl=3&lin=f&keep=1&srchmode=1&unlock);
+        three
+    BuiltEnvironment-Associated:
+      Example of Usage: Blattella germanica [NCBI:txid6973](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=6973&lvl=3&lin=f&keep=1&srchmode=1&unlock)
+        (German cockroach); 1
+- Category: Site metadata
+  MIXS_ID: MIXS:0000829
+  Metadata_field: season
+  Brief_description: Sampling season
+  Definition: The season when sampling occurred; terms listed under ‘season’ ontology
+  regex_pattern: ^\S+.*\S+ \[[a-zA-Z]{2,}:[a-zA-Z0-9]+\]$
+  structured_pattern: null
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: Spring [NCIT:C94731](http://purl.obolibrary.org/obo/NCIT_C94731)
+    Plant-Associated:
+      Example of Usage: summer
+- Category: Site metadata
+  MIXS_ID: MIXS:0001080
+  Metadata_field: cur_land_use
+  Brief_description: Current land use
+  Definition: Present state of land use at the sample site
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: public road [ENVO:01000780](http://purl.obolibrary.org/obo/ENVO_01000780)
+    Plant-Associated:
+      Example of Usage: agricultural field [ENVO:00000114](http://purl.obolibrary.org/obo/ENVO_00000114)
+- Category: Site metadata
+  MIXS_ID: MIXS:0001082
+  Metadata_field: soil_horizon
+  Brief_description: Soil horizon layer
+  Definition: Specific layer in the land area which measures parallel to the soil
+    surface and possesses physical characteristics which differ from the layers above
+    and beneath
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: surface soil [ENVO:02000059](http://purl.obolibrary.org/obo/ENVO_02000059)
+- Category: Site metadata
+  MIXS_ID: MIXS:0001083
+  Metadata_field: fao_class
+  Brief_description: FAO soil classification
+  Definition: Soil classification from the FAO World soil distribution from International
+    Soil Reference and Information Centre (ISRIC). The list of available soil classifications
+    can be found at https://www.isric.org/explore/world-soil-distribution
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: Arenosol [ENVO:00002229](http://purl.obolibrary.org/obo/ENVO_00002229)
+- Category: Site metadata
+  MIXS_ID: MIXS:0001086
+  Metadata_field: fire
+  Brief_description: Evidence / history of fire
+  Definition: Historical and/or physical evidence of fire
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: none
+    Plant-Associated:
+      Example of Usage: none
+    BuiltEnvironment-Associated:
+      Example of Usage: none
+- Category: Site metadata
+  MIXS_ID: MIXS:0001121
+  Metadata_field: adjacent_environment
+  Brief_description: Adjacent environmental features
+  Definition: Description of environmental systems or features adjacent to the sampling
+    site
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: agricultural field [ENVO:00000114](http://purl.obolibrary.org/obo/ENVO_00000114)
+    Plant-Associated:
+      Example of Usage: temperate grassland biome [ENVO:01000193](http://purl.obolibrary.org/obo/ENVO_01000193)
+    BuiltEnvironment-Associated:
+      Example of Usage: public park [ENVO:03500002](http://purl.obolibrary.org/obo/ENVO_03500002)
+- Category: Site metadata
+  MIXS_ID: MIXS:0001159
+  Metadata_field: soil_cover
+  Brief_description: Material covering soil
+  Definition: Material covering the sampled soil. This field accepts terms under environmental
+    material [ENVO:00010483](http://purl.obolibrary.org/obo/ENVO_00010483)
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: Arenosol [ENVO:00002229](http://purl.obolibrary.org/obo/ENVO_00002229)
+- Category: Site metadata
+  MIXS_ID: MIXS:0001160
+  Metadata_field: soil_pH
+  Brief_description: Soil pH measurement
+  Definition: Ph measurement of the soil
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: '6.8'
+    Plant-Associated:
+      Example of Usage: '6.5'
+- Category: Site metadata
+  MIXS_ID: MIXS:0001161
+  Metadata_field: rel_location
+  Brief_description: Relative sampling position
+  Definition: Location of sampled soil relative to other parts of the farm e.g. under
+    crop plant, near irrigation ditch, from the dirt road
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: 1 m from asphalt edge, 20 m from agricultural field
+    Plant-Associated:
+      Example of Usage: row 3, 10 m from field edge
+- Category: Site metadata
+  MIXS_ID: MIXS:0001163
+  Metadata_field: soil_temp
+  Brief_description: Soil temperature
+  Definition: Temperature of soil at the time of sampling
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Terrestrial-Associated:
+      Example of Usage: 15 °C
+    Plant-Associated:
+      Example of Usage: 24˚C
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000027
+  Metadata_field: pathogenicity
+  Brief_description: known pathogenicity of microbe
+  Definition: To what is the entity pathogenic
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Plant-Associated:
+      Example of Usage: non-pathogenic symbiont
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000028
+  Metadata_field: biotic_relationship
+  Brief_description: observed biotic relationship with host
+  Definition: Description of relationship(s) between the subject organism and other
+    organism(s) it is associated with. E.g., parasite on species X; mutualist with
+    species Y. The target organism is the subject of the relationship, and the other
+    organism(s) is the object
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Plant-Associated:
+      Example of Usage: Symbiosis [ECOCORE:00000022](http://purl.obolibrary.org/obo/ECOCORE_00000022)
+        with *Bradyrhizobium japonicum* USDA 122 [NCBI:txid1038861](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=1038861&lvl=3&lin=f&keep=1&srchmode=1&unlock)
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000560
+  Metadata_field: growth_hormone_regm
+  Brief_description: Details of growth-hormone treatments applied
+  Definition: Information about treatment involving use of growth hormones; should
+    include the name of growth hormone, amount administered, treatment regimen including
+    how many times the treatment was repeated, how long each treatment lasted, and
+    the start and end time of the entire treatment; can include multiple growth hormone
+    regimens
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Plant-Associated:
+      Example of Usage: none
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000591
+  Metadata_field: watering_regm
+  Brief_description: Watering frequency and duration schedule
+  Definition: Information about treatment involving an exposure to watering frequencies,
+    treatment regimen including how many times the treatment was repeated, how long
+    each treatment lasted, and the start and end time of the entire treatment; can
+    include multiple regimens
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Plant-Associated:
+      Example of Usage: none
+    WasteWater-Associated:
+      Example of Usage: Not applicable
+    BuiltEnvironment-Associated:
+      Example of Usage: not applicable
+- Category: Sample metadata
+  MIXS_ID: MIXS:0001041
+  Metadata_field: cult_root_med
+  Brief_description: Rooting medium used for cultures
+  Definition: Name or reference for the hydroponic or in vitro culture rooting medium;
+    can be the name of a commonly used medium or reference to a specific medium, e.g.
+    Murashige and Skoog medium. If the medium has not been formally published, use
+    the rooting medium descriptors
+  regex_pattern: null
+  structured_pattern: ^{text}|{PMID}|{DOI}|{URL}$
+  biomes:
+    Plant-Associated:
+      Example of Usage: nitrogen-free plant nutrient solution (Beck et al., 2013;
+        https://hdl.handle.net/20.500.11766/67561)
+- Category: Sample metadata
+  MIXS_ID: MIXS:0001056
+  Metadata_field: ph_regm
+  Brief_description: Regimen of growth-medium pH exposure
+  Definition: Information about treatment involving exposure of plants to varying
+    levels of ph of the growth media, treatment regimen including how many times the
+    treatment was repeated, how long each treatment lasted, and the start and end
+    time of the entire treatment; can include multiple regimen
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Plant-Associated:
+      Example of Usage: none
+- Category: Sample metadata
+  MIXS_ID: MIXS:0001057
+  Metadata_field: plant_growth_med
+  Brief_description: Medium used to grow plant samples
+  Definition: Specification of the media for growing the plants or tissue cultured
+    samples, e.g. soil, aeroponic, hydroponic, in vitro solid culture medium, in vitro
+    liquid culture medium. Recommended value is a specific value from EO:plant growth
+    medium (follow this link for termshttp://purl.obolibrary.org/obo/EO_0007147) or
+    other controlled vocabulary
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Plant-Associated:
+      Example of Usage: loamy sand [ENVO:06105272](http://purl.obolibrary.org/obo/ENVO_06105272)
+- Category: Sample metadata
+  MIXS_ID: MIXS:0001127
+  Metadata_field: fertilizer_admin
+  Brief_description: Fertilizer type added to site
+  Definition: Type of fertilizer or amendment added to the soil or water for the purpose
+    of improving substrate health and quality for plant growth. This field accepts
+    terms listed under agronomic fertilizer [AGRO:00002062](http://purl.obolibrary.org/obo/AGRO_00002062).
+    Multiple terms may apply and can be separated by pipes, listing in reverse chronological
+    order
+  regex_pattern: ^([^\s-]{1,2}|[^\s-]+.+[^\s-]+) \[[a-zA-Z]{2,}:[a-zA-Z0-9]\d+\]$
+  structured_pattern: ^{termLabel} \[{termID}\]$
+  biomes:
+    Plant-Associated:
+      Example of Usage: Fertilizer [CHEBI:33287](http://purl.obolibrary.org/obo/CHEBI_33287)|urea
+        ammonium nitrate [CHEBI:88276](http://purl.obolibrary.org/obo/CHEBI_88276)
+- Category: Sample metadata
+  MIXS_ID: MIXS:0001296
+  Metadata_field: photosynt_activ
+  Brief_description: Measured photosynthetic activity
+  Definition: Measurement of photosythetic activity (i.e. leaf gas exchange / chlorophyll
+    fluorescence emissions / reflectance / transpiration) Please also include the
+    term method term detailing the method of activity measurement
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Plant-Associated:
+      Example of Usage: none
+- Category: Site metadata
+  MIXS_ID: MIXS:0000318
+  Metadata_field: crop_rotation
+  Brief_description: history/crop rotation
+  Definition: Whether or not crop is rotated, and if yes, rotation schedule
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Plant-Associated:
+      Example of Usage: Corn - soybean annual rotation
+- Category: Site metadata
+  MIXS_ID: MIXS:0001043
+  Metadata_field: growth_facil
+  Brief_description: Facility type where plant grown
+  Definition: 'Type of facility where the sampled plant was grown; controlled vocabulary:
+    growth chamber, open top chamber, glasshouse, experimental garden, field.'
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Plant-Associated:
+      Example of Usage: field
+- Category: Site metadata
+  MIXS_ID: MIXS:0001116
+  Metadata_field: crop_yield
+  Brief_description: Crop yield per area
+  Definition: Amount of crop produced per unit or area of land
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Plant-Associated:
+      Example of Usage: 3.4 Mg ha⁻¹
+- Category: Host metadata
+  MIXS_ID: MIXS:0001058
+  Metadata_field: plant_product
+  Brief_description: Plant product present in sample
+  Definition: Substance produced by the plant, where the sample was obtained from
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Plant-Associated:
+      Example of Usage: Seed [PO:0009010](http://purl.obolibrary.org/obo/PO_0009010)
+- Category: Host metadata
+  MIXS_ID: MIXS:0001059
+  Metadata_field: plant_sex
+  Brief_description: Sex of sampled plant
+  Definition: Sex of the reproductive parts on the whole plant
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Plant-Associated:
+      Example of Usage: not applicable
+- Category: Host metadata
+  MIXS_ID: MIXS:0001060
+  Metadata_field: plant_struc
+  Brief_description: Plant structure sampled
+  Definition: Name of plant structure the sample was obtained from, such as a specific
+    organ or tissue (epidermis, etc…). Recommended use of plant anatomical entity
+    [PO:0025131](http://purl.obolibrary.org/obo/PO_0025131) subclasses
+  regex_pattern: ^([^\s-]{1,2}|[^\s-]+.+[^\s-]+) \[[a-zA-Z]{2,}:[a-zA-Z0-9]\d+\]$
+  structured_pattern: ^{termLabel} \[{termID}\]$
+  biomes:
+    Plant-Associated:
+      Example of Usage: root nodule [PO:0003023](http://purl.obolibrary.org/obo/PO_0003023)
+- Category: Host metadata
+  MIXS_ID: MIXS:0001061
+  Metadata_field: root_cond
+  Brief_description: Rooting conditions and densities
+  Definition: Relevant rooting conditions such as field plot size, sowing density,
+    container dimensions, number of plants per container
+  regex_pattern: ^^PMID:\d+$|^doi:10.\d{2,9}/.*$|^https?:\/\/(?:www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b(?:[-a-zA-Z0-9()@:%_\+.~#?&\/=]*)$|([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{PMID}|{DOI}|{URL}|{text}$
+  biomes:
+    Plant-Associated:
+      Example of Usage: Open-field research plot 5 m × 20 m (100 m²); sowing density
+        ≈ 350 000 seeds ha⁻¹ (~35 seeds m⁻²) with 0.5 m inter-row spacing; no containers;
+        single plant per sowing position.
+- Category: Host metadata
+  MIXS_ID: MIXS:0001062
+  Metadata_field: root_med_ph
+  Brief_description: pH of rooting medium
+  Definition: pH measurement of the culture rooting medium; e.g. 5.5
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Plant-Associated:
+      Example of Usage: not applicable
+- Category: Host metadata
+  MIXS_ID: MIXS:0001063
+  Metadata_field: root_med_solid
+  Brief_description: Solidifying agent in rooting medium
+  Definition: Specification of the solidifying agent in the culture rooting medium;
+    e.g. agar
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Plant-Associated:
+      Example of Usage: not applicable
+- Category: Host metadata
+  MIXS_ID: MIXS:0001070
+  Metadata_field: tiss_cult_growth_med
+  Brief_description: Tissue-culture growth medium description
+  Definition: Description of plant tissue culture growth media used
+  regex_pattern: ^^PMID:\d+$|^doi:10.\d{2,9}/.*$|^https?:\/\/(?:www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b(?:[-a-zA-Z0-9()@:%_\+.~#?&\/=]*)$|([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{PMID}|{DOI}|{URL}|{text}$
+  biomes:
+    Plant-Associated:
+      Example of Usage: none
+- Category: Host metadata
+  MIXS_ID: MIXS:0001300
+  Metadata_field: sym_life_cycle_type
+  Brief_description: Life-cycle complexity of symbiont
+  Definition: Type of life cycle of the symbiotic host species (the thing being sampled).
+    Simple life cycles occur within a single host, complex ones within multiple different
+    hosts over the course of their normal life cycle
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Plant-Associated:
+      Example of Usage: simple
+- Category: Host metadata
+  MIXS_ID: MIXS:0001315
+  Metadata_field: host_dependence
+  Brief_description: Dependence of symbiont on host
+  Definition: Type of host dependence for the symbiotic host organism to its host
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Plant-Associated:
+      Example of Usage: facultative role [APOLLO:SV_00002024](http://purl.obolibrary.org/obo/APOLLO_SV_00002024)
+- Category: Host metadata
+  MIXS_ID: MIXS:0001318
+  Metadata_field: host_subspecf_genlin
+  Brief_description: Host lineage below subspecies level
+  Definition: Information about the genetic distinctness of the host organism below
+    the subspecies level e.g., serovar, serotype, biotype, ecotype, variety, cultivar,
+    or any relevant genetic typing schemes like Group I plasmid. Subspecies should
+    not be recorded in this term, but in the NCBI taxonomy. Supply both the lineage
+    name and the lineage rank separated by a colon, e.g., biovar:abc123
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Plant-Associated:
+      Example of Usage: cultivar:Williams 82
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000032
+  Metadata_field: trophic_level
+  Brief_description: trophic level
+  Definition: Trophic levels are the feeding position in a food chain. Microbes can
+    be a range of producers (e.g. chemolithotroph)
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    WasteWater-Associated:
+      Example of Usage: Saprotroph [ECOCORE:00000056](http://purl.obolibrary.org/obo/ECOCORE_00000056)
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000421
+  Metadata_field: alkalinity
+  Brief_description: alkalinity
+  Definition: Alkalinity, the ability of a solution to neutralize acids to the equivalence
+    point of carbonate or bicarbonate
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    WasteWater-Associated:
+      Example of Usage: 3 000 mg CaCO₃ L⁻¹
+    Marine-Associated:
+      Example of Usage: 2400 µmol kg⁻¹
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000425
+  Metadata_field: nitrate
+  Brief_description: nitrate
+  Definition: Concentration of nitrate in the sample
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    WasteWater-Associated:
+      Example of Usage: 5 mg N L⁻¹
+    Marine-Associated:
+      Example of Usage: 1 µM
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000428
+  Metadata_field: sodium
+  Brief_description: sodium
+  Definition: Sodium concentration in the sample
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    WasteWater-Associated:
+      Example of Usage: 120 mg L⁻¹
+    Marine-Associated:
+      Example of Usage: 470 mM
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000505
+  Metadata_field: phosphate
+  Brief_description: phosphate
+  Definition: Concentration of phosphate
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    WasteWater-Associated:
+      Example of Usage: 20 mg P L⁻¹
+    Marine-Associated:
+      Example of Usage: 0.4 µM
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000653
+  Metadata_field: biochem_oxygen_dem
+  Brief_description: biochemical oxygen demand
+  Definition: Amount of dissolved oxygen needed by aerobic biological organisms in
+    a body of water to break down organic material present in a given water sample
+    at certain temperature over a specific time period
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    WasteWater-Associated:
+      Example of Usage: 350 mg O₂ L⁻¹
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000656
+  Metadata_field: chem_oxygen_dem
+  Brief_description: chemical oxygen demand
+  Definition: A measure of the capacity of water to consume oxygen during the decomposition
+    of organic matter and the oxidation of inorganic chemicals such as ammonia and
+    nitrite
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    WasteWater-Associated:
+      Example of Usage: 450 mg O₂ L⁻¹
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000661
+  Metadata_field: gaseous_substances
+  Brief_description: gaseous substances
+  Definition: Amount or concentration of substances such as hydrogen sulfide, carbon
+    dioxide, methane, etc.; can include multiple substances
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    WasteWater-Associated:
+      Example of Usage: methane; 60 % v/v | carbon dioxide; 40 % v/v
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000672
+  Metadata_field: soluble_inorg_mat
+  Brief_description: soluble inorganic material
+  Definition: Concentration of substances such as ammonia, road-salt, sea-salt, cyanide,
+    hydrogen sulfide, thiocyanates, thiosulfates, etc
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    WasteWater-Associated:
+      Example of Usage: 45 mg N L⁻¹
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000673
+  Metadata_field: soluble_org_mat
+  Brief_description: soluble organic material
+  Definition: Concentration of substances such as urea, fruit sugars, soluble proteins,
+    drugs, pharmaceuticals, etc
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    WasteWater-Associated:
+      Example of Usage: Urea [CHEBI:16199](http://purl.obolibrary.org/obo/CHEBI_16199);
+        5 mg L⁻¹ | glucose [CHEBI:17234](http://purl.obolibrary.org/obo/CHEBI_17234);
+        2 mg L⁻¹
+- Category: Sample metadata
+  MIXS_ID: MIXS:0001153
+  Metadata_field: samp_pooling
+  Brief_description: sample pooling
+  Definition: Physical combination of several instances of like material, e.g. RNA
+    extracted from samples or dishes of cell cultures into one big aliquot of cells.
+    Please provide a short description of the samples that were pooled
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    WasteWater-Associated:
+      Example of Usage: none
+    BuiltEnvironment-Associated:
+      Example of Usage: none
+- Category: Site metadata
+  MIXS_ID: MIXS:0000215
+  Metadata_field: sewage_type
+  Brief_description: sewage type
+  Definition: Type of wastewater treatment plant as municipial or industrial
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    WasteWater-Associated:
+      Example of Usage: Municipal | sewage plant [ENVO:00003043](http://purl.obolibrary.org/obo/ENVO_00003043)
+- Category: Site metadata
+  MIXS_ID: MIXS:0000348
+  Metadata_field: pre_treatment
+  Brief_description: pre-treatment
+  Definition: The process of pre-treatment removes materials that can be easily collected
+    from the raw wastewater
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    WasteWater-Associated:
+      Example of Usage: screening | grit removal | primary sedimentation
+- Category: Site metadata
+  MIXS_ID: MIXS:0000349
+  Metadata_field: primary_treatment
+  Brief_description: primary treatment
+  Definition: The process to produce both a generally homogeneous liquid capable of
+    being treated biologically and a sludge that can be separately treated or processed
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    WasteWater-Associated:
+      Example of Usage: primary clarifier sedimentation producing primary sludge
+- Category: Site metadata
+  MIXS_ID: MIXS:0000350
+  Metadata_field: reactor_type
+  Brief_description: reactor type
+  Definition: Anaerobic digesters can be designed and engineered to operate using
+    a number of different process configurations, as batch or continuous, mesophilic,
+    high solid or low solid, and single stage or multistage
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    WasteWater-Associated:
+      Example of Usage: thermophilic anaerobic methanogenic reactor [ENVO:00002211](httpsingle-stage://purl.obolibrary.org/obo/ENVO_00002211);
+        single-stage
+- Category: Site metadata
+  MIXS_ID: MIXS:0000351
+  Metadata_field: secondary_treatment
+  Brief_description: secondary treatment
+  Definition: The process for substantially degrading the biological content of the
+    sewage
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    WasteWater-Associated:
+      Example of Usage: activated sludge [ENVO:00002046](http://purl.obolibrary.org/obo/ENVO_00002046)
+- Category: Site metadata
+  MIXS_ID: MIXS:0000352
+  Metadata_field: tertiary_treatment
+  Brief_description: tertiary treatment
+  Definition: The process providing a final treatment stage to raise the effluent
+    quality before it is discharged to the receiving environment
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    WasteWater-Associated:
+      Example of Usage: Filtration [AFO_/process#AFP:0001530](http://purl.allotrope.org/ontologies/process#AFP_0001530)|ultraviolet
+        radiation [AFO_/material#AFM:0001056](http://purl.allotrope.org/ontologies/material#AFM_0001056)
+- Category: Site metadata
+  MIXS_ID: MIXS:0000353
+  Metadata_field: wastewater_type
+  Brief_description: wastewater type
+  Definition: The origin of wastewater such as human waste, rainfall, storm drains,
+    etc
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    WasteWater-Associated:
+      Example of Usage: household waste material [ENVO:01000372](http://purl.obolibrary.org/obo/ENVO_01000372)
+- Category: Site metadata
+  MIXS_ID: MIXS:0000590
+  Metadata_field: water_temp_regm
+  Brief_description: water temperature regimen
+  Definition: Information about treatment involving an exposure to water with varying
+    degree of temperature, treatment regimen including how many times the treatment
+    was repeated, how long each treatment lasted, and the start and end time of the
+    entire treatment; can include multiple regimens
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    WasteWater-Associated:
+      Example of Usage: 37 ± 1 °C; continuous; start 2023-05-01T00:00Z; end 2023-05-31T23:59Z
+    BuiltEnvironment-Associated:
+      Example of Usage: not applicable
+- Category: Site metadata
+  MIXS_ID: MIXS:0000657
+  Metadata_field: efficiency_percent
+  Brief_description: efficiency percent
+  Definition: Percentage of volatile solids removed from the anaerobic digestor
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    WasteWater-Associated:
+      Example of Usage: 55.00%
+- Category: Site metadata
+  MIXS_ID: MIXS:0000662
+  Metadata_field: indust_eff_percent
+  Brief_description: industrial effluent percent
+  Definition: Percentage of industrial effluents received by wastewater treatment
+    plant
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    WasteWater-Associated:
+      Example of Usage: 10.00%
+- Category: Site metadata
+  MIXS_ID: MIXS:0000664
+  Metadata_field: inorg_particles
+  Brief_description: inorganic particles
+  Definition: Concentration of particles such as sand, grit, metal particles, ceramics,
+    etc.; can include multiple particles
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    WasteWater-Associated:
+      Example of Usage: Sand [SNOMED:128489003](http://snomed.info/id/128489003);
+        50 mg L⁻¹ | grit [SNOMED:264359001](http://snomed.info/id/264359001); 20 mg
+        L⁻¹
+- Category: Site metadata
+  MIXS_ID: MIXS:0000665
+  Metadata_field: org_particles
+  Brief_description: organic particles
+  Definition: Concentration of particles such as faeces, hairs, food, vomit, paper
+    fibers, plant material, humus, etc
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    WasteWater-Associated:
+      Example of Usage: 150 mg L⁻¹
+- Category: Site metadata
+  MIXS_ID: MIXS:0000669
+  Metadata_field: sludge_retent_time
+  Brief_description: sludge retention time
+  Definition: The time activated sludge remains in reactor
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    WasteWater-Associated:
+      Example of Usage: P30D
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000117
+  Metadata_field: tot_phosp
+  Brief_description: total phosphorus in the sample
+  Definition: 'Total phosphorus concentration in the sample, calculated by: total
+    phosphorus = total dissolved phosphorus + particulate phosphorus'
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Marine-Associated:
+      Example of Usage: 0.5 µM
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000119
+  Metadata_field: diss_oxygen
+  Brief_description: dissolved oxygen in the sample
+  Definition: Concentration of dissolved oxygen
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Marine-Associated:
+      Example of Usage: 6 mg L⁻¹
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000174
+  Metadata_field: biomass
+  Brief_description: Biomass in the sample
+  Definition: Amount of biomass; should include the name for the part of biomass measured,
+    e.g. Microbial, total. Can include multiple measurements
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Marine-Associated:
+      Example of Usage: Microbial biomass; 0.2 mg mL⁻¹
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000177
+  Metadata_field: chlorophyll
+  Brief_description: Chlorophyll in the sample
+  Definition: Concentration of chlorophyll
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Marine-Associated:
+      Example of Usage: chlorophyll a [CHEBI:18230](http://purl.obolibrary.org/obo/CHEBI_18230);
+        1.5 µg L⁻¹
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000206
+  Metadata_field: particle_class
+  Brief_description: particle classification of sampled sediment
+  Definition: Particles are classified, based on their size, into six general categories:clay,
+    silt, sand, gravel, cobbles, and boulders; should include amount of particle preceded
+    by the name of the particle type; can include multiple values
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Marine-Associated:
+      Example of Usage: Silt [ENVO:01000016](http://purl.obolibrary.org/obo/ENVO_01000016);
+        0.2–2 µm
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000423
+  Metadata_field: sulfate
+  Brief_description: sulfate in the sample
+  Definition: Concentration of sulfate in the sample
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Marine-Associated:
+      Example of Usage: 28 mM
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000424
+  Metadata_field: sulfide
+  Brief_description: sulfide in the sample
+  Definition: Concentration of sulfide in the sample
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Marine-Associated:
+      Example of Usage: 0.1 µM
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000426
+  Metadata_field: nitrite
+  Brief_description: nitrite in the sample
+  Definition: Concentration of nitrite in the sample
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Marine-Associated:
+      Example of Usage: 0.05 µM
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000427
+  Metadata_field: ammonium
+  Brief_description: ammonium in the sample
+  Definition: Concentration of ammonium in the sample
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Marine-Associated:
+      Example of Usage: 2 µM
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000429
+  Metadata_field: chloride
+  Brief_description: chloride in the sample
+  Definition: Concentration of chloride in the sample
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Marine-Associated:
+      Example of Usage: 545 mM
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000430
+  Metadata_field: potassium
+  Brief_description: potassium in the sample
+  Definition: Concentration of potassium in the sample
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Marine-Associated:
+      Example of Usage: 10 mM
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000431
+  Metadata_field: magnesium
+  Brief_description: magnesium in the sample
+  Definition: Concentration of magnesium in the sample
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Marine-Associated:
+      Example of Usage: 53 mM
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000432
+  Metadata_field: calcium
+  Brief_description: calcium in the sample
+  Definition: Concentration of calcium in the sample
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Marine-Associated:
+      Example of Usage: 10 mM
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000435
+  Metadata_field: density
+  Brief_description: Density of the sample
+  Definition: Density of the sample, which is its mass per unit volume (aka volumetric
+    mass density)
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Marine-Associated:
+      Example of Usage: 1.024 g cm⁻³
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000504
+  Metadata_field: nitro
+  Brief_description: nitrogen in the sample
+  Definition: Concentration of nitrogen (total)
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Marine-Associated:
+      Example of Usage: monitoring not performed
+- Category: Sample metadata
+  MIXS_ID: MIXS:0000516
+  Metadata_field: petroleum_hydrocarb
+  Brief_description: petroleum hydrocarbon in the sample
+  Definition: Concentration of petroleum hydrocarbon
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Marine-Associated:
+      Example of Usage: below detection
+- Category: Site metadata
+  MIXS_ID: MIXS:0001078
+  Metadata_field: sediment_type
+  Brief_description: Type of sediment of sample (if applicable)
+  Definition: Information about the sediment type based on major constituents
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Marine-Associated:
+      Example of Usage: none
+- Category: Site metadata
+  MIXS_ID: MIXS:0000097
+  Metadata_field: carb_dioxide
+  Brief_description: carbon dioxide
+  Definition: Carbon dioxide (gas) amount or concentration at the time of sampling
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: 800 ppm
+- Category: Site metadata
+  MIXS_ID: MIXS:0000121
+  Metadata_field: rel_air_humidity
+  Brief_description: relative air humidity
+  Definition: Partial vapor and air pressure, density of the vapor and air, or by
+    the actual mass of the vapor and air
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: 45 % RH
+- Category: Site metadata
+  MIXS_ID: MIXS:0000124
+  Metadata_field: air_temp
+  Brief_description: air temperature
+  Definition: Temperature of the air at the time of sampling
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: 22 °C
+- Category: Site metadata
+  MIXS_ID: MIXS:0000125
+  Metadata_field: surf_temp
+  Brief_description: surface temperature
+  Definition: Temperature of the surface at the time of sampling
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: 20 °C
+- Category: Site metadata
+  MIXS_ID: MIXS:0000128
+  Metadata_field: surf_moisture
+  Brief_description: surface moisture
+  Definition: Water held on a surface
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: 0.15 g H₂O g⁻¹ surface
+- Category: Site metadata
+  MIXS_ID: MIXS:0000140
+  Metadata_field: amount_light
+  Brief_description: amount of light
+  Definition: The unit of illuminance and luminous emittance, measuring luminous flux
+    per unit area
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: 300 lux
+- Category: Site metadata
+  MIXS_ID: MIXS:0000145
+  Metadata_field: built_struc_age
+  Brief_description: built structure age
+  Definition: The age of the built structure since construction
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: 12 y
+- Category: Site metadata
+  MIXS_ID: MIXS:0000165
+  Metadata_field: floor_area
+  Brief_description: floor area
+  Definition: The area of the floor space within the room
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: 25 m²
+- Category: Site metadata
+  MIXS_ID: MIXS:0000168
+  Metadata_field: inside_lux
+  Brief_description: inside lux light
+  Definition: The recorded value at sampling time (power density)
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: 250 lux
+- Category: Site metadata
+  MIXS_ID: MIXS:0000192
+  Metadata_field: room_dim
+  Brief_description: room dimensions
+  Definition: The length, width and height of sampling room
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: 5 m × 5 m × 2.5 m
+- Category: Site metadata
+  MIXS_ID: MIXS:0000195
+  Metadata_field: room_vol
+  Brief_description: room volume
+  Definition: Volume of sampling room
+  regex_pattern: ^[1-9][0-9]* ([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{integer} {text}$
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: 62.5 m³
+- Category: Site metadata
+  MIXS_ID: MIXS:0000197
+  Metadata_field: temp_out
+  Brief_description: temperature outside house
+  Definition: The recorded temperature value at sampling time outside
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: 18 °C
+- Category: Site metadata
+  MIXS_ID: MIXS:0000217
+  Metadata_field: occup_density_samp
+  Brief_description: occupant density at sampling
+  Definition: Average number of occupants at time of sampling per square footage
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: 0.08 persons m⁻² (2 occupants / 25 m²)
+- Category: Site metadata
+  MIXS_ID: MIXS:0000218
+  Metadata_field: address
+  Brief_description: address
+  Definition: The street name and building number where the sampling occurred
+  regex_pattern: null
+  structured_pattern: ^{integer} {text}}$
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: 123 Main St., Apt 5B, New York, NY 10001
+- Category: Site metadata
+  MIXS_ID: MIXS:0000224
+  Metadata_field: window_size
+  Brief_description: window area/size
+  Definition: The window's length and width
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: 1.2 m × 1.5 m
+- Category: Site metadata
+  MIXS_ID: MIXS:0000225
+  Metadata_field: floor_count
+  Brief_description: floor count
+  Definition: The number of floors in the building, including basements and mechanical
+    penthouse
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: '6'
+- Category: Site metadata
+  MIXS_ID: MIXS:0000226
+  Metadata_field: freq_clean
+  Brief_description: frequency of cleaning
+  Definition: The number of times the sample location is cleaned. Frequency of cleaning
+    might be on a Daily basis, Weekly, Monthly, Quarterly or Annually
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: weekly
+- Category: Site metadata
+  MIXS_ID: MIXS:0000230
+  Metadata_field: number_plants
+  Brief_description: number of houseplants
+  Definition: The number of plant(s) in the sampling space
+  regex_pattern: ^[1-9][0-9]* ([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{integer} {text}$
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: '2'
+- Category: Site metadata
+  MIXS_ID: MIXS:0000231
+  Metadata_field: number_pets
+  Brief_description: number of pets
+  Definition: The number of pets residing in the sampled space
+  regex_pattern: ^[1-9][0-9]* ([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{integer} {text}$
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: 1 cat
+- Category: Site metadata
+  MIXS_ID: MIXS:0000232
+  Metadata_field: number_resident
+  Brief_description: number of residents
+  Definition: The number of individuals currently occupying in the sampling location
+  regex_pattern: ^[1-9][0-9]* ([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{integer} {text}$
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: '2'
+- Category: Site metadata
+  MIXS_ID: MIXS:0000234
+  Metadata_field: room_count
+  Brief_description: room count
+  Definition: The total count of rooms in the built structure including all room types
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: '3'
+- Category: Site metadata
+  MIXS_ID: MIXS:0000235
+  Metadata_field: room_moist_dam_hist
+  Brief_description: room moisture damage or mold history
+  Definition: The history of moisture damage or mold in the past 12 months. Number
+    of events of moisture damage or mold observed
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: 0 events
+- Category: Site metadata
+  MIXS_ID: MIXS:0000236
+  Metadata_field: room_occup
+  Brief_description: room occupancy
+  Definition: Count of room occupancy at time of sampling
+  regex_pattern: ^[1-9][0-9]* ([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{integer} {text}$
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: '2'
+- Category: Site metadata
+  MIXS_ID: MIXS:0000237
+  Metadata_field: room_window_count
+  Brief_description: room window count
+  Definition: Number of windows in the room
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: '2'
+- Category: Site metadata
+  MIXS_ID: MIXS:0000244
+  Metadata_field: samp_room_id
+  Brief_description: sampling room ID or name
+  Definition: Sampling room number. This ID should be consistent with the designations
+    on the building floor plans
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: LR_apt5B
+- Category: Site metadata
+  MIXS_ID: MIXS:0000756
+  Metadata_field: ventilation_type
+  Brief_description: ventilation type
+  Definition: Ventilation system used in the sampled premises
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: central HVAC | operable window
+- Category: Site metadata
+  MIXS_ID: MIXS:0000758
+  Metadata_field: surf_material
+  Brief_description: surface material
+  Definition: Surface materials at the point of sampling
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: painted drywall
+- Category: Site metadata
+  MIXS_ID: MIXS:0000761
+  Metadata_field: build_occup_type
+  Brief_description: building occupancy type
+  Definition: The primary function for which a building or discrete part of a building
+    is intended to be used
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: residential dwelling unit
+- Category: Site metadata
+  MIXS_ID: MIXS:0000764
+  Metadata_field: indoor_surf
+  Brief_description: indoor surface
+  Definition: Type of indoor surface
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: wall
+- Category: Site metadata
+  MIXS_ID: MIXS:0000765
+  Metadata_field: filter_type
+  Brief_description: filter type
+  Definition: A device which removes solid particulates or airborne molecular contaminants
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: MERV-13 pleated filter
+- Category: Site metadata
+  MIXS_ID: MIXS:0000766
+  Metadata_field: heat_cool_type
+  Brief_description: heating and cooling system type
+  Definition: Methods of conditioning or heating a room or building
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: forced-air heating & cooling
+- Category: Site metadata
+  MIXS_ID: MIXS:0000768
+  Metadata_field: building_setting
+  Brief_description: building setting
+  Definition: A location (geography) where a building is set
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: urban residential high-rise
+- Category: Site metadata
+  MIXS_ID: MIXS:0000769
+  Metadata_field: light_type
+  Brief_description: light type
+  Definition: Application of light to achieve some practical or aesthetic effect.
+    Lighting includes the use of both artificial light sources such as lamps and light
+    fixtures, as well as natural illumination by capturing daylight. Can also include
+    absence of light
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: LED ceiling light | natural daylight
+- Category: Site metadata
+  MIXS_ID: MIXS:0000772
+  Metadata_field: occup_samp
+  Brief_description: occupancy at sampling
+  Definition: Number of occupants present at time of sample within the given space
+  regex_pattern: ^[1-9][0-9]* ([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{integer} {text}$
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: '2'
+- Category: Site metadata
+  MIXS_ID: MIXS:0000778
+  Metadata_field: built_struc_set
+  Brief_description: built structure setting
+  Definition: The characterization of the location of the built structure as high
+    or low human density
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: high human density
+- Category: Site metadata
+  MIXS_ID: MIXS:0000803
+  Metadata_field: floor_cond
+  Brief_description: floor condition
+  Definition: The physical condition of the floor at the time of sampling; photos
+    or video preferred; use drawings to indicate location of damaged areas
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: clean; no visible damage
+- Category: Site metadata
+  MIXS_ID: MIXS:0000804
+  Metadata_field: floor_finish_mat
+  Brief_description: floor finish material
+  Definition: The floor covering type; the finished surface that is walked on
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: hardwood
+- Category: Site metadata
+  MIXS_ID: MIXS:0000805
+  Metadata_field: floor_water_mold
+  Brief_description: floor signs of water/mold
+  Definition: Signs of the presence of mold or mildew in a room
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: none
+- Category: Site metadata
+  MIXS_ID: MIXS:0000808
+  Metadata_field: gender_restroom
+  Brief_description: gender of restroom
+  Definition: The gender type of the restroom
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: unisex
+- Category: Site metadata
+  MIXS_ID: MIXS:0000814
+  Metadata_field: last_clean
+  Brief_description: last time swept/mopped/vacuumed
+  Definition: The last time the floor was cleaned (swept, mopped, vacuumed)
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: '2023-10-15T07:00:00Z'
+- Category: Site metadata
+  MIXS_ID: MIXS:0000822
+  Metadata_field: room_condt
+  Brief_description: room condition
+  Definition: The condition of the room at the time of sampling
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: tidy
+- Category: Site metadata
+  MIXS_ID: MIXS:0000825
+  Metadata_field: room_type
+  Brief_description: room type
+  Definition: The main purpose or activity of the sampling room. A room is any distinguishable
+    space within a structure
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: living room
+- Category: Site metadata
+  MIXS_ID: MIXS:0000828
+  Metadata_field: samp_floor
+  Brief_description: sampling floor
+  Definition: The floor of the building, where the sampling room is located
+  regex_pattern: ^(?:(?:\d*1[1-3]th|\d*1st|\d*2nd|\d*3rd|\d*[04-9]th) floor|basement|lobby)$
+  structured_pattern: null
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: '5'
+- Category: Site metadata
+  MIXS_ID: MIXS:0000844
+  Metadata_field: wall_water_mold
+  Brief_description: wall signs of water/mold
+  Definition: Signs of the presence of mold or mildew on a wall
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: none
+- Category: Site metadata
+  MIXS_ID: MIXS:0000854
+  Metadata_field: window_water_mold
+  Brief_description: window signs of water/mold
+  Definition: Signs of the presence of mold or mildew on the window
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: none
+- Category: Site metadata
+  MIXS_ID: MIXS:0000856
+  Metadata_field: window_type
+  Brief_description: window type
+  Definition: The type of windows
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    BuiltEnvironment-Associated:
+      Example of Usage: double-glazed sliding
+- Category: Host metadata
+  MIXS_ID: MIXS:0000262
+  Metadata_field: smoker
+  Brief_description: smoker
+  Definition: Specification of smoking status
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Human-Associated:
+      Example of Usage: Current Some Day Smoker [NCIT:C67146](http://purl.obolibrary.org/obo/NCIT_C67146)
+- Category: Host metadata
+  MIXS_ID: MIXS:0000267
+  Metadata_field: pet_farm_animal
+  Brief_description: presence of pets or farm animals around sampled host
+  Definition: Specification of presence of pets or farm animals in the environment
+    of subject, if yes the animals should be specified; can include multiple animals
+    present
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Human-Associated:
+      Example of Usage: '*Canis lupus familiaris* [NCBI:txid9615](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9615&lvl=3&p=has_linkout&p=blast_url&p=genome_blast&lin=f&keep=1&srchmode=1&unlock)'
+- Category: Host metadata
+  MIXS_ID: MIXS:0000285
+  Metadata_field: sexual_act
+  Brief_description: sexual activity of sampled host
+  Definition: Current sexual partner and frequency of sex
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Human-Associated:
+      Example of Usage: monogamous partner, 2 times/week
+- Category: Host metadata
+  MIXS_ID: MIXS:0000317
+  Metadata_field: host_body_mass_index
+  Brief_description: body-mass index of sampled host
+  Definition: Body mass index, calculated as weight/(height)squared
+  regex_pattern: ^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?( *- *[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)?
+    *([^\s-]{1,2}|[^\s-]+.+[^\s-]+)$
+  structured_pattern: ^{scientific_float}( *- *{scientific_float})? *{text}$
+  biomes:
+    Human-Associated:
+      Example of Usage: 24.1 kg/m²
+- Category: Host metadata
+  MIXS_ID: MIXS:0000811
+  Metadata_field: host_sex
+  Brief_description: Gender of sampled host
+  Definition: Gender sex of the sampled host Gender [NCIT:C17357](http://purl.obolibrary.org/obo/NCIT_C17357)
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Human-Associated:
+      Example of Usage: agender [NCIT:C205469](http://purl.obolibrary.org/obo/NCIT_C205469)
+- Category: Host metadata
+  MIXS_ID: MIXS:0000895
+  Metadata_field: ethnicity
+  Brief_description: ethnicity
+  Definition: A category of people who identify with each other, usually on the basis
+    of presumed similarities such as a common language, ancestry, history, society,
+    culture, nation or social treatment within their residing area.
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Human-Associated:
+      Example of Usage: German
+- Category: Host metadata
+  MIXS_ID: MIXS:0000896
+  Metadata_field: host_occupation
+  Brief_description: Occupation of the sampled host
+  Definition: Most frequent job performed by subject
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Human-Associated:
+      Example of Usage: Nursery nurse [SNOMED:224578004](http://snomed.info/id/224578004)
+- Category: Host metadata
+  MIXS_ID: MIXS:0000905
+  Metadata_field: special_diet
+  Brief_description: special diet of the sampled host
+  Definition: Specification of special diet; can include multiple special diets
+  regex_pattern: null
+  structured_pattern: null
+  biomes:
+    Human-Associated:
+      Example of Usage: Ketogenic diet [SNOMED:765060000](http://snomed.info/id/765060000)
