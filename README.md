@@ -358,36 +358,6 @@ The references in the figure are from the following sources:
     -   U.S. Office of Management and Budget (OMB): About the Topic of
         Race (“U.s. Office of Management and Budget (OMB): About the
         Topic of Race”)
--   **Microbe-associated**
-    -   GSC MIxS: Miscellaneous Natural Or Artificial Environment MIMS
-        (“GSC MIxS: MiscellaneousNaturalOrArtificialEnvironmentMIMS”)
-    -   GSC MIxS: Sediment MIMS (“GSC MIxS: SedimentMIMS”)
-    -   GSC MIXS: Soil MIMS (“GSC MIxS: SoilMIMS”)
-    -   GSC MIxS: Wastewater Sludge MIMS (“GSC MIxS:
-        WastewaterSludgeMIMS”)
-    -   GSC MIxS: Microbial Mat Biofilm MIMS (“GSC MIXS:
-        MicrobialMatBiofilmMIMS”)
-    -   The environment ontology: contextualising biological and
-        biomedical entities (Buttigieg et al. 2013)
-    -   The minimum information about a genome sequence (MIGS)
-        specification (Field et al. 2008)
-    -   Minimum information about a marker gene sequence (MIMARKS) and
-        minimum information about any (x) sequence (MIxS) specifications
-        (Yilmaz et al. 2011)
-    -   A standard MIGS/MIMS compliant XML Schema: Toward the
-        development of the Genomic Contextual Data Markup Language
-        (GCDML) (Kottmann et al. 2008)
-    -   Standard reporting requirements for biological samples in
-        metabolomics experiments: environmental context (Morrison et al.
-        2007)
-    -   Minimum information about a single amplified genome (MISAG) and
-        a metagenome-assembled genome (MIMAG) of bacteria and archaea
-        (Bowers et al. 2017)
-    -   Roadmap for naming uncultivated Archaea and Bacteria (Murray et
-        al. 2020)
-
-
-
 
 ### 3.2. Data/metadata categorization
 
@@ -593,106 +563,42 @@ submitter or generator.
 
 ## 5. Use of controlled vocabularies (Ontologies)
 
-Before discussing controlled vocabularies (ontologies), we first need to
-talk about what they are and why you should care. In this section, we
-will interchangeably use the terms controlled vocabulary and ontology.
+Before diving into how controlled vocabularies (also known as ontologies) are used, let us first clearly understand what they are and why they are important. Throughout this section, we will use the terms *controlled vocabulary* and *ontology* interchangeably.
 
+Imagine traveling back a few centuries to a time when Latin was the common language among scholars. Regardless of their native language or culture, scientists and scholars used Latin to communicate their ideas clearly and consistently. This shared language allowed ideas to spread widely, bridging gaps in distance, language, and even time. 
 
+In a similar way, today we use controlled vocabularies to create a common language among researchers, and even between humans and computers. Ontologies standardize the meaning of terms within a specific scientific field, reducing confusion and making communication clearer. They help scientists clearly organize data, easily navigate large datasets, and discover new patterns or insights. Moreover, ontologies evolve continuously. New terms, definitions, and classifications are regularly added as our scientific knowledge expands. 
 
-Let us dial the clock back a few centuries when Latin was the lingua
-franca of academics. It provided a link between knowledge and sciences
-from different backgrounds and languages (not to mention periods), along
-with consistency and clarity. So, no matter what language you spoke in
-your everyday life, Latin was there to help you understand the work of
-an academic who lived halfway across the globe or several centuries
-before. The common ground enabled ideas to spread and be built upon
-existing knowledge without the burden of translation. 
+Sometimes it can feel overwhelming because multiple ontologies exist or a particular term has not yet been clearly defined. But do not be discouraged! As you gain experience, using controlled vocabularies will become second nature.
 
+### 5.1 Practical Example: How to use Ontologies
 
+To understand how ontologies can be practically applied, let us walk through an imaginary scenario. Suppose you are planning an experiment to collect metagenomic samples. You want to clearly record details such as where the samples were taken and how the data was obtained. For this example, let us say you collected your samples from the rhizosphere (the soil surrounding plant roots) of a forest in Germany and used Illumina sequencing technology for analysis. How would you clearly and precisely document these details?
 
-Much like in the past, nowadays, controlled vocabularies allow for
-almost seamless communication and knowledge transfer between researchers
-and between researchers and computers. Ontologies provide a common
-language by defining and standardizing terms used in a particular field
-of research. That reduces the chance of miscommunication and
-misunderstandings. Ontologies also make data adaptable to new research
-and discoveries and can provide a deeper understanding and uncover
-patterns and insights on the subject being explored. They also make
-navigation through (almost) endless rows of data easier with defined
-search patterns. 
+First, you would visit an ontology service, such as the [EMBL-EBI Ontology Lookup Service (OLS)](https://www.ebi.ac.uk/ols4/) or [OBO foundry](https://obofoundry.org/). Since you're just starting out, you might begin with a broad term like **biome** [\[ENVO_00000428\]](https://www.ebi.ac.uk/ols4/ontologies/envo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_00000428?lang=en). By searching for "biome," you’ll find a list of [related terms](https://www.ebi.ac.uk/ols4/search?q=biome). One of these subclasses is **terrestrial biome** [\[ENVO:00000446\]](https://www.ebi.ac.uk/ols4/ontologies/envo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_00000446?lang=en). But this might still be too broad, so you'll keep searching. After exploring further, you'll find the subclass **woodland biome** [\[ENVO:01000175\]](http://purl.obolibrary.org/obo/ENVO_01000175), and eventually the more specific subclass **temperate woodland biome** [\[ENVO:01000221\]](http://purl.obolibrary.org/obo/ENVO_01000221). This accurately describes the general environment of your sample. This accurately describes the general environment of your sample.Next, you might look up the more specific term **rhizosphere** to pinpoint the exact origin of your sample. Searching for [rhizosphere](https://www.ebi.ac.uk/ols4/search?q=rhizosphere+) returns a useful term: **rhizosphere environment** [\[ENVO:01000999\]](http://purl.obolibrary.org/obo/ENVO_01000999), defined as "an environmental system determined by the presence of a plant rhizosphere." Perfect! Now you've precisely defined the exact location of your sample collection.
 
+Similarly, you can specify that your samples were collected in Germany at **Naturpark Frankenwald** [\[GAZ:00632507\]](http://purl.obolibrary.org/obo/GAZ_00632507), that your sequencing was done with **Illumina Sequencing**
+[\[NCIT:C146817\]](http://purl.obolibrary.org/obo/NCIT_C146817), and even describe that you used a **minimal defined medium** [\[MCO:0000881\]](http://purl.obolibrary.org/obo/MCO_0000881).
 
+If you find the examples here challenging or want more information, we strongly recommend visiting the [EnvO s use documentation](https://github.com/EnvironmentOntology/envo/wiki/Using-ENVO-with-MIxS) which provides more detailed guidance.
 
-Furthermore, the best thing about ontologies is that they are still
-evolving. Several research groups are updating and defining new terms,
-classes, and subclasses of ontologies to keep up with new discoveries
-and knowledge. There are, of course, several edge cases where ontologies
-are not yet defined, or even multiple ontologies can apply. But we
-highly encourage the readers of this GitHub not to get disheartened by
-the multitude of websites that provide these controlled vocabularies.
+Clearer examples of onotolgy uses for different Biomes and environments can also be found in this [GitHub page](./Biological_Environmental/) for seven different considered biomes.
 
-### 5.1 Examples of Ontologies use
+It is however, also important to note, that in some cases some metadata annotations can not be possible with ontologies, values or free text, as the metadata fields is either not applicable to the project, was not collected or recorded or simply not provided due to ethical and legal resons. These different reasons for an absent value are explained in the table bellow.
 
-Let us imagine a theoretical experiment where we are taking metagenomic
-samples, and we would like the rest of the world to know (and also
-perhaps our future self) where and how exactly we collected our samples.
-This is something we can consider at the time of planning our
-experiment. We know that we will be collecting metagenomic samples from
-the rhizosphere from a forest in Germany and sequencing them using
-Illumina sequencing technologies. With this, we can begin describing our
-samples.
+|Phrase |Reason for use |When does it apply |INSDC token |DataCite code |ISO/GML (nilReason)|Definition|
+|-------|---------------|-------------------|------------|--------------|-------|----------|
+|not applicable; <br> not relevant |Field is outside the scope of the experiment |Depth for human stool sample |**not applicable** <br> for a control **missing: control sample** |**:unap**|**inapplicable**|Information is inappropriate to report; sometimes shows a gap in the standard itself.|
+|not available|Value exists somewhere, but you cannot obtain it|Host BMI missing from a 1990 gut study| Top level: **missing** <br> or: **missing: third party data**| **:unav** | **missing**|Information of an expected format was not given because it is unavailable or unretrievable, with no expectation of later supply.|
+|not recorded |Measurement was never captured|Ambient temperature not recorded during environmental swabbing| **missing: not collected** <br> **missing: lab stock** | **:unav**| **missing**|Information was expected but never collected at source.|
+|not provided |Value exists but is under embargo / pending| Exact collection date withheld until publication of the clinical trial| **not provided**| **:tba**| **template** <br> or **other:pending**|Information of an expected format was not given now, but will be supplied later.|
+|restricted access|Value exists but must remain confidential| Coordinates of endangered species or patient postcode that could be used to identify individual| **restricted access** | **:unal** <br> or **:unac** if the restriction is temporary | **withheld**|Information exists but cannot be released openly because of privacy, conservation or legal constraints.|
 
+Sources: <br>
+[INSDC Missing Value Reporting Terms](https://www.insdc.org/technical-specifications/missing-value-reporting/); <br>
+[DataCite - Appendix 3: Standard values for unknown information](https://datacite-metadata-schema.readthedocs.io/en/4.6/appendices/appendix-3/#appendix-3-standard-values-for-unknown-information); <br>
+[ISO 19115-3](https://schemas.isotc211.org/19115/-3/gco/1.0/gco/) <br>
 
-
-We hop on over to the [EMBL-EBI Ontology Lookup Service
-(OLS)](https://www.ebi.ac.uk/ols4/). As we (in this thought experiment)
-are unfamiliar with the ontologies, we start the search for the broadest
-description we can think of, and that is probably biome
-[\[ENVO_00000428\]](https://www.ebi.ac.uk/ols4/ontologies/envo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_00000428?lang=en),
-so that is what we do, type biome in the search engine and hit enter. We
-are greeted with several [results of the
-search](https://www.ebi.ac.uk/ols4/search?q=biome). We take a closer
-look at biome
-[\[ENVO_00000428\]](https://www.ebi.ac.uk/ols4/ontologies/envo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_00000428?lang=en),
-and find that there are several subclasses of it, that can help us
-describe the sample. As we think about it, we come to the conclusion,
-that the next class that could describe our sample is terrestrial biome
-[\[ENVO:00000446\]](https://www.ebi.ac.uk/ols4/ontologies/envo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_00000446?lang=en),
-but that is to broad of a description, so the search continues. After
-some clicking and searching, we discover, that there is a certain
-subclass called woodland biome
-[\[ENVO:01000175\]](http://purl.obolibrary.org/obo/ENVO_01000175), and
-even a further subclass of it called temperate woodland biome
-[\[ENVO:01000221\]](http://purl.obolibrary.org/obo/ENVO_01000221). This
-should adequately describe the broad sense of what kind of samples we
-have. However, we are not yet happy with our search, as we have yet to
-define where exactly our samples come from in the temperate woodland
-biome. At the same time, we have exhausted the subclasses in our current
-search, so we return to the main page. We type in the term
-[rhizosphere](https://www.ebi.ac.uk/ols4/search?q=rhizosphere+) and hit
-search. Based on the result, we see that the rhizosphere environment
-[\[ENVO:01000999\]](http://purl.obolibrary.org/obo/ENVO_01000999) might
-be something that could describe our sample, but let us take a closer
-look at the description. The description reads Ontology which reads: “An
-environmental system determined by the presence of a plant
-rhizosphere.”. So, we have defined the origin of our sample.
-
-
-
-A similar logic can be applied and used to let the world know that the
-sampling was done in Germany, in the Naturpark Frankenwald
-[\[GAZ:00632507\]](http://purl.obolibrary.org/obo/GAZ_00632507), that we
-are using Illumina Sequencing
-[\[NCIT:C146817\]](http://purl.obolibrary.org/obo/NCIT_C146817), that we
-used minimal defined medium
-[\[MCO:0000881\]](http://purl.obolibrary.org/obo/MCO_0000881), etc.
-
-
-
-Note here that we highly encourage the readers of this repository to
-read the [EnvO s use
-documentation](https://github.com/EnvironmentOntology/envo/wiki/Using-ENVO-with-MIxS)
-if the examples given here are unclear.
 
 # About
 
