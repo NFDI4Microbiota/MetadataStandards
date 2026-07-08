@@ -3,13 +3,7 @@
 > [!TIP]
 > Find out about research data management, FAIR principles for microbiology and more on our [Knowledge Base](https://knowledgebase.nfdi4microbiota.de)!
 
-The primary objective of this GitHub page is to serve as **a centralized
-repository for existing (meta)data standards**. The purpose is to
-provide the international microbiological community with a
-**comprehensive and easily accessible compilation of established
-standards**, facilitating efficient navigation and utilization for
-researchers involved in collecting and submitting (meta)data to public
-repositories.
+This repository helps microbiota researchers identify minimal metadata fields, relevant standards, ontology terms, licensing choices, and missing-value reporting practices before data deposition. It does not define a new metadata standard and does not replace ENA, NCBI SRA, DDBJ, PRIDE, MetaboLights, Metabolomics Workbench, MassIVE/GNPS, or other repository submission systems.
 
 The [NFDI4Microbiota](https://nfdi4microbiota.de) is a consortium that is part
 of the German National research Data Infrastructure ([NFDI](https://www.nfdi.de/?lang=en)).
@@ -55,7 +49,7 @@ researchers can ensure the integrity and interoperability of their data,
 enabling effective collaboration and comparative analysis within the
 international microbiological community.
 
-## 1. Reading this Github
+## 1. How to use this repository
 
 -   Begin by reading the **[NFDI4Microbiota
     introduction](#N4Mintroduction), [Standards and
@@ -111,7 +105,6 @@ The following data types were considered when establishing minimal
 -   Transcriptomes
 -   Metatranscriptomes
 -   Proteomes
--   Metaproteomes
 -   Metabolomes<br><br>
 
 Standard parameter considerations for FASTQ and FASTA formats are
@@ -219,14 +212,14 @@ and/or hosts.
 The Minimal **Biological and Environmental** microbiome metadata
 standards within M2.1 were collected to apply to the following biomes:
 
+-   [Human-associated](./Biological_Environmental/Human_BioEnv_Metadata.md)
+-   [Animal-associated](./Biological_Environmental/AnimalAssoc_BioEnv_Metadata.md)
+-   [Plant-associated](./Biological_Environmental/PlantAssoc_BioEnv_Metadata.md)
 -   [Marine](./Biological_Environmental/Marine_BioEnv_Metadata.md)
 -   [Terrestrial](./Biological_Environmental/Terrestrial_BioEnv_Metadata.md)
--   [Terrestrial
-    (constructed)](./Biological_Environmental/TerrestrialConstructed_BioEnv_Metadata.md)
--   [Plant-associated](./Biological_Environmental/PlantAssoc_BioEnv_Metadata.md)
--   [Animal-associated](./Biological_Environmental/AnimalAssoc_BioEnv_Metadata.md)
--   [Human-associated](./Biological_Environmental/Human_BioEnv_Metadata.md)
--   Microbe-associated
+-   [Built environment)](./Biological_Environmental/TerrestrialConstructed_BioEnv_Metadata.md)
+-   [Wastewater / engineered water systems](./Biological_Environmental/WasteWater_BioEnv_Metadata.md)
+
 
 Tentative standard minimal biological and environmental parameter
 considerations are displayed in [**Figure 4**](#figure4). Parameter
