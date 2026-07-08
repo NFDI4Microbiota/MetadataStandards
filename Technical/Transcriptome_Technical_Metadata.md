@@ -6,8 +6,6 @@ is now available.
 
 ## Minimal technical metadata for `Transcriptomic FASTQ` file
 
-  🔹 *italics = potential considerations*
-
 | **metadata** | **definition** | **reference of definition\[<url_to_definition>\]** | **expected unit of measurement** | **example** | **sources (where this or similar matadata field is mentioned)** | |
 |--------|-----------|----------|---------|----------|----------|----------------|
 | sample_name | A local identifier or name that for the material sample used for extracting nucleic acids, and subsequent sequencing. It can refer either to the original material collected or to any derived sub-samples. It can have any format, but we suggest that you make it concise, unique and consistent within your lab, and as informative as possible. INSDC requires every sample name from a single Submitter to be unique. | [MIXS:0001107](https://genomicsstandardsconsortium.github.io/mixs/0001107/) | free text with identifier | e.g. ISDsoil1 | **GSC MIxS/MIGS Bacteria** (“GSC MIXS: MIGSBacteria”) |  | 
@@ -41,10 +39,6 @@ is now available.
 | Seq length | Number of nucleotides in a transcript. Sequences should be greater than 200 bp in length. | | integer value |  | **Adapted from ENA Submitting Transcriptome Assemblies** (“ENA Submitting Transcriptome Assemblies”) |  | 
 | Seq quality | The accuracy and reliability of the nucleotide sequence information obtained from RNA sequencing | | integer value |  | **Adapted from ENA Submitting Transcriptome Assemblies** (“ENA Submitting Transcriptome Assemblies”) |  | 
 | Protocols | Links to protocol accessions | | |  |  |  | 
-
-| Comments/questions:                                                                                                                        |
-|------------------------------------------------------------------------|
-| Don’t know which protocol accessions were meant here, was it SOP, and protocol for what, so I left it empty for the time being -MB 11AUG23 |
 
 The publications describing the reasons for formation of **The minimum
 information about a genome sequence (MIGS)** (Field et al. 2008),
