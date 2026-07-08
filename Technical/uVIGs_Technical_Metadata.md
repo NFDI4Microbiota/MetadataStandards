@@ -18,10 +18,6 @@
 | checksum             | Hash value for data integrity                                                                                                                                                         | e.g. MD5: cbc41d0e49636872a765b950cb7f410a             | [Data transfer and data integrity](Data_Transfer_Data_Integrity.md)                                                  |
 | nucl_acid_amp        | A link to a literature reference, electronic resource or a standard operating procedure (SOP), that describes the enzymatic amplification (PCR, TMA, NASBA) of specific nucleic acids | <https://phylogenomics.me/protocols/16s-pcr-protocol/> | **GSC MIxS/MIGS Miuvig** (“Miuvig”)                                                                                  |
 
-| Comments/questions:                                                     |
-|------------------------------------------------------------------------|
-| Should we also add nucl_ext_method and nucl_extr_treat here -MB 11AUG23 |
-
 ## Minimal technical metadata for `uVIG FASTA` data
 
 | **metadata**       | **definition**                                                                                                                                                                              | **examples**                                                                                                                                                                                            | **source**                                                                                                         |
