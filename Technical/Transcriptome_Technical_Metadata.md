@@ -6,8 +6,6 @@ is now available.
 
 ## Minimal technical metadata for `Transcriptomic FASTQ` file
 
-  🔹 *italics = potential considerations*
-
 | **metadata** | **definition** | **reference of definition\[<url_to_definition>\]** | **expected unit of measurement** | **example** | **sources (where this or similar matadata field is mentioned)** | |
 |--------|-----------|----------|---------|----------|----------|----------------|
 | sample_name | A local identifier or name that for the material sample used for extracting nucleic acids, and subsequent sequencing. It can refer either to the original material collected or to any derived sub-samples. It can have any format, but we suggest that you make it concise, unique and consistent within your lab, and as informative as possible. INSDC requires every sample name from a single Submitter to be unique. | [MIXS:0001107](https://genomicsstandardsconsortium.github.io/mixs/0001107/) | free text with identifier | e.g. ISDsoil1 | **GSC MIxS/MIGS Bacteria** (“GSC MIXS: MIGSBacteria”) |  | 
@@ -18,7 +16,6 @@ is now available.
 | lib_selection | Whether any method was used to select and/or enrich the material being sequenced | [Link to permitted values](https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#permitted-values-for-library-selection) | Free text from selected list of values | e.g. Random, PCR, etc. | **ENA Metadata Validation: Selection** (“ENA Metadata Validation: Selection”) |  | 
 | nucl_acid_ext | A link to a literature reference, electronic resource or a standard operating procedure (SOP), that describes the material separation to recover the nucleic acid fraction from a sample | [MIXS:0000037](https://genomicsstandardsconsortium.github.io/mixs/0000037/) | PMID, DOI, URL | e.g. CTAB extraction, Phenol-Cloroform Extraction | **The FAIR Cookbook** (Rocca-Serra et al. 2022) |  | 
 | nucl_acid_amp |  A link to a literature reference, electronic resource or a standard operating procedure (SOP), that describes the enzymatic amplification (PCR, TMA, NASBA) of specific nucleic acids | [MIXS:0000038](https://genomicsstandardsconsortium.github.io/mixs/0000038/) | PMID, DOI, URL | e.g. DNase, RNase | **Adapted from The FAIR Cookbook** (Rocca-Serra et al. 2022) |  | 
-| 🔹 *insert_length* | *for inner dist. calc.* (or incl. in lib_layout?)(Array Express parameter: insert “Nominal Length”) | | |  |  |  | 
 | sequence_count | Number of reads in the library (sequencing depth) after quality filtering | | | e.g. 32,283,453 | **Adapted from NCBI-SRA** (Leinonen et al. 2011) |  | 
 | basepairs_count | Number of base pairs (nucleotides) in the library or ‘bases’ | | | e.g. 6,400,000,000 | **Adapted from NCBI-SRA** (Leinonen et al. 2011) |  | 
 | average_length | As basepairs_count divided by sequence_count | | | e.g. 198 | **Calculated as basepairs_count/sequence_count** |  | 
@@ -41,10 +38,6 @@ is now available.
 | Seq length | Number of nucleotides in a transcript. Sequences should be greater than 200 bp in length. | | integer value |  | **Adapted from ENA Submitting Transcriptome Assemblies** (“ENA Submitting Transcriptome Assemblies”) |  | 
 | Seq quality | The accuracy and reliability of the nucleotide sequence information obtained from RNA sequencing | | integer value |  | **Adapted from ENA Submitting Transcriptome Assemblies** (“ENA Submitting Transcriptome Assemblies”) |  | 
 | Protocols | Links to protocol accessions | | |  |  |  | 
-
-| Comments/questions:                                                                                                                        |
-|------------------------------------------------------------------------|
-| Don’t know which protocol accessions were meant here, was it SOP, and protocol for what, so I left it empty for the time being -MB 11AUG23 |
 
 The publications describing the reasons for formation of **The minimum
 information about a genome sequence (MIGS)** (Field et al. 2008),

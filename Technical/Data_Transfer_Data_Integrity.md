@@ -10,10 +10,6 @@
 | MGnify                        | “Intermediate checksums” in **MGnify: the microbiome analysis resource in 2020** ([Mitchell et al. (2020)](https://doi.org/10.1093/nar/gkz1035))                                                                                                                                                                        |
 | MG RAST                       | “Data hygiene” (Preprocessing, dereplication, DRISEE, screening) ([Meyer et al. (2008)](https://help.mg-rast.org/user_manual.html#data-hygiene))                                                                                                                                                                        |
 
-| Comments/questions: |
-|---------------------|
-|                     |
-
 ## `Data integrity considerations by file type`
 
 | **File type** | **Integrity check**                                                                                                                                                                         | **Other considerations for quality and transferability** |
@@ -23,9 +19,6 @@
 | .faa          | SEGUID ([Bassi and Gonzalez (2007)](https://doi.org/10.1038/npre.2007.278.1)), ([Babnigg and Giometti (2006)](https://doi.org/10.1002/pmic.200600032)                                       | Annotation pipeline, assembly quality                    |
 | GFF/GTF       |                                                                                                                                                                                             | Annotation pipeline, assembly quality                    |
 
-| Comments/questions: |
-|---------------------|
-|                     |
 
 # References
 

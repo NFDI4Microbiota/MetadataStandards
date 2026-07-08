@@ -2,8 +2,8 @@
 
 ## Minimal technical metadata for `virus FASTQ and FASTA` data
 
-| **metadata** | **definition** | **examples** | **source** |                                                                                                                                                                    | **examples**                                           | **source**                                                                                                           |
-|-----------------|----------------|-----------------|----------------|
+| **metadata** | **definition** | **examples** | **source** |
+|--------------|----------------|--------------|------------|
 | samp_name | A local identifier or name that for the material sample used for extracting nucleic acids, and subsequent sequencing. It can refer either to the original material collected or to any derived sub-samples. It can have any format, but we suggest that you make it concise, unique and consistent within your lab, and as informative as possible. INSDC requires every sample name from a single Submitter to be unique. Use of a globally unique identifier for the field source_mat_id is recommended in addition to sample_name | - | [MIXS:0001107]{https://genomicsstandardsconsortium.github.io/mixs/0001107/} |
 | lib_screen | Specific enrichment or screening methods applied before and/or after creating libraries | - | [MIXS:0000043]{https://genomicsstandardsconsortium.github.io/mixs/0000043/} |
 | ref_db | List of database(s) used for ORF annotation, along with version number and reference to website or publication | - | [MIXS:0000062]{https://genomicsstandardsconsortium.github.io/mixs/0000062/} |
@@ -62,10 +62,6 @@
 | experimental_factor | Variable aspects of an experiment design that can be used to describe an experiment, or set of experiments, in an increasingly detailed manner. This field accepts ontology terms from Experimental Factor Ontology (EFO) and/or Ontology for Biomedical Investigations (OBI) | - | [MIXS:0000008]{https://genomicsstandardsconsortium.github.io/mixs/0000008/} |
 | associated_resource | A related resource that is referenced, cited, or otherwise associated to the sequence | - | [MIXS:0000091]{https://genomicsstandardsconsortium.github.io/mixs/0000091/} |
 | sop | Standard operating procedures used in assembly and/or annotation of genomes, metagenomes or environmental sequences | - | [MIXS:0000090]{https://genomicsstandardsconsortium.github.io/mixs/0000090/} |
-
-| Comments/questions:                                                     |
-|------------------------------------------------------------------------|
-| From [https://genomicsstandardsconsortium.github.io/mixs/0010005/](https://genomicsstandardsconsortium.github.io/mixs/0010005/) |
 
 
 The publications describing the reasons for formation of **The minimum

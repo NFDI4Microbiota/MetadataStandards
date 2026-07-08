@@ -16,9 +16,6 @@ now available.
 | Instrument          | Description of instrument used including manufacturer & mode  | **MetaboLights** ([Haug et al. (2020)](https://doi.org/10.1093/nar/gkz1019)), **Metabolomics Workbench** ([Sud et al. (2016)](https://doi.org/10.1093/nar/gkv1042)), **Metabolonote** ([Ara et al. (2015)](https://doi.org/10.3389/fbioe.2015.00038)), **MSI** ([Fiehn et al. (2007)](https://doi.org/10.1007/s11306-007-0070-6)) |
 | File type           | Type of file uploaded (e.g. RAW, SEARCH, RESULT, etc.)        | **MetaboLights** ([Haug et al. (2020)](https://doi.org/10.1093/nar/gkz1019)), **Metabolomics Workbench** ([Sud et al. (2016)](https://doi.org/10.1093/nar/gkv1042)), **Metabolonote** ([Ara et al. (2015)](https://doi.org/10.3389/fbioe.2015.00038)), **MSI** ([Fiehn et al. (2007)](https://doi.org/10.1007/s11306-007-0070-6)) |
 
-| Comments/questions: |
-|---------------------|
-|                     |
 
 ##   Minimal technical metadata for metabolomics - experimental protocol edition
 
@@ -31,9 +28,6 @@ now available.
 | Data transformation protocol       | Details of pipelines, methods and software used to transform the raw data                      | **MetaboLights** ([Haug et al. (2020)](https://doi.org/10.1093/nar/gkz1019)), **Metabolonote** ([Ara et al. (2015)](https://doi.org/10.3389/fbioe.2015.00038)), **MSI** ([Fiehn et al. (2007)](https://doi.org/10.1007/s11306-007-0070-6))                                                                                        |
 | Metabolite identification protocol | Details of methods, pipelines, reference databases, and software used to identify and annotate | **MetaboLights** ([Haug et al. (2020)](https://doi.org/10.1093/nar/gkz1019)), **Metabolonote** ([Ara et al. (2015)](https://doi.org/10.3389/fbioe.2015.00038)), **MSI** ([Fiehn et al. (2007)](https://doi.org/10.1007/s11306-007-0070-6))                                                                                        |
 
-| Comments/questions: |
-|---------------------|
-|                     |
 
 We also highly encourage the readers of this GitHub to look for examples
 of submitted metabolomic samples and analyses in
