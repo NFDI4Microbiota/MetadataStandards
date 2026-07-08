@@ -306,10 +306,10 @@
       Example of Usage: minimal defined medium [MCO:0000881](https://www.ebi.ac.uk/ols4/ontologies/mco/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMCO_0000881?lang=en)|diesel-enriched
         Bushnell–Haas agar
     Plant-Associated:
-      Example of Usage: yeast extract 5 g/L [MCO:0000341](http://purl.oCHEBI:29864bohttp://purl.obolibrary.org/obo/CHEBI_29864library.org/obo/MCO_0000341)|mannitol
+      Example of Usage: yeast extract 5 g/L [MCO:0000341](http://purl.obolibrary.org/obo/MCO_0000341)|mannitol
         [CHEBI:29864](http://purl.obolibrary.org/obo/CHEBI_29864)
     Marine-Associated:
-      Example of Usage: DSMZ Medium 1009 [MICRO:0001696](httphttps://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium1009.pdf://purl.obolibrary.org/obo/MICRO_0001696)
+      Example of Usage: DSMZ Medium 1009 [MICRO:0001696](https://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium1009.pdf://purl.obolibrary.org/obo/MICRO_0001696)
     Human-Associated:
       Example of Usage: brain heart infusion medium [MICRO:0000569](http://purl.obolibrary.org/obo/MICRO_0000569)
 - Category: Sample metadata
