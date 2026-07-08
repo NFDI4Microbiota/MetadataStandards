@@ -556,7 +556,7 @@ submitter or generator.
 
 ## 5. Use of controlled vocabularies (Ontologies)
 
-Before diving into how controlled vocabularies (also known as ontologies) are used, let us first clearly understand what they are and why they are important. Throughout this section, we will use the terms *controlled vocabulary* and *ontology* interchangeably.
+Controlled vocabularies and ontologies are related but not identical. A controlled vocabulary provides an approved list of terms. An ontology additionally provides stable identifiers, definitions, and explicit relationships among terms, supporting stronger interoperability and computational reasoning.
 
 Imagine traveling back a few centuries to a time when Latin was the common language among scholars. Regardless of their native language or culture, scientists and scholars used Latin to communicate their ideas clearly and consistently. This shared language allowed ideas to spread widely, bridging gaps in distance, language, and even time. 
 
