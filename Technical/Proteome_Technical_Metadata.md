@@ -20,10 +20,6 @@ now available.
 | DOI | Digital Object Identifier of the publication associated with the dataset | | | e.g. DOI: 10.1038/S41590-023-01644-5 | **ProteomeXchange Consortium Guidelines** (“Data Submission Guidelines for the ProteomeXchange Consortium V3.0.1”) |  | 
 | Post source component | Analyzer & activation/dissociation type | | |  | **MIAPE** (Taylor et al. 2007) |  | 
 
-| Comments/questions: |
-|---------------------|
-|                     |
-
 ##   Minimal technical metadata for proteomics - experimental protocol edition
 
 | **metadata** | **definition** | **reference of definition\[<url_to_definition>\]** | **expected unit of measurement** | **example** | **sources (where this or similar matadata field is mentioned)** | |
@@ -37,10 +33,6 @@ now available.
 | Digestion protocol | A technique for proteolysis of proteins into peptides by treatment with any of various enzymes. | [\[NCIT:C70845\]](http://purl.obolibrary.org/obo/NCIT_C70845) | |  | **ProteomeXchange Consortium Guidelines** (“Data Submission Guidelines for the ProteomeXchange Consortium V3.0.1”) |  | 
 | Acquisition protocol | Description of the acquisition of mass spectra from the peptide sample | | |  | **ProteomeXchange Consortium Guidelines** (“Data Submission Guidelines for the ProteomeXchange Consortium V3.0.1”) |  | 
 | Protocol parameters | List of parameter names | | |  | **ProteomeXchange Consortium Guidelines** (“Data Submission Guidelines for the ProteomeXchange Consortium V3.0.1”) |  | 
-
-| Comments/questions:                                                            |
-|------------------------------------------------------------------------|
-| 🔹 Discussion question: one or two fields for protocols or more? -SS 02May2022 |
 
 We also highly encourage the readers of this GitHub to look for examples
 of submitted proteomic samples and analyses in **PRIDE: PRoteomics
