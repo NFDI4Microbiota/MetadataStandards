@@ -172,15 +172,14 @@ based on technology.
     sequencing](./Technical/Proteome_Technical_Metadata.md)
     -   Proteome
     -   Proteome - experimental protocol edition
--   2.3.7. Metaproteome sequencing
--   2.3.8. [Metabolome
+-   2.3.7. [Metabolome
     sequencing](./Technical/Metabolome_Technical_Metadata.md)
     -   Metabolome
     -   Metabolome - experimental protocol edition
--   2.3.9. [uVIGs](./Technical/uVIGs_Technical_Metadata.md)
+-   2.3.8. [uVIGs](./Technical/uVIGs_Technical_Metadata.md)
     -   uVIG FASTQ
     -   uVIG FASTA
-- 2.3.10. [Virus Genomes](./Technical/Virus_Technical_Metadata.md)
+- 2.3.9. [Virus Genomes](./Technical/Virus_Technical_Metadata.md)
     -  Virus genome FASTQ/A
 -   2.3.11. [BIOM or tabular
     files](./Technical/BIOM_or_Tabular_Technical_Metadata.md)
@@ -204,7 +203,7 @@ on:
 
 ### 3.1. Biomes considered
 
-Six microbiomes were considered to compile a minimal set of biological
+Seven microbiomes were considered to compile a minimal set of biological
 and environmental metadata standards. Environmental and biological
 parameters were identified as minimums applicable to individual biomes
 and/or hosts.
@@ -217,7 +216,7 @@ standards within M2.1 were collected to apply to the following biomes:
 -   [Plant-associated](./Biological_Environmental/PlantAssoc_BioEnv_Metadata.md)
 -   [Marine](./Biological_Environmental/Marine_BioEnv_Metadata.md)
 -   [Terrestrial](./Biological_Environmental/Terrestrial_BioEnv_Metadata.md)
--   [Built environment)](./Biological_Environmental/TerrestrialConstructed_BioEnv_Metadata.md)
+-   [Built environment](./Biological_Environmental/BuiltEnv_BioEnv_Metadata.md)
 -   [Wastewater / engineered water systems](./Biological_Environmental/WasteWater_BioEnv_Metadata.md)
 
 
