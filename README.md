@@ -8,6 +8,14 @@
 
 This repository helps microbiota researchers identify minimal metadata fields, relevant standards, ontology terms, licensing choices, and missing-value reporting practices before data deposition. It does not define a new metadata standard and does not replace ENA, NCBI SRA, DDBJ, PRIDE, MetaboLights, Metabolomics Workbench, MassIVE/GNPS, or other repository submission systems.
 
+<p align="center">
+  <img src="./images/manuscript/FIG_6_2025-04-09_Filling_the_gaps.png"
+       alt="Conceptual overview of the NFDI4Microbiota MetadataStandards repository, showing organisation by omics data type, biological and environmental context, licensing guidance, metadata flow, and ontology support."
+       width="850">
+</p>
+
+**Figure. Conceptual overview of this repository.** The resource organises microbiota-relevant metadata guidance by technical data type, biological/environmental context, sample metadata, host association, licensing, and ontology support.
+
 ## Why this repository exists
 
 Microbiota researchers are often asked to submit reusable data and metadata, but repository requirements, community standards, ontology guidance, licensing decisions, and missing-value reporting rules are distributed across many places. This is especially challenging for First Stage Researchers who may be responsible for data submission without extensive training.
