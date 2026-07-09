@@ -23,12 +23,6 @@ This repository provides practical orientation for microbiota researchers prepar
 
 ### To fix before release
 
-- Decide whether metaproteome metadata are in scope. Add a linked metaproteome metadata page and template, or remove “Metaproteome sequencing” from the technical metadata list.
-- Decide whether microbe-associated biological/environmental metadata are in scope. Add a page/template, or leave it out of the Quick Start choices.
-- Correct “Six microbiomes” to match the actual number of biological/environmental contexts listed.
-- Fix the malformed “Built environment)” link text and confirm the target filename.
-- Convert malformed Markdown links in `Technical/Virus_Technical_Metadata.md` from `[label]{url}` to `[label](url)`.
-- Rename `Schemes/` to `Schemas/`, or explicitly document why the historical folder name is retained.
 - Separate `standard_id`, `source_checklist`, and `source_url` in schema files where checklist names are currently stored in `MIXS_ID`.
 
 ## [1.1.0] - 2026-07-08
