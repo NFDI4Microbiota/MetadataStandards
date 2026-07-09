@@ -1,9 +1,18 @@
 # NFDI4Microbiota - Metadata Standards
 
 > [!TIP]
-> Find out about research data management, FAIR principles for microbiology and more on our [Knowledge Base](https://knowledgebase.nfdi4microbiota.de)!
+> For broader research data management, FAIR principles, repository-selection criteria,
+> and training material, see the [Knowledge Base](https://knowledgebase.nfdi4microbiota.de)!
+
+## What this repository is
 
 This repository helps microbiota researchers identify minimal metadata fields, relevant standards, ontology terms, licensing choices, and missing-value reporting practices before data deposition. It does not define a new metadata standard and does not replace ENA, NCBI SRA, DDBJ, PRIDE, MetaboLights, Metabolomics Workbench, MassIVE/GNPS, or other repository submission systems.
+
+## Why this repository exists
+
+Microbiota researchers are often asked to submit reusable data and metadata, but repository requirements, community standards, ontology guidance, licensing decisions, and missing-value reporting rules are distributed across many places. This is especially challenging for First Stage Researchers who may be responsible for data submission without extensive training.
+
+This repository provides a practical orientation layer: it helps researchers identify relevant metadata descriptors before deposition and points them to the official repository submission systems for final validation and submission.
 
 The [NFDI4Microbiota](https://nfdi4microbiota.de) is a consortium that is part
 of the German National research Data Infrastructure ([NFDI](https://www.nfdi.de/?lang=en)).
@@ -11,6 +20,7 @@ In line with the consortium’s objectives, this page aims to address the challe
 microbial (meta)data accessibility and consistency. The efficient
 exchange of usable information between research groups, sequencing
 centers, and data repositories has been a long-standing issue. Measure
+
 2.1 (M2.1 "Data and Metadata Standards") specifically focuses on maximizing data quality within the
 [NFDI4Microbiota](https://nfdi4microbiota.de/)
 consortium by enforcing compliance with existing standards and identifying
@@ -27,14 +37,27 @@ and comparable both spatially and temporally. To achieve this, two
     enhancing the consistency and usability of the collected metadata.
     <br><br>
 
-After additional consideration and overviews of the current literature,
-the creators of this GitHub repository also agreed that the following
-sections could and should be found here:
+## Documentation map
 
--   examples of **commonly used licenses** under which researchers can
-    deposit data
--   brief description of use of **Ontologies** and how they help you
-    describe your data
+| User need | Recommended page |
+|---|---|
+| I am new and need the whole workflow | [Quick Start](./docs/quick_start.md) |
+| I am planning a study before sampling | [Minimum viable metadata before sampling](./docs/minimum_viable_metadata_before_sampling.md) |
+| I need to choose a repository | [Repository mapping](./docs/repository_mapping.md) |
+| I need ontology examples | [Ontology examples](./docs/ontology_examples.md) |
+| I need to report missing values | [Missing-value reporting](./docs/missing_values.md) |
+| I need technical metadata fields | [Technical metadata standards](#technical-metadata-standards) |
+| I need biological/environmental metadata fields | [Biological and environmental metadata standards](#biological-and-environmental-metadata-standards) |
+| I need broader RDM background | [NFDI4Microbiota Knowledge Base](https://knowledgebase.nfdi4microbiota.de/) |
+
+## Scope and limitations
+
+| This repository is | This repository is not |
+|---|---|
+| A practical orientation resource for microbiota metadata preparation | A new metadata standard |
+| A guide to existing standards, checklists, ontologies, licenses, missing-value terms, and repository routes | A replacement for ENA, NCBI SRA, DDBJ, PRIDE, MetaboLights, Metabolomics Workbench, MassIVE/GNPS, EGA, dbGaP, JGA, Zenodo, or Figshare |
+| A companion resource for First Stage Researchers and data stewards | A legal, ethical, or institutional compliance tool |
+| A pre-submission preparation aid | A full automated validator or deposition platform |
 
 In the context of metadata quality standards in microbial science, two
 main categories are being considered:
@@ -51,16 +74,24 @@ international microbiological community.
 
 ## 1. How to use this repository
 
--   Begin by reading the **[NFDI4Microbiota
-    introduction](#N4Mintroduction), [Standards and
-    Policies](#nfdi4microbiotastandardsandpolicies)** information, and
-    **[Goals](#goals)**
--   Next, read the information regarding [**technical metadata standards
-    section**](#technical-metadata-standards)
--   Third, read the [**biological/environmental metadata standards
-    section**](#biological-and-environmental-metadata-standards)
--   Fourth if further explanation about licensing and ontologies is
-    required, read [**Licenses and ontologies section**](#license-ontology)
+This repository is organised as a metadata-preparation workflow. It helps you decide which metadata fields, standards, ontology terms, repository routes, missing-value terms, and license/access considerations to check before submitting microbiota data.
+
+Start with the **[Quick Start guide](./docs/quick_start.md)** if you are preparing a dataset for deposition for the first time.
+
+| Step | What to do | Where to go |
+|---|---|---|
+| 1 | Plan metadata before sampling or before data generation | [Minimum viable metadata before sampling](./docs/minimum_viable_metadata_before_sampling.md) |
+| 2 | Choose the technical data type | [Technical metadata standards](#technical-metadata-standards) |
+| 3 | Choose the biological/environmental context | [Biological and environmental metadata standards](#biological-and-environmental-metadata-standards) |
+| 4 | Choose the expected repository route | [Repository mapping](./docs/repository_mapping.md) |
+| 5 | Prepare local metadata tables and file manifests | [Quick Start](./docs/quick_start.md) |
+| 6 | Select ontology or controlled vocabulary terms | [Ontology examples](./docs/ontology_examples.md) |
+| 7 | Report absent values correctly | [Missing-value reporting](./docs/missing_values.md) |
+| 8 | Check license and access restrictions | [Licensing guidance](#use-of-licenses-for-deposited-data) |
+| 9 | Validate through repository-specific tools | [Quick Start: validation resources](./docs/quick_start.md#step-9-validate-before-final-submission) |
+| 10 | Submit to the official repository portal | [Quick Start: final submission](./docs/quick_start.md#step-10-submit-to-the-actual-repository) |
+
+This repository does **not** replace repository-specific submission systems. Always complete final validation and deposition in the target repository.
 
 [**Figure 1.**](#figure1) Outlines the key aspects considered for
 determining minimal metadata standards that can be universally
@@ -181,7 +212,7 @@ based on technology.
     -   uVIG FASTA
 - 2.3.9. [Virus Genomes](./Technical/Virus_Technical_Metadata.md)
     -  Virus genome FASTQ/A
--   2.3.11. [BIOM or tabular
+-   2.3.10. [BIOM or tabular
     files](./Technical/BIOM_or_Tabular_Technical_Metadata.md)
 
 
@@ -433,159 +464,45 @@ their original sample environments.
 
 # [Licenses and ontologies](#license-ontology)
 
-## 4. Use of licenses for deposited data
+## 4. Licensing and access considerations
 
-When depositing data to public repositories, researchers can use
-established licenses to set certain restrictions on its use **or**
-requiring certain acknowledgments when reusing it **or** publish it to
-the public domain without any limitations. Licensing your data under
-specific licenses enables other researchers to reuse your data (under
-certain conditions), without explicit permission from the data
-submitter. In any case, it is recommended to consider various factors
-before deciding upon a deed (license). Ethical, privacy, and security
-considerations may heavily influence the licensing process. The most
-common licenses under use were established by a US non-profit
-organization called [Creative Commons
-(CC)](https://creativecommons.org/). We encourage the readers of this
-repository to visit their site and familiarize themselves with the
-process, logic, and use of licenses in detail. The CC homepage also
-holds the [Frequently Asked Questions
-(FAQ)](https://creativecommons.org/faq/) section. Here, we will only
-briefly describe some of the [CC
-licenses](https://creativecommons.org/share-your-work/cclicenses/). So,
-in the end, researchers should think about how they want other people to
-use their work and why they want to share their work in the first place
-before deciding upon a deed (license).
+Licensing determines how data, metadata, documentation, software, and database compilations may be reused. Different research objects may require different license families:
 
-Commonly used licenses:
+- Creative Commons licenses for data, metadata, documentation, figures, and publications.
+- Open Data Commons licenses for databases or structured database compilations.
+- OSI-approved/SPDX-listed software licenses for scripts, notebooks, packages, and workflows.
+- Controlled-access agreements for sensitive human, clinical, or otherwise restricted data.
 
--   [CC-BY](https://creativecommons.org/licenses/by/4.0/): Credit must
-    be given to the creator.
--   [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/): Credit
-    must be given to the creator. Adaptations must be shared under the
-    same terms.
--   [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/): Credit
-    must be given to the creator. Only noncommercial uses of the work
-    are permitted.
--   [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/):
-    Credit must be given to the creator. Only noncommercial uses of the
-    work are permitted. Adaptations must be shared under the same terms.
--   [CC BY-ND](https://creativecommons.org/licenses/by-nd/4.0/): Credit
-    must be given to the creator. No derivatives or adaptations of the
-    work are permitted.
--   [CC BY-NC-ND](https://creativecommons.org/licenses/by-nc-nd/4.0/):
-    Credit must be given to the creator. Only noncommercial uses of the
-    work are permitted. No derivatives or adaptations of the work are
-    permitted.
--   [CC0](https://creativecommons.org/publicdomain/zero/1.0/): Public
-    domain dedication.
+For practical guidance, see:
 
+- [Licensing and access considerations](./docs/licensing_and_access.md)
 
-<table style="width:60%;">
-<tr>
-<th style="text-align: center;">
-Acronym
-</th>
-<th style="text-align: center;">
-Explanation
-</th>
-</tr>
-<tr>
-<td style="text-align: center;">
-BY
-</td>
-<td style="text-align: center;">
-Credit must be given to the creator
-</td>
-</tr>
-<tr>
-<td style="text-align: center;">
-SA
-</td>
-<td style="text-align: center;">
-Adaptations must be shared under the same terms
-</td>
-</tr>
-<tr>
-<td style="text-align: center;">
-NC
-</td>
-<td style="text-align: center;">
-Only noncommercial uses of the work are permitted
-</td>
-</tr>
-<tr>
-<td style="text-align: center;">
-ND
-</td>
-<td style="text-align: center;">
-No derivatives or adaptations of the work are permitted
-</td>
-</tr>
-<tr>
-<td style="text-align: center;">
-0
-</td>
-<td style="text-align: center;">
-Public domain dedication
-</td>
-</tr>
-</table>
+Licensing does not override legal, ethical, privacy, conservation, institutional, funder, or repository restrictions.
 
 
 
+## 5. Use of controlled vocabularies and ontologies
 
-[CC-BY](https://creativecommons.org/licenses/by/4.0/): When data is
-deposited under this deed (license), and it becomes free to share and
-free to redistribute, including commercially, in any format or medium.
-It also allows the user to build upon or transform the data/material for
-any purpose, including commercial purposes. The deed (license) requires
-the data reuser to give appropriate credit to the submitter/data
-generator. In addition, the reuser must also provide a link to the deed
-(license) and disclose any changes made when licensing their work when
-derived from work already under deed (license).<br><br>
+Controlled vocabularies and ontologies are related but not identical. A controlled vocabulary provides an approved list of terms. An ontology additionally provides stable identifiers, definitions, and explicit relationships among terms.
 
-[CC0](https://creativecommons.org/publicdomain/zero/1.0/): When using
-this deed (license), the data/material becomes a part of the public
-domain. That means that the data deposited can be copied, modified,
-distributed, and used even for commercial purposes, and the
-depositor/generator of the data waives their right to the work. The
-reuser of data does not need to seek the permission of the data/material
-submitter or generator.
+Use ontology terms where they improve interoperability and where the target repository accepts them. For examples covering environmental context, host taxonomy, body site, plant structure, sequencing method, growth medium, and chemical compounds, see:
 
-## 5. Use of controlled vocabularies (Ontologies)
+- [Ontology examples for microbiota metadata](./docs/ontology_examples.md)
 
-Controlled vocabularies and ontologies are related but not identical. A controlled vocabulary provides an approved list of terms. An ontology additionally provides stable identifiers, definitions, and explicit relationships among terms, supporting stronger interoperability and computational reasoning.
+For broader ontology training and RDM background, see the [NFDI4Microbiota Knowledge Base](https://knowledgebase.nfdi4microbiota.de).
 
-Imagine traveling back a few centuries to a time when Latin was the common language among scholars. Regardless of their native language or culture, scientists and scholars used Latin to communicate their ideas clearly and consistently. This shared language allowed ideas to spread widely, bridging gaps in distance, language, and even time. 
+If you find the examples here challenging or want more information, we strongly recommend visiting the [EnvO's use documentation](https://github.com/EnvironmentOntology/envo/wiki/Using-ENVO-with-MIxS) which provides more detailed guidance.
 
-In a similar way, today we use controlled vocabularies to create a common language among researchers, and even between humans and computers. Ontologies standardize the meaning of terms within a specific scientific field, reducing confusion and making communication clearer. They help scientists clearly organize data, easily navigate large datasets, and discover new patterns or insights. Moreover, ontologies evolve continuously. New terms, definitions, and classifications are regularly added as our scientific knowledge expands. 
+Clearer examples of ontolgy uses for different Biomes and environments can also be found in this [GitHub page](./Biological_Environmental/) for seven different considered biomes.
 
-Sometimes it can feel overwhelming because multiple ontologies exist or a particular term has not yet been clearly defined. But do not be discouraged! As you gain experience, using controlled vocabularies will become second nature.
+## 6. Missing-value reporting
 
-### 5.1 Practical Example: How to use Ontologies
+Do not leave required metadata fields blank. If a value is absent, report why it is absent using the target repository’s accepted missing-value terms.
 
-To understand how ontologies can be practically applied, let us walk through an imaginary scenario. Suppose you are planning an experiment to collect metagenomic samples. You want to clearly record details such as where the samples were taken and how the data was obtained. For this example, let us say you collected your samples from the rhizosphere (the soil surrounding plant roots) of a forest in Germany and used Illumina sequencing technology for analysis. How would you clearly and precisely document these details?
+Use the dedicated guide:
 
-First, you would visit an ontology service, such as the [EMBL-EBI Ontology Lookup Service (OLS)](https://www.ebi.ac.uk/ols4/) or [OBO foundry](https://obofoundry.org/). Since you're just starting out, you might begin with a broad term like **biome** [\[ENVO_00000428\]](https://www.ebi.ac.uk/ols4/ontologies/envo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_00000428?lang=en). By searching for "biome," you’ll find a list of [related terms](https://www.ebi.ac.uk/ols4/search?q=biome). One of these subclasses is **terrestrial biome** [\[ENVO:00000446\]](https://www.ebi.ac.uk/ols4/ontologies/envo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_00000446?lang=en). But this might still be too broad, so you'll keep searching. After exploring further, you'll find the subclass **woodland biome** [\[ENVO:01000175\]](http://purl.obolibrary.org/obo/ENVO_01000175), and eventually the more specific subclass **temperate woodland biome** [\[ENVO:01000221\]](http://purl.obolibrary.org/obo/ENVO_01000221). This accurately describes the general environment of your sample. This accurately describes the general environment of your sample.Next, you might look up the more specific term **rhizosphere** to pinpoint the exact origin of your sample. Searching for [rhizosphere](https://www.ebi.ac.uk/ols4/search?q=rhizosphere+) returns a useful term: **rhizosphere environment** [\[ENVO:01000999\]](http://purl.obolibrary.org/obo/ENVO_01000999), defined as "an environmental system determined by the presence of a plant rhizosphere." Perfect! Now you've precisely defined the exact location of your sample collection.
+- [Missing-value reporting](./docs/missing_values.md) <br>
 
-Similarly, you can specify that your samples were collected in Germany at **Naturpark Frankenwald** [\[GAZ:00632507\]](http://purl.obolibrary.org/obo/GAZ_00632507), that your sequencing was done with **Illumina Sequencing**
-[\[NCIT:C146817\]](http://purl.obolibrary.org/obo/NCIT_C146817), and even describe that you used a **minimal defined medium** [\[MCO:0000881\]](http://purl.obolibrary.org/obo/MCO_0000881).
-
-If you find the examples here challenging or want more information, we strongly recommend visiting the [EnvO s use documentation](https://github.com/EnvironmentOntology/envo/wiki/Using-ENVO-with-MIxS) which provides more detailed guidance.
-
-Clearer examples of onotolgy uses for different Biomes and environments can also be found in this [GitHub page](./Biological_Environmental/) for seven different considered biomes.
-
-It is however, also important to note, that in some cases some metadata annotations can not be possible with ontologies, values or free text, as the metadata fields is either not applicable to the project, was not collected or recorded or simply not provided due to ethical and legal resons. These different reasons for an absent value are explained in the table bellow.
-
-| Situation | Recommended wording | Use when | Avoid |
-|---|---|---|---|
-| The field does not apply | `not applicable` | The field is outside the scope of the sample or experiment | blank cells, `NA` |
-| The value exists but cannot be obtained | `not available` | Historic data, third-party data, or inaccessible records | invented values |
-| The measurement was never captured | `not recorded` / `missing: not collected` | The value was not measured or documented at source | vague `unknown` |
-| The value exists but will be supplied later | `not provided` | Embargoed or pending information | permanent `missing` |
-| The value exists but cannot be shared openly | `restricted access` | Privacy, conservation, legal, or governance restrictions | deleting the field |
-| Repository has a specific token | Use the repository token | ENA/NCBI/DDBJ/DataCite/other repository-defined missing values | local abbreviations |
 
 Sources: <br>
 [INSDC Missing Value Reporting Terms](https://www.insdc.org/technical-specifications/missing-value-reporting/); <br>
