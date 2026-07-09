@@ -6,7 +6,9 @@
 
 ## What this repository is
 
-This repository helps microbiota researchers identify minimal metadata fields, relevant standards, ontology terms, licensing choices, and missing-value reporting practices before data deposition. It does not define a new metadata standard and does not replace ENA, NCBI SRA, DDBJ, PRIDE, MetaboLights, Metabolomics Workbench, MassIVE/GNPS, or other repository submission systems.
+This repository helps microbiota researchers identify relevant metadata fields, community standards, ontology terms, licensing choices, missing-value terms, and repository routes before data deposition.
+
+It does **not** define a new metadata standard and does **not** replace ENA, NCBI SRA, DDBJ, PRIDE, MetaboLights, Metabolomics Workbench, MassIVE/GNPS, Zenodo, Figshare, EGA, dbGaP, JGA, or other repository submission systems. Final validation and submission should always be completed through the target repository.
 
 <p align="center">
   <img src="./images/manuscript/FIG_6_2025-04-09_Filling_the_gaps.png"
@@ -20,69 +22,11 @@ This repository helps microbiota researchers identify minimal metadata fields, r
 
 Microbiota researchers are often asked to submit reusable data and metadata, but repository requirements, community standards, ontology guidance, licensing decisions, and missing-value reporting rules are distributed across many places. This is especially challenging for First Stage Researchers who may be responsible for data submission without extensive training.
 
-This repository provides a practical orientation layer: it helps researchers identify relevant metadata descriptors before deposition and points them to the official repository submission systems for final validation and submission.
+This repository provides a practical orientation layer. It helps researchers identify relevant metadata descriptors before deposition and points them to official repository submission systems for final validation and submission.
 
-The [NFDI4Microbiota](https://nfdi4microbiota.de) is a consortium that is part
-of the German National research Data Infrastructure ([NFDI](https://www.nfdi.de/?lang=en)).
-In line with the consortium’s objectives, this page aims to address the challenges of
-microbial (meta)data accessibility and consistency. The efficient
-exchange of usable information between research groups, sequencing
-centers, and data repositories has been a long-standing issue. Measure
+For broader research data management guidance, FAIR principles, repository-selection criteria, and training material, see the [NFDI4Microbiota Knowledge Base](https://knowledgebase.nfdi4microbiota.de/).
 
-2.1 (M2.1 "Data and Metadata Standards") specifically focuses on maximizing data quality within the
-[NFDI4Microbiota](https://nfdi4microbiota.de/)
-consortium by enforcing compliance with existing standards and identifying
-additional tailored data standards and metadata requirements.
-
-[**Goals**](#goals): By centralizing standard parameters
-for metadata, the project ensures that generated data is reproducible
-and comparable both spatially and temporally. To achieve this, two
-**milestones** have been set:
-
--   defining data standards for different types of **raw data**, and
-    ensuring their quality and reliability
--   defining data standards for **technical metadata**, further
-    enhancing the consistency and usability of the collected metadata.
-    <br><br>
-
-## Documentation map
-
-| User need | Recommended page |
-|---|---|
-| I am new and need the whole workflow | [Quick Start](./docs/quick_start.md) |
-| I am planning a study before sampling | [Minimum viable metadata before sampling](./docs/minimum_viable_metadata_before_sampling.md) |
-| I need to choose a repository | [Repository mapping](./docs/repository_mapping.md) |
-| I need ontology examples | [Ontology examples](./docs/ontology_examples.md) |
-| I need to report missing values | [Missing-value reporting](./docs/missing_values.md) |
-| I need technical metadata fields | [Technical metadata standards](#technical-metadata-standards) |
-| I need biological/environmental metadata fields | [Biological and environmental metadata standards](#biological-and-environmental-metadata-standards) |
-| I need broader RDM background | [NFDI4Microbiota Knowledge Base](https://knowledgebase.nfdi4microbiota.de/) |
-
-## Scope and limitations
-
-| This repository is | This repository is not |
-|---|---|
-| A practical orientation resource for microbiota metadata preparation | A new metadata standard |
-| A guide to existing standards, checklists, ontologies, licenses, missing-value terms, and repository routes | A replacement for ENA, NCBI SRA, DDBJ, PRIDE, MetaboLights, Metabolomics Workbench, MassIVE/GNPS, EGA, dbGaP, JGA, Zenodo, or Figshare |
-| A companion resource for First Stage Researchers and data stewards | A legal, ethical, or institutional compliance tool |
-| A pre-submission preparation aid | A full automated validator or deposition platform |
-
-In the context of metadata quality standards in microbial science, two
-main categories are being considered:
-
--   [**Technical**](#technical-metadata-standards)
--   [**Biological/Environmental**](#bio-env-metadata-standards) <br><br>
-
-These categories aim to encompass the necessary information that
-researchers collecting and submitting metadata to public repositories
-need to provide. By adhering to these standardized metadata categories,
-researchers can ensure the integrity and interoperability of their data,
-enabling effective collaboration and comparative analysis within the
-international microbiological community.
-
-## 1. How to use this repository
-
-This repository is organised as a metadata-preparation workflow. It helps you decide which metadata fields, standards, ontology terms, repository routes, missing-value terms, and license/access considerations to check before submitting microbiota data.
+## Start here: metadata preparation workflow
 
 Start with the **[Quick Start guide](./docs/quick_start.md)** if you are preparing a dataset for deposition for the first time.
 
@@ -95,36 +39,18 @@ Start with the **[Quick Start guide](./docs/quick_start.md)** if you are prepari
 | 5 | Prepare local metadata tables and file manifests | [Quick Start](./docs/quick_start.md) |
 | 6 | Select ontology or controlled vocabulary terms | [Ontology examples](./docs/ontology_examples.md) |
 | 7 | Report absent values correctly | [Missing-value reporting](./docs/missing_values.md) |
-| 8 | Check license and access restrictions | [Licensing guidance](#use-of-licenses-for-deposited-data) |
+| 8 | Check license and access restrictions | [Licensing and access considerations](./docs/licensing_and_access.md) |
 | 9 | Validate through repository-specific tools | [Quick Start: validation resources](./docs/quick_start.md#step-9-validate-before-final-submission) |
 | 10 | Submit to the official repository portal | [Quick Start: final submission](./docs/quick_start.md#step-10-submit-to-the-actual-repository) |
 
-This repository does **not** replace repository-specific submission systems. Always complete final validation and deposition in the target repository.
+## Scope and limitations
 
-[**Figure 1.**](#figure1) Outlines the key aspects considered for
-determining minimal metadata standards that can be universally
-applicable across various datasets and microbiomes. These aspects
-encompass both technical and biological/environmental (Bio/Env)
-considerations. The figure illustrates the comprehensive approach used
-to establish minimal metadata standards for diverse research settings by
-combining already established standards for differing data types and
-biomes. <br><br>
-
-<!---
-For making the access link for other people not on the collaborator list, it should be better to use the relative address instead of the constant one.
-Thus, I replace the "https://github.com/mdsufz/NFDI4Microbiota_MetadataStandards/blob/main" with "."
--->
-
-<img src="./images/Overview24June2022.jpg" id="figure1"
-alt="Overview" /> **Figure 1. Flow Chart of Technical and
-Biological/Environmental Metadata Standard Development**
-
-This flow chart illustrates the process of developing metadata standards
-for both Technical and Biological/Environmental aspects. Technical
-parameters are categorized based on data types, while Bio/Env parameters
-are organized according to biome types. Additionally, specific
-considerations, such as file type and host, are taken into account to
-enhance the comprehensiveness of the standards.
+| This repository is | This repository is not |
+|---|---|
+| A practical orientation resource for microbiota metadata preparation | A new metadata standard |
+| A guide to existing standards, checklists, ontologies, licenses, missing-value terms, and repository routes | A replacement for repository submission systems |
+| A companion resource for First Stage Researchers and data stewards | A legal, ethical, or institutional compliance tool |
+| A pre-submission preparation aid | A full automated validator or deposition platform |
 
 
 
@@ -468,9 +394,7 @@ bidirectionality of the categorization framework is highlighted, as it
 enables the linkage between known, commercially available cultures and
 their original sample environments.
 
-
-
-# [Licenses and ontologies](#license-ontology)
+# Practical guidance
 
 ## 4. Licensing and access considerations
 
@@ -501,7 +425,10 @@ For broader ontology training and RDM background, see the [NFDI4Microbiota Knowl
 
 If you find the examples here challenging or want more information, we strongly recommend visiting the [EnvO's use documentation](https://github.com/EnvironmentOntology/envo/wiki/Using-ENVO-with-MIxS) which provides more detailed guidance.
 
-Clearer examples of ontolgy uses for different Biomes and environments can also be found in this [GitHub page](./Biological_Environmental/) for seven different considered biomes.
+Additional ontology examples for different fields and contexts are available in the dedicated guide:
+
+- [Ontology examples for microbiota metadata](./docs/ontology_examples.md)
+- [GitHub page metadata tables with examples](./Biological_Environmental/) for seven different considered biomes.
 
 ## 6. Missing-value reporting
 
@@ -509,16 +436,16 @@ Do not leave required metadata fields blank. If a value is absent, report why it
 
 Use the dedicated guide:
 
-- [Missing-value reporting](./docs/missing_values.md) <br>
-
-
-Sources: <br>
-[INSDC Missing Value Reporting Terms](https://www.insdc.org/technical-specifications/missing-value-reporting/); <br>
-[DataCite - Appendix 3: Standard values for unknown information](https://datacite-metadata-schema.readthedocs.io/en/4.6/appendices/appendix-3/#appendix-3-standard-values-for-unknown-information); <br>
-[ISO 19115-3](https://schemas.isotc211.org/19115/-3/gco/1.0/gco/) <br>
+- [Missing-value reporting](./docs/missing_values.md)
 
 
 # About
+
+## About NFDI4Microbiota and M2.1
+
+[NFDI4Microbiota](https://nfdi4microbiota.de) is part of the German National Research Data Infrastructure ([NFDI](https://www.nfdi.de/?lang=en)). Within NFDI4Microbiota, Measure 2.1 “Data and Metadata Standards” focuses on improving microbiota data quality by supporting compliance with existing standards and identifying metadata requirements relevant to microbiota research.
+
+This repository contributes to that goal by providing workflow-oriented guidance for identifying relevant technical and biological/environmental metadata before repository submission.
 
  [![CC BY License illustration](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/) This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
