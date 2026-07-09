@@ -578,13 +578,14 @@ Clearer examples of onotolgy uses for different Biomes and environments can also
 
 It is however, also important to note, that in some cases some metadata annotations can not be possible with ontologies, values or free text, as the metadata fields is either not applicable to the project, was not collected or recorded or simply not provided due to ethical and legal resons. These different reasons for an absent value are explained in the table bellow.
 
-|Phrase |Reason for use |When does it apply |INSDC token |DataCite code |ISO/GML (nilReason)|Definition|
-|-------|---------------|-------------------|------------|--------------|-------|----------|
-|not applicable; <br> not relevant |Field is outside the scope of the experiment |Depth for human stool sample |**not applicable** <br> for a control **missing: control sample** |**:unap**|**inapplicable**|Information is inappropriate to report; sometimes shows a gap in the standard itself.|
-|not available|Value exists somewhere, but you cannot obtain it|Host BMI missing from a 1990 gut study| Top level: **missing** <br> or: **missing: third party data**| **:unav** | **missing**|Information of an expected format was not given because it is unavailable or unretrievable, with no expectation of later supply.|
-|not recorded |Measurement was never captured|Ambient temperature not recorded during environmental swabbing| **missing: not collected** <br> **missing: lab stock** | **:unav**| **missing**|Information was expected but never collected at source.|
-|not provided |Value exists but is under embargo / pending| Exact collection date withheld until publication of the clinical trial| **not provided**| **:tba**| **template** <br> or **other:pending**|Information of an expected format was not given now, but will be supplied later.|
-|restricted access|Value exists but must remain confidential| Coordinates of endangered species or patient postcode that could be used to identify individual| **restricted access** | **:unal** <br> or **:unac** if the restriction is temporary | **withheld**|Information exists but cannot be released openly because of privacy, conservation or legal constraints.|
+| Situation | Recommended wording | Use when | Avoid |
+|---|---|---|---|
+| The field does not apply | `not applicable` | The field is outside the scope of the sample or experiment | blank cells, `NA` |
+| The value exists but cannot be obtained | `not available` | Historic data, third-party data, or inaccessible records | invented values |
+| The measurement was never captured | `not recorded` / `missing: not collected` | The value was not measured or documented at source | vague `unknown` |
+| The value exists but will be supplied later | `not provided` | Embargoed or pending information | permanent `missing` |
+| The value exists but cannot be shared openly | `restricted access` | Privacy, conservation, legal, or governance restrictions | deleting the field |
+| Repository has a specific token | Use the repository token | ENA/NCBI/DDBJ/DataCite/other repository-defined missing values | local abbreviations |
 
 Sources: <br>
 [INSDC Missing Value Reporting Terms](https://www.insdc.org/technical-specifications/missing-value-reporting/); <br>
