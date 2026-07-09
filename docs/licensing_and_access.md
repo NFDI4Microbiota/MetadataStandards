@@ -8,6 +8,12 @@ This page is general guidance only. For final licensing and access decisions, fo
 
 ---
 
+<p align="center">
+  <img src="../images/manuscript/FIG_3_license_pies_all_repos.png"
+       alt="License usage across Zenodo, Figshare, GitHub, and bio.tools, showing Creative Commons, open-source software licenses, and unspecified or restricted license categories."
+       width="850">
+</p>
+
 ## 1. Choose the license by research object
 
 Different research objects may need different license families.
