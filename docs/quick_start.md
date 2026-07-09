@@ -69,7 +69,7 @@ Use a domain-specific repository whenever one is available and appropriate. Use 
 | General supplementary data, small supporting files, figures, tables, scripts, and release archives | Zenodo, Figshare, or institutional repository | Do not use as the primary archive when a domain-specific repository is required. |
 | Sensitive human genotype/phenotype or omics data requiring controlled access | EGA, dbGaP, or JGA | Confirm consent, ethics approval, governance, and access conditions before deposition. |
 
-Unsure which EMBL-EBI archive is appropriate, use the [EMBL-EBI Data Submission Wizard](https://www.ebi.ac.uk/submission/) before starting deposition. The wizard helps you identify the repository for which you data are most suited. 
+Unsure which EMBL-EBI archive is appropriate, use the [EMBL-EBI Data Submission Wizard](https://www.ebi.ac.uk/submission/) before starting deposition. The wizard helps you identify the repository for which your data are most suited. 
 For general repository-selection criteria and repository finder links, see: [NFDI4Microbiota Knowledge Base - Data Repositories](https://knowledgebase.nfdi4microbiota.de/RDM-Share/data-repositories.html)
 
 ---
@@ -104,6 +104,7 @@ For each field, record:
 - unit
 - ontology or controlled vocabulary, where applicable
 - example value
+- required/recommended/conditional/optional status, where available in dedicated repository,
 - missing-value term, if no value can be supplied
 - source standard or checklist
 - repository-specific field name, if different
@@ -196,5 +197,5 @@ After metadata preparation:
 5. Register checksums or use repository-managed file validation.
 6. Fix all validation errors.
 7. Record accession numbers, DOIs, reviewer links, and embargo/release dates.
-8. Update the manuscript Data Availability Statement with a Persistend Identifier (PID).
+8. Update the manuscript Data Availability Statement with a Persistent Identifier (PID).
 9. Keep a local and remote copy of the submitted metadata and final repository receipt.
