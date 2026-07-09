@@ -14,7 +14,7 @@ Useful lookup services:
 Prefer: [rhizosphere environment \[ENVO:01000999\]](http://purl.obolibrary.org/obo/ENVO_01000999) <br>
 Avoid: soil near roots
 
-Unless the target repository **explicitly** requires free text or no suitable ontology term exists in any of the lookup services
+Unless the target repository **explicitly** requires free text or no suitable ontology term exists in any of the lookup services.
 
 ## Examples by metadata field
 
@@ -27,13 +27,13 @@ Unless the target repository **explicitly** requires free text or no suitable on
 |host scientific name	|mouse	|[Mus musculus \[NCBITaxon:10090\]](http://purl.obolibrary.org/obo/NCBITaxon_10090)	| [NCBI Taxonomy](https://www.ebi.ac.uk/ols4/ontologies/ncbitaxon) |
 |host-associated body site	|gut	| [colon \[UBERON:0001155\]](http://purl.obolibrary.org/obo/UBERON_0001155) / intestinal region term selected from UBERON, depending on sampling site	| [UBERON](https://www.ebi.ac.uk/ols4/ontologies/uberon) |
 |plant host	|Arabidopsis	| [Arabidopsis thaliana \[NCBITaxon:3702\]](http://purl.obolibrary.org/obo/NCBITaxon_3702)	| [NCBI Taxonomy](https://www.ebi.ac.uk/ols4/ontologies/ncbitaxon) |
-|plant structure	|leaf	| [leaf \[PO:0025034\]](http://purl.obolibrary.org/obo/PO_0025034)term selected from Plant Ontology	| [PO](https://www.ebi.ac.uk/ols4/ontologies/po) |
+|plant structure	|leaf	| [leaf \[PO:0025034\]](http://purl.obolibrary.org/obo/PO_0025034) term selected from Plant Ontology	| [PO](https://www.ebi.ac.uk/ols4/ontologies/po) |
 |sequencing method	|Illumina	| [Illumina Sequencing \[NCIT:C146817\]](http://purl.obolibrary.org/obo/NCIT_C146817)	| [NCIT](https://www.ebi.ac.uk/ols4/ontologies/ncit) |
 |growth medium	|minimal medium	| [minimal defined medium \[MCO:0000881\]](http://purl.obolibrary.org/obo/MCO_0000881)	| [MCO](https://www.ebi.ac.uk/ols4/ontologies/mco) |
 |chemical compound	|glucose	| [glucose \[CHEBI:17234\]](http://purl.obolibrary.org/obo/CHEBI_17234) term selected from ChEBI	| [ChEBI](https://www.ebi.ac.uk/ols4/ontologies/chebi) |
 |disease state	|healthy / diseased	|use repository-recommended disease or phenotype ontology where applicable	| [DOID](https://www.ebi.ac.uk/ols4/ontologies/doid) / [MONDO](https://www.ebi.ac.uk/ols4/ontologies/mondo) / [HP](https://www.ebi.ac.uk/ols4/ontologies/hp) / [NCIT](https://www.ebi.ac.uk/ols4/ontologies/ncit), depending on context |
 
-## Worked example: plant rhizosphere metagnome
+## Worked example: plant rhizosphere metagenome
 
 A researcher collects metagenomic samples from the rhizosphere of a forest in Germany and sequences them using an Illumina platform.
 
