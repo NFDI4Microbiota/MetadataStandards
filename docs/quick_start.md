@@ -14,22 +14,22 @@ Select the data type that best describes the primary data you will deposit.
 
 Currently covered in this repository:
 
-- [Amplicon sequencing](MetadataStandards/Technical/Amplicon_Technical_Metadata.md)
-- [Genome sequencing]()
-- [Metagenome sequencing]()
-- [Metagenome-assembled genomes (MAGs)]()
-- [Transcriptome sequencing]()
-- [Metatranscriptome sequencing]()
-- [Proteome / proteomics]()
-- [Metabolome / metabolomics]()
-- [Virus genomes]()
-- [uVIGs]()
+- [Amplicon sequencing](../Technical/Amplicon_Technical_Metadata.md)
+- [Genome sequencing](../Technical/Genome_Technical_Metadata.md)
+- [Metagenome sequencing](../Technical/Metagenome_Technical_Metadata.md)
+- [Metagenome-assembled genomes (MAGs)](../Technical/Metagenome_Technical_Metadata.md)
+- [Transcriptome sequencing](../Technical/Transcriptome_Technical_Metadata.md)
+- [Metatranscriptome sequencing](../Technical/Metatranscriptome_Technical_Metadata.md)
+- [Proteome / proteomics](../Technical/Proteome_Technical_Metadata.md)
+- [Metabolome / metabolomics](../Technical/Metabolome_Technical_Metadata.md)
+- [Virus genomes](../Technical/Virus_Technical_Metadata.md)
+- [uVIGs](../Technical/uVIGs_Technical_Metadata.md)
 
 Recommended action:
 
 1. Open the matching technical metadata page.
 2. Download the relevant TSV/XLSX template when available.
-3. Record required and recommended fields before submission.
+3. Record fields before data generation/collection and submission.
 4. Keep local sample identifiers consistent across all files and metadata tables.
 
 ---
@@ -40,13 +40,13 @@ Select the context that best describes the sample origin.
 
 Currently covered in this repository:
 
-- Human-associated
-- Animal-associated
-- Plant-associated
-- Marine
-- Terrestrial
-- Built environment
-- Wastewater / engineered water systems
+- [Human-associated](../Biological_Environmental/Human_BioEnv_Metadata.md)
+- [Animal-associated](../Biological_Environmental/AnimalAssoc_BioEnv_Metadata.md)
+- [Plant-associated](../Biological_Environmental/PlantAssoc_BioEnv_Metadata.md)
+- [Marine](../Biological_Environmental/Marine_BioEnv_Metadata.md)
+- [Terrestrial](../Biological_Environmental/Terrestrial_BioEnv_Metadata.md)
+- [Built environment](../Biological_Environmental/BuiltEnv_BioEnv_Metadata.md)
+- [Wastewater / engineered water systems](../Biological_Environmental/WasteWater_BioEnv_Metadata.md)
 
 Recommended action:
 
@@ -63,13 +63,13 @@ Use a domain-specific repository whenever one is available and appropriate. Use 
 | Data/output type | Recommended repository route | Notes |
 |---|---|---|
 | Amplicon, genome, metagenome, MAG, transcriptome, metatranscriptome, virus/uVIG sequence data | ENA, NCBI SRA, or DDBJ/DRA through INSDC routes | Use ENA Webin/Webin-CLI, NCBI Submission Portal, or DDBJ D-way/DRA. |
-| Unsure which EMBL-EBI archive is appropriate | EMBL-EBI Data Submission Wizard | Use the wizard before starting deposition. |
 | Proteomics / metaproteomics | PRIDE / ProteomeXchange or MassIVE | Use the repository-specific submission tool and validation route. |
 | Metabolomics | MetaboLights or Metabolomics Workbench | Use repository templates, guided submission, and repository validation. |
 | MS/MS spectral data and molecular networking workflows | MassIVE / GNPS | Use MassIVE/GNPS-specific submission and documentation routes. |
 | General supplementary data, small supporting files, figures, tables, scripts, and release archives | Zenodo, Figshare, or institutional repository | Do not use as the primary archive when a domain-specific repository is required. |
 | Sensitive human genotype/phenotype or omics data requiring controlled access | EGA, dbGaP, or JGA | Confirm consent, ethics approval, governance, and access conditions before deposition. |
 
+Unsure which EMBL-EBI archive is appropriate, use the [EMBL-EBI Data Submission Wizard](https://www.ebi.ac.uk/submission/) before starting deposition. The wizard helps you identify the repository for which you data are most suited. 
 For general repository-selection criteria and repository finder links, see: [NFDI4Microbiota Knowledge Base - Data Repositories](https://knowledgebase.nfdi4microbiota.de/RDM-Share/data-repositories.html)
 
 ---
@@ -100,7 +100,6 @@ For each field, record:
 
 - field name
 - definition
-- required / recommended / conditional / optional status, where available
 - expected format
 - unit
 - ontology or controlled vocabulary, where applicable
@@ -163,7 +162,7 @@ Before submission, decide:
 - Does the selected repository allow the intended license/access condition?
 - Does the manuscript Data Availability Statement match the actual repository record?
 
-For broad licensing background, use the NFDI4Microbiota Knowledge Base. For the final legal/access choice, follow institutional, funder, ethics, and repository guidance.
+For broad licensing background, use the [NFDI4Microbiota Knowledge Base - License](https://knowledgebase.nfdi4microbiota.de/RDM-Share/licenses.html). For the final legal/access choice, follow institutional, funder, ethics, and repository guidance.
 
 ---
 
@@ -173,16 +172,16 @@ Use repository-specific validation whenever possible.
 
 | Resource | Use for | Validation or checking role |
 |---|---|---|
-| ENA Webin / Webin-CLI | Sequence reads, assemblies, analyses | Webin-CLI provides strong pre-submission validation for supported file types. |
-| ENA Sample Checklists / BioSamples validation | Sequence-associated sample metadata | Use the most relevant checklist and mandatory/recommended/optional fields. |
-| NCBI SRA Submission Portal | Sequence read submissions to NCBI | Use the portal wizard and resolve validation warnings/errors. |
-| DDBJ D-way / DRA | DDBJ sequence-read submissions | Validate metadata and data files through the DRA workflow. |
-| NMDC Submission Portal / NMDC submission schema | Microbiome-oriented metadata preparation and schema alignment | Useful for MIxS-like metadata and ontology-aware preparation; not a replacement for the final target repository unless depositing through NMDC-supported routes. |
-| PRIDE / ProteomeXchange submission tools | Proteomics / metaproteomics | Use repository-specific validation and accession workflow. |
-| MassIVE / GNPS | Mass spectrometry datasets and spectral workflows | Use MassIVE/GNPS submission requirements and reviewer/accession workflow. |
-| MetaboLights validation | Metabolomics | Run study validation and fix all errors before release/private status. |
-| Metabolomics Workbench submission checks | Metabolomics | Use repository tutorials, metadata requirements, and exemplary studies before submission. |
-| Zenodo / Figshare checks | Generalist outputs | Use only when a domain repository is not required or for supplementary/release artefacts. |
+| [ENA Webin / Webin-CLI](https://ena-docs.readthedocs.io/en/latest/submit/general-guide/webin-cli.html) | Sequence reads, assemblies, analyses | Webin-CLI provides strong pre-submission validation for supported file types. |
+| [ENA Sample Checklists / BioSamples validation](https://www.ebi.ac.uk/ena/browser/checklists) | Sequence-associated sample metadata | Use the most relevant checklist and mandatory/recommended/optional fields. |
+| [NCBI SRA Submission Portal](https://www.ncbi.nlm.nih.gov/sra/docs/submit/) | Sequence read submissions to NCBI | Use the portal wizard and resolve validation warnings/errors. |
+| [DDBJ D-way / DRA](https://www.ddbj.nig.ac.jp/ddbj-account-e.html) | DDBJ sequence-read submissions | Validate metadata and data files through the DRA workflow. |
+| [NMDC Submission Portal / NMDC submission schema](https://data.microbiomedata.org/submission/home) | Microbiome-oriented metadata preparation and schema alignment | Useful for MIxS-like metadata and ontology-aware preparation; not a replacement for the final target repository unless depositing through NMDC-supported routes. |
+| [PRIDE / ProteomeXchange submission tools](https://www.ebi.ac.uk/pride/markdownpage/pridesubmissiontool) | Proteomics / metaproteomics | Use repository-specific validation and accession workflow. |
+| [MassIVE / GNPS](https://ccms-ucsd.github.io/GNPSDocumentation/datasets/) | Mass spectrometry datasets and spectral workflows | Use MassIVE/GNPS submission requirements and reviewer/accession workflow. |
+| [MetaboLights validation](https://untargeted-metabolomics-workflow.netlify.app/08_data-archiving-citation/02_metabolights/) | Metabolomics | Run study validation and fix all errors before release/private status. |
+| [Metabolomics Workbench submission checks](https://metabolomicsworkbench.org/data/DRCCDataDeposit.php) | Metabolomics | Use repository tutorials, metadata requirements, and exemplary studies before submission. |
+| [Zenodo](https://zenodo.org/) / [Figshare checks](https://figshare.com/) | Generalist outputs | Use only when a domain repository is not required or for supplementary/release artefacts. |
 
 ---
 
@@ -197,5 +196,5 @@ After metadata preparation:
 5. Register checksums or use repository-managed file validation.
 6. Fix all validation errors.
 7. Record accession numbers, DOIs, reviewer links, and embargo/release dates.
-8. Update the manuscript Data Availability Statement.
-9. Keep a local copy of the submitted metadata and final repository receipt.
+8. Update the manuscript Data Availability Statement with a Persistend Identifier (PID).
+9. Keep a local and remote copy of the submitted metadata and final repository receipt.
