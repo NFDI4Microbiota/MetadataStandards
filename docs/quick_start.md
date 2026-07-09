@@ -8,6 +8,12 @@ For broader research data management guidance, repository-selection criteria, li
 
 ---
 
+<p align="center">
+  <img src="../images/manuscript/FIG_7_2025-02-14_Data_submission_process_scheme.png"
+       alt="Conceptual wheel diagram showing key challenges and proposed guidance in data submission, including training, data management plans, metadata standardisation, incentives, and infrastructure."
+       width="850">
+</p>
+
 ## Step 1. Choose your technical data type
 
 Select the data type that best describes the primary data you will deposit.
