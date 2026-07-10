@@ -213,6 +213,8 @@ Use repository-specific validation whenever possible.
 | [Metabolomics Workbench submission checks](https://metabolomicsworkbench.org/data/DRCCDataDeposit.php) | Metabolomics | Use repository tutorials, metadata requirements, and exemplary studies before submission. |
 | [Zenodo](https://zenodo.org/) / [Figshare checks](https://figshare.com/) | Generalist outputs | Use only when a domain repository is not required or for supplementary/release artefacts. |
 
+Additional helper tools and converters, including Galaxy ENA upload, annonex2embl, EMBL2checklists, METAGENOTE, subMG, and other submission-support workflows, are listed in the [Repository mapping](../docs/repository_mapping.md#submission-helper-tools-and-converters). These tools may reduce formatting or upload burden, but they do not replace final validation through the target repository.
+
 ---
 
 ## Step 10. Submit to the actual repository
