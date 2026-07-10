@@ -43,6 +43,11 @@ Start with the **[Quick Start guide](./docs/quick_start.md)** if you are prepari
 | 9 | Validate through repository-specific tools | [Quick Start: validation resources](./docs/quick_start.md#step-9-validate-before-final-submission) |
 | 10 | Submit to the official repository portal | [Quick Start: final submission](./docs/quick_start.md#step-10-submit-to-the-actual-repository) |
 
+Additional practical guidance:
+
+- [Representing complex study designs](./docs/complex_study_designs.md): examples for linking original samples, subsamples, extracts, libraries, processed outputs, time series, and treatment/control designs.
+- [Data Availability Statement examples](./docs/data_availability_statement_examples.md): example wording for open repository deposition, controlled-access data, and embargoed data.
+
 ## Scope and limitations
 
 | This repository is | This repository is not |
