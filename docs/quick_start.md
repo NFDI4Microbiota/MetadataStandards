@@ -14,8 +14,9 @@ For broader research data management guidance, repository-selection criteria, li
        width="850">
 </p>
 
-**Figure 1. Data submission process: steps, key challenges, and proposed guidance**
+**Figure 1. Data submission process: steps, key challenges, and proposed guidance.** Adapted from the associated manuscript figure. Created in BioRender.
 
+---
 ## Step 1. Choose your technical data type
 
 Select the data type that best describes the primary data you will deposit.
