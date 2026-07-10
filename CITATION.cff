@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: "NFDI4Microbiota Metadata Standards"
+message: "If you use this repository, please cite the archived repository release. Please also cite the associated manuscript once it becomes available."
+type: dataset
+authors:
+  - family-names: Bole
+    given-names: Martin
+  - name: NFDI4Microbiota Metadata Standards contributors
+repository-code: "https://github.com/NFDI4Microbiota/MetadataStandards"
+doi: "10.5281/zenodo.19336648"
+version: "1.2.0"
+date-released: "2026-07-10"
+license: "CC-BY-4.0"
+keywords:
+  - microbiota
+  - metadata standards
+  - FAIR data
+  - data deposition
+  - ontologies
+  - missing-value reporting
+  - repository submission
