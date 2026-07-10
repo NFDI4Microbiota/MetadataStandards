@@ -453,9 +453,13 @@ This repository contributes to that goal by providing workflow-oriented guidance
 
 If you use this repository, please cite the archived repository release:
 
-> Bole M., nernster, Charlie Pauvert, magelm, mdsufz, nacnoriko, and contributors. **NFDI4Microbiota/MetadataStandards: Pre-review Publication release**. Zenodo. 2026. https://doi.org/10.5281/zenodo.19336648
+> Bole M. and NFDI4Microbiota Metadata Standards contributors. **NFDI4Microbiota/MetadataStandards: Pre-review Publication release**. Zenodo. 2026. https://doi.org/10.5281/zenodo.19336648
 
-Please also cite the associated manuscript once it becomes available:
+Please also cite the associated manuscript once it becomes available. Until the manuscript is accepted, published, or posted as a preprint, cite it only where appropriate as a submitted manuscript:
+
+> Bole M., Iyappan A., Ernster N. M., Barysch S. V., Clavel T., Kamath S., de Almeida B. L. S., Magel M., Magnúsdóttir S., Pauvert C., Reimer L., Vandendorpe J., Cassman N. A., Coelho Kasmanas J., Seidel J., Soheili M., McCue L. A., Ponce de Leon Ferreira de Carvalho A. C., and Rocha U. **From FAIR Principles to FAIR Practice in Microbiota Research**. Submitted manuscript.
+
+After publication, replace this submitted-manuscript citation with the final journal citation and DOI.
 
 
 # References
