@@ -4,7 +4,7 @@ All notable changes to the NFDI4Microbiota Metadata Standards repository are doc
 
 This repository provides practical orientation for microbiota researchers preparing metadata for public deposition. It does not define a new metadata standard and does not replace repository-specific submission systems.
 
-## [Unreleased]
+## [1.2.0] - 2026-07-10
 
 ### Added
 
@@ -21,10 +21,10 @@ This repository provides practical orientation for microbiota researchers prepar
 - Clarified that repository-specific validators and submission portals remain the authoritative validation route before final deposition.
 - Clarified that missing-value terms should follow repository-specific accepted tokens whenever those are available.
 
-### To fix before release
+### Known limitations
 
-- Separate `standard_id`, `source_checklist`, and `source_url` in schema files where checklist names are currently stored in `MIXS_ID`.
-
+- Some schema files still combine checklist/source information with identifier fields. Future releases should separate `standard_id`, `source_checklist`, and `source_url` where checklist names are currently stored in `MIXS_ID`.
+- 
 ## [1.1.0] - 2026-07-08
 
 ### Added
