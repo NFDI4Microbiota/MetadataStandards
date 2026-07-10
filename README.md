@@ -40,7 +40,7 @@ Start with the **[Quick Start guide](./docs/quick_start.md)** if you are prepari
 | 6 | Select ontology or controlled vocabulary terms | [Ontology examples](./docs/ontology_examples.md) |
 | 7 | Report absent values correctly | [Missing-value reporting](./docs/missing_values.md) |
 | 8 | Check license and access restrictions | [Licensing and access considerations](./docs/licensing_and_access.md) |
-| 9 | Validate through repository-specific tools | [Quick Start: validation resources](./docs/quick_start.md#step-9-validate-before-final-submission) |
+| 9 | Validate through repository-specific tools and optional submission helpers | [Quick Start: validation resources](./docs/quick_start.md#step-9-validate-before-final-submission); [submission helper tools](./docs/repository_mapping.md#submission-helper-tools-and-converters) |
 | 10 | Submit to the official repository portal | [Quick Start: final submission](./docs/quick_start.md#step-10-submit-to-the-actual-repository) |
 
 Additional practical guidance:
