@@ -5,8 +5,9 @@
        alt="Community metadata standards integrated into data submission workflows."
        width="850">
 </p>
-**Figure. Community metadata standards integrated into data submission workflows.**
 
+**Figure 1. Community metadata standards integrated into data submission workflows.**
+--
 This page provides a compact orientation for choosing a likely repository route during metadata preparation.
 
 For general repository-selection criteria, repository finders, and a broader microbiology repository list, see the [NFDI4Microbiota Knowledge Base - Data Repositories](https://knowledgebase.nfdi4microbiota.de/RDM-Share/data-repositories.html)
