@@ -8,6 +8,8 @@ authors:
   - name: NFDI4Microbiota Metadata Standards contributors
 repository-code: "https://github.com/NFDI4Microbiota/MetadataStandards"
 doi: "10.5281/zenodo.19336648"
+version: "1.2.0"
+date-released: "2026-07-10"
 license: "CC-BY-4.0"
 keywords:
   - microbiota
@@ -17,46 +19,3 @@ keywords:
   - ontologies
   - missing-value reporting
   - repository submission
-preferred-citation:
-  type: article
-  title: "From FAIR Principles to FAIR Practice in Microbiota Research"
-  authors:
-    - family-names: Bole
-      given-names: Martin
-    - family-names: Iyappan
-      given-names: Anandhi
-    - family-names: Ernster
-      given-names: Nathan M.
-    - family-names: Barysch
-      given-names: Sina V.
-    - family-names: Clavel
-      given-names: Thomas
-    - family-names: Kamath
-      given-names: Sanchita
-    - family-names: de Almeida
-      given-names: Breno L. S.
-    - family-names: Magel
-      given-names: Maja
-    - family-names: Magnúsdóttir
-      given-names: Stefanía
-    - family-names: Pauvert
-      given-names: Charlie
-    - family-names: Reimer
-      given-names: Lorenz
-    - family-names: Vandendorpe
-      given-names: Justine
-    - family-names: Cassman
-      given-names: Noriko A.
-    - family-names: Coelho Kasmanas
-      given-names: Jonas
-    - family-names: Seidel
-      given-names: Jannik
-    - family-names: Soheili
-      given-names: Majid
-    - family-names: McCue
-      given-names: Lee Ann
-    - family-names: Ponce de Leon Ferreira de Carvalho
-      given-names: André Carlos
-    - family-names: Rocha
-      given-names: Ulisses
-  notes: "Submitted manuscript; not yet peer-reviewed or formally published."
