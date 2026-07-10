@@ -14,6 +14,7 @@ This repository provides practical orientation for microbiota researchers prepar
 - Added ontology examples for common microbiota metadata fields, including environmental context, host taxonomy, body site/material, sequencing method, growth medium, and chemical compounds.
 - Added a “minimum viable metadata before sampling” checklist to support metadata planning before data generation.
 - Added guidance that points users to the NFDI4Microbiota Knowledge Base for general repository-selection criteria, licensing background, RDM explanations, and broader ontology training.
+- Added a section on submission helper tools and converters, including Galaxy ENA upload, annonex2embl, EMBL2checklists, genome.uploader, METAGENOTE, subMG, and related repository-support workflows.
 
 ### Changed
 
@@ -24,7 +25,7 @@ This repository provides practical orientation for microbiota researchers prepar
 ### Known limitations
 
 - Some schema files still combine checklist/source information with identifier fields. Future releases should separate `standard_id`, `source_checklist`, and `source_url` where checklist names are currently stored in `MIXS_ID`.
-- 
+
 ## [1.1.0] - 2026-07-08
 
 ### Added
