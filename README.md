@@ -16,7 +16,7 @@ It does **not** define a new metadata standard and does **not** replace ENA, NCB
        width="850">
 </p>
 
-**Figure. Conceptual overview of this repository.** The resource organises microbiota-relevant metadata guidance by technical data type, biological/environmental context, sample metadata, host association, licensing, and ontology support.
+**Figure 1. Conceptual overview of this repository.** The resource organises microbiota-relevant metadata guidance by technical data type, biological/environmental context, sample metadata, host association, licensing, and ontology support.
 
 ## Why this repository exists
 
@@ -448,6 +448,15 @@ Use the dedicated guide:
 This repository contributes to that goal by providing workflow-oriented guidance for identifying relevant technical and biological/environmental metadata before repository submission.
 
  [![CC BY License illustration](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/) This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+
+# Citation
+
+If you use this repository, please cite the archived repository release:
+
+> Bole M., nernster, Charlie Pauvert, magelm, mdsufz, nacnoriko, and contributors. **NFDI4Microbiota/MetadataStandards: Pre-review Publication release**. Zenodo. 2026. https://doi.org/10.5281/zenodo.19336648
+
+Please also cite the associated manuscript once it becomes available:
+
 
 # References
 
