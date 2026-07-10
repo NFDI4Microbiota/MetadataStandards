@@ -14,6 +14,8 @@ For broader research data management guidance, repository-selection criteria, li
        width="850">
 </p>
 
+**Figure 1. Data submission process: steps, key challenges, and proposed guidance**
+
 ## Step 1. Choose your technical data type
 
 Select the data type that best describes the primary data you will deposit.
@@ -76,7 +78,10 @@ Use a domain-specific repository whenever one is available and appropriate. Use 
 | Sensitive human genotype/phenotype or omics data requiring controlled access | EGA, dbGaP, or JGA | Confirm consent, ethics approval, governance, and access conditions before deposition. |
 
 Unsure which EMBL-EBI archive is appropriate, use the [EMBL-EBI Data Submission Wizard](https://www.ebi.ac.uk/submission/) before starting deposition. The wizard helps you identify the repository for which your data are most suited. 
-For general repository-selection criteria and repository finder links, see: [NFDI4Microbiota Knowledge Base - Data Repositories](https://knowledgebase.nfdi4microbiota.de/RDM-Share/data-repositories.html)
+For general repository-selection criteria and repository finder links, see: 
+
+- [NFDI4Microbiota Knowledge Base - Data Repositories](https://knowledgebase.nfdi4microbiota.de/RDM-Share/data-repositories.html)
+- [Repository mapping for microbiota metadata preparation](../docs/repository_mapping.md)
 
 ---
 
@@ -87,9 +92,8 @@ Use the repository tables in this GitHub repository to prepare a local metadata 
 Recommended local workbook structure:
 
 - `README`
-- `sample_metadata`
 - `technical_metadata`
-- `biological_environmental_metadata`
+- `sample_metadata` and `biological_environmental_metadata`
 - `ontology_terms`
 - `missing_values`
 - `file_manifest`
@@ -139,6 +143,12 @@ Recommended practice:
 5. Record both the human-readable label and the ontology identifier.
 6. Do not force an ontology term if no suitable term exists; follow repository guidance.
 
+More examples can be found in:
+
+- [Ontology examples for microbiota metadata](../docs/ontology_examples.md)
+- [Biological/environmental Metadata Tables](../Biological_Environmental/)
+
+
 ---
 
 ## Step 7. Use approved missing-value terms
@@ -157,6 +167,13 @@ Typical cases:
 | Value exists but will be supplied later | `not provided` or repository-approved equivalent | vague `unknown` |
 | Value exists but cannot be shared openly | `restricted access` | removing the field entirely |
 
+More information can be found in:
+
+- [Missing-value reporting](../docs/missing_values.md)
+- [INSDC Missing Value Reporting Terms](https://www.insdc.org/technical-specifications/missing-value-reporting/)
+- [DataCite - Appendix 3: Standard values for unknown information](https://datacite-metadata-schema.readthedocs.io/en/4.6/appendices/appendix-3/#appendix-3-standard-values-for-unknown-information) <br>
+- [ISO 19115-3](https://schemas.isotc211.org/19115/-3/gco/1.0/gco/) <br>
+
 ---
 
 ## Step 8. Check license and access restrictions
@@ -169,7 +186,12 @@ Before submission, decide:
 - Does the selected repository allow the intended license/access condition?
 - Does the manuscript Data Availability Statement match the actual repository record?
 
-For broad licensing background, use the [NFDI4Microbiota Knowledge Base - License](https://knowledgebase.nfdi4microbiota.de/RDM-Share/licenses.html). For the final legal/access choice, follow institutional, funder, ethics, and repository guidance.
+For broad licensing background, use the: 
+
+- [NFDI4Microbiota Knowledge Base - License](https://knowledgebase.nfdi4microbiota.de/RDM-Share/licenses.html)
+- [Licensing and access considerations](../docs/licensing_and_access.md)
+  
+For the final legal/access choice, follow institutional, funder, ethics, and repository guidance.
 
 ---
 
