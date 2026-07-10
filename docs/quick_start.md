@@ -115,7 +115,7 @@ For each field, record:
 - unit
 - ontology or controlled vocabulary, where applicable
 - example value
-- required/recommended/conditional/optional status, where available in dedicated repository,
+- required/recommended/conditional/optional status, where available from the target repository or checklist,
 - missing-value term, if no value can be supplied
 - source standard or checklist
 - repository-specific field name, if different
@@ -187,7 +187,7 @@ Before submission, decide:
 - Does the selected repository allow the intended license/access condition?
 - Does the manuscript Data Availability Statement match the actual repository record?
 
-For broad licensing background, use the: 
+For broad licensing background, see: 
 
 - [NFDI4Microbiota Knowledge Base - License](https://knowledgebase.nfdi4microbiota.de/RDM-Share/licenses.html)
 - [Licensing and access considerations](../docs/licensing_and_access.md)
