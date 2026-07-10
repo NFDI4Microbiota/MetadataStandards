@@ -14,8 +14,9 @@ This page is general guidance only. For final licensing and access decisions, fo
        width="850">
 </p>
 
-**Figure 1. License usage across research object repositories and registries**
---
+**Figure 1. License usage across research object repositories and registries.** Adapted from the associated manuscript figure. Created in BioRender.
+
+---
 ## 1. Choose the license by research object
 
 Different research objects may need different license families.
